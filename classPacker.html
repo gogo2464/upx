@@ -342,6 +342,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aaf81a88111b09b6bd3353864484510b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#aaf81a88111b09b6bd3353864484510b7">addLoaderVA</a> (const char *s,...)</td></tr>
 <tr class="separator:aaf81a88111b09b6bd3353864484510b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c72885ba3799acf227862f721ddd5ab"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#a0c72885ba3799acf227862f721ddd5ab">hasLoaderSection</a> (const char *name) const</td></tr>
+<tr class="memdesc:a0c72885ba3799acf227862f721ddd5ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy stub from exe.  <br /></td></tr>
 <tr class="separator:a0c72885ba3799acf227862f721ddd5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb62f4bf76fae3dcf2c64aac6bbf5ce"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#aebb62f4bf76fae3dcf2c64aac6bbf5ce">getLoaderSection</a> (const char *name, int *slen=nullptr) const</td></tr>
 <tr class="separator:aebb62f4bf76fae3dcf2c64aac6bbf5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1808,7 +1809,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclassPackerBase_html_aa6132cc9ef747b35947837d463aeac60"><div class="ttname"><a href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">PackerBase::getFormat</a></div><div class="ttdeci">virtual int getFormat() const =0</div></div>
 <div class="ttc" id="aclassPackerBase_html_abe9d6b0ba4f236e640f8610b6688a6db"><div class="ttname"><a href="classPackerBase.html#abe9d6b0ba4f236e640f8610b6688a6db">PackerBase::getVersion</a></div><div class="ttdeci">virtual int getVersion() const =0</div></div>
 <div class="ttc" id="aclassPackerBase_html_adf646b36342d8706c83e7c26fe47108e"><div class="ttname"><a href="classPackerBase.html#adf646b36342d8706c83e7c26fe47108e">PackerBase::getName</a></div><div class="ttdeci">virtual const char * getName() const =0</div></div>
-<div class="ttc" id="aclassPacker_html_a18d294254872108f1373a26ccabbd821"><div class="ttname"><a href="classPacker.html#a18d294254872108f1373a26ccabbd821">Packer::bele</a></div><div class="ttdeci">const N_BELE_RTP::AbstractPolicy * bele</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00342">packer.h:342</a></div></div>
+<div class="ttc" id="aclassPacker_html_a18d294254872108f1373a26ccabbd821"><div class="ttname"><a href="classPacker.html#a18d294254872108f1373a26ccabbd821">Packer::bele</a></div><div class="ttdeci">const N_BELE_RTP::AbstractPolicy * bele</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00353">packer.h:353</a></div></div>
 <div class="ttc" id="aclassPacker_html_aa7fe94299cf76c70de7ed953aa774330"><div class="ttname"><a href="classPacker.html#aa7fe94299cf76c70de7ed953aa774330">Packer::newLinker</a></div><div class="ttdeci">virtual Linker * newLinker() const =0</div></div>
 <div class="ttc" id="aconf_8h_html_ac8b564fa53e840caf142612003bc06c6"><div class="ttname"><a href="conf_8h.html#ac8b564fa53e840caf142612003bc06c6">UPX_F_MACH_FAT</a></div><div class="ttdeci">#define UPX_F_MACH_FAT</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00576">conf.h:576</a></div></div>
 <div class="ttc" id="anamespaceN__BELE__RTP_html_a800eaf3ed4e72268ac7ac7a800df07cd"><div class="ttname"><a href="namespaceN__BELE__RTP.html#a800eaf3ed4e72268ac7ac7a800df07cd">N_BELE_RTP::le_policy</a></div><div class="ttdeci">const LEPolicy le_policy</div><div class="ttdef"><b>Definition:</b> <a href="util_8cpp_source.html#l00782">util.cpp:782</a></div></div>
@@ -2506,9 +2507,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  620</span>    <a class="code hl_variable" href="classPacker.html#a829e120ccb63c2f59cce14140a778a1b">last_patch_len</a> = blen;</div>
 <div class="line"><span class="lineno">  621</span>    <a class="code hl_variable" href="classPacker.html#a580bdc46c95c1cf5878638233abd7923">last_patch_off</a> = boff;</div>
 <div class="line"><span class="lineno">  622</span>}</div>
-<div class="ttc" id="aclassPacker_html_a580bdc46c95c1cf5878638233abd7923"><div class="ttname"><a href="classPacker.html#a580bdc46c95c1cf5878638233abd7923">Packer::last_patch_off</a></div><div class="ttdeci">int last_patch_off</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00363">packer.h:363</a></div></div>
-<div class="ttc" id="aclassPacker_html_a829e120ccb63c2f59cce14140a778a1b"><div class="ttname"><a href="classPacker.html#a829e120ccb63c2f59cce14140a778a1b">Packer::last_patch_len</a></div><div class="ttdeci">int last_patch_len</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00362">packer.h:362</a></div></div>
-<div class="ttc" id="aclassPacker_html_ad04c550df52ca10be1f72f6661f89ff8"><div class="ttname"><a href="classPacker.html#ad04c550df52ca10be1f72f6661f89ff8">Packer::last_patch</a></div><div class="ttdeci">void * last_patch</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00361">packer.h:361</a></div></div>
+<div class="ttc" id="aclassPacker_html_a580bdc46c95c1cf5878638233abd7923"><div class="ttname"><a href="classPacker.html#a580bdc46c95c1cf5878638233abd7923">Packer::last_patch_off</a></div><div class="ttdeci">int last_patch_off</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00374">packer.h:374</a></div></div>
+<div class="ttc" id="aclassPacker_html_a829e120ccb63c2f59cce14140a778a1b"><div class="ttname"><a href="classPacker.html#a829e120ccb63c2f59cce14140a778a1b">Packer::last_patch_len</a></div><div class="ttdeci">int last_patch_len</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00373">packer.h:373</a></div></div>
+<div class="ttc" id="aclassPacker_html_ad04c550df52ca10be1f72f6661f89ff8"><div class="ttname"><a href="classPacker.html#ad04c550df52ca10be1f72f6661f89ff8">Packer::last_patch</a></div><div class="ttdeci">void * last_patch</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00372">packer.h:372</a></div></div>
 <div class="ttc" id="aexcept_8cpp_html_a57b532c382fd20e682bf0393b6d63050"><div class="ttname"><a href="except_8cpp.html#a57b532c382fd20e682bf0393b6d63050">throwInternalError</a></div><div class="ttdeci">void throwInternalError(const char *msg)</div><div class="ttdoc">other</div><div class="ttdef"><b>Definition:</b> <a href="except_8cpp_source.html#l00128">except.cpp:128</a></div></div>
 <div class="ttc" id="aexcept_8cpp_html_a792215b47e9aba82450e3c1c6945eb32"><div class="ttname"><a href="except_8cpp.html#a792215b47e9aba82450e3c1c6945eb32">throwBadLoader</a></div><div class="ttdeci">void throwBadLoader()</div><div class="ttdef"><b>Definition:</b> <a href="except_8cpp_source.html#l00130">except.cpp:130</a></div></div>
 <div class="ttc" id="axspan__impl__common_8h_html_a60304b65bf89363bcc3165d3cde67f86"><div class="ttname"><a href="xspan__impl__common_8h.html#a60304b65bf89363bcc3165d3cde67f86">size</a></div><div class="ttdeci">size_type size() const</div><div class="ttdef"><b>Definition:</b> <a href="xspan__impl__common_8h_source.html#l00460">xspan_impl_common.h:460</a></div></div>
@@ -3166,7 +3167,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclassPackerBase_html_a0c49d00b430fd8a28f49499748875943"><div class="ttname"><a href="classPackerBase.html#a0c49d00b430fd8a28f49499748875943">PackerBase::MAX_METHODS</a></div><div class="ttdeci">static constexpr unsigned MAX_METHODS</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00080">packer.h:80</a></div></div>
 <div class="ttc" id="aclassPackerBase_html_a237baf1e217ee3aae78235baba4ad05c"><div class="ttname"><a href="classPackerBase.html#a237baf1e217ee3aae78235baba4ad05c">PackerBase::getCompressionMethods</a></div><div class="ttdeci">virtual const int * getCompressionMethods(int method, int level) const =0</div></div>
 <div class="ttc" id="aclassPackerBase_html_a8691a09f947ec86dd6437b357c277851"><div class="ttname"><a href="classPackerBase.html#a8691a09f947ec86dd6437b357c277851">PackerBase::MAX_FILTERS</a></div><div class="ttdeci">static constexpr unsigned MAX_FILTERS</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00081">packer.h:81</a></div></div>
-<div class="ttc" id="aclassPacker_html_a0525cfe60bfaae0ef0cf3efde338cd57"><div class="ttname"><a href="classPacker.html#a0525cfe60bfaae0ef0cf3efde338cd57">Packer::optimizeFilter</a></div><div class="ttdeci">virtual void optimizeFilter(Filter *, const byte *, unsigned) const</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00228">packer.h:228</a></div></div>
+<div class="ttc" id="aclassPacker_html_a0525cfe60bfaae0ef0cf3efde338cd57"><div class="ttname"><a href="classPacker.html#a0525cfe60bfaae0ef0cf3efde338cd57">Packer::optimizeFilter</a></div><div class="ttdeci">virtual void optimizeFilter(Filter *, const byte *, unsigned) const</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00239">packer.h:239</a></div></div>
 <div class="ttc" id="aclassPacker_html_a1e0b2c2bbf482db53bf6a40811348d45"><div class="ttname"><a href="classPacker.html#a1e0b2c2bbf482db53bf6a40811348d45">Packer::buildLoader</a></div><div class="ttdeci">virtual void buildLoader(const Filter *ft)=0</div></div>
 <div class="ttc" id="aclassPacker_html_a476d801b02376434abccfd4b84e057fe"><div class="ttname"><a href="classPacker.html#a476d801b02376434abccfd4b84e057fe">Packer::prepareMethods</a></div><div class="ttdeci">int prepareMethods(int *methods, int ph_method, const int *all_methods) const</div><div class="ttdoc">void Packer::compressWithFilters(): Try compression with several methods and filters,...</div><div class="ttdef"><b>Definition:</b> <a href="packer_8cpp_source.html#l00908">packer.cpp:908</a></div></div>
 <div class="ttc" id="aclassPacker_html_a4a969f788c3bad61abe0eec73fca0f0c"><div class="ttname"><a href="classPacker.html#a4a969f788c3bad61abe0eec73fca0f0c">Packer::isValidCompressionMethod</a></div><div class="ttdeci">static bool isValidCompressionMethod(int method)</div><div class="ttdoc">compression method util</div><div class="ttdef"><b>Definition:</b> <a href="packer__c_8cpp_source.html#l00036">packer_c.cpp:36</a></div></div>
@@ -3352,8 +3353,8 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno"> 1246</span>    <a class="code hl_variable" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>.<a class="code hl_function" href="classMemBuffer.html#afe5a8e344706fc176dde5c69983dc2e3">checkState</a>();</div>
 <div class="line"><span class="lineno"> 1247</span>}</div>
 <div class="ttc" id="aclassMemBuffer_html_afe5a8e344706fc176dde5c69983dc2e3"><div class="ttname"><a href="classMemBuffer.html#afe5a8e344706fc176dde5c69983dc2e3">MemBuffer::checkState</a></div><div class="ttdeci">void checkState() const may_throw</div><div class="ttdef"><b>Definition:</b> <a href="membuffer_8cpp_source.html#l00155">membuffer.cpp:155</a></div></div>
-<div class="ttc" id="aclassPacker_html_a8f51aecfca1c5d86cc11a7d2ab574d5e"><div class="ttname"><a href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">Packer::obuf</a></div><div class="ttdeci">MemBuffer obuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00350">packer.h:350</a></div></div>
-<div class="ttc" id="aclassPacker_html_a95d40264330fe966e66718440b450ec8"><div class="ttname"><a href="classPacker.html#a95d40264330fe966e66718440b450ec8">Packer::ibuf</a></div><div class="ttdeci">MemBuffer ibuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00349">packer.h:349</a></div></div>
+<div class="ttc" id="aclassPacker_html_a8f51aecfca1c5d86cc11a7d2ab574d5e"><div class="ttname"><a href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">Packer::obuf</a></div><div class="ttdeci">MemBuffer obuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00361">packer.h:361</a></div></div>
+<div class="ttc" id="aclassPacker_html_a95d40264330fe966e66718440b450ec8"><div class="ttname"><a href="classPacker.html#a95d40264330fe966e66718440b450ec8">Packer::ibuf</a></div><div class="ttdeci">MemBuffer ibuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00360">packer.h:360</a></div></div>
 <div class="ttc" id="aclassPacker_html_ad0ae5b698e68d64585e5be87a256f675"><div class="ttname"><a href="classPacker.html#ad0ae5b698e68d64585e5be87a256f675">Packer::compressWithFilters</a></div><div class="ttdeci">void compressWithFilters(Filter *ft, const unsigned overlap_range, const upx_compress_config_t *cconf, int filter_strategy=0, bool inhibit_compression_check=false)</div><div class="ttdef"><b>Definition:</b> <a href="packer_8cpp_source.html#l01213">packer.cpp:1213</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classFilter.html#a890fb08dc030012fc25e9fbe392657c1">Filter::buf_len</a>, <a class="el" href="classMemBuffer.html#afe5a8e344706fc176dde5c69983dc2e3">MemBuffer::checkState()</a>, <a class="el" href="classPacker.html#ad0ae5b698e68d64585e5be87a256f675">compressWithFilters()</a>, <a class="el" href="classPacker.html#a95d40264330fe966e66718440b450ec8">ibuf</a>, <a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, <a class="el" href="classPackerBase.html#a01f3c918e5ce5b4de630d11c703cec05">PackerBase::ph</a>, and <a class="el" href="structPackHeader.html#a1115672eeb2a2bb05760ce5c7fc0b5cf">PackHeader::u_len</a>.</p>
@@ -4421,8 +4422,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00281">281</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  281</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get16(p); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00292">292</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  292</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get16(p); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -4511,8 +4512,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00282">282</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  282</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get32(p); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00293">293</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  293</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get32(p); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -4544,8 +4545,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00284">284</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  284</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get64(p); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00295">295</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  295</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get64(p); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -4630,8 +4631,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00283">283</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  283</span>{ <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get64(p); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00294">294</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  294</span>{ <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;get64(p); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -5895,6 +5896,19 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Copy stub from exe. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<ul>
+<li>const char *name <br  />
+ Name of the section looked for.</li>
+</ul>
+<dl class="section return"><dt>Returns</dt><dd>true if the <code>name</code> argument correpsonds to an existing section. returns false else. </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="packer_8cpp_source.html#l00815">815</a> of file <a class="el" href="packer_8cpp_source.html">packer.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  815</span>                                                    {</div>
 <div class="line"><span class="lineno">  816</span>    <span class="keywordtype">void</span> *section = linker-&gt;findSection(name, <span class="keyword">false</span>);</div>
@@ -5907,7 +5921,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPacker_a0c72885ba3799acf227862f721ddd5ab_icgraph.png" border="0" usemap="#aclassPacker_a0c72885ba3799acf227862f721ddd5ab_icgraph" alt=""/></div>
 <map name="aclassPacker_a0c72885ba3799acf227862f721ddd5ab_icgraph" id="aclassPacker_a0c72885ba3799acf227862f721ddd5ab_icgraph">
-<area shape="rect" title=" " alt="" coords="795,378,981,403"/>
+<area shape="rect" title="Copy stub from exe." alt="" coords="795,378,981,403"/>
 <area shape="rect" href="classPackMachPPC32.html#a91638d60006e87797f270bd9455b8961" title=" " alt="" coords="520,85,743,125"/>
 <area shape="rect" href="classPackMachI386.html#afbfcedcb7f0c3e05d73233961a2233f5" title=" " alt="" coords="526,149,737,189"/>
 <area shape="rect" href="classPackMachAMD64.html#a50ed8c7ae1153330a78398a6b2f81658" title=" " alt="" coords="517,213,746,253"/>
@@ -6507,8 +6521,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00228">228</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  228</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00239">239</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  239</span>{}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="classPackLinuxI386sh.html#ad2d96daafa916b66092adceee5f3c4c7">PackLinuxI386sh::buildLoader()</a>, and <a class="el" href="classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2">compressWithFilters()</a>.</p>
 <div class="dynheader">
@@ -8048,8 +8062,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00285">285</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  285</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set16(p, v); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00296">296</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  296</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set16(p, v); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -8132,8 +8146,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00286">286</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  286</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set32(p, v); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00297">297</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  297</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set32(p, v); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -8232,8 +8246,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00287">287</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  287</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set64(p, v); }</div>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00298">298</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  298</span>{ <a class="code hl_variable" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>-&gt;set64(p, v); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a18d294254872108f1373a26ccabbd821">bele</a>.</p>
 
@@ -8459,7 +8473,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  147</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classPacker.html#a31c73202b82e8ce8970cca8881d9a82e">canUnpackFormat</a>(format);</div>
 <div class="line"><span class="lineno">  148</span>}</div>
 <div class="ttc" id="aclassPacker_html_a31c73202b82e8ce8970cca8881d9a82e"><div class="ttname"><a href="classPacker.html#a31c73202b82e8ce8970cca8881d9a82e">Packer::canUnpackFormat</a></div><div class="ttdeci">virtual bool canUnpackFormat(int format) const</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00125">packer.h:125</a></div></div>
-<div class="ttc" id="aclassPacker_html_a7d498ce73ff0a988560ff88f603e50ae"><div class="ttname"><a href="classPacker.html#a7d498ce73ff0a988560ff88f603e50ae">Packer::ph_format</a></div><div class="ttdeci">int ph_format</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00345">packer.h:345</a></div></div>
+<div class="ttc" id="aclassPacker_html_a7d498ce73ff0a988560ff88f603e50ae"><div class="ttname"><a href="classPacker.html#a7d498ce73ff0a988560ff88f603e50ae">Packer::ph_format</a></div><div class="ttdeci">int ph_format</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00356">packer.h:356</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a31c73202b82e8ce8970cca8881d9a82e">canUnpackFormat()</a>, <a class="el" href="classPacker.html#a7d498ce73ff0a988560ff88f603e50ae">ph_format</a>, and <a class="el" href="except_8cpp.html#aeec259360ad810df576d7012b3f054f3">throwCantUnpack()</a>.</p>
 
@@ -8544,7 +8558,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  140</span>        <a class="code hl_function" href="except_8cpp.html#aeec259360ad810df576d7012b3f054f3">throwCantUnpack</a>(<span class="stringliteral">&quot;I am not compatible with older versions of UPX&quot;</span>);</div>
 <div class="line"><span class="lineno">  141</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  142</span>}</div>
-<div class="ttc" id="aclassPacker_html_a096e8f1e0d39dd91a106bfb89451a25e"><div class="ttname"><a href="classPacker.html#a096e8f1e0d39dd91a106bfb89451a25e">Packer::ph_version</a></div><div class="ttdeci">int ph_version</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00346">packer.h:346</a></div></div>
+<div class="ttc" id="aclassPacker_html_a096e8f1e0d39dd91a106bfb89451a25e"><div class="ttname"><a href="classPacker.html#a096e8f1e0d39dd91a106bfb89451a25e">Packer::ph_version</a></div><div class="ttdeci">int ph_version</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00357">packer.h:357</a></div></div>
 <div class="ttc" id="aclassPacker_html_a73d96e4d4cbfe8e5f01711f47098ccc9"><div class="ttname"><a href="classPacker.html#a73d96e4d4cbfe8e5f01711f47098ccc9">Packer::canUnpackVersion</a></div><div class="ttdeci">virtual bool canUnpackVersion(int version) const</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00124">packer.h:124</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPacker.html#a73d96e4d4cbfe8e5f01711f47098ccc9">canUnpackVersion()</a>, <a class="el" href="classPacker.html#a096e8f1e0d39dd91a106bfb89451a25e">ph_version</a>, and <a class="el" href="except_8cpp.html#aeec259360ad810df576d7012b3f054f3">throwCantUnpack()</a>.</p>
@@ -9162,7 +9176,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00342">342</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00353">353</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#a65e855c1df3707b0e054eac328a520c5">assertPacker()</a>, <a class="el" href="classPackLinuxI386.html#a7e4e6112b9a074be9c5f17e0b426c09c">PackLinuxI386::buildLinuxLoader()</a>, <a class="el" href="classPacker.html#ac2cf462e56fc1876b93f047d8b222ce3">defineDecompressorSymbols()</a>, <a class="el" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16()</a>, <a class="el" href="classPacker.html#a47a54fc63360923941cec0aa6060ae01">get_te32()</a>, <a class="el" href="classPacker.html#ae85a3d8295d26480a18f0abea6912451">get_te64()</a>, <a class="el" href="classPacker.html#aba0bcb1d796daaeea9d308d8e407505e">get_te64_32()</a>, <a class="el" href="classPacker.html#a4af6a45574697d68421e70baef1c8d8c">initLoader()</a>, <a class="el" href="classPackBvmlinuzI386.html#ad8a8694021c49c9e7372c6dbf8b3cef1">PackBvmlinuzI386::pack()</a>, <a class="el" href="classPackCom.html#a68a0acc6dadabaa0294a802e9469a8fa">PackCom::PackCom()</a>, <a class="el" href="classPackDjgpp2.html#a3aa0d7c9e11313084a98c926f6fdeb50">PackDjgpp2::PackDjgpp2()</a>, <a class="el" href="classPackExe.html#a36d362c066e06699c2b7f670a204f9b7">PackExe::PackExe()</a>, <a class="el" href="classPackLinuxElf32Be.html#a18670e7f4d65aebf8e9999e0de1c336c">PackLinuxElf32Be::PackLinuxElf32Be()</a>, <a class="el" href="classPackLinuxElf32.html#aa2acf155f6a76482cd3cbd17cef800e6">PackLinuxElf32::PackLinuxElf32help1()</a>, <a class="el" href="classPackLinuxElf32Le.html#a356a54ab9b1106939873d829ce2b7ce8">PackLinuxElf32Le::PackLinuxElf32Le()</a>, <a class="el" href="classPackLinuxElf64Be.html#a5e93d25085824663e48351d020b5f732">PackLinuxElf64Be::PackLinuxElf64Be()</a>, <a class="el" href="classPackLinuxElf64.html#a8c2bb372c567334edd586f78224bc956">PackLinuxElf64::PackLinuxElf64help1()</a>, <a class="el" href="classPackLinuxElf64Le.html#a3751950623fd4e95ac1b579097184268">PackLinuxElf64Le::PackLinuxElf64Le()</a>, <a class="el" href="classPackLinuxI386.html#a75135ebdc847dad37ce3e82548f30dd2">PackLinuxI386::PackLinuxI386()</a>, <a class="el" href="classPackMachBase.html#a15bf51a04e038435119c2add69883922">PackMachBase&lt; TMachClass &gt;::PackMachBase()</a>, <a class="el" href="classPackMachFat.html#a9b4ee2a2096335f0ee07c0e572bdff00">PackMachFat::PackMachFat()</a>, <a class="el" href="classPackPs1.html#ab9ab56d59588534ab1c846e2a87615bc">PackPs1::PackPs1()</a>, <a class="el" href="classPackTmt.html#a5fc01b9e00e3e573c9d6dd4f737b95ee">PackTmt::PackTmt()</a>, <a class="el" href="classPackTos.html#a1eb28c7a5e88b7825ff0e805baf6a7dd">PackTos::PackTos()</a>, <a class="el" href="classPackUnixBe32.html#ac22e04f7b6e2e0b9993db0587b50b53e">PackUnixBe32::PackUnixBe32()</a>, <a class="el" href="classPackUnixLe32.html#ad61386ad319f1f112d9deb0569642945">PackUnixLe32::PackUnixLe32()</a>, <a class="el" href="classPackVmlinuzARMEL.html#ab0c5abc724d0a460e37bba08e9cc44c3">PackVmlinuzARMEL::PackVmlinuzARMEL()</a>, <a class="el" href="classPackVmlinuzI386.html#a065f90a5f3580265cd1a75272ecd10e9">PackVmlinuzI386::PackVmlinuzI386()</a>, <a class="el" href="classPackWcle.html#ac1635eee58809dc768f6d117a066f1de">PackWcle::PackWcle()</a>, <a class="el" href="classPeFile.html#a0950c8708c2dbe3fe2bf46735200e800">PeFile::PeFile()</a>, <a class="el" href="classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e">set_te16()</a>, <a class="el" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32()</a>, and <a class="el" href="classPacker.html#a36ee35ba69e590153658a06d471c4184">set_te64()</a>.</p>
 
@@ -9188,7 +9202,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00349">349</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00360">360</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#aeabf0f70b5c414b04a5d7a895c50351b">compressWithFilters()</a>, <a class="el" href="classPackVmlinuzI386.html#a398205192b0191637b8f06fe18b04447">PackVmlinuzI386::decompressKernel()</a>, <a class="el" href="classPackVmlinuzARMEL.html#a57f63d0522c104a49326d091701a1292">PackVmlinuzARMEL::decompressKernel()</a>, <a class="el" href="classPackWcle.html#a2c3b799c69917a8aa184c3216dca8734">PackWcle::encodeImage()</a>, <a class="el" href="classPackPs1.html#ad2858931c491b9d9d5688e1df7099cd2">PackPs1::findBssSection()</a>, <a class="el" href="classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a">PackLinuxElf32::forward_Shdrs()</a>, <a class="el" href="classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6">PackLinuxElf64::forward_Shdrs()</a>, <a class="el" href="classPackCom.html#adc7a9a6defe3c0b8cbbc7b59308c0386">PackCom::pack()</a>, <a class="el" href="classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d">PackDjgpp2::pack()</a>, <a class="el" href="classPackExe.html#a70d7991b106a12849023eea434a57550">PackExe::pack()</a>, <a class="el" href="classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53">PackPs1::pack()</a>, <a class="el" href="classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374">PackTmt::pack()</a>, <a class="el" href="classPackTos.html#af18b9115b58fa31b79ff565047a5a31f">PackTos::pack()</a>, <a class="el" href="classPackUnix.html#a421acb038daef916fef027bd5e2a7427">PackUnix::pack()</a>, <a class="el" href="classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632">PeFile::pack0()</a>, <a class="el" href="classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625">PackLinuxElf32::pack1()</a>, <a class="el" href="classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215">PackLinuxElf64::pack1()</a>, <a class="el" href="classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f">PackUnix::pack2()</a>, <a class="el" href="classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5">PackLinuxElf32::pack2_shlib()</a>, <a class="el" href="classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8">PackLinuxElf64::pack2_shlib()</a>, <a class="el" href="classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c">PackLinuxElf32::pack3()</a>, <a class="el" href="classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562">PackLinuxElf64::pack3()</a>, <a class="el" href="classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1">PackUnix::packExtent()</a>, <a class="el" href="classPackSys.html#adaa23e663a78177d5b96a770bcf5c87a">PackSys::patchLoader()</a>, <a class="el" href="classPeFile.html#a9c07dbb841251c1c147f94200868ae76">PeFile::processImports0()</a>, <a class="el" href="classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8">PeFile::processLoadConf()</a>, <a class="el" href="classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6">PeFile32::processRelocs()</a>, <a class="el" href="classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0">PeFile64::processRelocs()</a>, <a class="el" href="classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f">PeFile::processResources()</a>, <a class="el" href="classPeFile.html#a72740c1b72ad602b4b9e0a607c745713">PeFile::processTls1()</a>, <a class="el" href="classPeFile.html#ab5efd2618902640b17db1233a623b5ba">PeFile::readSections()</a>, <a class="el" href="classPeFile.html#a5249e585fad8fb5f1f969007692d727a">PeFile::rebuildExports()</a>, <a class="el" href="classPeFile.html#a01a6ab01655a285c87aba3965a5edde8">PeFile::rebuildResources()</a>, <a class="el" href="classPeFile.html#a121dfb3fdcae6eeaa09dc24d0a724c92">PeFile::stripDebug()</a>, <a class="el" href="classPackLinuxElf32.html#a9cec931e83f51aaba944196c3476154c">PackLinuxElf32::un_asl_dynsym()</a>, <a class="el" href="classPackLinuxElf64.html#ab19e5a4000bc5cc063dee2a31db657e9">PackLinuxElf64::un_asl_dynsym()</a>, <a class="el" href="classPackLinuxElf32.html#a52055eaaf3a28d1986937825c9382ae7">PackLinuxElf32::un_DT_INIT()</a>, <a class="el" href="classPackLinuxElf64.html#a03c843122a8d3e44da9fe458643c2589">PackLinuxElf64::un_DT_INIT()</a>, <a class="el" href="classPackLinuxElf32.html#a6a054376b40ab2dc536ce43302d2c989">PackLinuxElf32::un_shlib_1()</a>, <a class="el" href="classPackLinuxElf64.html#ad2c315a3286632db9c874ca7a65bb69d">PackLinuxElf64::un_shlib_1()</a>, <a class="el" href="classPackCom.html#a59519621428829ae241f0d0609e6da8c">PackCom::unpack()</a>, <a class="el" href="classPackDjgpp2.html#a48df49a5deb39fa19fd0bd00e68f3b26">PackDjgpp2::unpack()</a>, <a class="el" href="classPackExe.html#a08a7901ec2ea27c6c446f4ff02b24be4">PackExe::unpack()</a>, <a class="el" href="classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040">PackLinuxElf32::unpack()</a>, <a class="el" href="classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479">PackLinuxElf64::unpack()</a>, <a class="el" href="classPackLinuxElf32x86interp.html#a977fd6c88fdd7d1176701c170ceb031b">PackLinuxElf32x86interp::unpack()</a>, <a class="el" href="classPackPs1.html#ac40da8aff7f53a0f3374de8682bcc079">PackPs1::unpack()</a>, <a class="el" href="classPackTmt.html#a7f8a990a65f25123fed345edfb720143">PackTmt::unpack()</a>, <a class="el" href="classPackTos.html#a3fb61f6f3b1963184356bace25ff9653">PackTos::unpack()</a>, <a class="el" href="classPackUnix.html#a62fec1407c3b1d45bd049df4b9f5e6f7">PackUnix::unpack()</a>, <a class="el" href="classPackVmlinuzI386.html#a34e472494934dc78b2259c1eea5540b3">PackVmlinuzI386::unpack()</a>, <a class="el" href="classPackVmlinuzARMEL.html#a0684d8ea945cd7da49d5e47840890afd">PackVmlinuzARMEL::unpack()</a>, <a class="el" href="classPeFile.html#aa8d033dfaeb206c4235410f24b083df5">PeFile::unpack0()</a>, and <a class="el" href="classPackUnix.html#ab16d64e1b95f1dcf5f128665b83660f6">PackUnix::unpackExtent()</a>.</p>
 
@@ -9214,7 +9228,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00351">351</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00362">362</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6">PeFile32::processRelocs()</a>, <a class="el" href="classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0">PeFile64::processRelocs()</a>, <a class="el" href="classPeFile.html#ab5efd2618902640b17db1233a623b5ba">PeFile::readSections()</a>, and <a class="el" href="classPeFile.html#aa8d033dfaeb206c4235410f24b083df5">PeFile::unpack0()</a>.</p>
 
@@ -9240,7 +9254,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00361">361</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00372">372</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#af51db683baf7d75a65f48429b77db475">checkPatch()</a>.</p>
 
@@ -9266,7 +9280,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00362">362</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00373">373</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#af51db683baf7d75a65f48429b77db475">checkPatch()</a>.</p>
 
@@ -9292,7 +9306,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00363">363</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00374">374</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#af51db683baf7d75a65f48429b77db475">checkPatch()</a>.</p>
 
@@ -9318,7 +9332,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00350">350</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00361">361</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#aeabf0f70b5c414b04a5d7a895c50351b">compressWithFilters()</a>, <a class="el" href="classPackVmlinuzI386.html#a398205192b0191637b8f06fe18b04447">PackVmlinuzI386::decompressKernel()</a>, <a class="el" href="classPackVmlinuzARMEL.html#a57f63d0522c104a49326d091701a1292">PackVmlinuzARMEL::decompressKernel()</a>, <a class="el" href="classPackW32PeI386.html#a7bc9c571ca9857782c02a6f2431ef72e">PackW32PeI386::defineSymbols()</a>, <a class="el" href="classPackW64PeAmd64.html#a361da6f82a6ed01dea2ea7d08916d630">PackW64PeAmd64::defineSymbols()</a>, <a class="el" href="classPackCom.html#adc7a9a6defe3c0b8cbbc7b59308c0386">PackCom::pack()</a>, <a class="el" href="classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d">PackDjgpp2::pack()</a>, <a class="el" href="classPackExe.html#a70d7991b106a12849023eea434a57550">PackExe::pack()</a>, <a class="el" href="classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53">PackPs1::pack()</a>, <a class="el" href="classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374">PackTmt::pack()</a>, <a class="el" href="classPackTos.html#af18b9115b58fa31b79ff565047a5a31f">PackTos::pack()</a>, <a class="el" href="classPackUnix.html#a421acb038daef916fef027bd5e2a7427">PackUnix::pack()</a>, <a class="el" href="classPackVmlinuzI386.html#a4b88c19ade54ecf025a63781af758006">PackVmlinuzI386::pack()</a>, <a class="el" href="classPackBvmlinuzI386.html#ad8a8694021c49c9e7372c6dbf8b3cef1">PackBvmlinuzI386::pack()</a>, <a class="el" href="classPackVmlinuzARMEL.html#aab822afc164843cd6f22686fdca9dd1a">PackVmlinuzARMEL::pack()</a>, <a class="el" href="classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632">PeFile::pack0()</a>, <a class="el" href="classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f">PackUnix::pack2()</a>, <a class="el" href="classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1">PackUnix::packExtent()</a>, <a class="el" href="classPackCom.html#a82fc97cbc48897a226f3a66eb532fbcd">PackCom::patchLoader()</a>, <a class="el" href="classPackSys.html#adaa23e663a78177d5b96a770bcf5c87a">PackSys::patchLoader()</a>, <a class="el" href="classPackVmlinuzI386.html#aa7bb74be3a11b6072b59d74d5c8fdfed">PackVmlinuzI386::readKernel()</a>, <a class="el" href="classPackVmlinuzARMEL.html#abbbaf439f04f207e6d0a8641869065f8">PackVmlinuzARMEL::readKernel()</a>, <a class="el" href="classPeFile.html#a5249e585fad8fb5f1f969007692d727a">PeFile::rebuildExports()</a>, <a class="el" href="classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611">PeFile::rebuildImports()</a>, <a class="el" href="classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461">PeFile::rebuildRelocs()</a>, <a class="el" href="classPeFile.html#a01a6ab01655a285c87aba3965a5edde8">PeFile::rebuildResources()</a>, <a class="el" href="classPackCom.html#a59519621428829ae241f0d0609e6da8c">PackCom::unpack()</a>, <a class="el" href="classPackDjgpp2.html#a48df49a5deb39fa19fd0bd00e68f3b26">PackDjgpp2::unpack()</a>, <a class="el" href="classPackExe.html#a08a7901ec2ea27c6c446f4ff02b24be4">PackExe::unpack()</a>, <a class="el" href="classPackPs1.html#ac40da8aff7f53a0f3374de8682bcc079">PackPs1::unpack()</a>, <a class="el" href="classPackTmt.html#a7f8a990a65f25123fed345edfb720143">PackTmt::unpack()</a>, <a class="el" href="classPackTos.html#a3fb61f6f3b1963184356bace25ff9653">PackTos::unpack()</a>, <a class="el" href="classPackVmlinuzI386.html#a34e472494934dc78b2259c1eea5540b3">PackVmlinuzI386::unpack()</a>, <a class="el" href="classPackVmlinuzARMEL.html#a0684d8ea945cd7da49d5e47840890afd">PackVmlinuzARMEL::unpack()</a>, <a class="el" href="classPeFile.html#aa8d033dfaeb206c4235410f24b083df5">PeFile::unpack0()</a>, and <a class="el" href="classPacker.html#a98836d189865b8496d759334c6257608">verifyOverlappingDecompression()</a>.</p>
 
@@ -9344,7 +9358,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00345">345</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00356">356</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#abcb5aa92c52d38f3c7f4cc75d111debd">testUnpackFormat()</a>.</p>
 
@@ -9370,7 +9384,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00346">346</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="packer_8h_source.html#l00357">357</a> of file <a class="el" href="packer_8h_source.html">packer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPacker.html#a0dd46726f44d4d6ecbb38ca0b682abff">testUnpackVersion()</a>, and <a class="el" href="classPeFile.html#a49b975cf5a3ee8de3d245c4890aeab66">PeFile::testUnpackVersion()</a>.</p>
 
