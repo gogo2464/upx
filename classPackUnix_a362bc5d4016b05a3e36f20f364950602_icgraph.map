@@ -1,11 +1,13 @@
 <map id="PackUnix::getStrategy" name="PackUnix::getStrategy">
-<area shape="rect" id="node1" title=" " alt="" coords="624,80,791,105"/>
-<area shape="rect" id="node2" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="430,31,559,56"/>
-<area shape="rect" id="node5" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="413,104,576,129"/>
-<area shape="rect" id="node3" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="221,5,343,31"/>
-<area shape="rect" id="node4" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="5,5,151,31"/>
-<area shape="rect" id="node6" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="199,55,365,80"/>
-<area shape="rect" id="node7" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="199,104,365,129"/>
-<area shape="rect" id="node8" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="199,153,365,179"/>
-<area shape="rect" id="node9" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="199,203,365,228"/>
+<area shape="rect" id="node1" title=" " alt="" coords="645,147,812,172"/>
+<area shape="rect" id="node2" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="451,64,581,89"/>
+<area shape="rect" id="node5" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="435,171,597,196"/>
+<area shape="rect" id="node3" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="243,5,364,31"/>
+<area shape="rect" id="node4" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="16,5,161,31"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="5,85,172,111"/>
+<area shape="rect" id="node7" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="5,199,172,224"/>
+<area shape="rect" id="node8" href="$classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5" title=" " alt="" coords="220,106,387,146"/>
+<area shape="rect" id="node9" href="$classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8" title=" " alt="" coords="220,221,387,261"/>
+<area shape="rect" id="node10" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="220,285,387,311"/>
+<area shape="rect" id="node11" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="220,335,387,360"/>
 </map>

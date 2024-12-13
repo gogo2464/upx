@@ -42,6 +42,7 @@ var classPacker =
     [ "get_te16", "classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5", null ],
     [ "get_te32", "classPacker.html#a47a54fc63360923941cec0aa6060ae01", null ],
     [ "get_te64", "classPacker.html#ae85a3d8295d26480a18f0abea6912451", null ],
+    [ "get_te64_32", "classPacker.html#aba0bcb1d796daaeea9d308d8e407505e", null ],
     [ "getDecompressorSections", "classPacker.html#a173933a7adb7d38dcc12ee8043457aa4", null ],
     [ "getDecompressorWrkmemSize", "classPacker.html#a28302b0171618cd0b4949ab6c026dc31", null ],
     [ "getDefaultCompressionMethods_8", "classPacker.html#a968ed89b0a113c54e982a497fdb8a97b", null ],

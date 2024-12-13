@@ -1,12 +1,13 @@
 <map id="PackLinuxElf32::elf_find_table_size" name="PackLinuxElf32::elf_find_table_size">
-<area shape="rect" id="node1" title=" " alt="" coords="5,139,151,179"/>
-<area shape="rect" id="node2" href="$classPackLinuxElf32.html#a7dbc6cc573876410e6b5fe1ed235a6e0" title=" " alt="" coords="202,24,347,64"/>
-<area shape="rect" id="node3" href="$classPacker.html#a47a54fc63360923941cec0aa6060ae01" title=" " alt="" coords="616,140,745,165"/>
-<area shape="rect" id="node5" href="$classPackLinuxElf32.html#a86f5c0bb23dea2f02777b2bd551f3756" title=" " alt="" coords="202,139,347,179"/>
-<area shape="rect" id="node6" href="$classPackLinuxElf32.html#a3cc398e82caa74060ec330d678f7e142" title=" " alt="" coords="199,203,350,243"/>
-<area shape="rect" id="node8" href="$classPackLinuxElf32.html#ae126d225cb28e675a4261204a3872e2c" title=" " alt="" coords="199,298,351,338"/>
-<area shape="rect" id="node4" href="$p__lx__elf_8cpp.html#a0a26281ee961fe926e04c93f395d76cf" title=" " alt="" coords="446,38,521,64"/>
-<area shape="rect" id="node7" href="$classPackLinuxElf32.html#ab12506f897a258211fa947e556cb2615" title=" " alt="" coords="411,240,556,280"/>
-<area shape="rect" id="node9" href="$classMemBuffer.html#a15705698799e612d2ed4b439837c649a" title=" " alt="" coords="408,305,559,330"/>
-<area shape="rect" id="node10" href="$classMemBuffer.html#a50cf45756c991e8d65a6b90b8e6a5be2" title=" " alt="" coords="399,354,568,380"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,187,151,227"/>
+<area shape="rect" id="node2" href="$classPackLinuxElf32.html#a7dbc6cc573876410e6b5fe1ed235a6e0" title=" " alt="" coords="202,51,347,91"/>
+<area shape="rect" id="node3" href="$classPacker.html#a47a54fc63360923941cec0aa6060ae01" title=" " alt="" coords="629,163,759,188"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf32.html#a86f5c0bb23dea2f02777b2bd551f3756" title=" " alt="" coords="202,187,347,227"/>
+<area shape="rect" id="node7" href="$classPackLinuxElf32.html#a3cc398e82caa74060ec330d678f7e142" title=" " alt="" coords="199,251,350,291"/>
+<area shape="rect" id="node9" href="$classPackLinuxElf32.html#ae126d225cb28e675a4261204a3872e2c" title=" " alt="" coords="199,346,351,386"/>
+<area shape="rect" id="node4" href="$classPackLinuxElf32.html#ab812077214c1560eba8816624972d1ef" title=" " alt="" coords="399,37,581,63"/>
+<area shape="rect" id="node5" href="$p__lx__elf_8cpp.html#a0a26281ee961fe926e04c93f395d76cf" title=" " alt="" coords="453,87,527,112"/>
+<area shape="rect" id="node8" href="$classPackLinuxElf32.html#ab12506f897a258211fa947e556cb2615" title=" " alt="" coords="417,289,563,329"/>
+<area shape="rect" id="node10" href="$classMemBuffer.html#a15705698799e612d2ed4b439837c649a" title=" " alt="" coords="415,353,565,379"/>
+<area shape="rect" id="node11" href="$classMemBuffer.html#a50cf45756c991e8d65a6b90b8e6a5be2" title=" " alt="" coords="405,403,575,428"/>
 </map>

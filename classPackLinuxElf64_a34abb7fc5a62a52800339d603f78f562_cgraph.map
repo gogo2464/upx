@@ -1,52 +1,52 @@
 <map id="PackLinuxElf64::pack3" name="PackLinuxElf64::pack3">
-<area shape="rect" id="node1" title=" " alt="" coords="5,939,172,965"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1017,172,1042"/>
 <area shape="rect" id="node2" href="$classPackLinuxElf64.html#ab6a39ae989d67ccb9239bcff7750a6e5" title=" " alt="" coords="505,16,650,56"/>
-<area shape="rect" id="node3" href="$classPacker.html#ae85a3d8295d26480a18f0abea6912451" title=" " alt="" coords="775,182,904,207"/>
-<area shape="rect" id="node4" href="$classPackLinuxElf64.html#ac7458e15967252113c7b45332b973287" title=" " alt="" coords="233,189,378,229"/>
-<area shape="rect" id="node5" href="$classPacker.html#a47a54fc63360923941cec0aa6060ae01" title=" " alt="" coords="513,283,642,309"/>
-<area shape="rect" id="node7" href="$classPackLinuxElf64.html#a4204f3ad0b4eff8655e10f62ac640a22" title=" " alt="" coords="230,73,381,113"/>
-<area shape="rect" id="node8" href="$classPackLinuxElf64.html#a6c77e1df704fbb16e2d048937bdb0663" title=" " alt="" coords="229,371,381,411"/>
-<area shape="rect" id="node10" href="$p__lx__elf_8cpp.html#a961610ff2ac229f29f7d03d3a2ccc084" title=" " alt="" coords="548,586,607,611"/>
-<area shape="rect" id="node11" href="$classOutputFile.html#a05fb6e81deb6d535c8192cfbb1eb5732" title=" " alt="" coords="768,537,911,562"/>
-<area shape="rect" id="node13" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="774,787,905,813"/>
+<area shape="rect" id="node3" href="$classPacker.html#ae85a3d8295d26480a18f0abea6912451" title=" " alt="" coords="775,182,904,208"/>
+<area shape="rect" id="node4" href="$classPackLinuxElf64.html#ac7458e15967252113c7b45332b973287" title=" " alt="" coords="233,168,378,208"/>
+<area shape="rect" id="node6" href="$classPacker.html#a47a54fc63360923941cec0aa6060ae01" title=" " alt="" coords="775,410,904,436"/>
+<area shape="rect" id="node8" href="$classPackLinuxElf64.html#a4204f3ad0b4eff8655e10f62ac640a22" title=" " alt="" coords="230,74,381,114"/>
+<area shape="rect" id="node9" href="$classPackLinuxElf64.html#a6c77e1df704fbb16e2d048937bdb0663" title=" " alt="" coords="229,403,381,443"/>
+<area shape="rect" id="node11" href="$p__lx__elf_8cpp.html#a961610ff2ac229f29f7d03d3a2ccc084" title=" " alt="" coords="548,638,607,664"/>
+<area shape="rect" id="node12" href="$classOutputFile.html#a05fb6e81deb6d535c8192cfbb1eb5732" title=" " alt="" coords="768,588,911,613"/>
+<area shape="rect" id="node13" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="774,790,905,816"/>
 <area shape="rect" id="node14" href="$p__lx__elf_8cpp.html#a13631338bc966bdceaf740dfd8082dd5" title=" " alt="" coords="547,537,608,562"/>
-<area shape="rect" id="node16" href="$classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466" title=" " alt="" coords="220,270,391,295"/>
-<area shape="rect" id="node17" href="$classMemBuffer.html#a50cf45756c991e8d65a6b90b8e6a5be2" title=" " alt="" coords="221,2159,390,2185"/>
-<area shape="rect" id="node18" href="$xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d" title=" " alt="" coords="538,1166,617,1191"/>
-<area shape="rect" id="node19" href="$xspan__fwd_8h.html#a8012d8687b040cb0d6a7ad890856cf49" title=" " alt="" coords="793,1126,886,1151"/>
-<area shape="rect" id="node20" href="$xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c" title=" " alt="" coords="995,2007,1071,2033"/>
-<area shape="rect" id="node21" href="$classPackLinuxElf.html#a3409fd940ae9b30dc51e68f69e0160f6" title=" " alt="" coords="230,838,381,863"/>
-<area shape="rect" id="node25" href="$classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e" title=" " alt="" coords="513,939,641,965"/>
-<area shape="rect" id="node26" href="$classPacker.html#af9cad2c8624ee68213d01eb606be0382" title=" " alt="" coords="513,1041,641,1066"/>
-<area shape="rect" id="node28" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="224,1557,387,1582"/>
-<area shape="rect" id="node45" href="$classOutputFile.html#a6dcc27c7627119f073cf47775984fcad" title=" " alt="" coords="234,990,377,1015"/>
-<area shape="rect" id="node46" href="$classOutputFile.html#a8b1b934391e5d959387552e48a5fb4b4" title=" " alt="" coords="513,1381,641,1406"/>
-<area shape="rect" id="node47" href="$bele_8h.html#ab07367b17d1a80bb3cd4eeb48b4fdde5" title=" " alt="" coords="801,2109,878,2134"/>
-<area shape="rect" id="node48" href="$classPacker.html#a36ee35ba69e590153658a06d471c4184" title=" " alt="" coords="241,2209,369,2234"/>
-<area shape="rect" id="node49" href="$snprintf_8h.html#a674a04e474d5db68cb6272b9d46940cf" title=" " alt="" coords="272,2282,339,2307"/>
-<area shape="rect" id="node50" href="$classMemBuffer.html#a4909e2f9df016dda4d2a9e4d1991e7be" title=" " alt="" coords="234,2331,377,2357"/>
-<area shape="rect" id="node6" href="$p__lx__elf_8cpp.html#a0a26281ee961fe926e04c93f395d76cf" title=" " alt="" coords="540,182,615,207"/>
-<area shape="rect" id="node9" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="518,385,637,410"/>
-<area shape="rect" id="node12" href="$except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b" title=" " alt="" coords="964,975,1101,1001"/>
-<area shape="rect" id="node15" href="$classMemBuffer.html#acea3f3781a8c941186b5777f13691c8c" title=" " alt="" coords="772,586,907,611"/>
-<area shape="rect" id="node22" href="$classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5" title=" " alt="" coords="513,789,642,814"/>
-<area shape="rect" id="node23" href="$classMemBuffer.html#a15705698799e612d2ed4b439837c649a" title=" " alt="" coords="764,953,915,978"/>
-<area shape="rect" id="node24" href="$classPackUnix.html#a573f3c8c4c540f51c2a7b168535d4741" title=" " alt="" coords="513,838,642,863"/>
-<area shape="rect" id="node27" href="$p__lx__elf_8cpp.html#a7236f968e16474ded809aa6b9f98452a" title=" " alt="" coords="554,687,601,713"/>
-<area shape="rect" id="node29" href="$classMemBuffer.html#a440e8db9c9010226d9778185f66529f5" title=" " alt="" coords="773,2007,906,2033"/>
-<area shape="rect" id="node31" href="$classMemBuffer.html#aa7fca1d24644887e92e728c1d3f3785f" title=" " alt="" coords="458,1957,697,1982"/>
-<area shape="rect" id="node32" href="$classPacker.html#add5cc1c8eff3bbc8aaf7ec0cf03cb82e" title="compress &#45; wrap call to low&#45;level upx_compress()" alt="" coords="510,1582,645,1607"/>
-<area shape="rect" id="node33" href="$packhead_8cpp.html#a772d316c45ac4858f5cffa5f842fff49" title=" " alt="" coords="768,1531,911,1557"/>
-<area shape="rect" id="node34" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="963,1531,1103,1557"/>
-<area shape="rect" id="node35" href="$compress_8cpp.html#ac78c1624c94e1e6b82fc6d9882285671" title=" " alt="" coords="788,1682,891,1707"/>
-<area shape="rect" id="node36" href="$compress_8cpp.html#a503ce434d639fefff3eee167b8bc5b64" title=" " alt="" coords="781,1633,897,1658"/>
-<area shape="rect" id="node37" href="$classPacker.html#ad0ae5b698e68d64585e5be87a256f675" title=" " alt="" coords="475,1809,680,1834"/>
-<area shape="rect" id="node38" href="$classPackUnix.html#a362bc5d4016b05a3e36f20f364950602" title=" " alt="" coords="494,1858,661,1883"/>
-<area shape="rect" id="node39" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="516,1907,639,1933"/>
-<area shape="rect" id="node40" href="$classInputFile.html#aa76b4db751f0d4ad6c47e93fa676d4a9" title=" " alt="" coords="519,1331,636,1357"/>
-<area shape="rect" id="node43" href="$classPacker.html#ae0b134c6d419c733cb3283f4403a6f78" title="overlapping decompression" alt="" coords="439,1430,716,1455"/>
-<area shape="rect" id="node44" href="$classPacker.html#a98836d189865b8496d759334c6257608" title=" " alt="" coords="483,1267,671,1307"/>
-<area shape="rect" id="node30" href="$bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28" title=" " alt="" coords="992,2082,1073,2107"/>
-<area shape="rect" id="node41" href="$classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="781,1331,897,1357"/>
-<area shape="rect" id="node42" href="$util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="965,1357,1101,1382"/>
+<area shape="rect" id="node16" href="$classPacker.html#aba0bcb1d796daaeea9d308d8e407505e" title=" " alt="" coords="229,1637,381,1662"/>
+<area shape="rect" id="node17" href="$classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466" title=" " alt="" coords="220,334,391,360"/>
+<area shape="rect" id="node18" href="$classMemBuffer.html#a50cf45756c991e8d65a6b90b8e6a5be2" title=" " alt="" coords="221,1686,390,1712"/>
+<area shape="rect" id="node19" href="$xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d" title=" " alt="" coords="538,1218,617,1244"/>
+<area shape="rect" id="node20" href="$xspan__fwd_8h.html#a8012d8687b040cb0d6a7ad890856cf49" title=" " alt="" coords="793,1234,886,1260"/>
+<area shape="rect" id="node21" href="$xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c" title=" " alt="" coords="995,1824,1071,1849"/>
+<area shape="rect" id="node22" href="$classPackLinuxElf.html#a3409fd940ae9b30dc51e68f69e0160f6" title=" " alt="" coords="230,890,381,916"/>
+<area shape="rect" id="node26" href="$classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e" title=" " alt="" coords="513,992,641,1017"/>
+<area shape="rect" id="node27" href="$classPacker.html#af9cad2c8624ee68213d01eb606be0382" title=" " alt="" coords="513,1093,641,1118"/>
+<area shape="rect" id="node29" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="224,1485,387,1510"/>
+<area shape="rect" id="node45" href="$classOutputFile.html#a6dcc27c7627119f073cf47775984fcad" title=" " alt="" coords="234,1042,377,1068"/>
+<area shape="rect" id="node46" href="$classOutputFile.html#a8b1b934391e5d959387552e48a5fb4b4" title=" " alt="" coords="513,2112,641,2137"/>
+<area shape="rect" id="node47" href="$bele_8h.html#ab07367b17d1a80bb3cd4eeb48b4fdde5" title=" " alt="" coords="267,1736,344,1761"/>
+<area shape="rect" id="node48" href="$classPacker.html#a36ee35ba69e590153658a06d471c4184" title=" " alt="" coords="241,1785,369,1810"/>
+<area shape="rect" id="node49" href="$snprintf_8h.html#a674a04e474d5db68cb6272b9d46940cf" title=" " alt="" coords="272,1858,339,1884"/>
+<area shape="rect" id="node50" href="$classMemBuffer.html#a4909e2f9df016dda4d2a9e4d1991e7be" title=" " alt="" coords="234,1908,377,1933"/>
+<area shape="rect" id="node5" href="$classPackLinuxElf64.html#a5e4e0a8150ba291145c388c9c00705ec" title=" " alt="" coords="486,334,669,360"/>
+<area shape="rect" id="node7" href="$p__lx__elf_8cpp.html#a0a26281ee961fe926e04c93f395d76cf" title=" " alt="" coords="540,182,615,208"/>
+<area shape="rect" id="node10" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="518,436,637,461"/>
+<area shape="rect" id="node15" href="$classMemBuffer.html#acea3f3781a8c941186b5777f13691c8c" title=" " alt="" coords="772,537,907,562"/>
+<area shape="rect" id="node23" href="$classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5" title=" " alt="" coords="513,841,642,866"/>
+<area shape="rect" id="node24" href="$classMemBuffer.html#a15705698799e612d2ed4b439837c649a" title=" " alt="" coords="764,1005,915,1030"/>
+<area shape="rect" id="node25" href="$classPackUnix.html#a573f3c8c4c540f51c2a7b168535d4741" title=" " alt="" coords="513,890,642,916"/>
+<area shape="rect" id="node28" href="$p__lx__elf_8cpp.html#a7236f968e16474ded809aa6b9f98452a" title=" " alt="" coords="554,740,601,765"/>
+<area shape="rect" id="node30" href="$classMemBuffer.html#a440e8db9c9010226d9778185f66529f5" title=" " alt="" coords="773,1824,906,1849"/>
+<area shape="rect" id="node31" href="$classMemBuffer.html#aa7fca1d24644887e92e728c1d3f3785f" title=" " alt="" coords="458,1688,697,1713"/>
+<area shape="rect" id="node32" href="$classPacker.html#add5cc1c8eff3bbc8aaf7ec0cf03cb82e" title="compress &#45; wrap call to low&#45;level upx_compress()" alt="" coords="510,1434,645,1460"/>
+<area shape="rect" id="node33" href="$packhead_8cpp.html#a772d316c45ac4858f5cffa5f842fff49" title=" " alt="" coords="768,1384,911,1409"/>
+<area shape="rect" id="node34" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="963,1536,1103,1561"/>
+<area shape="rect" id="node35" href="$compress_8cpp.html#ac78c1624c94e1e6b82fc6d9882285671" title=" " alt="" coords="788,1534,891,1560"/>
+<area shape="rect" id="node36" href="$compress_8cpp.html#a503ce434d639fefff3eee167b8bc5b64" title=" " alt="" coords="781,1485,897,1510"/>
+<area shape="rect" id="node37" href="$classPacker.html#ad0ae5b698e68d64585e5be87a256f675" title=" " alt="" coords="475,1761,680,1786"/>
+<area shape="rect" id="node38" href="$classPackUnix.html#a362bc5d4016b05a3e36f20f364950602" title=" " alt="" coords="494,1810,661,1836"/>
+<area shape="rect" id="node39" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="516,1860,639,1885"/>
+<area shape="rect" id="node40" href="$classInputFile.html#aa76b4db751f0d4ad6c47e93fa676d4a9" title=" " alt="" coords="519,2010,636,2036"/>
+<area shape="rect" id="node43" href="$classPacker.html#ae0b134c6d419c733cb3283f4403a6f78" title="overlapping decompression" alt="" coords="439,1909,716,1934"/>
+<area shape="rect" id="node44" href="$classPacker.html#a98836d189865b8496d759334c6257608" title=" " alt="" coords="483,1319,671,1359"/>
+<area shape="rect" id="node41" href="$classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="781,2112,897,2137"/>
+<area shape="rect" id="node42" href="$util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="965,2137,1101,2162"/>
 </map>

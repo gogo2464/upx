@@ -1823,6 +1823,7 @@
         <topic label="all_filters" href="structOptions.html#aa661b8c4de370944916296c6ff1bdd33"/>
         <topic label="all_methods" href="structOptions.html#a2eceb2cf73bf102edd76b89f4f315141"/>
         <topic label="all_methods_use_lzma" href="structOptions.html#aa8401857048d5d1e6abb3b0d42558692"/>
+        <topic label="android_old" href="structOptions.html#af36b36c9bb8333e9a9ba978af67f3a2f"/>
         <topic label="android_shlib" href="structOptions.html#a19c29c651f71641f170a7d0dd9f71b57"/>
         <topic label="atari_tos" href="structOptions.html#a998692a2605563d9d80de4de216c6376"/>
         <topic label="backup" href="structOptions.html#aa493c60429d7bc380b3bab13bbbed127"/>
@@ -2109,6 +2110,7 @@
         <topic label="get_te16" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5"/>
         <topic label="get_te32" href="classPacker.html#a47a54fc63360923941cec0aa6060ae01"/>
         <topic label="get_te64" href="classPacker.html#ae85a3d8295d26480a18f0abea6912451"/>
+        <topic label="get_te64_32" href="classPacker.html#aba0bcb1d796daaeea9d308d8e407505e"/>
         <topic label="getDecompressorSections" href="classPacker.html#a173933a7adb7d38dcc12ee8043457aa4"/>
         <topic label="getDecompressorWrkmemSize" href="classPacker.html#a28302b0171618cd0b4949ab6c026dc31"/>
         <topic label="getDefaultCompressionMethods_8" href="classPacker.html#a968ed89b0a113c54e982a497fdb8a97b"/>
@@ -2300,6 +2302,9 @@
         <topic label="gnu_hash" href="classPackLinuxElf.html#a504fe912dd96ebfcd443b89dd425317f"/>
         <topic label="pack1" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6"/>
         <topic label="pack2" href="classPackLinuxElf.html#a619d0ed2f97d37150ed5b1437c67b6f1"/>
+        <topic label="pack2_shlib_overlay_compress" href="classPackLinuxElf.html#a5384daf1baa189915edd8bbb8821ee88"/>
+        <topic label="pack2_shlib_overlay_init" href="classPackLinuxElf.html#aafaf58332d98b1981f8d78c3eeb729c6"/>
+        <topic label="pack2_shlib_overlay_write" href="classPackLinuxElf.html#a80a270e823ea95b0900a5abbf786dac9"/>
         <topic label="pack3" href="classPackLinuxElf.html#a3409fd940ae9b30dc51e68f69e0160f6"/>
         <topic label="unpack" href="classPackLinuxElf.html#a0d45a89448e9776719f57f84b11f828c"/>
         <topic label="asl_delta" href="classPackLinuxElf.html#a14a0202c4a2a508fef4009ae120b44b8"/>
@@ -2376,6 +2381,7 @@
         <topic label="buildLinuxLoader" href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3"/>
         <topic label="calls_crt1" href="classPackLinuxElf32.html#a57c8f63c6f5b8671a39cd8acf2b48bc6"/>
         <topic label="canPack" href="classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552"/>
+        <topic label="canPack_Shdr" href="classPackLinuxElf32.html#a13ef58bb21db16747c26d39c75071425"/>
         <topic label="canPackOSABI" href="classPackLinuxElf32.html#a362f74f1bc69654c06e59aa1805f009a"/>
         <topic label="canUnpack" href="classPackLinuxElf32.html#a89a8cceb7f8ef9df9542156c01118aa4"/>
         <topic label="check_pt_dynamic" href="classPackLinuxElf32.html#aba7026f4211ff852ffc5fc17ba0ec2b9"/>
@@ -2404,9 +2410,10 @@
         <topic label="getbase" href="classPackLinuxElf32.html#a5ccea780c95ceb2ad3e29a234d3f2863"/>
         <topic label="getbrk" href="classPackLinuxElf32.html#a69001fad2a5e68585846d1fb1abd2afb"/>
         <topic label="invert_pt_dynamic" href="classPackLinuxElf32.html#a18b74d82d2a2993873377ac87e6393d4"/>
-        <topic label="is_LOAD32" href="classPackLinuxElf32.html#a9929af0daa1854fea2672c0c50bddb84"/>
+        <topic label="is_LOAD" href="classPackLinuxElf32.html#ab812077214c1560eba8816624972d1ef"/>
         <topic label="pack1" href="classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625"/>
         <topic label="pack2" href="classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5"/>
+        <topic label="pack2_shlib" href="classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5"/>
         <topic label="pack3" href="classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c"/>
         <topic label="pack4" href="classPackLinuxElf32.html#ad190f7b83d9aaccf78119ebb0f00eb41"/>
         <topic label="packed_struct" href="classPackLinuxElf32.html#adad4336fa530cb9da3d195d9e300317c"/>
@@ -2569,6 +2576,7 @@
         <topic label="buildLinuxLoader" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341"/>
         <topic label="calls_crt1" href="classPackLinuxElf64.html#af4b086d6062198ab02e25fcc4cd5a2c3"/>
         <topic label="canPack" href="classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2"/>
+        <topic label="canPack_Shdr" href="classPackLinuxElf64.html#aa31c4b9fe8bb49ee9fa220b0c1d149bd"/>
         <topic label="canUnpack" href="classPackLinuxElf64.html#a71bc2f0e1a1ec856b3f9a08b63add0ae"/>
         <topic label="check_pt_dynamic" href="classPackLinuxElf64.html#a5d86b1c186506105d0a1143fd364c014"/>
         <topic label="check_pt_load" href="classPackLinuxElf64.html#ae528cb01cbf686b624e2fffe159ad5b6"/>
@@ -2594,9 +2602,10 @@
         <topic label="get_str_name" href="classPackLinuxElf64.html#acd825cbaf5a768993a7f0b90a24c7a4c"/>
         <topic label="getbrk" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466"/>
         <topic label="invert_pt_dynamic" href="classPackLinuxElf64.html#a34544f047b9808c7416a3a3666a7d6bb"/>
-        <topic label="is_LOAD64" href="classPackLinuxElf64.html#aa0c2c8ef98d3669846a7f666f6833698"/>
+        <topic label="is_LOAD" href="classPackLinuxElf64.html#a5e4e0a8150ba291145c388c9c00705ec"/>
         <topic label="pack1" href="classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215"/>
         <topic label="pack2" href="classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092"/>
+        <topic label="pack2_shlib" href="classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8"/>
         <topic label="pack3" href="classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562"/>
         <topic label="pack4" href="classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6"/>
         <topic label="packed_struct" href="classPackLinuxElf64.html#a426e7f90fc3af416c18a3deb0571e4b1"/>
@@ -5400,53 +5409,9 @@
                 </topic>
                 <topic label="64le" href="dir_f032a4240e362aab5af55c2fd9a57d52.html">
                   <topic label="ppc_regs.h" href="64le_2ppc__regs_8h.html">
-                    <topic label="a0" href="64le_2ppc__regs_8h.html#aa42b800f0f58b50bc7604c67cc2853ab"/>
-                    <topic label="a1" href="64le_2ppc__regs_8h.html#ab89a77e63a7226fffaecb2e2c2ab5219"/>
-                    <topic label="a2" href="64le_2ppc__regs_8h.html#aa3fd046b2956875cf908d73a51a96b42"/>
-                    <topic label="a3" href="64le_2ppc__regs_8h.html#a2ef3c16c90bcffd5105806b0180c9a96"/>
-                    <topic label="a4" href="64le_2ppc__regs_8h.html#a2b8a642c7d03d9500f5ebb221499ce79"/>
-                    <topic label="a5" href="64le_2ppc__regs_8h.html#a811a6ac39c7ac08798fc3912b2ba860c"/>
-                    <topic label="a6" href="64le_2ppc__regs_8h.html#afff5d0a619acbfdedf3395a931a2360e"/>
-                    <topic label="a7" href="64le_2ppc__regs_8h.html#a1056a87a63c31b5b4de93dae0579da17"/>
                     <topic label="call" href="64le_2ppc__regs_8h.html#af9e779149b6477f622e9b923005510c6"/>
                     <topic label="movr" href="64le_2ppc__regs_8h.html#a210fc44a2a212b77bb12786034941172"/>
-                    <topic label="r0" href="64le_2ppc__regs_8h.html#af8ef4632fb5325a43f9c31778135d450"/>
-                    <topic label="r1" href="64le_2ppc__regs_8h.html#a7eaf5903abe583c64f4324081140b84e"/>
-                    <topic label="r10" href="64le_2ppc__regs_8h.html#addd1a6d09b9980455df04553a102940d"/>
-                    <topic label="r11" href="64le_2ppc__regs_8h.html#aa3192e154c88f6cbdb22073187763c17"/>
-                    <topic label="r12" href="64le_2ppc__regs_8h.html#a2dcb739ee7e88f954fcdff1eff3dba8a"/>
-                    <topic label="r13" href="64le_2ppc__regs_8h.html#ac37a14f223d6b2f038b86a6316bf0999"/>
-                    <topic label="r14" href="64le_2ppc__regs_8h.html#ab0c60c4dc04a840c3cd4826a1cf057d8"/>
-                    <topic label="r15" href="64le_2ppc__regs_8h.html#a72e4f5e8aeb3c09325276c6eb023926a"/>
-                    <topic label="r16" href="64le_2ppc__regs_8h.html#a7d354e54a9284f8a7cb13ff7a7a4c510"/>
-                    <topic label="r17" href="64le_2ppc__regs_8h.html#ac412799a561a66bb9039689f901049dd"/>
-                    <topic label="r18" href="64le_2ppc__regs_8h.html#a43018bc8d63607a7670769a26b92d769"/>
-                    <topic label="r19" href="64le_2ppc__regs_8h.html#ac45edf66343c8976aad09bf63cebee32"/>
-                    <topic label="r2" href="64le_2ppc__regs_8h.html#a0700026d33d910874577324a49997947"/>
-                    <topic label="r20" href="64le_2ppc__regs_8h.html#a831308d6cf0fe84a489f3b12aa6f84ca"/>
-                    <topic label="r21" href="64le_2ppc__regs_8h.html#a5b9491dc2d26aa83bec4bbbf957d5779"/>
-                    <topic label="r22" href="64le_2ppc__regs_8h.html#a9faa48ab2a35ee5a726ee84c9c3b7c39"/>
-                    <topic label="r23" href="64le_2ppc__regs_8h.html#ad20d91e42b5b9bd91bafae792f721fe0"/>
-                    <topic label="r24" href="64le_2ppc__regs_8h.html#a501c8a2bdf4e0df96e6d7298f108a825"/>
-                    <topic label="r25" href="64le_2ppc__regs_8h.html#a43cc541afc0f2e6a10f4a96f9d8e5210"/>
-                    <topic label="r26" href="64le_2ppc__regs_8h.html#aa2b613ffe3d61df514568ba409d43f35"/>
-                    <topic label="r27" href="64le_2ppc__regs_8h.html#a311a4c2110ad750c2b1348016bcbfef7"/>
-                    <topic label="r28" href="64le_2ppc__regs_8h.html#a0f645eded19564ad420ee1f9fc376308"/>
-                    <topic label="r29" href="64le_2ppc__regs_8h.html#af54bc224f6bfd4d50955e85b3f7edb9e"/>
-                    <topic label="r3" href="64le_2ppc__regs_8h.html#af0a5572b5ba560a4e4548a2722d3c593"/>
-                    <topic label="r30" href="64le_2ppc__regs_8h.html#ab896ba78d799971de9b1d724f3ed2b02"/>
-                    <topic label="r31" href="64le_2ppc__regs_8h.html#afc3dd658b733702d244acb9f65e51ed6"/>
-                    <topic label="r4" href="64le_2ppc__regs_8h.html#ac2da134ec3ab777999b1d3cb16f35f49"/>
-                    <topic label="r5" href="64le_2ppc__regs_8h.html#af4cf2acff0caa8dcc94f9e94d16d5b0a"/>
-                    <topic label="r6" href="64le_2ppc__regs_8h.html#a76535c34ee377a9e0089c24ca39541e1"/>
-                    <topic label="r7" href="64le_2ppc__regs_8h.html#aa0ec33834abbd7797aeba23d238eb1f1"/>
-                    <topic label="r8" href="64le_2ppc__regs_8h.html#a6f1417813d47c867539dfc6bfbf45925"/>
-                    <topic label="r9" href="64le_2ppc__regs_8h.html#a39fd20c745a542aa90c2be9f75152ac8"/>
                     <topic label="ret" href="64le_2ppc__regs_8h.html#ae7b1d18a435dcca5e1837205e5fc909d"/>
-                    <topic label="sp" href="64le_2ppc__regs_8h.html#a8d40798874dab99986478ef00ff3e297"/>
-                    <topic label="t1" href="64le_2ppc__regs_8h.html#a65f7891fccbfcf7d08964555630773b3"/>
-                    <topic label="t2" href="64le_2ppc__regs_8h.html#aa4652e2d6053d420dcbea07a113db5fe"/>
-                    <topic label="t3" href="64le_2ppc__regs_8h.html#a71a491fa5f35065b954a3001ebed0f28"/>
                   </topic>
                 </topic>
               </topic>
@@ -5878,8 +5843,9 @@
                 <topic label="memfd_create" href="linux_8h.html#a28de42c227de9fcf562b40d606883036"/>
                 <topic label="mmap" href="linux_8h.html#aa1a3541b58911cb75c7d1e6b0f423fce"/>
                 <topic label="mprotect" href="linux_8h.html#a3fc441eed18702675b30e4dccf25bd87"/>
+                <topic label="msync" href="linux_8h.html#a469ba82bf1d59faf9963ce532cfff7ed"/>
                 <topic label="munmap" href="linux_8h.html#ae7ac779709d60cb74b14147536bf9127"/>
-                <topic label="open" href="linux_8h.html#aa8d4d8d536a0530d9109179453d5ae93"/>
+                <topic label="open" href="linux_8h.html#aaadfef36f5467aaabf53273408d33dfc"/>
                 <topic label="openat" href="linux_8h.html#a2df805e905944109a962a131b3813374"/>
                 <topic label="read" href="linux_8h.html#a8c673ae088139efcc2dfab1cbadff6f5"/>
                 <topic label="unlink" href="linux_8h.html#a6c7d9dab2af60c7bf5cc0ba58bda4e12"/>
@@ -5892,13 +5858,13 @@
             <topic label="STUB_AMD64_DARWIN_DYLIB_ENTRY_ADLER32" href="amd64-darwin_8dylib-entry_8h.html#a733d862b13eb29de7dc52341a432f53a"/>
             <topic label="STUB_AMD64_DARWIN_DYLIB_ENTRY_CRC32" href="amd64-darwin_8dylib-entry_8h.html#a6ebffd27215cfadea17ed252a6297ab4"/>
             <topic label="STUB_AMD64_DARWIN_DYLIB_ENTRY_SIZE" href="amd64-darwin_8dylib-entry_8h.html#a2609f96e881a198db50b89b5287e64a9"/>
-            <topic label="stub_amd64_darwin_dylib_entry" href="amd64-darwin_8dylib-entry_8h.html#a0d76d05f5d09ce0d3dbd62117a0c4c32"/>
+            <topic label="stub_amd64_darwin_dylib_entry" href="amd64-darwin_8dylib-entry_8h.html#a56fca4c5913f9b93b1827b6bcf7b3484"/>
           </topic>
           <topic label="amd64-darwin.macho-entry.h" href="amd64-darwin_8macho-entry_8h.html">
             <topic label="STUB_AMD64_DARWIN_MACHO_ENTRY_ADLER32" href="amd64-darwin_8macho-entry_8h.html#a791f2751d0650b8342b2bacd3ddf47d5"/>
             <topic label="STUB_AMD64_DARWIN_MACHO_ENTRY_CRC32" href="amd64-darwin_8macho-entry_8h.html#aacad95b3240ca07973f106f5e063d17e"/>
             <topic label="STUB_AMD64_DARWIN_MACHO_ENTRY_SIZE" href="amd64-darwin_8macho-entry_8h.html#ad2b5434915b6e4f669cdeee03749c319"/>
-            <topic label="stub_amd64_darwin_macho_entry" href="amd64-darwin_8macho-entry_8h.html#aed4f349bcd2e6a3465a0522547c6ba78"/>
+            <topic label="stub_amd64_darwin_macho_entry" href="amd64-darwin_8macho-entry_8h.html#aa8a641fc2ba0f6f12cef3ad627e00b56"/>
           </topic>
           <topic label="amd64-darwin.macho-fold.h" href="amd64-darwin_8macho-fold_8h.html">
             <topic label="STUB_AMD64_DARWIN_MACHO_FOLD_ADLER32" href="amd64-darwin_8macho-fold_8h.html#abd4e50920b882a0f1e53625719d2ecc5"/>
@@ -5916,25 +5882,25 @@
             <topic label="STUB_AMD64_LINUX_ELF_ENTRY_ADLER32" href="amd64-linux_8elf-entry_8h.html#ae08f2e0e747544c13bb630a0bf5c97a8"/>
             <topic label="STUB_AMD64_LINUX_ELF_ENTRY_CRC32" href="amd64-linux_8elf-entry_8h.html#ab1b87b98b0f3df19891947f85a72ade4"/>
             <topic label="STUB_AMD64_LINUX_ELF_ENTRY_SIZE" href="amd64-linux_8elf-entry_8h.html#aafe9d90f593f9dd078c026c3c15c9465"/>
-            <topic label="stub_amd64_linux_elf_entry" href="amd64-linux_8elf-entry_8h.html#aa5dc7f8ece132524e46ac707e2293cba"/>
+            <topic label="stub_amd64_linux_elf_entry" href="amd64-linux_8elf-entry_8h.html#a075b28f6ba4bd655fac789e5511f6eea"/>
           </topic>
           <topic label="amd64-linux.elf-fold.h" href="amd64-linux_8elf-fold_8h.html">
             <topic label="STUB_AMD64_LINUX_ELF_FOLD_ADLER32" href="amd64-linux_8elf-fold_8h.html#a5732b53141eaf58acc87d21a15d633e9"/>
             <topic label="STUB_AMD64_LINUX_ELF_FOLD_CRC32" href="amd64-linux_8elf-fold_8h.html#aafeb77fa7e42a8349c39192e898b7fa3"/>
             <topic label="STUB_AMD64_LINUX_ELF_FOLD_SIZE" href="amd64-linux_8elf-fold_8h.html#a7cb8df05d115d611ef1ecb3fe1990f2f"/>
-            <topic label="stub_amd64_linux_elf_fold" href="amd64-linux_8elf-fold_8h.html#af0e63afd15daecf10559b5914f417534"/>
+            <topic label="stub_amd64_linux_elf_fold" href="amd64-linux_8elf-fold_8h.html#a946b8875946c704033e4acacbd4eb407"/>
           </topic>
           <topic label="amd64-linux.elf-so_entry.h" href="amd64-linux_8elf-so__entry_8h.html">
             <topic label="STUB_AMD64_LINUX_ELF_SO_ENTRY_ADLER32" href="amd64-linux_8elf-so__entry_8h.html#a69afca7f3987e7c6b417af775556531b"/>
             <topic label="STUB_AMD64_LINUX_ELF_SO_ENTRY_CRC32" href="amd64-linux_8elf-so__entry_8h.html#aecad4e83d185ce8fbaf7f93fe236294a"/>
             <topic label="STUB_AMD64_LINUX_ELF_SO_ENTRY_SIZE" href="amd64-linux_8elf-so__entry_8h.html#ac0fe74f42cfcaa194084b7ef6fd7f3b1"/>
-            <topic label="stub_amd64_linux_elf_so_entry" href="amd64-linux_8elf-so__entry_8h.html#a5685caf307bf4651d2c6e353fd5be27c"/>
+            <topic label="stub_amd64_linux_elf_so_entry" href="amd64-linux_8elf-so__entry_8h.html#a2ee04dcd12ccdf3a5577fda9304cb04d"/>
           </topic>
           <topic label="amd64-linux.elf-so_fold.h" href="amd64-linux_8elf-so__fold_8h.html">
             <topic label="STUB_AMD64_LINUX_ELF_SO_FOLD_ADLER32" href="amd64-linux_8elf-so__fold_8h.html#a2e3296e0f5581f7a34794f5739f30841"/>
             <topic label="STUB_AMD64_LINUX_ELF_SO_FOLD_CRC32" href="amd64-linux_8elf-so__fold_8h.html#a7d6a5d47cefc4e1bacfe746498c61b3b"/>
             <topic label="STUB_AMD64_LINUX_ELF_SO_FOLD_SIZE" href="amd64-linux_8elf-so__fold_8h.html#a1a083d8d8e5298a96fabb13a34094328"/>
-            <topic label="stub_amd64_linux_elf_so_fold" href="amd64-linux_8elf-so__fold_8h.html#aeb0198f51a14302b44cf7f6ef6954c75"/>
+            <topic label="stub_amd64_linux_elf_so_fold" href="amd64-linux_8elf-so__fold_8h.html#ae175b85477a86e9f0170e3e8805b0191"/>
           </topic>
           <topic label="amd64-linux.kernel.vmlinux-head.h" href="amd64-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_AMD64_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="amd64-linux_8kernel_8vmlinux-head_8h.html#a98b7ca15de58a34fc21a0dff0cdb2bba"/>
@@ -5946,43 +5912,43 @@
             <topic label="STUB_AMD64_LINUX_KERNEL_VMLINUX_ADLER32" href="amd64-linux_8kernel_8vmlinux_8h.html#ac2246d05a419873b1314282865354367"/>
             <topic label="STUB_AMD64_LINUX_KERNEL_VMLINUX_CRC32" href="amd64-linux_8kernel_8vmlinux_8h.html#a79414ec5eadb5e0863cf0e329f2047c3"/>
             <topic label="STUB_AMD64_LINUX_KERNEL_VMLINUX_SIZE" href="amd64-linux_8kernel_8vmlinux_8h.html#a1a95c3fd43218c0b1172342b4473a399"/>
-            <topic label="stub_amd64_linux_kernel_vmlinux" href="amd64-linux_8kernel_8vmlinux_8h.html#ac8dccdf1f5091b6e5bfaf497ae2c2a54"/>
+            <topic label="stub_amd64_linux_kernel_vmlinux" href="amd64-linux_8kernel_8vmlinux_8h.html#ae8040df433151f5995e09a6143b8ed38"/>
           </topic>
           <topic label="amd64-linux.shlib-init.h" href="amd64-linux_8shlib-init_8h.html">
             <topic label="STUB_AMD64_LINUX_SHLIB_INIT_ADLER32" href="amd64-linux_8shlib-init_8h.html#a4ab4e54d1739269bebad614846b288a6"/>
             <topic label="STUB_AMD64_LINUX_SHLIB_INIT_CRC32" href="amd64-linux_8shlib-init_8h.html#a8865952565e900c1eb3616d2a838f366"/>
             <topic label="STUB_AMD64_LINUX_SHLIB_INIT_SIZE" href="amd64-linux_8shlib-init_8h.html#afc2f60684832c72fa48b8d104ade9cf8"/>
-            <topic label="stub_amd64_linux_shlib_init" href="amd64-linux_8shlib-init_8h.html#a07658df6b0fa86b05037447dff1602bb"/>
+            <topic label="stub_amd64_linux_shlib_init" href="amd64-linux_8shlib-init_8h.html#af289beda72f462681e305a5bd3f1447d"/>
           </topic>
           <topic label="amd64-win64.pe.h" href="amd64-win64_8pe_8h.html">
             <topic label="STUB_AMD64_WIN64_PE_ADLER32" href="amd64-win64_8pe_8h.html#a080d98d4e8e1f56e4da4b6ef1de1bd1a"/>
             <topic label="STUB_AMD64_WIN64_PE_CRC32" href="amd64-win64_8pe_8h.html#a46fd4d14e8ef0c86287646cc4b9559f2"/>
             <topic label="STUB_AMD64_WIN64_PE_SIZE" href="amd64-win64_8pe_8h.html#a72f92ee78917a78ddcf18a60503eeb8e"/>
-            <topic label="stub_amd64_win64_pe" href="amd64-win64_8pe_8h.html#a34335c6fbe5976acf6e770f40d297687"/>
+            <topic label="stub_amd64_win64_pe" href="amd64-win64_8pe_8h.html#ad57b2304a7d240f2bb656bfc20691784"/>
           </topic>
           <topic label="arm.v4a-linux.elf-entry.h" href="arm_8v4a-linux_8elf-entry_8h.html">
             <topic label="STUB_ARM_V4A_LINUX_ELF_ENTRY_ADLER32" href="arm_8v4a-linux_8elf-entry_8h.html#acadd59ae1eb0d74838e9f91360692843"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_ENTRY_CRC32" href="arm_8v4a-linux_8elf-entry_8h.html#abb110f40d33c6580dd611d65e3395b6e"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_ENTRY_SIZE" href="arm_8v4a-linux_8elf-entry_8h.html#a0ab38b76c425bb12075896b213268973"/>
-            <topic label="stub_arm_v4a_linux_elf_entry" href="arm_8v4a-linux_8elf-entry_8h.html#a4e723f5aacd488053067f27e1dd24e2a"/>
+            <topic label="stub_arm_v4a_linux_elf_entry" href="arm_8v4a-linux_8elf-entry_8h.html#a9a35a5baf20d2f5a854abe5f14f840e4"/>
           </topic>
           <topic label="arm.v4a-linux.elf-fold.h" href="arm_8v4a-linux_8elf-fold_8h.html">
             <topic label="STUB_ARM_V4A_LINUX_ELF_FOLD_ADLER32" href="arm_8v4a-linux_8elf-fold_8h.html#abd61af31924f4f192dde4c71a90efcaa"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_FOLD_CRC32" href="arm_8v4a-linux_8elf-fold_8h.html#af3879e880adc4ea48ed237b0417d6e6f"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_FOLD_SIZE" href="arm_8v4a-linux_8elf-fold_8h.html#a328e9ce2b5097fe2cc92edf40daa57d3"/>
-            <topic label="stub_arm_v4a_linux_elf_fold" href="arm_8v4a-linux_8elf-fold_8h.html#a6dd5d097f76a23dac09fe40caff0e071"/>
+            <topic label="stub_arm_v4a_linux_elf_fold" href="arm_8v4a-linux_8elf-fold_8h.html#abdf0831974df62ae97af91616588c0fe"/>
           </topic>
           <topic label="arm.v4a-linux.elf-so_entry.h" href="arm_8v4a-linux_8elf-so__entry_8h.html">
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_ENTRY_ADLER32" href="arm_8v4a-linux_8elf-so__entry_8h.html#aed7f15a0071d6e14abbc1a3e8b689caa"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_ENTRY_CRC32" href="arm_8v4a-linux_8elf-so__entry_8h.html#a921fc767113466371e803cb9ee47afe0"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_ENTRY_SIZE" href="arm_8v4a-linux_8elf-so__entry_8h.html#a12f92c36a2ded55eca82cf9d53bc2287"/>
-            <topic label="stub_arm_v4a_linux_elf_so_entry" href="arm_8v4a-linux_8elf-so__entry_8h.html#a329c2f8fab5c05255faa8f027fd0710c"/>
+            <topic label="stub_arm_v4a_linux_elf_so_entry" href="arm_8v4a-linux_8elf-so__entry_8h.html#a17bf040bdbacd2f1a0325dde11afcd62"/>
           </topic>
           <topic label="arm.v4a-linux.elf-so_fold.h" href="arm_8v4a-linux_8elf-so__fold_8h.html">
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_FOLD_ADLER32" href="arm_8v4a-linux_8elf-so__fold_8h.html#af7cf875d474a48dc3b88ef2f0d4099e4"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_FOLD_CRC32" href="arm_8v4a-linux_8elf-so__fold_8h.html#aafd3bb313096e4a4bd9f778108ed6a20"/>
             <topic label="STUB_ARM_V4A_LINUX_ELF_SO_FOLD_SIZE" href="arm_8v4a-linux_8elf-so__fold_8h.html#addbff98e92df6248689a97458ab6f969"/>
-            <topic label="stub_arm_v4a_linux_elf_so_fold" href="arm_8v4a-linux_8elf-so__fold_8h.html#afb83386e7b61acce4fcceee746b53eb7"/>
+            <topic label="stub_arm_v4a_linux_elf_so_fold" href="arm_8v4a-linux_8elf-so__fold_8h.html#a5785813337a96be32894495791fb5402"/>
           </topic>
           <topic label="arm.v4a-wince.pe.h" href="arm_8v4a-wince_8pe_8h.html">
             <topic label="STUB_ARM_V4A_WINCE_PE_ADLER32" href="arm_8v4a-wince_8pe_8h.html#a7e3e4c3ae53855533a4173feb6f94dbf"/>
@@ -6000,7 +5966,7 @@
             <topic label="STUB_ARM_V5A_DARWIN_MACHO_ENTRY_ADLER32" href="arm_8v5a-darwin_8macho-entry_8h.html#a56b4b9e7fc4356193c2b43857967fed7"/>
             <topic label="STUB_ARM_V5A_DARWIN_MACHO_ENTRY_CRC32" href="arm_8v5a-darwin_8macho-entry_8h.html#a3dc01e99d56ab4fc1111f039d8b482ef"/>
             <topic label="STUB_ARM_V5A_DARWIN_MACHO_ENTRY_SIZE" href="arm_8v5a-darwin_8macho-entry_8h.html#a5c87145f0efe4cecce31450783edaa02"/>
-            <topic label="stub_arm_v5a_darwin_macho_entry" href="arm_8v5a-darwin_8macho-entry_8h.html#a05656ef7bf059b296a229f65e07f6fdd"/>
+            <topic label="stub_arm_v5a_darwin_macho_entry" href="arm_8v5a-darwin_8macho-entry_8h.html#afca591e4257e2a30f14862a7a66d0bb2"/>
           </topic>
           <topic label="arm.v5a-darwin.macho-fold.h" href="arm_8v5a-darwin_8macho-fold_8h.html">
             <topic label="STUB_ARM_V5A_DARWIN_MACHO_FOLD_ADLER32" href="arm_8v5a-darwin_8macho-fold_8h.html#a1aeb5ea9e5d5b6374272fb12274fb471"/>
@@ -6012,25 +5978,25 @@
             <topic label="STUB_ARM_V5A_LINUX_ELF_ENTRY_ADLER32" href="arm_8v5a-linux_8elf-entry_8h.html#a3022fd7344f043f8f5941fe338f2e709"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_ENTRY_CRC32" href="arm_8v5a-linux_8elf-entry_8h.html#a17936ae0ba47c6580295dc214bb73100"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_ENTRY_SIZE" href="arm_8v5a-linux_8elf-entry_8h.html#a082507cfc144141af6e69bdd40bfdcda"/>
-            <topic label="stub_arm_v5a_linux_elf_entry" href="arm_8v5a-linux_8elf-entry_8h.html#a96b58769bb269ee23436e728b695d56a"/>
+            <topic label="stub_arm_v5a_linux_elf_entry" href="arm_8v5a-linux_8elf-entry_8h.html#aaf6c69a2d955f6a079422fad783e841b"/>
           </topic>
           <topic label="arm.v5a-linux.elf-fold.h" href="arm_8v5a-linux_8elf-fold_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_ELF_FOLD_ADLER32" href="arm_8v5a-linux_8elf-fold_8h.html#ab58a36c285ab9b7362e2a46c9933c66b"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_FOLD_CRC32" href="arm_8v5a-linux_8elf-fold_8h.html#a420e58b8d267398c0bf90556df69e700"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_FOLD_SIZE" href="arm_8v5a-linux_8elf-fold_8h.html#a51b4bbd27b2c8624b349547421fbc302"/>
-            <topic label="stub_arm_v5a_linux_elf_fold" href="arm_8v5a-linux_8elf-fold_8h.html#a571a0733ca02b2d9ce2b5a248e404458"/>
+            <topic label="stub_arm_v5a_linux_elf_fold" href="arm_8v5a-linux_8elf-fold_8h.html#a00df87ac98842a5eafb6a0637c586266"/>
           </topic>
           <topic label="arm.v5a-linux.elf-so_entry.h" href="arm_8v5a-linux_8elf-so__entry_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_ENTRY_ADLER32" href="arm_8v5a-linux_8elf-so__entry_8h.html#a4f3aad94a38480364f6b54d760a0e85c"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_ENTRY_CRC32" href="arm_8v5a-linux_8elf-so__entry_8h.html#a981af0b41692c44a40001eea1877d39a"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_ENTRY_SIZE" href="arm_8v5a-linux_8elf-so__entry_8h.html#a31d5b0e3fcb81c36dec0b9234a97647c"/>
-            <topic label="stub_arm_v5a_linux_elf_so_entry" href="arm_8v5a-linux_8elf-so__entry_8h.html#a43f12c82f0c8cc0b613a4e02df639602"/>
+            <topic label="stub_arm_v5a_linux_elf_so_entry" href="arm_8v5a-linux_8elf-so__entry_8h.html#ae18c7136cd2d439b50dfa871b0d6b902"/>
           </topic>
           <topic label="arm.v5a-linux.elf-so_fold.h" href="arm_8v5a-linux_8elf-so__fold_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_FOLD_ADLER32" href="arm_8v5a-linux_8elf-so__fold_8h.html#a6932f8519671ff89f63764927f9674e7"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_FOLD_CRC32" href="arm_8v5a-linux_8elf-so__fold_8h.html#af867972754ed32a563d6759f50e06a72"/>
             <topic label="STUB_ARM_V5A_LINUX_ELF_SO_FOLD_SIZE" href="arm_8v5a-linux_8elf-so__fold_8h.html#a9a635be8672209d8969387099520966a"/>
-            <topic label="stub_arm_v5a_linux_elf_so_fold" href="arm_8v5a-linux_8elf-so__fold_8h.html#a381dabb68e83bc08e87b7aad9de4664e"/>
+            <topic label="stub_arm_v5a_linux_elf_so_fold" href="arm_8v5a-linux_8elf-so__fold_8h.html#a05531685b3aed81366c739a14286db20"/>
           </topic>
           <topic label="arm.v5a-linux.kernel.vmlinux-head.h" href="arm_8v5a-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="arm_8v5a-linux_8kernel_8vmlinux-head_8h.html#ad46253b80a0372b9d77a1a12271e7e83"/>
@@ -6042,7 +6008,7 @@
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUX_ADLER32" href="arm_8v5a-linux_8kernel_8vmlinux_8h.html#a73e67636cc6b32fd1fcee89ea47cd732"/>
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUX_CRC32" href="arm_8v5a-linux_8kernel_8vmlinux_8h.html#a0ed27145ce409c2d0d9a7f3f48550d95"/>
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUX_SIZE" href="arm_8v5a-linux_8kernel_8vmlinux_8h.html#a9293265d8ea027ca91cd6a5890bfab99"/>
-            <topic label="stub_arm_v5a_linux_kernel_vmlinux" href="arm_8v5a-linux_8kernel_8vmlinux_8h.html#a163e07798d209ed15b6c75626b96dcf9"/>
+            <topic label="stub_arm_v5a_linux_kernel_vmlinux" href="arm_8v5a-linux_8kernel_8vmlinux_8h.html#ab9115644f6c456626fe60d851e270373"/>
           </topic>
           <topic label="arm.v5a-linux.kernel.vmlinuz-head.h" href="arm_8v5a-linux_8kernel_8vmlinuz-head_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUZ_HEAD_ADLER32" href="arm_8v5a-linux_8kernel_8vmlinuz-head_8h.html#a9d75317dbaab3a36718fcc603cdfec09"/>
@@ -6054,25 +6020,25 @@
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUZ_ADLER32" href="arm_8v5a-linux_8kernel_8vmlinuz_8h.html#a23cee5ccf4f4471a06f4e8092a56b3ea"/>
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUZ_CRC32" href="arm_8v5a-linux_8kernel_8vmlinuz_8h.html#ae8c179a19b2cf8f02b80f898a364d135"/>
             <topic label="STUB_ARM_V5A_LINUX_KERNEL_VMLINUZ_SIZE" href="arm_8v5a-linux_8kernel_8vmlinuz_8h.html#ae43038a05f0eae8942a34b7c2c4aad37"/>
-            <topic label="stub_arm_v5a_linux_kernel_vmlinuz" href="arm_8v5a-linux_8kernel_8vmlinuz_8h.html#a8050ee5115a954a1de219b32e0d8982c"/>
+            <topic label="stub_arm_v5a_linux_kernel_vmlinuz" href="arm_8v5a-linux_8kernel_8vmlinuz_8h.html#a9f9c178929aec96dd845e1a75a1c0b09"/>
           </topic>
           <topic label="arm.v5a-linux.shlib-init.h" href="arm_8v5a-linux_8shlib-init_8h.html">
             <topic label="STUB_ARM_V5A_LINUX_SHLIB_INIT_ADLER32" href="arm_8v5a-linux_8shlib-init_8h.html#ae5d2edea1b771dc4df28eaf99c80107a"/>
             <topic label="STUB_ARM_V5A_LINUX_SHLIB_INIT_CRC32" href="arm_8v5a-linux_8shlib-init_8h.html#ab814e52487b8f99973d82552408bec4f"/>
             <topic label="STUB_ARM_V5A_LINUX_SHLIB_INIT_SIZE" href="arm_8v5a-linux_8shlib-init_8h.html#a3f86fae9006ba2c7db28fdd8c19cfe44"/>
-            <topic label="stub_arm_v5a_linux_shlib_init" href="arm_8v5a-linux_8shlib-init_8h.html#ac67e92e9364f3481ead2dfdd944de14b"/>
+            <topic label="stub_arm_v5a_linux_shlib_init" href="arm_8v5a-linux_8shlib-init_8h.html#aac4d104e66d48f8602010044c123d984"/>
           </topic>
           <topic label="arm.v5t-linux.shlib-init.h" href="arm_8v5t-linux_8shlib-init_8h.html">
             <topic label="STUB_ARM_V5T_LINUX_SHLIB_INIT_ADLER32" href="arm_8v5t-linux_8shlib-init_8h.html#ada95c5b08060e02773639bc6c8a5d43d"/>
             <topic label="STUB_ARM_V5T_LINUX_SHLIB_INIT_CRC32" href="arm_8v5t-linux_8shlib-init_8h.html#af39d807351e200551d5d8e0faf9835fe"/>
             <topic label="STUB_ARM_V5T_LINUX_SHLIB_INIT_SIZE" href="arm_8v5t-linux_8shlib-init_8h.html#a12b51789127dd03ba5a10ec7ce950159"/>
-            <topic label="stub_arm_v5t_linux_shlib_init" href="arm_8v5t-linux_8shlib-init_8h.html#aebc8e9debeeda352a9bb83acaec2d1bf"/>
+            <topic label="stub_arm_v5t_linux_shlib_init" href="arm_8v5t-linux_8shlib-init_8h.html#aaa160720da577be49d33fbd24c841776"/>
           </topic>
           <topic label="arm64-darwin.macho-entry.h" href="arm64-darwin_8macho-entry_8h.html">
             <topic label="STUB_ARM64_DARWIN_MACHO_ENTRY_ADLER32" href="arm64-darwin_8macho-entry_8h.html#ac816d0988fef3319c60a43de73eadea8"/>
             <topic label="STUB_ARM64_DARWIN_MACHO_ENTRY_CRC32" href="arm64-darwin_8macho-entry_8h.html#a0f91e8ca57eb6991c9d2ed76d78cd022"/>
             <topic label="STUB_ARM64_DARWIN_MACHO_ENTRY_SIZE" href="arm64-darwin_8macho-entry_8h.html#a4dd4f4edbd45589c2293cee3302bed8c"/>
-            <topic label="stub_arm64_darwin_macho_entry" href="arm64-darwin_8macho-entry_8h.html#aa10c097cc3d659d02b94da172a3cb132"/>
+            <topic label="stub_arm64_darwin_macho_entry" href="arm64-darwin_8macho-entry_8h.html#a04777c147c845d951bf49259c7d30155"/>
           </topic>
           <topic label="arm64-darwin.macho-fold.h" href="arm64-darwin_8macho-fold_8h.html">
             <topic label="STUB_ARM64_DARWIN_MACHO_FOLD_ADLER32" href="arm64-darwin_8macho-fold_8h.html#ab7a0021e265184646f0f942ca34f9954"/>
@@ -6084,49 +6050,49 @@
             <topic label="STUB_ARM64_LINUX_ELF_ENTRY_ADLER32" href="arm64-linux_8elf-entry_8h.html#ad02a9cc1f3860a8cda256773e7a8d752"/>
             <topic label="STUB_ARM64_LINUX_ELF_ENTRY_CRC32" href="arm64-linux_8elf-entry_8h.html#aa677d04aec5e71b6d57e967f376c83b8"/>
             <topic label="STUB_ARM64_LINUX_ELF_ENTRY_SIZE" href="arm64-linux_8elf-entry_8h.html#afcb328b378b712d9f0a879fbf6a11fa6"/>
-            <topic label="stub_arm64_linux_elf_entry" href="arm64-linux_8elf-entry_8h.html#af78c92c5ae378bc7f5b88d3d4de5aea1"/>
+            <topic label="stub_arm64_linux_elf_entry" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506"/>
           </topic>
           <topic label="arm64-linux.elf-fold.h" href="arm64-linux_8elf-fold_8h.html">
             <topic label="STUB_ARM64_LINUX_ELF_FOLD_ADLER32" href="arm64-linux_8elf-fold_8h.html#a4dab7327e45fee2a816d8e1dfb4390e9"/>
             <topic label="STUB_ARM64_LINUX_ELF_FOLD_CRC32" href="arm64-linux_8elf-fold_8h.html#addc0e1b14b3056ade3ddaeaaee0fe73a"/>
             <topic label="STUB_ARM64_LINUX_ELF_FOLD_SIZE" href="arm64-linux_8elf-fold_8h.html#ae2f953313d723faf016c580a0caa23f3"/>
-            <topic label="stub_arm64_linux_elf_fold" href="arm64-linux_8elf-fold_8h.html#aa287c35bd66bf7fde4c7f8126d429247"/>
+            <topic label="stub_arm64_linux_elf_fold" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8"/>
           </topic>
           <topic label="arm64-linux.elf-so_entry.h" href="arm64-linux_8elf-so__entry_8h.html">
             <topic label="STUB_ARM64_LINUX_ELF_SO_ENTRY_ADLER32" href="arm64-linux_8elf-so__entry_8h.html#a2b01e089f39cbf2e24e3729ecf5fb089"/>
             <topic label="STUB_ARM64_LINUX_ELF_SO_ENTRY_CRC32" href="arm64-linux_8elf-so__entry_8h.html#a132278e8d617f6e8d25b40e8b779d82b"/>
             <topic label="STUB_ARM64_LINUX_ELF_SO_ENTRY_SIZE" href="arm64-linux_8elf-so__entry_8h.html#a95a84525e8aa1ad8e5c7b7e4223db3b2"/>
-            <topic label="stub_arm64_linux_elf_so_entry" href="arm64-linux_8elf-so__entry_8h.html#a3da1da83e93f09468f9f744bc981701d"/>
+            <topic label="stub_arm64_linux_elf_so_entry" href="arm64-linux_8elf-so__entry_8h.html#ac87b722453d2c953fd7e9e2cb3fcac9f"/>
           </topic>
           <topic label="arm64-linux.elf-so_fold.h" href="arm64-linux_8elf-so__fold_8h.html">
             <topic label="STUB_ARM64_LINUX_ELF_SO_FOLD_ADLER32" href="arm64-linux_8elf-so__fold_8h.html#ab9140fb29cc5438a45cf60fc8742a119"/>
             <topic label="STUB_ARM64_LINUX_ELF_SO_FOLD_CRC32" href="arm64-linux_8elf-so__fold_8h.html#aac7b1b43317cbd3ec698a206dcbe1dd1"/>
             <topic label="STUB_ARM64_LINUX_ELF_SO_FOLD_SIZE" href="arm64-linux_8elf-so__fold_8h.html#af35f3cc816297d876670ec1af6d5f5c9"/>
-            <topic label="stub_arm64_linux_elf_so_fold" href="arm64-linux_8elf-so__fold_8h.html#ac5e690c78904f8c3550a10378b780d65"/>
+            <topic label="stub_arm64_linux_elf_so_fold" href="arm64-linux_8elf-so__fold_8h.html#a455dfdbed115f5f644875604e8ece579"/>
           </topic>
           <topic label="arm64-linux.shlib-init.h" href="arm64-linux_8shlib-init_8h.html">
             <topic label="STUB_ARM64_LINUX_SHLIB_INIT_ADLER32" href="arm64-linux_8shlib-init_8h.html#ad188acc52b0ce2fdf96f1c77bb416362"/>
             <topic label="STUB_ARM64_LINUX_SHLIB_INIT_CRC32" href="arm64-linux_8shlib-init_8h.html#ad5a03dc4250503b07cc70b4e707fd28d"/>
             <topic label="STUB_ARM64_LINUX_SHLIB_INIT_SIZE" href="arm64-linux_8shlib-init_8h.html#a39069fef03293576f577b9e3ce443003"/>
-            <topic label="stub_arm64_linux_shlib_init" href="arm64-linux_8shlib-init_8h.html#ad1e5c453aacdd6cb4cc96785cac6626f"/>
+            <topic label="stub_arm64_linux_shlib_init" href="arm64-linux_8shlib-init_8h.html#ad566df86a2bf30cbc5d3db3e3480c0ec"/>
           </topic>
           <topic label="arm64-win64.pe.h" href="arm64-win64_8pe_8h.html">
             <topic label="STUB_ARM64_WIN64_PE_ADLER32" href="arm64-win64_8pe_8h.html#ae4505294a5eb56009101ab7d8ca3b6ea"/>
             <topic label="STUB_ARM64_WIN64_PE_CRC32" href="arm64-win64_8pe_8h.html#a7f6d80d87cd691c9a6660f87fc87b566"/>
             <topic label="STUB_ARM64_WIN64_PE_SIZE" href="arm64-win64_8pe_8h.html#abc1e627dc0a26b1451be5d3a975728d0"/>
-            <topic label="stub_arm64_win64_pe" href="arm64-win64_8pe_8h.html#a4cbbf6f505aef1178c743aacdb0ed679"/>
+            <topic label="stub_arm64_win64_pe" href="arm64-win64_8pe_8h.html#a999ff6289d7a06af1f0e9a48efd3711a"/>
           </topic>
           <topic label="armeb.v4a-linux.elf-entry.h" href="armeb_8v4a-linux_8elf-entry_8h.html">
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_ENTRY_ADLER32" href="armeb_8v4a-linux_8elf-entry_8h.html#abf1e780437060de58fd4e2317813ebd1"/>
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_ENTRY_CRC32" href="armeb_8v4a-linux_8elf-entry_8h.html#a1807970abdec1cf74d6e43002a53de7a"/>
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_ENTRY_SIZE" href="armeb_8v4a-linux_8elf-entry_8h.html#a08c9c75fbeded365b62fc120832bda6d"/>
-            <topic label="stub_armeb_v4a_linux_elf_entry" href="armeb_8v4a-linux_8elf-entry_8h.html#afec2a9c60c7c5dcf1c0317fb307ed117"/>
+            <topic label="stub_armeb_v4a_linux_elf_entry" href="armeb_8v4a-linux_8elf-entry_8h.html#a6d5b955d15a5e4aedeb532d0bffe574f"/>
           </topic>
           <topic label="armeb.v4a-linux.elf-fold.h" href="armeb_8v4a-linux_8elf-fold_8h.html">
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_FOLD_ADLER32" href="armeb_8v4a-linux_8elf-fold_8h.html#a7675cd7e9120b038485a9bff28a6c425"/>
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_FOLD_CRC32" href="armeb_8v4a-linux_8elf-fold_8h.html#a911b475c1c5f612c26af0741a7f45678"/>
             <topic label="STUB_ARMEB_V4A_LINUX_ELF_FOLD_SIZE" href="armeb_8v4a-linux_8elf-fold_8h.html#a5a671365d6861923dbc2b0424cb8d4cf"/>
-            <topic label="stub_armeb_v4a_linux_elf_fold" href="armeb_8v4a-linux_8elf-fold_8h.html#add62a80c74f9c8d6c842aea3233dbd7f"/>
+            <topic label="stub_armeb_v4a_linux_elf_fold" href="armeb_8v4a-linux_8elf-fold_8h.html#a35f0a54e2f18a4ad7b836e9cf059a45c"/>
           </topic>
           <topic label="armeb.v5a-linux.kernel.vmlinux-head.h" href="armeb_8v5a-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_ARMEB_V5A_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="armeb_8v5a-linux_8kernel_8vmlinux-head_8h.html#a89e17f648eaa093fa7bdab94f02dfeed"/>
@@ -6138,7 +6104,7 @@
             <topic label="STUB_ARMEB_V5A_LINUX_KERNEL_VMLINUX_ADLER32" href="armeb_8v5a-linux_8kernel_8vmlinux_8h.html#a74940d4a250d83fe9deabc2abcf1823c"/>
             <topic label="STUB_ARMEB_V5A_LINUX_KERNEL_VMLINUX_CRC32" href="armeb_8v5a-linux_8kernel_8vmlinux_8h.html#a2a6604dd1612deb49ed33a6000788c80"/>
             <topic label="STUB_ARMEB_V5A_LINUX_KERNEL_VMLINUX_SIZE" href="armeb_8v5a-linux_8kernel_8vmlinux_8h.html#abc4544aab1f13823a7f298468a130bcc"/>
-            <topic label="stub_armeb_v5a_linux_kernel_vmlinux" href="armeb_8v5a-linux_8kernel_8vmlinux_8h.html#a86977379f79c23ec7c2996682521d388"/>
+            <topic label="stub_armeb_v5a_linux_kernel_vmlinux" href="armeb_8v5a-linux_8kernel_8vmlinux_8h.html#a5234410a16cb82015c1dbe7608604849"/>
           </topic>
           <topic label="i086-dos16.com.h" href="i086-dos16_8com_8h.html">
             <topic label="STUB_I086_DOS16_COM_ADLER32" href="i086-dos16_8com_8h.html#afa841eb291b925bf4fbe7ae28c3a5d6f"/>
@@ -6162,37 +6128,37 @@
             <topic label="STUB_I386_BSD_ELF_ENTRY_ADLER32" href="i386-bsd_8elf-entry_8h.html#a46a6caf9bc98bd8136d46cc7d3f3fb9e"/>
             <topic label="STUB_I386_BSD_ELF_ENTRY_CRC32" href="i386-bsd_8elf-entry_8h.html#ad3b6f3a1dd1962e82cf099f658cb94e3"/>
             <topic label="STUB_I386_BSD_ELF_ENTRY_SIZE" href="i386-bsd_8elf-entry_8h.html#a11514211282b1bf2d4918e4095ac5a7b"/>
-            <topic label="stub_i386_bsd_elf_entry" href="i386-bsd_8elf-entry_8h.html#aa0a87bbf077c87bea0719d6650e9ce9e"/>
+            <topic label="stub_i386_bsd_elf_entry" href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781"/>
           </topic>
           <topic label="i386-bsd.elf-fold.h" href="i386-bsd_8elf-fold_8h.html">
             <topic label="STUB_I386_BSD_ELF_FOLD_ADLER32" href="i386-bsd_8elf-fold_8h.html#a71011cf636c1b56ef563d13a78b418bc"/>
             <topic label="STUB_I386_BSD_ELF_FOLD_CRC32" href="i386-bsd_8elf-fold_8h.html#a2eb65d3f7fdb61de80a017733497c93b"/>
             <topic label="STUB_I386_BSD_ELF_FOLD_SIZE" href="i386-bsd_8elf-fold_8h.html#af18c5055abda356aa5c183fd5f00909c"/>
-            <topic label="stub_i386_bsd_elf_fold" href="i386-bsd_8elf-fold_8h.html#a4821a834ae4f384f4e169b733fdf2b97"/>
+            <topic label="stub_i386_bsd_elf_fold" href="i386-bsd_8elf-fold_8h.html#ac1e27c0af92ab314e01f65307e33db1d"/>
           </topic>
           <topic label="i386-bsd.elf.execve-entry.h" href="i386-bsd_8elf_8execve-entry_8h.html">
             <topic label="STUB_I386_BSD_ELF_EXECVE_ENTRY_ADLER32" href="i386-bsd_8elf_8execve-entry_8h.html#a68d49fd4bc3ac72f941e7ef0bb3229c6"/>
             <topic label="STUB_I386_BSD_ELF_EXECVE_ENTRY_CRC32" href="i386-bsd_8elf_8execve-entry_8h.html#a720af2a1a9041aa18b153c231f70915f"/>
             <topic label="STUB_I386_BSD_ELF_EXECVE_ENTRY_SIZE" href="i386-bsd_8elf_8execve-entry_8h.html#a64e5e81e5e280d414d0679fb3965d496"/>
-            <topic label="stub_i386_bsd_elf_execve_entry" href="i386-bsd_8elf_8execve-entry_8h.html#a842191d0e37d0b0d828380b10be60f60"/>
+            <topic label="stub_i386_bsd_elf_execve_entry" href="i386-bsd_8elf_8execve-entry_8h.html#acf7d9c2871b13a10541e0b3254e35d68"/>
           </topic>
           <topic label="i386-bsd.elf.execve-fold.h" href="i386-bsd_8elf_8execve-fold_8h.html">
             <topic label="STUB_I386_BSD_ELF_EXECVE_FOLD_ADLER32" href="i386-bsd_8elf_8execve-fold_8h.html#ade7f303f8d9693546556ecb62ab11318"/>
             <topic label="STUB_I386_BSD_ELF_EXECVE_FOLD_CRC32" href="i386-bsd_8elf_8execve-fold_8h.html#ac2152a7762be96f192bff7754d0eaee0"/>
             <topic label="STUB_I386_BSD_ELF_EXECVE_FOLD_SIZE" href="i386-bsd_8elf_8execve-fold_8h.html#a023177895598d956b721513e03c0ed82"/>
-            <topic label="stub_i386_bsd_elf_execve_fold" href="i386-bsd_8elf_8execve-fold_8h.html#a176fc5e239efc4b7685742166d54a825"/>
+            <topic label="stub_i386_bsd_elf_execve_fold" href="i386-bsd_8elf_8execve-fold_8h.html#a85e68e4562d1b68f03bc5d5493091926"/>
           </topic>
           <topic label="i386-darwin.dylib-entry.h" href="i386-darwin_8dylib-entry_8h.html">
             <topic label="STUB_I386_DARWIN_DYLIB_ENTRY_ADLER32" href="i386-darwin_8dylib-entry_8h.html#a2472e8908bafcd295a980d7fa5451000"/>
             <topic label="STUB_I386_DARWIN_DYLIB_ENTRY_CRC32" href="i386-darwin_8dylib-entry_8h.html#ae0cf33957a40c18dbb7e7a5d4e992abd"/>
             <topic label="STUB_I386_DARWIN_DYLIB_ENTRY_SIZE" href="i386-darwin_8dylib-entry_8h.html#a0c330bafa82fd376131ac5d150a9496e"/>
-            <topic label="stub_i386_darwin_dylib_entry" href="i386-darwin_8dylib-entry_8h.html#a62b88ff97f2f42eb80c483342be6b4fa"/>
+            <topic label="stub_i386_darwin_dylib_entry" href="i386-darwin_8dylib-entry_8h.html#afec5fc6b0ef27f79a2da7bfdd2baa1ba"/>
           </topic>
           <topic label="i386-darwin.macho-entry.h" href="i386-darwin_8macho-entry_8h.html">
             <topic label="STUB_I386_DARWIN_MACHO_ENTRY_ADLER32" href="i386-darwin_8macho-entry_8h.html#a4b07f7f029520e02bb2d150bd0743da5"/>
             <topic label="STUB_I386_DARWIN_MACHO_ENTRY_CRC32" href="i386-darwin_8macho-entry_8h.html#a65f781dd9e19b8347fcc1605ccb2b945"/>
             <topic label="STUB_I386_DARWIN_MACHO_ENTRY_SIZE" href="i386-darwin_8macho-entry_8h.html#adcb6f62ee9470fb198a2d916b180f732"/>
-            <topic label="stub_i386_darwin_macho_entry" href="i386-darwin_8macho-entry_8h.html#ade2d22ad416eaa65978fc04a36daa337"/>
+            <topic label="stub_i386_darwin_macho_entry" href="i386-darwin_8macho-entry_8h.html#a5d5ba2161d9e9ec14d32d1fb26c7674f"/>
           </topic>
           <topic label="i386-darwin.macho-fold.h" href="i386-darwin_8macho-fold_8h.html">
             <topic label="STUB_I386_DARWIN_MACHO_FOLD_ADLER32" href="i386-darwin_8macho-fold_8h.html#ab8ffdf694901163e2808dfeee9b9c3d9"/>
@@ -6216,79 +6182,79 @@
             <topic label="STUB_I386_DOS32_DJGPP2_ADLER32" href="i386-dos32_8djgpp2_8h.html#a0871ebb313926cfdfb3653e2a9319d63"/>
             <topic label="STUB_I386_DOS32_DJGPP2_CRC32" href="i386-dos32_8djgpp2_8h.html#a1d58a4f822a8663d3087ffc2a583d82f"/>
             <topic label="STUB_I386_DOS32_DJGPP2_SIZE" href="i386-dos32_8djgpp2_8h.html#a0de7264f6db96760f64ff662c063156e"/>
-            <topic label="stub_i386_dos32_djgpp2" href="i386-dos32_8djgpp2_8h.html#af60eb3419916f3b32268ddd848f5c3c9"/>
+            <topic label="stub_i386_dos32_djgpp2" href="i386-dos32_8djgpp2_8h.html#a3169d9ce4faaee440eea444af2f73754"/>
           </topic>
           <topic label="i386-dos32.tmt.h" href="i386-dos32_8tmt_8h.html">
             <topic label="STUB_I386_DOS32_TMT_ADLER32" href="i386-dos32_8tmt_8h.html#a6f8a12fcc31564089bc18a58cc0c4501"/>
             <topic label="STUB_I386_DOS32_TMT_CRC32" href="i386-dos32_8tmt_8h.html#ab95ac1ed0ed3182669ca22a99a9cfb95"/>
             <topic label="STUB_I386_DOS32_TMT_SIZE" href="i386-dos32_8tmt_8h.html#a4df996994b72099e847b5c7c967c5b9b"/>
-            <topic label="stub_i386_dos32_tmt" href="i386-dos32_8tmt_8h.html#ae618a886a9a61fbae1a3c73b0094fbd9"/>
+            <topic label="stub_i386_dos32_tmt" href="i386-dos32_8tmt_8h.html#a54dc681d7164d4689314bc79714c46aa"/>
           </topic>
           <topic label="i386-dos32.watcom.le.h" href="i386-dos32_8watcom_8le_8h.html">
             <topic label="STUB_I386_DOS32_WATCOM_LE_ADLER32" href="i386-dos32_8watcom_8le_8h.html#a44d15e7f36e397b784483bcab97ce5eb"/>
             <topic label="STUB_I386_DOS32_WATCOM_LE_CRC32" href="i386-dos32_8watcom_8le_8h.html#a5f93e6e60021857ea7bf51046e4ccb8b"/>
             <topic label="STUB_I386_DOS32_WATCOM_LE_SIZE" href="i386-dos32_8watcom_8le_8h.html#aa9df2c9b15c3576ac01626ab89ad10e8"/>
-            <topic label="stub_i386_dos32_watcom_le" href="i386-dos32_8watcom_8le_8h.html#a955316d0bbc753d69571f480bce7ea8d"/>
+            <topic label="stub_i386_dos32_watcom_le" href="i386-dos32_8watcom_8le_8h.html#a58df06e0d50de4af81c96bd66db8edb6"/>
           </topic>
           <topic label="i386-linux.elf-entry.h" href="i386-linux_8elf-entry_8h.html">
             <topic label="STUB_I386_LINUX_ELF_ENTRY_ADLER32" href="i386-linux_8elf-entry_8h.html#a2b9ba93194354a4570b9a47feb8dc2dc"/>
             <topic label="STUB_I386_LINUX_ELF_ENTRY_CRC32" href="i386-linux_8elf-entry_8h.html#af7ab0389b8c9f635bb3496c6ef6454cb"/>
             <topic label="STUB_I386_LINUX_ELF_ENTRY_SIZE" href="i386-linux_8elf-entry_8h.html#afadb14400013d56281ff678cd861879a"/>
-            <topic label="stub_i386_linux_elf_entry" href="i386-linux_8elf-entry_8h.html#ab12b1a1778d9a20bf464e0a988f99689"/>
+            <topic label="stub_i386_linux_elf_entry" href="i386-linux_8elf-entry_8h.html#a70ce1c1cff994d4f62d58fe8a94f2a3a"/>
           </topic>
           <topic label="i386-linux.elf-fold.h" href="i386-linux_8elf-fold_8h.html">
             <topic label="STUB_I386_LINUX_ELF_FOLD_ADLER32" href="i386-linux_8elf-fold_8h.html#a113dc70529e0fe65943fc054d9f3f3b1"/>
             <topic label="STUB_I386_LINUX_ELF_FOLD_CRC32" href="i386-linux_8elf-fold_8h.html#af471c83c67baeab2dda631a7765c3eff"/>
             <topic label="STUB_I386_LINUX_ELF_FOLD_SIZE" href="i386-linux_8elf-fold_8h.html#a1c5cf13edd830e27a8e5568b2af1ae97"/>
-            <topic label="stub_i386_linux_elf_fold" href="i386-linux_8elf-fold_8h.html#ae86c660a60c95e80d05ff4a857a5ca8c"/>
+            <topic label="stub_i386_linux_elf_fold" href="i386-linux_8elf-fold_8h.html#a1609b6f3d4a22c12979ac31418a6fe66"/>
           </topic>
           <topic label="i386-linux.elf-so_entry.h" href="i386-linux_8elf-so__entry_8h.html">
             <topic label="STUB_I386_LINUX_ELF_SO_ENTRY_ADLER32" href="i386-linux_8elf-so__entry_8h.html#a9ca14766b027a6c031b1a1136d513c1f"/>
             <topic label="STUB_I386_LINUX_ELF_SO_ENTRY_CRC32" href="i386-linux_8elf-so__entry_8h.html#a1fa6b9be371efeafbfa7fabef1da1ba0"/>
             <topic label="STUB_I386_LINUX_ELF_SO_ENTRY_SIZE" href="i386-linux_8elf-so__entry_8h.html#a906979a8c6333b58db9599238a6b57c9"/>
-            <topic label="stub_i386_linux_elf_so_entry" href="i386-linux_8elf-so__entry_8h.html#a409f66ec0b507ab18cffab7eb042b101"/>
+            <topic label="stub_i386_linux_elf_so_entry" href="i386-linux_8elf-so__entry_8h.html#a11a00d40551fbdb29bbb354165be8e4f"/>
           </topic>
           <topic label="i386-linux.elf-so_fold.h" href="i386-linux_8elf-so__fold_8h.html">
             <topic label="STUB_I386_LINUX_ELF_SO_FOLD_ADLER32" href="i386-linux_8elf-so__fold_8h.html#a8c3c18dec7758b7e76d3da19363cc22e"/>
             <topic label="STUB_I386_LINUX_ELF_SO_FOLD_CRC32" href="i386-linux_8elf-so__fold_8h.html#adcb769c82bd3e6c7da67f359802e9ae4"/>
             <topic label="STUB_I386_LINUX_ELF_SO_FOLD_SIZE" href="i386-linux_8elf-so__fold_8h.html#a3a8a28905c4bd187c24daa6bb56a03d7"/>
-            <topic label="stub_i386_linux_elf_so_fold" href="i386-linux_8elf-so__fold_8h.html#ac980120964b8fd92c5a32d84bfb3bac5"/>
+            <topic label="stub_i386_linux_elf_so_fold" href="i386-linux_8elf-so__fold_8h.html#a3642ae276ed84552265214cd0ae3b4bd"/>
           </topic>
           <topic label="i386-linux.elf.execve-entry.h" href="i386-linux_8elf_8execve-entry_8h.html">
             <topic label="STUB_I386_LINUX_ELF_EXECVE_ENTRY_ADLER32" href="i386-linux_8elf_8execve-entry_8h.html#af3722357f3baa606ef63554d264ee5f7"/>
             <topic label="STUB_I386_LINUX_ELF_EXECVE_ENTRY_CRC32" href="i386-linux_8elf_8execve-entry_8h.html#ac39c9359ba8c5f75935e82e4b24a1361"/>
             <topic label="STUB_I386_LINUX_ELF_EXECVE_ENTRY_SIZE" href="i386-linux_8elf_8execve-entry_8h.html#afbf38de225d60450c7432f62df54b8e2"/>
-            <topic label="stub_i386_linux_elf_execve_entry" href="i386-linux_8elf_8execve-entry_8h.html#ab91052f363025406e9716ae77147c112"/>
+            <topic label="stub_i386_linux_elf_execve_entry" href="i386-linux_8elf_8execve-entry_8h.html#ab6e337e58738738e2cd97a8a90fcea8b"/>
           </topic>
           <topic label="i386-linux.elf.execve-fold.h" href="i386-linux_8elf_8execve-fold_8h.html">
             <topic label="STUB_I386_LINUX_ELF_EXECVE_FOLD_ADLER32" href="i386-linux_8elf_8execve-fold_8h.html#aeaf27c91a2edcffe2cb965658207cbb8"/>
             <topic label="STUB_I386_LINUX_ELF_EXECVE_FOLD_CRC32" href="i386-linux_8elf_8execve-fold_8h.html#ab7fde91036067dbfb3717349d8c750d0"/>
             <topic label="STUB_I386_LINUX_ELF_EXECVE_FOLD_SIZE" href="i386-linux_8elf_8execve-fold_8h.html#a8997837bfe63db4901e608a41aba1465"/>
-            <topic label="stub_i386_linux_elf_execve_fold" href="i386-linux_8elf_8execve-fold_8h.html#ad2052ddaf646aa2bbd1af0fc9edf6f23"/>
+            <topic label="stub_i386_linux_elf_execve_fold" href="i386-linux_8elf_8execve-fold_8h.html#ad36a3c89cc28ca172d9d629a5cae8212"/>
           </topic>
           <topic label="i386-linux.elf.interp-entry.h" href="i386-linux_8elf_8interp-entry_8h.html">
             <topic label="STUB_I386_LINUX_ELF_INTERP_ENTRY_ADLER32" href="i386-linux_8elf_8interp-entry_8h.html#af05332417113f479c02caab86a695a32"/>
             <topic label="STUB_I386_LINUX_ELF_INTERP_ENTRY_CRC32" href="i386-linux_8elf_8interp-entry_8h.html#ae4a40a8e4a010554dd6b2a98a3bf9ee2"/>
             <topic label="STUB_I386_LINUX_ELF_INTERP_ENTRY_SIZE" href="i386-linux_8elf_8interp-entry_8h.html#a31b8831e4900aec5fb23798a23699f57"/>
-            <topic label="stub_i386_linux_elf_interp_entry" href="i386-linux_8elf_8interp-entry_8h.html#a86ac2371e51feb13c672206cf1c293ec"/>
+            <topic label="stub_i386_linux_elf_interp_entry" href="i386-linux_8elf_8interp-entry_8h.html#ac07b5a2e7ff7ee4d37a8d5ca9f8ca62e"/>
           </topic>
           <topic label="i386-linux.elf.interp-fold.h" href="i386-linux_8elf_8interp-fold_8h.html">
             <topic label="STUB_I386_LINUX_ELF_INTERP_FOLD_ADLER32" href="i386-linux_8elf_8interp-fold_8h.html#af073da6dad93dc35049a1e88af96eba3"/>
             <topic label="STUB_I386_LINUX_ELF_INTERP_FOLD_CRC32" href="i386-linux_8elf_8interp-fold_8h.html#a1fe972e417c9848a40903d54e3dc859d"/>
             <topic label="STUB_I386_LINUX_ELF_INTERP_FOLD_SIZE" href="i386-linux_8elf_8interp-fold_8h.html#ae04c342b14843d883e8fbd9f6f63a7d4"/>
-            <topic label="stub_i386_linux_elf_interp_fold" href="i386-linux_8elf_8interp-fold_8h.html#aba9212d6eb41d038e01ca47511e7630b"/>
+            <topic label="stub_i386_linux_elf_interp_fold" href="i386-linux_8elf_8interp-fold_8h.html#a384aaa4c06a8c66c26d748c16daa2702"/>
           </topic>
           <topic label="i386-linux.elf.shell-entry.h" href="i386-linux_8elf_8shell-entry_8h.html">
             <topic label="STUB_I386_LINUX_ELF_SHELL_ENTRY_ADLER32" href="i386-linux_8elf_8shell-entry_8h.html#a8230d384b32edd86a23663484b9fa8ad"/>
             <topic label="STUB_I386_LINUX_ELF_SHELL_ENTRY_CRC32" href="i386-linux_8elf_8shell-entry_8h.html#a0bb27902e6c9145690a1100f8a820038"/>
             <topic label="STUB_I386_LINUX_ELF_SHELL_ENTRY_SIZE" href="i386-linux_8elf_8shell-entry_8h.html#a3b2244934ef9aed21c06fa0384edc3e5"/>
-            <topic label="stub_i386_linux_elf_shell_entry" href="i386-linux_8elf_8shell-entry_8h.html#aaba3790a267550f669a9dca2cdf2b90d"/>
+            <topic label="stub_i386_linux_elf_shell_entry" href="i386-linux_8elf_8shell-entry_8h.html#a271a542a56d2b7ac3b8e32bb053ac1c6"/>
           </topic>
           <topic label="i386-linux.elf.shell-fold.h" href="i386-linux_8elf_8shell-fold_8h.html">
             <topic label="STUB_I386_LINUX_ELF_SHELL_FOLD_ADLER32" href="i386-linux_8elf_8shell-fold_8h.html#aed39d95eb6fdea128df690a5006b6abf"/>
             <topic label="STUB_I386_LINUX_ELF_SHELL_FOLD_CRC32" href="i386-linux_8elf_8shell-fold_8h.html#a128164b032a8630bb0a277ab0bec3aea"/>
             <topic label="STUB_I386_LINUX_ELF_SHELL_FOLD_SIZE" href="i386-linux_8elf_8shell-fold_8h.html#a4673b44497bc302c5a6285760366c05f"/>
-            <topic label="stub_i386_linux_elf_shell_fold" href="i386-linux_8elf_8shell-fold_8h.html#a0f5383d68f24a8af303b16724a13b576"/>
+            <topic label="stub_i386_linux_elf_shell_fold" href="i386-linux_8elf_8shell-fold_8h.html#a1f4f7b6068a3aac7f3c44121f5bb9986"/>
           </topic>
           <topic label="i386-linux.kernel.vmlinux-head.h" href="i386-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="i386-linux_8kernel_8vmlinux-head_8h.html#acb5f160e1b317217dcb76223fdea3c24"/>
@@ -6300,43 +6266,43 @@
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUX_ADLER32" href="i386-linux_8kernel_8vmlinux_8h.html#ad1f639689c421e70c2734ce3243a3fa5"/>
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUX_CRC32" href="i386-linux_8kernel_8vmlinux_8h.html#a653b3900e48fd89d6041b2b7468b65f1"/>
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUX_SIZE" href="i386-linux_8kernel_8vmlinux_8h.html#a119bd1921de4111bb6d4f94da488f836"/>
-            <topic label="stub_i386_linux_kernel_vmlinux" href="i386-linux_8kernel_8vmlinux_8h.html#a47a7d269fe54d32153f419dc3147ba96"/>
+            <topic label="stub_i386_linux_kernel_vmlinux" href="i386-linux_8kernel_8vmlinux_8h.html#a209319fb349b279e6745b1d3083c264f"/>
           </topic>
           <topic label="i386-linux.kernel.vmlinuz.h" href="i386-linux_8kernel_8vmlinuz_8h.html">
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUZ_ADLER32" href="i386-linux_8kernel_8vmlinuz_8h.html#a410fe118ebd81f5eb183e169876047e0"/>
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUZ_CRC32" href="i386-linux_8kernel_8vmlinuz_8h.html#a5a4269c16c0b906cd6d10f367b5cb3c2"/>
             <topic label="STUB_I386_LINUX_KERNEL_VMLINUZ_SIZE" href="i386-linux_8kernel_8vmlinuz_8h.html#acd9f5c86641f273cec93dd93ade6ef3e"/>
-            <topic label="stub_i386_linux_kernel_vmlinuz" href="i386-linux_8kernel_8vmlinuz_8h.html#a2b713e650eeb82daf0dfaf7a3eb3e197"/>
+            <topic label="stub_i386_linux_kernel_vmlinuz" href="i386-linux_8kernel_8vmlinuz_8h.html#add060c24a057ea17e57b69f81589e1ce"/>
           </topic>
           <topic label="i386-linux.shlib-init.h" href="i386-linux_8shlib-init_8h.html">
             <topic label="STUB_I386_LINUX_SHLIB_INIT_ADLER32" href="i386-linux_8shlib-init_8h.html#a6c6667a9a41c70033c7ead1ccc41975c"/>
             <topic label="STUB_I386_LINUX_SHLIB_INIT_CRC32" href="i386-linux_8shlib-init_8h.html#aa8551fff2a6e374a351ef3c3c28cd413"/>
             <topic label="STUB_I386_LINUX_SHLIB_INIT_SIZE" href="i386-linux_8shlib-init_8h.html#ae12aeba0c10f12a01a19a5cbba1c73d5"/>
-            <topic label="stub_i386_linux_shlib_init" href="i386-linux_8shlib-init_8h.html#a5486ffe31698feba86b08df929b07798"/>
+            <topic label="stub_i386_linux_shlib_init" href="i386-linux_8shlib-init_8h.html#a462842fbc8f408723ca353914a474353"/>
           </topic>
           <topic label="i386-netbsd.elf-entry.h" href="i386-netbsd_8elf-entry_8h.html">
             <topic label="STUB_I386_NETBSD_ELF_ENTRY_ADLER32" href="i386-netbsd_8elf-entry_8h.html#a6042871842c20701c89f536f72df8e3b"/>
             <topic label="STUB_I386_NETBSD_ELF_ENTRY_CRC32" href="i386-netbsd_8elf-entry_8h.html#a9362651afc7a6987ebb19b2417c8703c"/>
             <topic label="STUB_I386_NETBSD_ELF_ENTRY_SIZE" href="i386-netbsd_8elf-entry_8h.html#a9b6769a3984eb9d61918b0f85a9ea852"/>
-            <topic label="stub_i386_netbsd_elf_entry" href="i386-netbsd_8elf-entry_8h.html#aeef13a8d5f0dcdd22b9d1a0346abba05"/>
+            <topic label="stub_i386_netbsd_elf_entry" href="i386-netbsd_8elf-entry_8h.html#a9f7def1a2c11323ef3d68dd23fa9d2a4"/>
           </topic>
           <topic label="i386-netbsd.elf-fold.h" href="i386-netbsd_8elf-fold_8h.html">
             <topic label="STUB_I386_NETBSD_ELF_FOLD_ADLER32" href="i386-netbsd_8elf-fold_8h.html#af5653b616836f05ae3a3e94e2a6199f0"/>
             <topic label="STUB_I386_NETBSD_ELF_FOLD_CRC32" href="i386-netbsd_8elf-fold_8h.html#a144210490bcb96f1d0c505ec3dde326b"/>
             <topic label="STUB_I386_NETBSD_ELF_FOLD_SIZE" href="i386-netbsd_8elf-fold_8h.html#a77559014ef9c2b35495af3a9d707e270"/>
-            <topic label="stub_i386_netbsd_elf_fold" href="i386-netbsd_8elf-fold_8h.html#a7393da3b2dd65c9a1cc14f226cedf607"/>
+            <topic label="stub_i386_netbsd_elf_fold" href="i386-netbsd_8elf-fold_8h.html#afaadc5e358635353f99e1c659e61a580"/>
           </topic>
           <topic label="i386-openbsd.elf-fold.h" href="i386-openbsd_8elf-fold_8h.html">
             <topic label="STUB_I386_OPENBSD_ELF_FOLD_ADLER32" href="i386-openbsd_8elf-fold_8h.html#a0129d3dd0518582b06880242e04783bb"/>
             <topic label="STUB_I386_OPENBSD_ELF_FOLD_CRC32" href="i386-openbsd_8elf-fold_8h.html#a38fea47239ca16d1b3d6bae312c56910"/>
             <topic label="STUB_I386_OPENBSD_ELF_FOLD_SIZE" href="i386-openbsd_8elf-fold_8h.html#a5d1f84a21daef09f25de322e0578ac85"/>
-            <topic label="stub_i386_openbsd_elf_fold" href="i386-openbsd_8elf-fold_8h.html#a4ad6eba572810b75ed20b21045dd7f12"/>
+            <topic label="stub_i386_openbsd_elf_fold" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b"/>
           </topic>
           <topic label="i386-win32.pe.h" href="i386-win32_8pe_8h.html">
             <topic label="STUB_I386_WIN32_PE_ADLER32" href="i386-win32_8pe_8h.html#a9420aa91bdfa90b996c44534a52101de"/>
             <topic label="STUB_I386_WIN32_PE_CRC32" href="i386-win32_8pe_8h.html#acf629a83aa3d7fde59d704ccc97506e3"/>
             <topic label="STUB_I386_WIN32_PE_SIZE" href="i386-win32_8pe_8h.html#ad7988ddd6f7066bbb3243785acbfa2ac"/>
-            <topic label="stub_i386_win32_pe" href="i386-win32_8pe_8h.html#a62c1dfd5503bf9e4211d4b3fc8c4d9e5"/>
+            <topic label="stub_i386_win32_pe" href="i386-win32_8pe_8h.html#a02d93a1b7405fb4309dba6e8fe784c29"/>
           </topic>
           <topic label="m68k-atari.tos.h" href="m68k-atari_8tos_8h.html">
             <topic label="STUB_M68K_ATARI_TOS_ADLER32" href="m68k-atari_8tos_8h.html#af038eb0e47e96d75f9e58abab02812f4"/>
@@ -6348,43 +6314,43 @@
             <topic label="STUB_MIPS_R3000_LINUX_ELF_ENTRY_ADLER32" href="mips_8r3000-linux_8elf-entry_8h.html#a63d1c74d51cbd3ca0bfd481c3e3a8670"/>
             <topic label="STUB_MIPS_R3000_LINUX_ELF_ENTRY_CRC32" href="mips_8r3000-linux_8elf-entry_8h.html#ac7fe2ab9ad8e8babdf887f227e93d1be"/>
             <topic label="STUB_MIPS_R3000_LINUX_ELF_ENTRY_SIZE" href="mips_8r3000-linux_8elf-entry_8h.html#a82747a778c98eccdf338737b0bf18c1e"/>
-            <topic label="stub_mips_r3000_linux_elf_entry" href="mips_8r3000-linux_8elf-entry_8h.html#ae0bc04ce03409a3a9c3dd8202c04a1f0"/>
+            <topic label="stub_mips_r3000_linux_elf_entry" href="mips_8r3000-linux_8elf-entry_8h.html#a7fb6cf0fea3c99d94444b17db23da6db"/>
           </topic>
           <topic label="mips.r3000-linux.elf-fold.h" href="mips_8r3000-linux_8elf-fold_8h.html">
             <topic label="STUB_MIPS_R3000_LINUX_ELF_FOLD_ADLER32" href="mips_8r3000-linux_8elf-fold_8h.html#a49e17536d297d0e027cbbe8224dafa7d"/>
             <topic label="STUB_MIPS_R3000_LINUX_ELF_FOLD_CRC32" href="mips_8r3000-linux_8elf-fold_8h.html#a0512cfe2093ebb95463e3ce455a733d9"/>
             <topic label="STUB_MIPS_R3000_LINUX_ELF_FOLD_SIZE" href="mips_8r3000-linux_8elf-fold_8h.html#a134794b428c8d3a8da2cf561e2a45f9d"/>
-            <topic label="stub_mips_r3000_linux_elf_fold" href="mips_8r3000-linux_8elf-fold_8h.html#a668e7e71ae49baa9cf44967eb1023656"/>
+            <topic label="stub_mips_r3000_linux_elf_fold" href="mips_8r3000-linux_8elf-fold_8h.html#a6901374baea19b0111e095a78418f9a8"/>
           </topic>
           <topic label="mips.r3000-linux.shlib-init.h" href="mips_8r3000-linux_8shlib-init_8h.html">
             <topic label="STUB_MIPS_R3000_LINUX_SHLIB_INIT_ADLER32" href="mips_8r3000-linux_8shlib-init_8h.html#a8a5f3fd967dbf164b135d9889b4ab20a"/>
             <topic label="STUB_MIPS_R3000_LINUX_SHLIB_INIT_CRC32" href="mips_8r3000-linux_8shlib-init_8h.html#a0593df7a1e6b65fcf5c0b8cf57951e61"/>
             <topic label="STUB_MIPS_R3000_LINUX_SHLIB_INIT_SIZE" href="mips_8r3000-linux_8shlib-init_8h.html#a42c1d46ee2929bdba619d777f8d1f057"/>
-            <topic label="stub_mips_r3000_linux_shlib_init" href="mips_8r3000-linux_8shlib-init_8h.html#ad70ff46d61aa2886d0c69615567d959e"/>
+            <topic label="stub_mips_r3000_linux_shlib_init" href="mips_8r3000-linux_8shlib-init_8h.html#abdba2619003a95c4bd8941be84041400"/>
           </topic>
           <topic label="mipsel.r3000-linux.elf-entry.h" href="mipsel_8r3000-linux_8elf-entry_8h.html">
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_ENTRY_ADLER32" href="mipsel_8r3000-linux_8elf-entry_8h.html#ad57b8b2bd2318f919004c60c104da7b0"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_ENTRY_CRC32" href="mipsel_8r3000-linux_8elf-entry_8h.html#a26269b8cf49b8c7d61c279dfa51bc0fd"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_ENTRY_SIZE" href="mipsel_8r3000-linux_8elf-entry_8h.html#aae4769121229f0778d514642c85df912"/>
-            <topic label="stub_mipsel_r3000_linux_elf_entry" href="mipsel_8r3000-linux_8elf-entry_8h.html#a6330f494abc6431478fc288d8fc17623"/>
+            <topic label="stub_mipsel_r3000_linux_elf_entry" href="mipsel_8r3000-linux_8elf-entry_8h.html#af59a858520292a68122175aa49987241"/>
           </topic>
           <topic label="mipsel.r3000-linux.elf-fold.h" href="mipsel_8r3000-linux_8elf-fold_8h.html">
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_FOLD_ADLER32" href="mipsel_8r3000-linux_8elf-fold_8h.html#a732a912f4066ee7919c8206031e2358a"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_FOLD_CRC32" href="mipsel_8r3000-linux_8elf-fold_8h.html#a28aa1bf1ae74de1b5d6148e9b58a78c3"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_ELF_FOLD_SIZE" href="mipsel_8r3000-linux_8elf-fold_8h.html#a7e38eda5fdad91489f725188c71783bb"/>
-            <topic label="stub_mipsel_r3000_linux_elf_fold" href="mipsel_8r3000-linux_8elf-fold_8h.html#abb9989e35df8c3f588ce63d0663250fe"/>
+            <topic label="stub_mipsel_r3000_linux_elf_fold" href="mipsel_8r3000-linux_8elf-fold_8h.html#a47d1a4645c351fb2a17147ced2c261f5"/>
           </topic>
           <topic label="mipsel.r3000-linux.shlib-init.h" href="mipsel_8r3000-linux_8shlib-init_8h.html">
             <topic label="STUB_MIPSEL_R3000_LINUX_SHLIB_INIT_ADLER32" href="mipsel_8r3000-linux_8shlib-init_8h.html#af110b964175bd7330e640859587391af"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_SHLIB_INIT_CRC32" href="mipsel_8r3000-linux_8shlib-init_8h.html#a32b1c76ed725e5036e51097edc7b424b"/>
             <topic label="STUB_MIPSEL_R3000_LINUX_SHLIB_INIT_SIZE" href="mipsel_8r3000-linux_8shlib-init_8h.html#aa1ea42767a7c9e8c5d5297108a260510"/>
-            <topic label="stub_mipsel_r3000_linux_shlib_init" href="mipsel_8r3000-linux_8shlib-init_8h.html#a58a46914b55accf127e86702d4312377"/>
+            <topic label="stub_mipsel_r3000_linux_shlib_init" href="mipsel_8r3000-linux_8shlib-init_8h.html#a8422208063a1364b155644ae5ede529d"/>
           </topic>
           <topic label="mipsel.r3000-ps1.h" href="mipsel_8r3000-ps1_8h.html">
             <topic label="STUB_MIPSEL_R3000_PS1_ADLER32" href="mipsel_8r3000-ps1_8h.html#a309f564df4f253bef72e8a8ad2cd41db"/>
             <topic label="STUB_MIPSEL_R3000_PS1_CRC32" href="mipsel_8r3000-ps1_8h.html#a4a771b238c0f2c932d1bd008f2de9553"/>
             <topic label="STUB_MIPSEL_R3000_PS1_SIZE" href="mipsel_8r3000-ps1_8h.html#a162e2f9a634b9dd279d58d68477768a5"/>
-            <topic label="stub_mipsel_r3000_ps1" href="mipsel_8r3000-ps1_8h.html#a9da505ce9bd2ef9df9d766978bfa52f4"/>
+            <topic label="stub_mipsel_r3000_ps1" href="mipsel_8r3000-ps1_8h.html#a05c91f0d1851aa1863fd1b2d7029dff2"/>
           </topic>
           <topic label="powerpc-darwin.dylib-entry.h" href="powerpc-darwin_8dylib-entry_8h.html">
             <topic label="STUB_POWERPC_DARWIN_DYLIB_ENTRY_ADLER32" href="powerpc-darwin_8dylib-entry_8h.html#aad7a72ea436d9c91e6e492b7015cbf5e"/>
@@ -6414,13 +6380,13 @@
             <topic label="STUB_POWERPC_LINUX_ELF_ENTRY_ADLER32" href="powerpc-linux_8elf-entry_8h.html#acd60d0cd7e27365069db26a4b569a5a6"/>
             <topic label="STUB_POWERPC_LINUX_ELF_ENTRY_CRC32" href="powerpc-linux_8elf-entry_8h.html#a0e8ce5aaedab8b25dff2f0b5b02499e9"/>
             <topic label="STUB_POWERPC_LINUX_ELF_ENTRY_SIZE" href="powerpc-linux_8elf-entry_8h.html#a0e2648a15719ff3387aaaebeee69e63d"/>
-            <topic label="stub_powerpc_linux_elf_entry" href="powerpc-linux_8elf-entry_8h.html#a375a7b779b948929f44b9fcf2f124f63"/>
+            <topic label="stub_powerpc_linux_elf_entry" href="powerpc-linux_8elf-entry_8h.html#ac6ecbbc845fa8978ab956f8a287d8140"/>
           </topic>
           <topic label="powerpc-linux.elf-fold.h" href="powerpc-linux_8elf-fold_8h.html">
             <topic label="STUB_POWERPC_LINUX_ELF_FOLD_ADLER32" href="powerpc-linux_8elf-fold_8h.html#a4ddf8df5f846db021212e23ef53ea27a"/>
             <topic label="STUB_POWERPC_LINUX_ELF_FOLD_CRC32" href="powerpc-linux_8elf-fold_8h.html#ae44abb6a9bfa1eebe13f3fdbe22976a6"/>
             <topic label="STUB_POWERPC_LINUX_ELF_FOLD_SIZE" href="powerpc-linux_8elf-fold_8h.html#a5d95a6c693db1a03fb9ca4aa9837fb27"/>
-            <topic label="stub_powerpc_linux_elf_fold" href="powerpc-linux_8elf-fold_8h.html#a389dbd5241687b2cf199179eff110e47"/>
+            <topic label="stub_powerpc_linux_elf_fold" href="powerpc-linux_8elf-fold_8h.html#a38707dc524edeb70948de6ba8f292453"/>
           </topic>
           <topic label="powerpc-linux.kernel.vmlinux-head.h" href="powerpc-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_POWERPC_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="powerpc-linux_8kernel_8vmlinux-head_8h.html#a1f8370c538ef1931cdb331e3ba9c9cc7"/>
@@ -6456,25 +6422,25 @@
             <topic label="STUB_POWERPC64_LINUX_ELF_ENTRY_ADLER32" href="powerpc64-linux_8elf-entry_8h.html#ac60bd4784eba77e8a78e959ec172e37d"/>
             <topic label="STUB_POWERPC64_LINUX_ELF_ENTRY_CRC32" href="powerpc64-linux_8elf-entry_8h.html#a2d94172f5fa5bc7092ca49c8fba85a01"/>
             <topic label="STUB_POWERPC64_LINUX_ELF_ENTRY_SIZE" href="powerpc64-linux_8elf-entry_8h.html#a643885302945a49ae9a5e4df3a50c0ec"/>
-            <topic label="stub_powerpc64_linux_elf_entry" href="powerpc64-linux_8elf-entry_8h.html#aa8087cff031d54e314955f078b3bcb81"/>
+            <topic label="stub_powerpc64_linux_elf_entry" href="powerpc64-linux_8elf-entry_8h.html#aefe502d746748227ece54c7f5df9958a"/>
           </topic>
           <topic label="powerpc64-linux.elf-fold.h" href="powerpc64-linux_8elf-fold_8h.html">
             <topic label="STUB_POWERPC64_LINUX_ELF_FOLD_ADLER32" href="powerpc64-linux_8elf-fold_8h.html#a10af775bd533f760277221944b95fd5d"/>
             <topic label="STUB_POWERPC64_LINUX_ELF_FOLD_CRC32" href="powerpc64-linux_8elf-fold_8h.html#a838889af523173b71a586488aed1c1c5"/>
             <topic label="STUB_POWERPC64_LINUX_ELF_FOLD_SIZE" href="powerpc64-linux_8elf-fold_8h.html#a3efd5a40b6d05d5a4b10340a900f8182"/>
-            <topic label="stub_powerpc64_linux_elf_fold" href="powerpc64-linux_8elf-fold_8h.html#a856053157c9a665dafea5ac9107a3b85"/>
+            <topic label="stub_powerpc64_linux_elf_fold" href="powerpc64-linux_8elf-fold_8h.html#a9ad2822c66a7eab93fdcc69063a7fe89"/>
           </topic>
           <topic label="powerpc64le-linux.elf-entry.h" href="powerpc64le-linux_8elf-entry_8h.html">
             <topic label="STUB_POWERPC64LE_LINUX_ELF_ENTRY_ADLER32" href="powerpc64le-linux_8elf-entry_8h.html#a471fd29e57d7b55a5e809682e67b4e7f"/>
             <topic label="STUB_POWERPC64LE_LINUX_ELF_ENTRY_CRC32" href="powerpc64le-linux_8elf-entry_8h.html#a71ab1492c4ef2006db094a749807c74b"/>
             <topic label="STUB_POWERPC64LE_LINUX_ELF_ENTRY_SIZE" href="powerpc64le-linux_8elf-entry_8h.html#a56a8de7b9fd3390c77ae930672d7ab67"/>
-            <topic label="stub_powerpc64le_linux_elf_entry" href="powerpc64le-linux_8elf-entry_8h.html#a50e588c44920358997bf4e6020811fb8"/>
+            <topic label="stub_powerpc64le_linux_elf_entry" href="powerpc64le-linux_8elf-entry_8h.html#aea1fb8257acbecc57d74d2d92324a6f6"/>
           </topic>
           <topic label="powerpc64le-linux.elf-fold.h" href="powerpc64le-linux_8elf-fold_8h.html">
             <topic label="STUB_POWERPC64LE_LINUX_ELF_FOLD_ADLER32" href="powerpc64le-linux_8elf-fold_8h.html#aa35c55b3f42e831e4aef6c880e92ef37"/>
             <topic label="STUB_POWERPC64LE_LINUX_ELF_FOLD_CRC32" href="powerpc64le-linux_8elf-fold_8h.html#a51c5d80385526e7718b637fa0a9d8262"/>
             <topic label="STUB_POWERPC64LE_LINUX_ELF_FOLD_SIZE" href="powerpc64le-linux_8elf-fold_8h.html#a3bd7681946b1cfa1bcd728bf07449e41"/>
-            <topic label="stub_powerpc64le_linux_elf_fold" href="powerpc64le-linux_8elf-fold_8h.html#ad636a899513b4adf95f68b04ce1a05b4"/>
+            <topic label="stub_powerpc64le_linux_elf_fold" href="powerpc64le-linux_8elf-fold_8h.html#ade7f0aec5f9274ac28578e72bc6e0b50"/>
           </topic>
           <topic label="powerpc64le-linux.kernel.vmlinux-head.h" href="powerpc64le-linux_8kernel_8vmlinux-head_8h.html">
             <topic label="STUB_POWERPC64LE_LINUX_KERNEL_VMLINUX_HEAD_ADLER32" href="powerpc64le-linux_8kernel_8vmlinux-head_8h.html#a2d3d73de329f1a99c2b113b4b8edbd5c"/>
@@ -6486,7 +6452,7 @@
             <topic label="STUB_POWERPC64LE_LINUX_KERNEL_VMLINUX_ADLER32" href="powerpc64le-linux_8kernel_8vmlinux_8h.html#a9dac74dc61b2f864196ab1d69464c5b5"/>
             <topic label="STUB_POWERPC64LE_LINUX_KERNEL_VMLINUX_CRC32" href="powerpc64le-linux_8kernel_8vmlinux_8h.html#aaf0b18b14545060c8d090f0bf6e49e61"/>
             <topic label="STUB_POWERPC64LE_LINUX_KERNEL_VMLINUX_SIZE" href="powerpc64le-linux_8kernel_8vmlinux_8h.html#a98e2254e6f1e08b28ec03a3c91ed9267"/>
-            <topic label="stub_powerpc64le_linux_kernel_vmlinux" href="powerpc64le-linux_8kernel_8vmlinux_8h.html#a8d7d79b572c665caed3d4ec75e04c1f9"/>
+            <topic label="stub_powerpc64le_linux_kernel_vmlinux" href="powerpc64le-linux_8kernel_8vmlinux_8h.html#a6a68e8317d016d1c74239bc9054762ab"/>
           </topic>
         </topic>
         <topic label="util" href="dir_b7878ad5ecbf2506f4125b9d34c97e45.html">
@@ -8837,6 +8803,7 @@
             <topic label="all_filters" href="structOptions.html#aa661b8c4de370944916296c6ff1bdd33"/>
             <topic label="all_methods" href="structOptions.html#a2eceb2cf73bf102edd76b89f4f315141"/>
             <topic label="all_methods_use_lzma" href="structOptions.html#aa8401857048d5d1e6abb3b0d42558692"/>
+            <topic label="android_old" href="structOptions.html#af36b36c9bb8333e9a9ba978af67f3a2f"/>
             <topic label="android_shlib" href="structOptions.html#a19c29c651f71641f170a7d0dd9f71b57"/>
             <topic label="atari_tos" href="structOptions.html#a998692a2605563d9d80de4de216c6376"/>
             <topic label="backup" href="structOptions.html#aa493c60429d7bc380b3bab13bbbed127"/>
@@ -9228,8 +9195,7 @@
           <topic label="PT_GNU_RELRO64" href="p__lx__elf_8cpp.html#a4fc59c9f0258b54971a12f49f939d6cd"/>
           <topic label="PT_GNU_STACK32" href="p__lx__elf_8cpp.html#a2763e101c247310abeb7b69e17dbebc2"/>
           <topic label="PT_GNU_STACK64" href="p__lx__elf_8cpp.html#a4fc1f5c0094105f552b3b1604ea749d7"/>
-          <topic label="PT_LOAD32" href="p__lx__elf_8cpp.html#a204ef936a203e18150dc61b25af76bb8"/>
-          <topic label="PT_LOAD64" href="p__lx__elf_8cpp.html#a487f2c5bedc799066863f22832798bd8"/>
+          <topic label="PT_LOAD" href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92"/>
           <topic label="PT_NOTE32" href="p__lx__elf_8cpp.html#a59eb0ef71e7b110186c324070f393316"/>
           <topic label="PT_NOTE64" href="p__lx__elf_8cpp.html#a9d1efbaf998aaa325cd289fb22c29f2c"/>
           <topic label="WANT_EHDR_ENUM" href="p__lx__elf_8cpp.html#a12c5bad6ea24e1ad7b46f70edf38a1ab"/>
@@ -9271,6 +9237,9 @@
             <topic label="gnu_hash" href="classPackLinuxElf.html#a504fe912dd96ebfcd443b89dd425317f"/>
             <topic label="pack1" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6"/>
             <topic label="pack2" href="classPackLinuxElf.html#a619d0ed2f97d37150ed5b1437c67b6f1"/>
+            <topic label="pack2_shlib_overlay_compress" href="classPackLinuxElf.html#a5384daf1baa189915edd8bbb8821ee88"/>
+            <topic label="pack2_shlib_overlay_init" href="classPackLinuxElf.html#aafaf58332d98b1981f8d78c3eeb729c6"/>
+            <topic label="pack2_shlib_overlay_write" href="classPackLinuxElf.html#a80a270e823ea95b0900a5abbf786dac9"/>
             <topic label="pack3" href="classPackLinuxElf.html#a3409fd940ae9b30dc51e68f69e0160f6"/>
             <topic label="unpack" href="classPackLinuxElf.html#a0d45a89448e9776719f57f84b11f828c"/>
             <topic label="asl_delta" href="classPackLinuxElf.html#a14a0202c4a2a508fef4009ae120b44b8"/>
@@ -9347,6 +9316,7 @@
             <topic label="buildLinuxLoader" href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3"/>
             <topic label="calls_crt1" href="classPackLinuxElf32.html#a57c8f63c6f5b8671a39cd8acf2b48bc6"/>
             <topic label="canPack" href="classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552"/>
+            <topic label="canPack_Shdr" href="classPackLinuxElf32.html#a13ef58bb21db16747c26d39c75071425"/>
             <topic label="canPackOSABI" href="classPackLinuxElf32.html#a362f74f1bc69654c06e59aa1805f009a"/>
             <topic label="canUnpack" href="classPackLinuxElf32.html#a89a8cceb7f8ef9df9542156c01118aa4"/>
             <topic label="check_pt_dynamic" href="classPackLinuxElf32.html#aba7026f4211ff852ffc5fc17ba0ec2b9"/>
@@ -9375,9 +9345,10 @@
             <topic label="getbase" href="classPackLinuxElf32.html#a5ccea780c95ceb2ad3e29a234d3f2863"/>
             <topic label="getbrk" href="classPackLinuxElf32.html#a69001fad2a5e68585846d1fb1abd2afb"/>
             <topic label="invert_pt_dynamic" href="classPackLinuxElf32.html#a18b74d82d2a2993873377ac87e6393d4"/>
-            <topic label="is_LOAD32" href="classPackLinuxElf32.html#a9929af0daa1854fea2672c0c50bddb84"/>
+            <topic label="is_LOAD" href="classPackLinuxElf32.html#ab812077214c1560eba8816624972d1ef"/>
             <topic label="pack1" href="classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625"/>
             <topic label="pack2" href="classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5"/>
+            <topic label="pack2_shlib" href="classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5"/>
             <topic label="pack3" href="classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c"/>
             <topic label="pack4" href="classPackLinuxElf32.html#ad190f7b83d9aaccf78119ebb0f00eb41"/>
             <topic label="packed_struct" href="classPackLinuxElf32.html#adad4336fa530cb9da3d195d9e300317c"/>
@@ -9438,6 +9409,7 @@
             <topic label="buildLinuxLoader" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341"/>
             <topic label="calls_crt1" href="classPackLinuxElf64.html#af4b086d6062198ab02e25fcc4cd5a2c3"/>
             <topic label="canPack" href="classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2"/>
+            <topic label="canPack_Shdr" href="classPackLinuxElf64.html#aa31c4b9fe8bb49ee9fa220b0c1d149bd"/>
             <topic label="canUnpack" href="classPackLinuxElf64.html#a71bc2f0e1a1ec856b3f9a08b63add0ae"/>
             <topic label="check_pt_dynamic" href="classPackLinuxElf64.html#a5d86b1c186506105d0a1143fd364c014"/>
             <topic label="check_pt_load" href="classPackLinuxElf64.html#ae528cb01cbf686b624e2fffe159ad5b6"/>
@@ -9463,9 +9435,10 @@
             <topic label="get_str_name" href="classPackLinuxElf64.html#acd825cbaf5a768993a7f0b90a24c7a4c"/>
             <topic label="getbrk" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466"/>
             <topic label="invert_pt_dynamic" href="classPackLinuxElf64.html#a34544f047b9808c7416a3a3666a7d6bb"/>
-            <topic label="is_LOAD64" href="classPackLinuxElf64.html#aa0c2c8ef98d3669846a7f666f6833698"/>
+            <topic label="is_LOAD" href="classPackLinuxElf64.html#a5e4e0a8150ba291145c388c9c00705ec"/>
             <topic label="pack1" href="classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215"/>
             <topic label="pack2" href="classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092"/>
+            <topic label="pack2_shlib" href="classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8"/>
             <topic label="pack3" href="classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562"/>
             <topic label="pack4" href="classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6"/>
             <topic label="packed_struct" href="classPackLinuxElf64.html#a426e7f90fc3af416c18a3deb0571e4b1"/>
@@ -11284,6 +11257,7 @@
             <topic label="get_te16" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5"/>
             <topic label="get_te32" href="classPacker.html#a47a54fc63360923941cec0aa6060ae01"/>
             <topic label="get_te64" href="classPacker.html#ae85a3d8295d26480a18f0abea6912451"/>
+            <topic label="get_te64_32" href="classPacker.html#aba0bcb1d796daaeea9d308d8e407505e"/>
             <topic label="getDecompressorSections" href="classPacker.html#a173933a7adb7d38dcc12ee8043457aa4"/>
             <topic label="getDecompressorWrkmemSize" href="classPacker.html#a28302b0171618cd0b4949ab6c026dc31"/>
             <topic label="getDefaultCompressionMethods_8" href="classPacker.html#a968ed89b0a113c54e982a497fdb8a97b"/>

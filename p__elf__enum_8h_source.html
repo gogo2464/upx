@@ -159,272 +159,274 @@ $(document).ready(function(){initNavTree('p__elf__enum_8h_source.html',''); init
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <a class="code hl_define" href="bsd_8h.html#a4373ea3b3d512434ebe2213829b6751b">ET_DYN</a> = 3,  <span class="comment">/* Shared object file */</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        ET_CORE = 4, <span class="comment">/* Core file */</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    };</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">enum</span> {          <span class="comment">// e_machine</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        EM_386 = 3, <span class="comment">// i386</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        EM_MIPS = 8,</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        EM_MIPS_RS3_LE = 10, <span class="comment">// MIPS R3000 little-endian</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        EM_PPC = 20,</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        EM_PPC64 = 21,</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        EM_ARM = 40,</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        EM_X86_64 = 62, <span class="comment">// amd64</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        EM_AMD64 = EM_X86_64,</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        EM_AARCH64 = 183, <span class="comment">// arm64</span></div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        EM_ARM64 = EM_AARCH64,</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        EM_RISCV = 243, <span class="comment">// risc-v</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        EM_LOONGARCH = 258,</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    };</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keyword">enum</span> { <span class="comment">// e_version</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        EV_CURRENT = 1,</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    };</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#endif </span><span class="comment">// WANT_EHDR_ENUM</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#ifdef WANT_PHDR_ENUM</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">#undef WANT_PHDR_ENUM</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keyword">enum</span> {                         <span class="comment">// p_type</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        PT_NULL = 0,               <span class="comment">/* Ignore: a &quot;comment&quot; */</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <a class="code hl_define" href="p__lx__exc_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a> = 1,               <span class="comment">/* Loadable program segment */</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_define" href="p__lx__exc_8cpp.html#a2121a2f01c51e8462bfd4d47725649d8">PT_DYNAMIC</a> = 2,            <span class="comment">/* Dynamic linking information */</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <a class="code hl_define" href="p__lx__interp_8cpp.html#abcd3aa15bc567949c1ab6b1abc137710">PT_INTERP</a> = 3,             <span class="comment">/* Name of program interpreter */</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        PT_NOTE = 4,               <span class="comment">/* Auxiliary information (esp. OpenBSD) */</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <a class="code hl_define" href="bsd_8h.html#a58ff00be749ca4000074f9b9066a1056">PT_PHDR</a> = 6,               <span class="comment">/* Entry for header table itself */</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        PT_NUM = 8,                <span class="comment">/* Number of defined types in low range */</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        PT_GNU_STACK = 0x6474e551, <span class="comment">/* Indicates stack executability */</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        PT_GNU_RELRO = 0x6474e552, <span class="comment">/* Read-only after relocation */</span></div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        PT_MIPS_REGINFO = 0x70000000,</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="comment">/* Register usage information. */</span> <span class="comment">//</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="comment">//      PT_MIPS_RTPROC =   0x70000001, /* Runtime procedure table. */</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="comment">//      PT_MIPS_OPTIONS =  0x70000002,</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        PT_MIPS_ABIFLAGS = 0x70000003, <span class="comment">/* FP mode requirement. */</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    };</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keyword">enum</span> {        <span class="comment">// p_flags</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <a class="code hl_define" href="bsd_8h.html#a1780bfb8eae34d26e52459699877c640">PF_X</a> = 1, <span class="comment">/* Segment is executable */</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <a class="code hl_define" href="bsd_8h.html#a20892094358e21f49ab6e5f8c4e29ae6">PF_W</a> = 2, <span class="comment">/* Segment is writable */</span></div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <a class="code hl_define" href="bsd_8h.html#ae529f935e58c029768c06fbc98b2ba8c">PF_R</a> = 4, <span class="comment">/* Segment is readable */</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    };</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#endif </span><span class="comment">// WANT_PHDR_ENUM</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">#ifdef WANT_SHDR_ENUM</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#undef WANT_SHDR_ENUM</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keyword">enum</span> {                <span class="comment">// sh_type</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        SHT_NULL = 0,     <span class="comment">/* Section header table entry unused */</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        SHT_PROGBITS = 1, <span class="comment">/* Program data */</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        SHT_SYMTAB = 2,   <span class="comment">/* Symbol table */</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        SHT_STRTAB = 3,   <span class="comment">/* String table */</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        SHT_RELA = 4,     <span class="comment">/* Relocation entries with addends */</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        SHT_HASH = 5,     <span class="comment">/* Symbol hash table */</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        SHT_DYNAMIC = 6,  <span class="comment">/* Dynamic linking information */</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        SHT_NOTE = 7,     <span class="comment">/* Notes */</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        SHT_NOBITS = 8,   <span class="comment">/* Program space with no data (bss) */</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        SHT_REL = 9,      <span class="comment">/* Relocation entries, no addends */</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        SHT_SHLIB = 10,   <span class="comment">/* Reserved */</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        SHT_DYNSYM = 11,  <span class="comment">/* Dynamic linker symbol table */</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        <span class="comment">/* 12, 13  hole */</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        SHT_INIT_ARRAY = 14,          <span class="comment">/* Array of constructors */</span></div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        SHT_FINI_ARRAY = 15,          <span class="comment">/* Array of destructors */</span></div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        SHT_PREINIT_ARRAY = 16,       <span class="comment">/* Array of pre-constructors */</span></div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        SHT_GROUP = 17,               <span class="comment">/* Section group */</span></div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        SHT_SYMTAB_SHNDX = 18,        <span class="comment">/* Extended section indices */</span></div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        SHT_GNU_HASH = 0x6ffffff6,    <span class="comment">/* GNU-style hash table.  */</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        SHT_GNU_LIBLIST = 0x6ffffff7, <span class="comment">/* Prelink library list */</span></div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        SHT_GNU_verdef = 0x6ffffffd,  <span class="comment">/* Version definition section.  */</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        SHT_GNU_verneed = 0x6ffffffe, <span class="comment">/* Version needs section.  */</span></div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        SHT_GNU_versym = 0x6fffffff,  <span class="comment">/* Version symbol table.  */</span></div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        SHT_LOOS = 0x60000000,                 <span class="comment">/* LOcal OS; SHT_ANDROID_REL{,A} is +1, +2 */</span></div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        SHT_LOPROC = 0x70000000,               <span class="comment">/* Start of processor-specific */</span></div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        SHT_ARM_ATTRIBUTES = (SHT_LOPROC + 3), <span class="comment">/* ARM attributes section.  */</span></div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    };</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keyword">enum</span> {                         <span class="comment">// sh_flags</span></div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        SHF_WRITE = (1 &lt;&lt; 0),      <span class="comment">/* Writable */</span></div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>        SHF_ALLOC = (1 &lt;&lt; 1),      <span class="comment">/* Occupies memory during execution */</span></div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        SHF_EXECINSTR = (1 &lt;&lt; 2),  <span class="comment">/* Executable */</span></div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        SHF_MERGE = (1 &lt;&lt; 4),      <span class="comment">/* Might be merged */</span></div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        SHF_STRINGS = (1 &lt;&lt; 5),    <span class="comment">/* Contains nul-terminated strings */</span></div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        SHF_INFO_LINK = (1 &lt;&lt; 6),  <span class="comment">/* &#39;sh_info&#39; contains SHT index */</span></div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        SHF_LINK_ORDER = (1 &lt;&lt; 7), <span class="comment">/* Preserve order after combining */</span></div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    };</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="preprocessor">#endif </span><span class="comment">// WANT_SHDR_ENUM</span></div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#ifdef WANT_DYN_ENUM</span></div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="preprocessor">#undef WANT_DYN_ENUM</span></div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keyword">enum</span> {               <span class="comment">// d_tag</span></div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        DT_NULL = 0,     <span class="comment">/* End flag */</span></div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        DT_NEEDED = 1,   <span class="comment">/* Name of needed library */</span></div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        DT_PLTRELSZ = 2, <span class="comment">/* Size in bytes of PLT relocs */</span></div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        DT_PLTGOT = 3,   <span class="comment">/* Processor defined value */</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        DT_HASH = 4,     <span class="comment">/* Hash table of symbol names */</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        DT_STRTAB = 5,   <span class="comment">/* String table */</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        DT_SYMTAB = 6,   <span class="comment">/* Symbol table */</span></div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        DT_RELA = 7,     <span class="comment">/* Relocations which do contain an addend */</span></div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        DT_RELASZ = 8,   <span class="comment">/* Total size of Rela relocs */</span></div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        DT_RELAENT = 9,  <span class="comment">/* Size of one RELA relocation */</span></div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        DT_STRSZ = 10,   <span class="comment">/* Size of string table */</span></div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        DT_SYMENT = 11,  <span class="comment">/* Size of one symbol table entry */</span></div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        DT_INIT = 12,    <span class="comment">/* Address of init function */</span></div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        DT_FINI = 13,    <span class="comment">/* Address of termination function */</span></div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        DT_REL = 17,             <span class="comment">/* Relocations which contain no addend */</span></div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>        DT_RELSZ = 18,           <span class="comment">/* Total size of Rel relocs */</span></div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        DT_RELENT = 19,          <span class="comment">/* Size of one Rel relocation */</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        DT_PLTREL = 20,          <span class="comment">/* Type of reloc in PLT */</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        DT_TEXTREL = 22,         <span class="comment">/* Reloc might modify .text */</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        DT_JMPREL = 23,          <span class="comment">/* Address of PLT relocs */</span></div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        DT_INIT_ARRAY = 25,      <span class="comment">/* Array with addresses of init fct */</span></div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        DT_FINI_ARRAY = 26,      <span class="comment">/* Array with addresses of fini fct */</span></div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        DT_INIT_ARRAYSZ = 27,    <span class="comment">/* size in bytes */</span></div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        DT_FINI_ARRAYSZ = 28,    <span class="comment">/* size in bytes */</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        DT_PREINIT_ARRAY = 32,   <span class="comment">/* Array with addresses of preinit fct*/</span></div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        DT_PREINIT_ARRAYSZ = 33, <span class="comment">/* size in bytes */</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        DT_NUM = 35,             <span class="comment">/* end of easy range */</span></div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        DT_CHECKSUM = 0x6ffffdf8, <span class="comment">/* Only for prelink? */</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>        DT_GNU_HASH = 0x6ffffef5, <span class="comment">/* GNU-style hash table */</span></div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        DT_VERSYM = 0x6ffffff0,   <span class="comment">/* version[] for each symbol */</span></div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        DT_FLAGS_1 = 0x6ffffffb,  <span class="comment">/* DF_1_* */</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        DT_VERDEF = 0x6ffffffc,   <span class="comment">/* version definitions[] */</span></div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        DT_VERNEED = 0x6ffffffe,  <span class="comment">/* version[] needed */</span></div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    };</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keyword">enum</span> {                     <span class="comment">// DT_FLAGS_1</span></div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        DF_1_NOW = 0x00000001, <span class="comment">/* Set RTLD_NOW for this object.  */</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        DF_1_PIE = 0x08000000, <span class="comment">// Position-Independent Executable (main program)</span></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    };</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="preprocessor">#endif </span><span class="comment">// WANT_DYN_ENUM</span></div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#ifdef WANT_SYM_ENUM</span></div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#undef WANT_SYM_ENUM</span></div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    <span class="keyword">enum</span> {              <span class="comment">// st_bind (high 4 bits of st_info)</span></div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>        STB_LOCAL = 0,  <span class="comment">/* Local symbol */</span></div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>        STB_GLOBAL = 1, <span class="comment">/* Global symbol */</span></div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        STB_WEAK = 2,   <span class="comment">/* Weak symbol */</span></div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    };</div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    <span class="keyword">enum</span> {               <span class="comment">// st_type (low 4 bits of st_info)</span></div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        STT_NOTYPE = 0,  <span class="comment">/* Symbol type is unspecified */</span></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>        STT_OBJECT = 1,  <span class="comment">/* Symbol is a data object */</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        STT_FUNC = 2,    <span class="comment">/* Symbol is a code object */</span></div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        STT_SECTION = 3, <span class="comment">/* Symbol associated with a section */</span></div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        STT_FILE = 4,    <span class="comment">/* Symbol&#39;s name is file name */</span></div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        STT_COMMON = 5,  <span class="comment">/* Symbol is a common data object */</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        STT_TLS = 6,     <span class="comment">/* Symbol is thread-local data object*/</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    };</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <span class="keyword">enum</span> {                 <span class="comment">// st_other (visibility)</span></div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        STV_DEFAULT = 0,   <span class="comment">/* Default symbol visibility rules */</span></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        STV_INTERNAL = 1,  <span class="comment">/* Processor specific hidden class */</span></div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        STV_HIDDEN = 2,    <span class="comment">/* Sym unavailable in other modules */</span></div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        STV_PROTECTED = 3, <span class="comment">/* Not preemptible, not exported */</span></div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    };</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    <span class="keyword">enum</span> {                   <span class="comment">// st_shndx</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        SHN_UNDEF = 0,       <span class="comment">/* Undefined section */</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>        SHN_ABS = 0xfff1,    <span class="comment">/* Associated symbol is absolute */</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        SHN_COMMON = 0xfff2, <span class="comment">/* Associated symbol is common */</span></div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    };</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#endif </span><span class="comment">// WANT_SYM_ENUM</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#ifdef WANT_REL_ENUM</span></div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="preprocessor">#undef WANT_REL_ENUM</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_TYPE(<span class="keywordtype">unsigned</span> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> 0xff &amp; x; }</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF64_R_TYPE(<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> x) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>        <span class="keywordflow">return</span> 0xffffffff &amp; (unsigned) x;</div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    }</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_SYM(<span class="keywordtype">unsigned</span> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> x &gt;&gt; 8; }</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF64_R_SYM(<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> x &gt;&gt; 32; }</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_INFO(<span class="keywordtype">unsigned</span> sym, <span class="keywordtype">unsigned</span> type) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>        <span class="keywordflow">return</span> (sym &lt;&lt; 8) + (type &amp; 0xff);</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    }</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <a class="code hl_typedef" href="conf_8h.html#a58b8dd6274f8ad1eca2637b12665167f">upx_int64_t</a> ELF64_R_INFO(<span class="keywordtype">unsigned</span> sym, <span class="keywordtype">unsigned</span> type) {</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>        <span class="keywordflow">return</span> ((<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a>) sym &lt;&lt; 32) + type;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    }</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#undef R_PPC_RELATIVE</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#undef R_PPC64_RELATIVE</span></div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#undef R_PPC_JMP_SLOT</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#undef R_PPC64_JMP_SLOT</span></div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keyword">enum</span> { <span class="comment">// relocation types</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        R_386_RELATIVE = 8,</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        R_AARCH64_RELATIVE = 1027,</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        R_ARM_RELATIVE = 23,</div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        R_PPC_RELATIVE = 22,</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        R_PPC64_RELATIVE = R_PPC_RELATIVE,</div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        R_X86_64_RELATIVE = 8,</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        R_386_JMP_SLOT = 7,</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        R_AARCH64_JUMP_SLOT = 1026,</div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        R_ARM_JUMP_SLOT = 22,</div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        R_PPC_JMP_SLOT = 21,</div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        R_PPC64_JMP_SLOT = R_PPC_JMP_SLOT,</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        R_X86_64_JUMP_SLOT = 7,</div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        R_386_32 = 1,</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        R_ARM_ABS32 = 2,</div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        R_ARM_GLOB_DAT = 21,</div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        R_MIPS_32 = 2,</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        R_386_GLOB_DAT = 6,</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        R_X86_64_64 = 1,</div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        R_AARCH64_ABS64 = 257,</div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        R_AARCH64_GLOB_DAT = 1025,</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    };</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">#endif </span><span class="comment">// WANT_REL_ENUM</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#ifdef WANT_NHDR_ENUM</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="preprocessor">#undef WANT_NHDR_ENUM</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="keyword">enum</span> { <span class="comment">// ELF PT_NOTE types</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#define ELF_NOTE_GNU_NAME &quot;GNU\0&quot;</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>        NT_GNU_ABI_TAG = 1,</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>        NT_GNU_HWCAP = 2,</div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        NT_GNU_BUILD_ID = 3,</div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span> </div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#define ELF_NOTE_OPENBSD_NAME &quot;OpenBSD\0&quot;</span></div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        NHDR_OPENBSD_TAG = 1,</div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">#define ELF_NOTE_NETBSD_NAME &quot;NetBSD\0&quot;</span></div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        NHDR_NETBSD_TAG = 1,</div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>        NHDR_CHECKSUM_TAG = 2,</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        NHDR_PAX_TAG = 3,</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    };</div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="keyword">enum</span> {                   <span class="comment">// descsz descriptor sizes</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>        GNU_ABI_DESCSZ = 16, <span class="comment">// int GNU_OS, major, minor, subminor;</span></div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        NETBSD_DESCSZ = 4,   <span class="comment">// major_ver * (10**8) + minor</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        OPENBSD_DESCSZ = 4,  <span class="comment">// 32-bit zero</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>                             <span class="comment">// CHECKSUM_DESCSZ is 2*sizeof(short) + sizeof(checksum)</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        PAX_DESCSZ = 4,      <span class="comment">// 32-bit mask</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    };</div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <span class="keyword">enum</span> { <span class="comment">// GNU OS/version</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>        GNU_OS_LINUX = 0,</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>        GNU_OS_HURD = 1,</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        GNU_OS_SOLARIS = 2,</div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    };</div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    <span class="keyword">enum</span> { <span class="comment">// NetBSD checksum methods</span></div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>        CHECKSUM_CRC32 = 1,</div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>        CHECKSUM_MD5 = 2,</div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>        CHECKSUM_SHA1 = 3,</div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>        CHECKSUM_SHA256 = 4,</div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    };</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#define ELF_NOTE_PAX_NAME &quot;PaX\0&quot;</span></div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>    <span class="keyword">enum</span> {                         <span class="comment">// NetBSD PaX bit values</span></div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        PAX_MPROTECT = (1 &lt;&lt; 0),   <span class="comment">/* force  enable Mprotect */</span></div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        PAX_NOMPROTECT = (1 &lt;&lt; 1), <span class="comment">/* force disable Mprotect */</span></div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        PAX_GUARD = (1 &lt;&lt; 2),      <span class="comment">/* force  enable SEGVguard */</span></div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        PAX_NOGUARD = (1 &lt;&lt; 3),    <span class="comment">/* force disable SEGVguard */</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>        PAX_ASLR = (1 &lt;&lt; 4),       <span class="comment">/* force  enable ASLR */</span></div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        PAX_NOASLR = (1 &lt;&lt; 5),     <span class="comment">/* force disable ASLR */</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>    };</div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="preprocessor">#endif </span><span class="comment">// WANT_NHDR_ENUM</span></div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="preprocessor">#if CLANG_FORMAT_DUMMY_CLASS</span></div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>}; <span class="comment">// class</span></div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="comment">/* vim:set ts=4 sw=4 et: */</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">enum</span> {           <span class="comment">// e_machine</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        EM_NONE = 0, <span class="comment">// No machine</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        EM_386 = 3,  <span class="comment">// i386</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        EM_MIPS = 8,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        EM_MIPS_RS3_LE = 10, <span class="comment">// MIPS R3000 little-endian</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        EM_PPC = 20,</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        EM_PPC64 = 21,</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        EM_ARM = 40,</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        EM_X86_64 = 62, <span class="comment">// amd64</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        EM_AMD64 = EM_X86_64,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        EM_AARCH64 = 183, <span class="comment">// arm64</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        EM_ARM64 = EM_AARCH64,</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        EM_RISCV = 243, <span class="comment">// risc-v</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        EM_LOONGARCH = 258,</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    };</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">enum</span> { <span class="comment">// e_version</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        EV_CURRENT = 1,</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    };</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">#endif </span><span class="comment">// WANT_EHDR_ENUM</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">#ifdef WANT_PHDR_ENUM</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#undef WANT_PHDR_ENUM</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">enum</span> {                         <span class="comment">// p_type</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        PT_NULL = 0,               <span class="comment">/* Ignore: a &quot;comment&quot; */</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_define" href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a> = 1,               <span class="comment">/* Loadable program segment */</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <a class="code hl_define" href="p__lx__exc_8cpp.html#a2121a2f01c51e8462bfd4d47725649d8">PT_DYNAMIC</a> = 2,            <span class="comment">/* Dynamic linking information */</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <a class="code hl_define" href="p__lx__interp_8cpp.html#abcd3aa15bc567949c1ab6b1abc137710">PT_INTERP</a> = 3,             <span class="comment">/* Name of program interpreter */</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        PT_NOTE = 4,               <span class="comment">/* Auxiliary information (esp. OpenBSD) */</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <a class="code hl_define" href="bsd_8h.html#a58ff00be749ca4000074f9b9066a1056">PT_PHDR</a> = 6,               <span class="comment">/* Entry for header table itself */</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        PT_NUM = 8,                <span class="comment">/* Number of defined types in low range */</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        PT_GNU_STACK = 0x6474e551, <span class="comment">/* Indicates stack executability */</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        PT_GNU_RELRO = 0x6474e552, <span class="comment">/* Read-only after relocation */</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        PT_MIPS_REGINFO = 0x70000000,</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="comment">/* Register usage information. */</span> <span class="comment">//</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="comment">//      PT_MIPS_RTPROC =   0x70000001, /* Runtime procedure table. */</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="comment">//      PT_MIPS_OPTIONS =  0x70000002,</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        PT_MIPS_ABIFLAGS = 0x70000003, <span class="comment">/* FP mode requirement. */</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keyword">enum</span> {        <span class="comment">// p_flags</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <a class="code hl_define" href="bsd_8h.html#a1780bfb8eae34d26e52459699877c640">PF_X</a> = 1, <span class="comment">/* Segment is executable */</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        <a class="code hl_define" href="bsd_8h.html#a20892094358e21f49ab6e5f8c4e29ae6">PF_W</a> = 2, <span class="comment">/* Segment is writable */</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <a class="code hl_define" href="bsd_8h.html#ae529f935e58c029768c06fbc98b2ba8c">PF_R</a> = 4, <span class="comment">/* Segment is readable */</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    };</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#endif </span><span class="comment">// WANT_PHDR_ENUM</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#ifdef WANT_SHDR_ENUM</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="preprocessor">#undef WANT_SHDR_ENUM</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keyword">enum</span> {                <span class="comment">// sh_type</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        SHT_NULL = 0,     <span class="comment">/* Section header table entry unused */</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        SHT_PROGBITS = 1, <span class="comment">/* Program data */</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        SHT_SYMTAB = 2,   <span class="comment">/* Symbol table */</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        SHT_STRTAB = 3,   <span class="comment">/* String table */</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        SHT_RELA = 4,     <span class="comment">/* Relocation entries with addends */</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        SHT_HASH = 5,     <span class="comment">/* Symbol hash table */</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        SHT_DYNAMIC = 6,  <span class="comment">/* Dynamic linking information */</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        SHT_NOTE = 7,     <span class="comment">/* Notes */</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        SHT_NOBITS = 8,   <span class="comment">/* Program space with no data (bss) */</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        SHT_REL = 9,      <span class="comment">/* Relocation entries, no addends */</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        SHT_SHLIB = 10,   <span class="comment">/* Reserved */</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        SHT_DYNSYM = 11,  <span class="comment">/* Dynamic linker symbol table */</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <span class="comment">/* 12, 13  hole */</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        SHT_INIT_ARRAY = 14,          <span class="comment">/* Array of constructors */</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        SHT_FINI_ARRAY = 15,          <span class="comment">/* Array of destructors */</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        SHT_PREINIT_ARRAY = 16,       <span class="comment">/* Array of pre-constructors */</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        SHT_GROUP = 17,               <span class="comment">/* Section group */</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        SHT_SYMTAB_SHNDX = 18,        <span class="comment">/* Extended section indices */</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        SHT_RELR = 19,                <span class="comment">/* RELR relative relocations */</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        SHT_GNU_HASH = 0x6ffffff6,    <span class="comment">/* GNU-style hash table.  */</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        SHT_GNU_LIBLIST = 0x6ffffff7, <span class="comment">/* Prelink library list */</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        SHT_GNU_verdef = 0x6ffffffd,  <span class="comment">/* Version definition section.  */</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        SHT_GNU_verneed = 0x6ffffffe, <span class="comment">/* Version needs section.  */</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        SHT_GNU_versym = 0x6fffffff,  <span class="comment">/* Version symbol table.  */</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        SHT_LOOS = 0x60000000,                 <span class="comment">/* LOcal OS; SHT_ANDROID_REL{,A} is +1, +2 */</span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        SHT_LOPROC = 0x70000000,               <span class="comment">/* Start of processor-specific */</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        SHT_ARM_ATTRIBUTES = (SHT_LOPROC + 3), <span class="comment">/* ARM attributes section.  */</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    };</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keyword">enum</span> {                         <span class="comment">// sh_flags</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        SHF_WRITE = (1 &lt;&lt; 0),      <span class="comment">/* Writable */</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        SHF_ALLOC = (1 &lt;&lt; 1),      <span class="comment">/* Occupies memory during execution */</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        SHF_EXECINSTR = (1 &lt;&lt; 2),  <span class="comment">/* Executable */</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        SHF_MERGE = (1 &lt;&lt; 4),      <span class="comment">/* Might be merged */</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        SHF_STRINGS = (1 &lt;&lt; 5),    <span class="comment">/* Contains nul-terminated strings */</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        SHF_INFO_LINK = (1 &lt;&lt; 6),  <span class="comment">/* &#39;sh_info&#39; contains SHT index */</span></div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        SHF_LINK_ORDER = (1 &lt;&lt; 7), <span class="comment">/* Preserve order after combining */</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    };</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#endif </span><span class="comment">// WANT_SHDR_ENUM</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">#ifdef WANT_DYN_ENUM</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">#undef WANT_DYN_ENUM</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keyword">enum</span> {               <span class="comment">// d_tag</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        DT_NULL = 0,     <span class="comment">/* End flag */</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        DT_NEEDED = 1,   <span class="comment">/* Name of needed library */</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        DT_PLTRELSZ = 2, <span class="comment">/* Size in bytes of PLT relocs */</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        DT_PLTGOT = 3,   <span class="comment">/* Processor defined value */</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        DT_HASH = 4,     <span class="comment">/* Hash table of symbol names */</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        DT_STRTAB = 5,   <span class="comment">/* String table */</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        DT_SYMTAB = 6,   <span class="comment">/* Symbol table */</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        DT_RELA = 7,     <span class="comment">/* Relocations which do contain an addend */</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        DT_RELASZ = 8,   <span class="comment">/* Total size of Rela relocs */</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        DT_RELAENT = 9,  <span class="comment">/* Size of one RELA relocation */</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        DT_STRSZ = 10,   <span class="comment">/* Size of string table */</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        DT_SYMENT = 11,  <span class="comment">/* Size of one symbol table entry */</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        DT_INIT = 12,    <span class="comment">/* Address of init function */</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        DT_FINI = 13,    <span class="comment">/* Address of termination function */</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        DT_REL = 17,             <span class="comment">/* Relocations which contain no addend */</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        DT_RELSZ = 18,           <span class="comment">/* Total size of Rel relocs */</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        DT_RELENT = 19,          <span class="comment">/* Size of one Rel relocation */</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        DT_PLTREL = 20,          <span class="comment">/* Type of reloc in PLT */</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        DT_TEXTREL = 22,         <span class="comment">/* Reloc might modify .text */</span></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        DT_JMPREL = 23,          <span class="comment">/* Address of PLT relocs */</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        DT_INIT_ARRAY = 25,      <span class="comment">/* Array with addresses of init fct */</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>        DT_FINI_ARRAY = 26,      <span class="comment">/* Array with addresses of fini fct */</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        DT_INIT_ARRAYSZ = 27,    <span class="comment">/* size in bytes */</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        DT_FINI_ARRAYSZ = 28,    <span class="comment">/* size in bytes */</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        DT_PREINIT_ARRAY = 32,   <span class="comment">/* Array with addresses of preinit fct*/</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        DT_PREINIT_ARRAYSZ = 33, <span class="comment">/* size in bytes */</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        DT_NUM = 35,             <span class="comment">/* end of easy range */</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        DT_CHECKSUM = 0x6ffffdf8, <span class="comment">/* Only for prelink? */</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        DT_GNU_HASH = 0x6ffffef5, <span class="comment">/* GNU-style hash table */</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        DT_VERSYM = 0x6ffffff0,   <span class="comment">/* version[] for each symbol */</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        DT_FLAGS_1 = 0x6ffffffb,  <span class="comment">/* DF_1_* */</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        DT_VERDEF = 0x6ffffffc,   <span class="comment">/* version definitions[] */</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>        DT_VERNEED = 0x6ffffffe,  <span class="comment">/* version[] needed */</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    };</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keyword">enum</span> {                     <span class="comment">// DT_FLAGS_1</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>        DF_1_NOW = 0x00000001, <span class="comment">/* Set RTLD_NOW for this object.  */</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        DF_1_PIE = 0x08000000, <span class="comment">// Position-Independent Executable (main program)</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    };</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#endif </span><span class="comment">// WANT_DYN_ENUM</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="preprocessor">#ifdef WANT_SYM_ENUM</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="preprocessor">#undef WANT_SYM_ENUM</span></div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keyword">enum</span> {              <span class="comment">// st_bind (high 4 bits of st_info)</span></div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        STB_LOCAL = 0,  <span class="comment">/* Local symbol */</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        STB_GLOBAL = 1, <span class="comment">/* Global symbol */</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>        STB_WEAK = 2,   <span class="comment">/* Weak symbol */</span></div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    };</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keyword">enum</span> {               <span class="comment">// st_type (low 4 bits of st_info)</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>        STT_NOTYPE = 0,  <span class="comment">/* Symbol type is unspecified */</span></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>        STT_OBJECT = 1,  <span class="comment">/* Symbol is a data object */</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        STT_FUNC = 2,    <span class="comment">/* Symbol is a code object */</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        STT_SECTION = 3, <span class="comment">/* Symbol associated with a section */</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        STT_FILE = 4,    <span class="comment">/* Symbol&#39;s name is file name */</span></div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>        STT_COMMON = 5,  <span class="comment">/* Symbol is a common data object */</span></div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>        STT_TLS = 6,     <span class="comment">/* Symbol is thread-local data object*/</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    };</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keyword">enum</span> {                 <span class="comment">// st_other (visibility)</span></div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>        STV_DEFAULT = 0,   <span class="comment">/* Default symbol visibility rules */</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>        STV_INTERNAL = 1,  <span class="comment">/* Processor specific hidden class */</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>        STV_HIDDEN = 2,    <span class="comment">/* Sym unavailable in other modules */</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        STV_PROTECTED = 3, <span class="comment">/* Not preemptible, not exported */</span></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    };</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keyword">enum</span> {                   <span class="comment">// st_shndx</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        SHN_UNDEF = 0,       <span class="comment">/* Undefined section */</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        SHN_ABS = 0xfff1,    <span class="comment">/* Associated symbol is absolute */</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>        SHN_COMMON = 0xfff2, <span class="comment">/* Associated symbol is common */</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    };</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#endif </span><span class="comment">// WANT_SYM_ENUM</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#ifdef WANT_REL_ENUM</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="preprocessor">#undef WANT_REL_ENUM</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_TYPE(<span class="keywordtype">unsigned</span> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> 0xff &amp; x; }</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF64_R_TYPE(<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> x) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>        <span class="keywordflow">return</span> 0xffffffff &amp; (unsigned) x;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    }</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_SYM(<span class="keywordtype">unsigned</span> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> x &gt;&gt; 8; }</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF64_R_SYM(<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> x) <span class="keyword">noexcept</span> { <span class="keywordflow">return</span> x &gt;&gt; 32; }</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <span class="keywordtype">unsigned</span> ELF32_R_INFO(<span class="keywordtype">unsigned</span> sym, <span class="keywordtype">unsigned</span> type) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>        <span class="keywordflow">return</span> (sym &lt;&lt; 8) + (type &amp; 0xff);</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>    }</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keyword">inline</span> <a class="code hl_typedef" href="conf_8h.html#a58b8dd6274f8ad1eca2637b12665167f">upx_int64_t</a> ELF64_R_INFO(<span class="keywordtype">unsigned</span> sym, <span class="keywordtype">unsigned</span> type) {</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>        <span class="keywordflow">return</span> ((<a class="code hl_typedef" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a>) sym &lt;&lt; 32) + type;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>    }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#undef R_PPC_RELATIVE</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#undef R_PPC64_RELATIVE</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#undef R_PPC_JMP_SLOT</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#undef R_PPC64_JMP_SLOT</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <span class="keyword">enum</span> { <span class="comment">// relocation types</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        R_386_RELATIVE = 8,</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        R_AARCH64_RELATIVE = 1027,</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        R_ARM_RELATIVE = 23,</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        R_PPC_RELATIVE = 22,</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        R_PPC64_RELATIVE = R_PPC_RELATIVE,</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        R_X86_64_RELATIVE = 8,</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        R_386_JMP_SLOT = 7,</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        R_AARCH64_JUMP_SLOT = 1026,</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        R_ARM_JUMP_SLOT = 22,</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        R_PPC_JMP_SLOT = 21,</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        R_PPC64_JMP_SLOT = R_PPC_JMP_SLOT,</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        R_X86_64_JUMP_SLOT = 7,</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        R_386_32 = 1,</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        R_ARM_ABS32 = 2,</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        R_ARM_GLOB_DAT = 21,</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        R_MIPS_32 = 2,</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>        R_386_GLOB_DAT = 6,</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>        R_X86_64_64 = 1,</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        R_AARCH64_ABS64 = 257,</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        R_AARCH64_GLOB_DAT = 1025,</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    };</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#endif </span><span class="comment">// WANT_REL_ENUM</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#ifdef WANT_NHDR_ENUM</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#undef WANT_NHDR_ENUM</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    <span class="keyword">enum</span> { <span class="comment">// ELF PT_NOTE types</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span><span class="preprocessor">#define ELF_NOTE_GNU_NAME &quot;GNU\0&quot;</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        NT_GNU_ABI_TAG = 1,</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        NT_GNU_HWCAP = 2,</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        NT_GNU_BUILD_ID = 3,</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#define ELF_NOTE_OPENBSD_NAME &quot;OpenBSD\0&quot;</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        NHDR_OPENBSD_TAG = 1,</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#define ELF_NOTE_NETBSD_NAME &quot;NetBSD\0&quot;</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        NHDR_NETBSD_TAG = 1,</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        NHDR_CHECKSUM_TAG = 2,</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>        NHDR_PAX_TAG = 3,</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    };</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>    <span class="keyword">enum</span> {                   <span class="comment">// descsz descriptor sizes</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        GNU_ABI_DESCSZ = 16, <span class="comment">// int GNU_OS, major, minor, subminor;</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        NETBSD_DESCSZ = 4,   <span class="comment">// major_ver * (10**8) + minor</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>        OPENBSD_DESCSZ = 4,  <span class="comment">// 32-bit zero</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>                             <span class="comment">// CHECKSUM_DESCSZ is 2*sizeof(short) + sizeof(checksum)</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>        PAX_DESCSZ = 4,      <span class="comment">// 32-bit mask</span></div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    };</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    <span class="keyword">enum</span> { <span class="comment">// GNU OS/version</span></div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        GNU_OS_LINUX = 0,</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>        GNU_OS_HURD = 1,</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>        GNU_OS_SOLARIS = 2,</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    };</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <span class="keyword">enum</span> { <span class="comment">// NetBSD checksum methods</span></div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>        CHECKSUM_CRC32 = 1,</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>        CHECKSUM_MD5 = 2,</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>        CHECKSUM_SHA1 = 3,</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>        CHECKSUM_SHA256 = 4,</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    };</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="preprocessor">#define ELF_NOTE_PAX_NAME &quot;PaX\0&quot;</span></div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    <span class="keyword">enum</span> {                         <span class="comment">// NetBSD PaX bit values</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        PAX_MPROTECT = (1 &lt;&lt; 0),   <span class="comment">/* force  enable Mprotect */</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        PAX_NOMPROTECT = (1 &lt;&lt; 1), <span class="comment">/* force disable Mprotect */</span></div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>        PAX_GUARD = (1 &lt;&lt; 2),      <span class="comment">/* force  enable SEGVguard */</span></div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        PAX_NOGUARD = (1 &lt;&lt; 3),    <span class="comment">/* force disable SEGVguard */</span></div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        PAX_ASLR = (1 &lt;&lt; 4),       <span class="comment">/* force  enable ASLR */</span></div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        PAX_NOASLR = (1 &lt;&lt; 5),     <span class="comment">/* force disable ASLR */</span></div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    };</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="preprocessor">#endif </span><span class="comment">// WANT_NHDR_ENUM</span></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="preprocessor">#if CLANG_FORMAT_DUMMY_CLASS</span></div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>}; <span class="comment">// class</span></div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="comment">/* vim:set ts=4 sw=4 et: */</span></div>
 <div class="ttc" id="absd_8h_html_a1780bfb8eae34d26e52459699877c640"><div class="ttname"><a href="bsd_8h.html#a1780bfb8eae34d26e52459699877c640">PF_X</a></div><div class="ttdeci">#define PF_X</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00276">bsd.h:276</a></div></div>
 <div class="ttc" id="absd_8h_html_a20892094358e21f49ab6e5f8c4e29ae6"><div class="ttname"><a href="bsd_8h.html#a20892094358e21f49ab6e5f8c4e29ae6">PF_W</a></div><div class="ttdeci">#define PF_W</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00277">bsd.h:277</a></div></div>
 <div class="ttc" id="absd_8h_html_a4373ea3b3d512434ebe2213829b6751b"><div class="ttname"><a href="bsd_8h.html#a4373ea3b3d512434ebe2213829b6751b">ET_DYN</a></div><div class="ttdeci">#define ET_DYN</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00274">bsd.h:274</a></div></div>
@@ -433,8 +435,8 @@ $(document).ready(function(){initNavTree('p__elf__enum_8h_source.html',''); init
 <div class="ttc" id="absd_8h_html_ae529f935e58c029768c06fbc98b2ba8c"><div class="ttname"><a href="bsd_8h.html#ae529f935e58c029768c06fbc98b2ba8c">PF_R</a></div><div class="ttdeci">#define PF_R</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00278">bsd.h:278</a></div></div>
 <div class="ttc" id="aconf_8h_html_a58b8dd6274f8ad1eca2637b12665167f"><div class="ttname"><a href="conf_8h.html#a58b8dd6274f8ad1eca2637b12665167f">upx_int64_t</a></div><div class="ttdeci">acc_int64_t upx_int64_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00166">conf.h:166</a></div></div>
 <div class="ttc" id="aconf_8h_html_a89d95f84118e61993a0a97429e8b8274"><div class="ttname"><a href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a></div><div class="ttdeci">acc_uint64_t upx_uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00167">conf.h:167</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_a84d7768fd6c6ece599d297090900cf92"><div class="ttname"><a href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a></div><div class="ttdeci">#define PT_LOAD</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00053">p_lx_elf.cpp:53</a></div></div>
 <div class="ttc" id="ap__lx__exc_8cpp_html_a2121a2f01c51e8462bfd4d47725649d8"><div class="ttname"><a href="p__lx__exc_8cpp.html#a2121a2f01c51e8462bfd4d47725649d8">PT_DYNAMIC</a></div><div class="ttdeci">#define PT_DYNAMIC</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__exc_8cpp_source.html#l00044">p_lx_exc.cpp:44</a></div></div>
-<div class="ttc" id="ap__lx__exc_8cpp_html_a84d7768fd6c6ece599d297090900cf92"><div class="ttname"><a href="p__lx__exc_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a></div><div class="ttdeci">#define PT_LOAD</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__exc_8cpp_source.html#l00043">p_lx_exc.cpp:43</a></div></div>
 <div class="ttc" id="ap__lx__interp_8cpp_html_abcd3aa15bc567949c1ab6b1abc137710"><div class="ttname"><a href="p__lx__interp_8cpp.html#abcd3aa15bc567949c1ab6b1abc137710">PT_INTERP</a></div><div class="ttdeci">#define PT_INTERP</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__interp_8cpp_source.html#l00046">p_lx_interp.cpp:46</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

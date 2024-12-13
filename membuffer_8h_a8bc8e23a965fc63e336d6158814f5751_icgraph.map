@@ -1,52 +1,52 @@
 <map id="raw_bytes" name="raw_bytes">
-<area shape="rect" id="node1" title=" " alt="" coords="1001,880,1091,905"/>
-<area shape="rect" id="node2" href="$classPacker.html#add5cc1c8eff3bbc8aaf7ec0cf03cb82e" title="compress &#45; wrap call to low&#45;level upx_compress()" alt="" coords="771,176,905,201"/>
-<area shape="rect" id="node5" href="$xspan__impl__common_8h.html#a587203fceec6966ad99d2d500ae43074" title=" " alt="" coords="813,1029,863,1054"/>
-<area shape="rect" id="node6" href="$classPackWcle.html#abd8a5d698ae53f1e4182902b62dd751e" title=" " alt="" coords="477,377,658,402"/>
-<area shape="rect" id="node8" href="$structPackHeader.html#ad6923627ad1bf2df2dc96f30497c90b6" title=" " alt="" coords="723,1079,953,1119"/>
-<area shape="rect" id="node10" href="$classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331" title=" " alt="" coords="771,626,905,652"/>
-<area shape="rect" id="node14" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="502,678,633,704"/>
-<area shape="rect" id="node18" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="252,932,367,957"/>
-<area shape="rect" id="node20" href="$classPackDjgpp2.html#a48df49a5deb39fa19fd0bd00e68f3b26" title=" " alt="" coords="5,277,159,302"/>
-<area shape="rect" id="node21" href="$classPackWcle.html#a2c3b799c69917a8aa184c3216dca8734" title=" " alt="" coords="477,829,657,854"/>
-<area shape="rect" id="node22" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="248,1030,371,1056"/>
-<area shape="rect" id="node23" href="$classFilter.html#a1182c3aa65e71fd53ef9306e01317e30" title=" " alt="" coords="791,125,885,150"/>
-<area shape="rect" id="node25" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="764,478,912,504"/>
-<area shape="rect" id="node28" href="$classPeFile_1_1Reloc.html#ab4ac69f442e78ce8e5ed49d43f669b51" title=" " alt="" coords="767,980,909,1005"/>
-<area shape="rect" id="node33" href="$classPacker.html#a55f33ae9a3b893a0811404d4aa85592e" title="sort and delta&#45;compress relocations with optional bswap within image returns number of bytes written ..." alt="" coords="755,930,921,956"/>
-<area shape="rect" id="node35" href="$packhead_8cpp.html#a9bc7fbed8b0117cf25aae706dff178cb" title="ph decompress util" alt="" coords="505,328,629,353"/>
-<area shape="rect" id="node37" href="$classPeFile.html#a0de137a0075cce856ee34d9dbd2c7c6b" title=" " alt="" coords="754,1144,922,1169"/>
-<area shape="rect" id="node38" href="$classPeFile.html#ac091b00cb7c3729316f3b3675e28cc2e" title=" " alt="" coords="765,1193,911,1218"/>
-<area shape="rect" id="node39" href="$raw__bytes_8h.html#aa18dd87e748c7067bc4b56e30ffc725e" title=" " alt="" coords="772,1242,904,1268"/>
-<area shape="rect" id="node40" href="$classInputFile.html#ae6797787eefa57fdc7191461a47109f6" title=" " alt="" coords="510,728,625,753"/>
-<area shape="rect" id="node43" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="756,1292,920,1317"/>
-<area shape="rect" id="node44" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="747,1341,929,1366"/>
-<area shape="rect" id="node45" href="$classFilter.html#af2ae7fbb5020cf0aec5843f1272f7dab" title=" " alt="" coords="791,1390,885,1416"/>
-<area shape="rect" id="node46" href="$dt__xspan_8cpp.html#a13626496245cd976c70360973581754f" title="raw_bytes" alt="" coords="791,1440,885,1465"/>
-<area shape="rect" id="node47" href="$classFilter.html#a34aee2c034f2a84b0b8af53287066c1a" title=" " alt="" coords="783,277,893,302"/>
-<area shape="rect" id="node48" href="$classPacker.html#ad50f653ca4844165671764219a33eb74" title="delta&#45;decompress relocations advances &#39;in&#39; allocates &#39;out&#39; and returns number of relocs written to &#39;o..." alt="" coords="747,429,929,454"/>
-<area shape="rect" id="node49" href="$compress__lzma_8cpp.html#a3a0885ac5b6affea5d4501ee829bc0b6" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="751,1489,925,1514"/>
-<area shape="rect" id="node50" href="$compress__zlib_8cpp.html#af8d2dbc5d4dee50d2bd805c689650419" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="756,1538,920,1564"/>
-<area shape="rect" id="node3" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="465,125,670,150"/>
-<area shape="rect" id="node4" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="228,376,391,401"/>
-<area shape="rect" id="node7" href="$classPackWcle.html#ade3c0c0f183f9042bba43ee238b8fe88" title=" " alt="" coords="240,277,379,302"/>
-<area shape="rect" id="node9" href="$classPacker.html#afeee17a50e4f350eebc14b1704ec9a39" title=" " alt="" coords="482,1228,653,1253"/>
-<area shape="rect" id="node11" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="241,524,378,549"/>
-<area shape="rect" id="node12" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="253,474,365,500"/>
-<area shape="rect" id="node13" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="255,425,363,450"/>
-<area shape="rect" id="node15" href="$namespaceanonymous__namespace_02work_8cpp_03.html#ae94d33f51eb588e4e22b848dfc45db9a" title=" " alt="" coords="219,689,399,744"/>
-<area shape="rect" id="node16" href="$classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a" title=" " alt="" coords="220,768,399,808"/>
-<area shape="rect" id="node17" href="$classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6" title=" " alt="" coords="220,624,399,664"/>
-<area shape="rect" id="node19" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="251,981,368,1006"/>
-<area shape="rect" id="node24" href="$classPackLinuxI386sh.html#ad2d96daafa916b66092adceee5f3c4c7" title=" " alt="" coords="460,76,675,101"/>
-<area shape="rect" id="node26" href="$classPeFile.html#ad8e6ec987ca037c22af9bbdcf3e76469" title=" " alt="" coords="460,476,675,501"/>
-<area shape="rect" id="node27" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="489,426,646,452"/>
-<area shape="rect" id="node29" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="477,1129,657,1154"/>
-<area shape="rect" id="node30" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="478,1080,657,1105"/>
-<area shape="rect" id="node31" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="478,1030,657,1056"/>
-<area shape="rect" id="node32" href="$classPeFile.html#a72740c1b72ad602b4b9e0a607c745713" title=" " alt="" coords="494,1178,641,1204"/>
-<area shape="rect" id="node34" href="$classPackWcle.html#a1ab5345f507887223de109f0b1139bce" title=" " alt="" coords="465,981,670,1006"/>
-<area shape="rect" id="node36" href="$classPacker.html#ab53d9fc8308aa5467d38425ad3673b29" title="decompress" alt="" coords="234,326,385,352"/>
-<area shape="rect" id="node41" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="235,833,384,858"/>
-<area shape="rect" id="node42" href="$classPackDjgpp2.html#abcf77216fcfbdba59f92acfe5887cfc5" title=" " alt="" coords="207,882,412,908"/>
+<area shape="rect" id="node1" title=" " alt="" coords="989,876,1079,901"/>
+<area shape="rect" id="node2" href="$classPacker.html#add5cc1c8eff3bbc8aaf7ec0cf03cb82e" title="compress &#45; wrap call to low&#45;level upx_compress()" alt="" coords="759,322,893,348"/>
+<area shape="rect" id="node6" href="$xspan__impl__common_8h.html#a587203fceec6966ad99d2d500ae43074" title=" " alt="" coords="801,1025,851,1050"/>
+<area shape="rect" id="node7" href="$classPackWcle.html#abd8a5d698ae53f1e4182902b62dd751e" title=" " alt="" coords="465,373,646,398"/>
+<area shape="rect" id="node9" href="$structPackHeader.html#ad6923627ad1bf2df2dc96f30497c90b6" title=" " alt="" coords="711,1075,941,1115"/>
+<area shape="rect" id="node11" href="$classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331" title=" " alt="" coords="759,622,893,648"/>
+<area shape="rect" id="node15" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="490,674,621,700"/>
+<area shape="rect" id="node19" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="253,829,367,854"/>
+<area shape="rect" id="node21" href="$classPackDjgpp2.html#a48df49a5deb39fa19fd0bd00e68f3b26" title=" " alt="" coords="12,197,165,222"/>
+<area shape="rect" id="node22" href="$classPackWcle.html#a2c3b799c69917a8aa184c3216dca8734" title=" " alt="" coords="465,825,645,850"/>
+<area shape="rect" id="node23" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="249,1029,371,1054"/>
+<area shape="rect" id="node24" href="$classFilter.html#a1182c3aa65e71fd53ef9306e01317e30" title=" " alt="" coords="779,120,873,145"/>
+<area shape="rect" id="node26" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="752,473,900,498"/>
+<area shape="rect" id="node29" href="$classPeFile_1_1Reloc.html#ab4ac69f442e78ce8e5ed49d43f669b51" title=" " alt="" coords="755,976,897,1001"/>
+<area shape="rect" id="node34" href="$classPacker.html#a55f33ae9a3b893a0811404d4aa85592e" title="sort and delta&#45;compress relocations with optional bswap within image returns number of bytes written ..." alt="" coords="743,926,909,952"/>
+<area shape="rect" id="node36" href="$packhead_8cpp.html#a9bc7fbed8b0117cf25aae706dff178cb" title="ph decompress util" alt="" coords="493,272,617,297"/>
+<area shape="rect" id="node38" href="$classPeFile.html#a0de137a0075cce856ee34d9dbd2c7c6b" title=" " alt="" coords="742,1140,910,1165"/>
+<area shape="rect" id="node39" href="$classPeFile.html#ac091b00cb7c3729316f3b3675e28cc2e" title=" " alt="" coords="753,1189,899,1214"/>
+<area shape="rect" id="node40" href="$raw__bytes_8h.html#aa18dd87e748c7067bc4b56e30ffc725e" title=" " alt="" coords="760,1238,892,1264"/>
+<area shape="rect" id="node41" href="$classInputFile.html#ae6797787eefa57fdc7191461a47109f6" title=" " alt="" coords="498,724,613,749"/>
+<area shape="rect" id="node43" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="744,1288,908,1313"/>
+<area shape="rect" id="node44" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="735,1337,917,1362"/>
+<area shape="rect" id="node45" href="$classFilter.html#af2ae7fbb5020cf0aec5843f1272f7dab" title=" " alt="" coords="779,1386,873,1412"/>
+<area shape="rect" id="node46" href="$dt__xspan_8cpp.html#a13626496245cd976c70360973581754f" title="raw_bytes" alt="" coords="779,1436,873,1461"/>
+<area shape="rect" id="node47" href="$classFilter.html#a34aee2c034f2a84b0b8af53287066c1a" title=" " alt="" coords="771,221,881,246"/>
+<area shape="rect" id="node48" href="$classPacker.html#ad50f653ca4844165671764219a33eb74" title="delta&#45;decompress relocations advances &#39;in&#39; allocates &#39;out&#39; and returns number of relocs written to &#39;o..." alt="" coords="735,424,917,449"/>
+<area shape="rect" id="node49" href="$compress__lzma_8cpp.html#a3a0885ac5b6affea5d4501ee829bc0b6" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="739,1485,913,1510"/>
+<area shape="rect" id="node50" href="$compress__zlib_8cpp.html#af8d2dbc5d4dee50d2bd805c689650419" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="744,1534,908,1560"/>
+<area shape="rect" id="node3" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="453,120,658,145"/>
+<area shape="rect" id="node4" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="229,322,391,348"/>
+<area shape="rect" id="node5" href="$classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5" title=" " alt="" coords="5,564,172,604"/>
+<area shape="rect" id="node8" href="$classPackWcle.html#ade3c0c0f183f9042bba43ee238b8fe88" title=" " alt="" coords="241,272,379,297"/>
+<area shape="rect" id="node10" href="$classPacker.html#afeee17a50e4f350eebc14b1704ec9a39" title=" " alt="" coords="470,1224,641,1249"/>
+<area shape="rect" id="node12" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="241,470,379,496"/>
+<area shape="rect" id="node13" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="254,421,366,446"/>
+<area shape="rect" id="node14" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="256,372,364,397"/>
+<area shape="rect" id="node16" href="$namespaceanonymous__namespace_02work_8cpp_03.html#ae94d33f51eb588e4e22b848dfc45db9a" title=" " alt="" coords="220,750,400,805"/>
+<area shape="rect" id="node17" href="$classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a" title=" " alt="" coords="221,622,399,662"/>
+<area shape="rect" id="node18" href="$classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6" title=" " alt="" coords="221,686,399,726"/>
+<area shape="rect" id="node20" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="251,930,369,956"/>
+<area shape="rect" id="node25" href="$classPackLinuxI386sh.html#ad2d96daafa916b66092adceee5f3c4c7" title=" " alt="" coords="448,70,663,96"/>
+<area shape="rect" id="node27" href="$classPeFile.html#ad8e6ec987ca037c22af9bbdcf3e76469" title=" " alt="" coords="448,472,663,497"/>
+<area shape="rect" id="node28" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="477,422,634,448"/>
+<area shape="rect" id="node30" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="465,1125,645,1150"/>
+<area shape="rect" id="node31" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="466,1026,645,1052"/>
+<area shape="rect" id="node32" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="466,1076,645,1101"/>
+<area shape="rect" id="node33" href="$classPeFile.html#a72740c1b72ad602b4b9e0a607c745713" title=" " alt="" coords="482,1174,629,1200"/>
+<area shape="rect" id="node35" href="$classPackWcle.html#a1ab5345f507887223de109f0b1139bce" title=" " alt="" coords="453,977,658,1002"/>
+<area shape="rect" id="node37" href="$classPacker.html#ab53d9fc8308aa5467d38425ad3673b29" title="decompress" alt="" coords="235,222,385,248"/>
+<area shape="rect" id="node42" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="235,980,385,1005"/>
 </map>

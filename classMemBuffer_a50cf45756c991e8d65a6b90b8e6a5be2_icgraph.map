@@ -1,5 +1,5 @@
 <map id="MemBuffer::getVoidPtr" name="MemBuffer::getVoidPtr">
-<area shape="rect" id="node1" title=" " alt="" coords="1704,748,1873,773"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1704,697,1873,722"/>
 <area shape="rect" id="node2" href="$p__lx__elf_8cpp.html#a34f9d3637288371175e78109dfbabef4" title=" " alt="" coords="996,338,1124,364"/>
 <area shape="rect" id="node6" href="$classPackLinuxElf32.html#aa2acf155f6a76482cd3cbd17cef800e6" title=" " alt="" coords="724,108,917,148"/>
 <area shape="rect" id="node10" href="$classPackLinuxElf64.html#a8c2bb372c567334edd586f78224bc956" title=" " alt="" coords="724,423,917,463"/>
@@ -14,18 +14,16 @@
 <area shape="rect" id="node28" href="$classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6" title=" " alt="" coords="1203,916,1369,941"/>
 <area shape="rect" id="node29" href="$classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625" title=" " alt="" coords="1453,1002,1620,1028"/>
 <area shape="rect" id="node30" href="$classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215" title=" " alt="" coords="1453,1052,1620,1077"/>
-<area shape="rect" id="node31" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="1453,1101,1620,1126"/>
-<area shape="rect" id="node32" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="1453,1150,1620,1176"/>
-<area shape="rect" id="node33" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="1453,1200,1620,1225"/>
-<area shape="rect" id="node34" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="1453,1249,1620,1274"/>
-<area shape="rect" id="node35" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="1447,1298,1627,1324"/>
-<area shape="rect" id="node36" href="$classPackLinuxElf32.html#a34521f96ea9eb8d358528d794fa9345b" title=" " alt="" coords="1209,235,1363,275"/>
-<area shape="rect" id="node37" href="$classPackLinuxElf64.html#acbc068ab20eb6f313fc0abbda76c62a4" title=" " alt="" coords="1209,566,1363,606"/>
-<area shape="rect" id="node38" href="$membuffer_8cpp.html#aa3e692ab41d560fed76653b1997599ee" title=" " alt="" coords="1489,1348,1584,1373"/>
-<area shape="rect" id="node39" href="$classPackLinuxElf32.html#a6a054376b40ab2dc536ce43302d2c989" title=" " alt="" coords="988,254,1132,294"/>
-<area shape="rect" id="node40" href="$classPackLinuxElf64.html#ad2c315a3286632db9c874ca7a65bb69d" title=" " alt="" coords="988,675,1132,715"/>
-<area shape="rect" id="node41" href="$classPackMachBase.html#ac2f139e07414953fb25b83862dbd340c" title="Generic Unix unpack()." alt="" coords="1449,1397,1624,1422"/>
-<area shape="rect" id="node43" href="$classPackLinuxElf64.html#a3b7d0324926f0404e61dc997833544f7" title=" " alt="" coords="965,625,1155,650"/>
+<area shape="rect" id="node31" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="1453,1101,1620,1126"/>
+<area shape="rect" id="node32" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="1453,1150,1620,1176"/>
+<area shape="rect" id="node33" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="1447,1200,1627,1225"/>
+<area shape="rect" id="node34" href="$classPackLinuxElf32.html#a34521f96ea9eb8d358528d794fa9345b" title=" " alt="" coords="1209,235,1363,275"/>
+<area shape="rect" id="node35" href="$classPackLinuxElf64.html#acbc068ab20eb6f313fc0abbda76c62a4" title=" " alt="" coords="1209,566,1363,606"/>
+<area shape="rect" id="node36" href="$membuffer_8cpp.html#aa3e692ab41d560fed76653b1997599ee" title=" " alt="" coords="1489,1249,1584,1274"/>
+<area shape="rect" id="node37" href="$classPackLinuxElf32.html#a6a054376b40ab2dc536ce43302d2c989" title=" " alt="" coords="988,254,1132,294"/>
+<area shape="rect" id="node38" href="$classPackLinuxElf64.html#ad2c315a3286632db9c874ca7a65bb69d" title=" " alt="" coords="988,675,1132,715"/>
+<area shape="rect" id="node39" href="$classPackMachBase.html#ac2f139e07414953fb25b83862dbd340c" title="Generic Unix unpack()." alt="" coords="1449,1298,1624,1324"/>
+<area shape="rect" id="node41" href="$classPackLinuxElf64.html#a3b7d0324926f0404e61dc997833544f7" title=" " alt="" coords="965,625,1155,650"/>
 <area shape="rect" id="node3" href="$classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552" title=" " alt="" coords="236,188,417,213"/>
 <area shape="rect" id="node5" href="$classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2" title=" " alt="" coords="236,517,417,542"/>
 <area shape="rect" id="node4" href="$classPackLinuxElf32x86interp.html#a7d53132b64a33ce3f11cdd6fcf43b7d5" title=" " alt="" coords="5,180,188,220"/>
@@ -41,5 +39,5 @@
 <area shape="rect" id="node21" href="$classPackLinuxElf32.html#aa3f2721b58e10a1d02b398f398fb7812" title=" " alt="" coords="1213,171,1359,211"/>
 <area shape="rect" id="node23" href="$classPackLinuxElf32.html#a52055eaaf3a28d1986937825c9382ae7" title=" " alt="" coords="749,172,893,212"/>
 <area shape="rect" id="node24" href="$classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040" title="Generic Unix unpack()." alt="" coords="483,237,658,262"/>
-<area shape="rect" id="node42" href="$classPackMachFat.html#a774a62bb9f6712cb763ac1a3cc1e5955" title=" " alt="" coords="1205,1397,1367,1422"/>
+<area shape="rect" id="node40" href="$classPackMachFat.html#a774a62bb9f6712cb763ac1a3cc1e5955" title=" " alt="" coords="1205,1298,1367,1324"/>
 </map>

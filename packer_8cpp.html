@@ -411,77 +411,77 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="packer_8cpp_source.html#l00938">938</a> of file <a class="el" href="packer_8cpp_source.html">packer.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  938</span>                                                                                      {</div>
-<div class="line"><span class="lineno">  939</span>    <span class="keywordtype">int</span> nfilters = 0;</div>
-<div class="line"><span class="lineno">  940</span> </div>
-<div class="line"><span class="lineno">  941</span>    <span class="comment">// setup filter filter_strategy</span></div>
-<div class="line"><span class="lineno">  942</span>    <span class="keywordflow">if</span> (filter_strategy == 0) {</div>
-<div class="line"><span class="lineno">  943</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;all_filters)</div>
-<div class="line"><span class="lineno">  944</span>            <span class="comment">// choose best from all available filters</span></div>
-<div class="line"><span class="lineno">  945</span>            filter_strategy = INT_MAX;</div>
-<div class="line"><span class="lineno">  946</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter &gt;= 0 &amp;&amp; <a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter, all_filters))</div>
-<div class="line"><span class="lineno">  947</span>            <span class="comment">// try opt-&gt;filter</span></div>
-<div class="line"><span class="lineno">  948</span>            filter_strategy = -2;</div>
-<div class="line"><span class="lineno">  949</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  950</span>            <span class="comment">// try the first working filter</span></div>
-<div class="line"><span class="lineno">  951</span>            filter_strategy = -1;</div>
-<div class="line"><span class="lineno">  952</span>    }</div>
-<div class="line"><span class="lineno">  953</span>    assert(filter_strategy != 0);</div>
-<div class="line"><span class="lineno">  954</span> </div>
-<div class="line"><span class="lineno">  955</span>    <span class="keywordflow">if</span> (filter_strategy == -3)</div>
-<div class="line"><span class="lineno">  956</span>        <span class="keywordflow">goto</span> done;</div>
-<div class="line"><span class="lineno">  957</span>    <span class="keywordflow">if</span> (filter_strategy == -2) {</div>
-<div class="line"><span class="lineno">  958</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter &gt;= 0 &amp;&amp; <a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter, all_filters)) {</div>
-<div class="line"><span class="lineno">  959</span>            filters[nfilters++] = <a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter;</div>
-<div class="line"><span class="lineno">  960</span>            <span class="keywordflow">goto</span> done;</div>
-<div class="line"><span class="lineno">  961</span>        }</div>
-<div class="line"><span class="lineno">  962</span>        filter_strategy = -1;</div>
-<div class="line"><span class="lineno">  963</span>    }</div>
-<div class="line"><span class="lineno">  964</span>    assert(filter_strategy &gt;= -1);</div>
-<div class="line"><span class="lineno">  965</span> </div>
-<div class="line"><span class="lineno">  966</span>    <span class="keywordflow">while</span> (all_filters &amp;&amp; *all_filters != <a class="code hl_define" href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a>) {</div>
-<div class="line"><span class="lineno">  967</span>        <span class="keywordtype">int</span> filter_id = *all_filters++;</div>
-<div class="line"><span class="lineno">  968</span>        <span class="keywordflow">if</span> (filter_id == <a class="code hl_define" href="conf_8h.html#a7459aa3398ab9cac2d49672929fa5a44">FT_ULTRA_BRUTE</a> &amp;&amp; !<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;ultra_brute)</div>
-<div class="line"><span class="lineno">  969</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  970</span>        <span class="keywordflow">if</span> (filter_id == <a class="code hl_define" href="conf_8h.html#a6128ed1a90db2404a32d4b50e7b9402b">FT_SKIP</a> || filter_id == <a class="code hl_define" href="conf_8h.html#a7459aa3398ab9cac2d49672929fa5a44">FT_ULTRA_BRUTE</a>)</div>
-<div class="line"><span class="lineno">  971</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  972</span>        <span class="keywordflow">if</span> (filter_id == 0)</div>
-<div class="line"><span class="lineno">  973</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  974</span>        <span class="comment">// check duplicate</span></div>
-<div class="line"><span class="lineno">  975</span>        assert(<a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(filter_id));</div>
-<div class="line"><span class="lineno">  976</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nfilters; i++)</div>
-<div class="line"><span class="lineno">  977</span>            assert(filter_id != filters[i]);</div>
-<div class="line"><span class="lineno">  978</span>        <span class="comment">// use this filter</span></div>
-<div class="line"><span class="lineno">  979</span>        filters[nfilters++] = filter_id;</div>
-<div class="line"><span class="lineno">  980</span>        <span class="keywordflow">if</span> (filter_strategy &gt;= 0 &amp;&amp; nfilters &gt;= filter_strategy)</div>
-<div class="line"><span class="lineno">  981</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  982</span>    }</div>
-<div class="line"><span class="lineno">  983</span> </div>
-<div class="line"><span class="lineno">  984</span>done:</div>
-<div class="line"><span class="lineno">  985</span>    <span class="comment">// filter_strategy now only means &quot;stop after first successful filter&quot;</span></div>
-<div class="line"><span class="lineno">  986</span>    filter_strategy = (filter_strategy &lt; 0) ? -1 : 0;</div>
-<div class="line"><span class="lineno">  987</span>    <span class="comment">// make sure that we have a &quot;no filter&quot; fallback</span></div>
-<div class="line"><span class="lineno">  988</span>    <span class="keywordtype">bool</span> have_filter0 = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  989</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nfilters; i++)</div>
-<div class="line"><span class="lineno">  990</span>        <span class="keywordflow">if</span> (filters[i] == 0) {</div>
-<div class="line"><span class="lineno">  991</span>            have_filter0 = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  992</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  993</span>        }</div>
-<div class="line"><span class="lineno">  994</span>    <span class="keywordflow">if</span> (!have_filter0)</div>
-<div class="line"><span class="lineno">  995</span>        filters[nfilters++] = 0;</div>
-<div class="line"><span class="lineno">  996</span>    <span class="comment">// debug</span></div>
-<div class="line"><span class="lineno">  997</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;debug.use_random_filter &amp;&amp; nfilters &gt;= 3 &amp;&amp; filters[nfilters - 1] == 0) {</div>
-<div class="line"><span class="lineno">  998</span>        <span class="keywordtype">int</span> filter_id = filters[<a class="code hl_function" href="util_8cpp.html#aa6941e20228b3e1dc459a36773b99633">upx_rand</a>() % (nfilters - 1)];</div>
-<div class="line"><span class="lineno">  999</span>        <span class="keywordflow">if</span> (filter_id &gt; 0) {</div>
-<div class="line"><span class="lineno"> 1000</span>            <a class="code hl_function" href="conf_8h.html#af79eab1f480f5a57b6bfbff38256b0d2">NO_printf</a>(<span class="stringliteral">&quot;\nuse_random_filter = %#x (%d)\n&quot;</span>, filter_id, nfilters - 1);</div>
-<div class="line"><span class="lineno"> 1001</span>            filters[0] = filter_id;</div>
-<div class="line"><span class="lineno"> 1002</span>            filters[1] = 0;</div>
-<div class="line"><span class="lineno"> 1003</span>            nfilters = 2;</div>
-<div class="line"><span class="lineno"> 1004</span>        }</div>
-<div class="line"><span class="lineno"> 1005</span>    }</div>
-<div class="line"><span class="lineno"> 1006</span>    <span class="keywordflow">return</span> nfilters;</div>
-<div class="line"><span class="lineno"> 1007</span>}</div>
+<p class="definition">Definition at line <a class="el" href="packer_8cpp_source.html#l00939">939</a> of file <a class="el" href="packer_8cpp_source.html">packer.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  939</span>                                                                                      {</div>
+<div class="line"><span class="lineno">  940</span>    <span class="keywordtype">int</span> nfilters = 0;</div>
+<div class="line"><span class="lineno">  941</span> </div>
+<div class="line"><span class="lineno">  942</span>    <span class="comment">// setup filter filter_strategy</span></div>
+<div class="line"><span class="lineno">  943</span>    <span class="keywordflow">if</span> (filter_strategy == 0) {</div>
+<div class="line"><span class="lineno">  944</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;all_filters)</div>
+<div class="line"><span class="lineno">  945</span>            <span class="comment">// choose best from all available filters</span></div>
+<div class="line"><span class="lineno">  946</span>            filter_strategy = INT_MAX;</div>
+<div class="line"><span class="lineno">  947</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter &gt;= 0 &amp;&amp; <a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter, all_filters))</div>
+<div class="line"><span class="lineno">  948</span>            <span class="comment">// try opt-&gt;filter</span></div>
+<div class="line"><span class="lineno">  949</span>            filter_strategy = -2;</div>
+<div class="line"><span class="lineno">  950</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  951</span>            <span class="comment">// try the first working filter</span></div>
+<div class="line"><span class="lineno">  952</span>            filter_strategy = -1;</div>
+<div class="line"><span class="lineno">  953</span>    }</div>
+<div class="line"><span class="lineno">  954</span>    assert(filter_strategy != 0);</div>
+<div class="line"><span class="lineno">  955</span> </div>
+<div class="line"><span class="lineno">  956</span>    <span class="keywordflow">if</span> (filter_strategy &lt;= -3)</div>
+<div class="line"><span class="lineno">  957</span>        <span class="keywordflow">goto</span> done;</div>
+<div class="line"><span class="lineno">  958</span>    <span class="keywordflow">if</span> (filter_strategy == -2) {</div>
+<div class="line"><span class="lineno">  959</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter &gt;= 0 &amp;&amp; <a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter, all_filters)) {</div>
+<div class="line"><span class="lineno">  960</span>            filters[nfilters++] = <a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;filter;</div>
+<div class="line"><span class="lineno">  961</span>            <span class="keywordflow">goto</span> done;</div>
+<div class="line"><span class="lineno">  962</span>        }</div>
+<div class="line"><span class="lineno">  963</span>        filter_strategy = -1;</div>
+<div class="line"><span class="lineno">  964</span>    }</div>
+<div class="line"><span class="lineno">  965</span>    assert(filter_strategy &gt;= -1);</div>
+<div class="line"><span class="lineno">  966</span> </div>
+<div class="line"><span class="lineno">  967</span>    <span class="keywordflow">while</span> (all_filters &amp;&amp; *all_filters != <a class="code hl_define" href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a>) {</div>
+<div class="line"><span class="lineno">  968</span>        <span class="keywordtype">int</span> filter_id = *all_filters++;</div>
+<div class="line"><span class="lineno">  969</span>        <span class="keywordflow">if</span> (filter_id == <a class="code hl_define" href="conf_8h.html#a7459aa3398ab9cac2d49672929fa5a44">FT_ULTRA_BRUTE</a> &amp;&amp; !<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;ultra_brute)</div>
+<div class="line"><span class="lineno">  970</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  971</span>        <span class="keywordflow">if</span> (filter_id == <a class="code hl_define" href="conf_8h.html#a6128ed1a90db2404a32d4b50e7b9402b">FT_SKIP</a> || filter_id == <a class="code hl_define" href="conf_8h.html#a7459aa3398ab9cac2d49672929fa5a44">FT_ULTRA_BRUTE</a>)</div>
+<div class="line"><span class="lineno">  972</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  973</span>        <span class="keywordflow">if</span> (filter_id == 0)</div>
+<div class="line"><span class="lineno">  974</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  975</span>        <span class="comment">// check duplicate</span></div>
+<div class="line"><span class="lineno">  976</span>        assert(<a class="code hl_function" href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a>(filter_id));</div>
+<div class="line"><span class="lineno">  977</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nfilters; i++)</div>
+<div class="line"><span class="lineno">  978</span>            assert(filter_id != filters[i]);</div>
+<div class="line"><span class="lineno">  979</span>        <span class="comment">// use this filter</span></div>
+<div class="line"><span class="lineno">  980</span>        filters[nfilters++] = filter_id;</div>
+<div class="line"><span class="lineno">  981</span>        <span class="keywordflow">if</span> (filter_strategy &gt;= 0 &amp;&amp; nfilters &gt;= filter_strategy)</div>
+<div class="line"><span class="lineno">  982</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  983</span>    }</div>
+<div class="line"><span class="lineno">  984</span> </div>
+<div class="line"><span class="lineno">  985</span>done:</div>
+<div class="line"><span class="lineno">  986</span>    <span class="comment">// filter_strategy now only means &quot;stop after first successful filter&quot;</span></div>
+<div class="line"><span class="lineno">  987</span>    filter_strategy = (filter_strategy &lt; 0) ? -1 : 0;</div>
+<div class="line"><span class="lineno">  988</span>    <span class="comment">// make sure that we have a &quot;no filter&quot; fallback</span></div>
+<div class="line"><span class="lineno">  989</span>    <span class="keywordtype">bool</span> have_filter0 = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  990</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nfilters; i++)</div>
+<div class="line"><span class="lineno">  991</span>        <span class="keywordflow">if</span> (filters[i] == 0) {</div>
+<div class="line"><span class="lineno">  992</span>            have_filter0 = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  993</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  994</span>        }</div>
+<div class="line"><span class="lineno">  995</span>    <span class="keywordflow">if</span> (!have_filter0)</div>
+<div class="line"><span class="lineno">  996</span>        filters[nfilters++] = 0;</div>
+<div class="line"><span class="lineno">  997</span>    <span class="comment">// debug</span></div>
+<div class="line"><span class="lineno">  998</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;debug.use_random_filter &amp;&amp; nfilters &gt;= 3 &amp;&amp; filters[nfilters - 1] == 0) {</div>
+<div class="line"><span class="lineno">  999</span>        <span class="keywordtype">int</span> filter_id = filters[<a class="code hl_function" href="util_8cpp.html#aa6941e20228b3e1dc459a36773b99633">upx_rand</a>() % (nfilters - 1)];</div>
+<div class="line"><span class="lineno"> 1000</span>        <span class="keywordflow">if</span> (filter_id &gt; 0) {</div>
+<div class="line"><span class="lineno"> 1001</span>            <a class="code hl_function" href="conf_8h.html#af79eab1f480f5a57b6bfbff38256b0d2">NO_printf</a>(<span class="stringliteral">&quot;\nuse_random_filter = %#x (%d)\n&quot;</span>, filter_id, nfilters - 1);</div>
+<div class="line"><span class="lineno"> 1002</span>            filters[0] = filter_id;</div>
+<div class="line"><span class="lineno"> 1003</span>            filters[1] = 0;</div>
+<div class="line"><span class="lineno"> 1004</span>            nfilters = 2;</div>
+<div class="line"><span class="lineno"> 1005</span>        }</div>
+<div class="line"><span class="lineno"> 1006</span>    }</div>
+<div class="line"><span class="lineno"> 1007</span>    <span class="keywordflow">return</span> nfilters;</div>
+<div class="line"><span class="lineno"> 1008</span>}</div>
 <div class="ttc" id="aclassFilter_html_a105530ab8d480ac5fa153fcb8cb86206"><div class="ttname"><a href="classFilter.html#a105530ab8d480ac5fa153fcb8cb86206">Filter::isValidFilter</a></div><div class="ttdeci">static bool isValidFilter(int filter_id)</div><div class="ttdef"><b>Definition:</b> <a href="filter_8cpp_source.html#l00072">filter.cpp:72</a></div></div>
 <div class="ttc" id="aconf_8h_html_a6128ed1a90db2404a32d4b50e7b9402b"><div class="ttname"><a href="conf_8h.html#a6128ed1a90db2404a32d4b50e7b9402b">FT_SKIP</a></div><div class="ttdeci">#define FT_SKIP</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00622">conf.h:622</a></div></div>
 <div class="ttc" id="aconf_8h_html_a7459aa3398ab9cac2d49672929fa5a44"><div class="ttname"><a href="conf_8h.html#a7459aa3398ab9cac2d49672929fa5a44">FT_ULTRA_BRUTE</a></div><div class="ttdeci">#define FT_ULTRA_BRUTE</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00623">conf.h:623</a></div></div>

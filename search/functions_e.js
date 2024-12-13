@@ -5,7 +5,7 @@ var searchData=
   ['odaddr_2',['ODADDR',['../classPeFile.html#a636375585f68167f543da15206fb359f',1,'PeFile']]],
   ['odsize_3',['ODSIZE',['../classPeFile.html#a39612b8b45f1c68e5c8d57bb915e648e',1,'PeFile']]],
   ['offs_4',['offs',['../classPeFile_1_1Resource.html#adac9138c13d01dd3392c47cbc277f10a',1,'PeFile::Resource']]],
-  ['open_5',['open',['../classOutputFile.html#af525d84fd970f061f7c38231892812e6',1,'OutputFile::open()'],['../linux_8h.html#aa8d4d8d536a0530d9109179453d5ae93',1,'open(char const *, unsigned, unsigned):&#160;linux.h'],['../darwin_8h.html#a0b834f51ad47ac6d62ff3341ceaa7974',1,'open(char const *, int,...):&#160;darwin.h'],['../bsd_8h.html#aa8d4d8d536a0530d9109179453d5ae93',1,'open(char const *, unsigned, unsigned):&#160;bsd.h'],['../classInputFile.html#a704cce997b015d5c6de5e19c3b24acb2',1,'InputFile::open()']]],
+  ['open_5',['open',['../classOutputFile.html#af525d84fd970f061f7c38231892812e6',1,'OutputFile::open()'],['../linux_8h.html#aaadfef36f5467aaabf53273408d33dfc',1,'open(char const *, int, int):&#160;linux.h'],['../darwin_8h.html#a0b834f51ad47ac6d62ff3341ceaa7974',1,'open(char const *, int,...):&#160;darwin.h'],['../bsd_8h.html#aa8d4d8d536a0530d9109179453d5ae93',1,'open(char const *, unsigned, unsigned):&#160;bsd.h'],['../classInputFile.html#a704cce997b015d5c6de5e19c3b24acb2',1,'InputFile::open()']]],
   ['openat_6',['openat',['../linux_8h.html#a2df805e905944109a962a131b3813374',1,'linux.h']]],
   ['openstdout_7',['openStdout',['../classOutputFile.html#a02cf6b0b957ccb50ae5658b3daefdf9f',1,'OutputFile']]],
   ['operator_20bool_8',['operator bool',['../structupx_1_1TriBool.html#aab473528740296c5d370b7003be8d1bc',1,'upx::TriBool']]],

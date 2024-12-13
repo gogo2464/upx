@@ -20,10 +20,11 @@ var searchData=
   ['all_5fmethods_17',['all_methods',['../structOptions.html#a2eceb2cf73bf102edd76b89f4f315141',1,'Options']]],
   ['all_5fmethods_5fuse_5flzma_18',['all_methods_use_lzma',['../structOptions.html#aa8401857048d5d1e6abb3b0d42558692',1,'Options']]],
   ['always_5fcheck_5fstrict_5frelocs_19',['ALWAYS_CHECK_STRICT_RELOCS',['../pefile_8cpp.html#a24ca95aa0001994cba9787266a6b0429',1,'pefile.cpp']]],
-  ['android_5fshlib_20',['android_shlib',['../structOptions.html#a19c29c651f71641f170a7d0dd9f71b57',1,'Options']]],
-  ['argv0_21',['argv0',['../main_8cpp.html#a1ce22b70d8f5d1310fbda2c1aa464ff5',1,'main.cpp']]],
-  ['asl_5fdelta_22',['asl_delta',['../classPackLinuxElf.html#a14a0202c4a2a508fef4009ae120b44b8',1,'PackLinuxElf']]],
-  ['atari_5ftos_23',['atari_tos',['../structOptions.html#a998692a2605563d9d80de4de216c6376',1,'Options']]],
-  ['automatic_5fdata_5fobject_24',['automatic_data_object',['../structLeFile_1_1le__header__t.html#aa99aefc75f55b1e0aefb5188792b56ea',1,'LeFile::le_header_t']]],
-  ['ax_25',['ax',['../lzma__m_8h.html#a4a52ff170f579c2eeeebb994c9d8abaa',1,'lzma_m.h']]]
+  ['android_5fold_20',['android_old',['../structOptions.html#af36b36c9bb8333e9a9ba978af67f3a2f',1,'Options']]],
+  ['android_5fshlib_21',['android_shlib',['../structOptions.html#a19c29c651f71641f170a7d0dd9f71b57',1,'Options']]],
+  ['argv0_22',['argv0',['../main_8cpp.html#a1ce22b70d8f5d1310fbda2c1aa464ff5',1,'main.cpp']]],
+  ['asl_5fdelta_23',['asl_delta',['../classPackLinuxElf.html#a14a0202c4a2a508fef4009ae120b44b8',1,'PackLinuxElf']]],
+  ['atari_5ftos_24',['atari_tos',['../structOptions.html#a998692a2605563d9d80de4de216c6376',1,'Options']]],
+  ['automatic_5fdata_5fobject_25',['automatic_data_object',['../structLeFile_1_1le__header__t.html#aa99aefc75f55b1e0aefb5188792b56ea',1,'LeFile::le_header_t']]],
+  ['ax_26',['ax',['../lzma__m_8h.html#a4a52ff170f579c2eeeebb994c9d8abaa',1,'lzma_m.h']]]
 ];

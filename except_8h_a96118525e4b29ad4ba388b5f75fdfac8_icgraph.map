@@ -1,52 +1,52 @@
 <map id="throwEOFException" name="throwEOFException">
-<area shape="rect" id="node1" title=" " alt="" coords="928,1371,1077,1396"/>
-<area shape="rect" id="node2" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="482,5,611,31"/>
-<area shape="rect" id="node5" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="206,259,373,284"/>
-<area shape="rect" id="node6" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="206,157,373,183"/>
-<area shape="rect" id="node7" href="$classPackMachBase.html#a8a18799ee0ce813705168cf6611d4474" title=" " alt="" coords="713,1321,880,1347"/>
-<area shape="rect" id="node8" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="735,1371,858,1396"/>
-<area shape="rect" id="node47" href="$classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040" title="Generic Unix unpack()." alt="" coords="459,2349,634,2375"/>
-<area shape="rect" id="node48" href="$classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479" title="Generic Unix unpack()." alt="" coords="459,2399,634,2424"/>
-<area shape="rect" id="node49" href="$classPackLinuxElf32x86interp.html#a977fd6c88fdd7d1176701c170ceb031b" title="Generic Unix unpack()." alt="" coords="455,2449,638,2489"/>
-<area shape="rect" id="node50" href="$classPackUnix.html#a62fec1407c3b1d45bd049df4b9f5e6f7" title="Generic Unix unpack()." alt="" coords="478,2513,615,2539"/>
-<area shape="rect" id="node3" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="229,5,350,31"/>
-<area shape="rect" id="node4" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="5,31,151,56"/>
-<area shape="rect" id="node9" href="$classPackLinuxElf32.html#a379f1a6161600dea7e368dabb0819f71" title=" " alt="" coords="467,1106,626,1146"/>
-<area shape="rect" id="node10" href="$classPackCom.html#a1037bec59ff8856f66cc474352017f75" title=" " alt="" coords="475,1171,618,1196"/>
-<area shape="rect" id="node11" href="$classPackExe.html#ac68ce702c762aa6727260ca68e4a7a76" title=" " alt="" coords="479,1220,615,1245"/>
-<area shape="rect" id="node12" href="$classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552" title=" " alt="" coords="199,1719,380,1744"/>
-<area shape="rect" id="node13" href="$classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2" title=" " alt="" coords="199,1469,380,1495"/>
-<area shape="rect" id="node14" href="$classPackLinuxI386.html#a3209a9fad20ca7feb8dea94f49b77529" title=" " alt="" coords="201,1593,377,1619"/>
-<area shape="rect" id="node15" href="$classPackLinuxI386sh.html#a4b4212707d6f3a57f78ae6c277358a84" title=" " alt="" coords="451,1421,642,1447"/>
-<area shape="rect" id="node16" href="$classPackMachFat.html#a803deca3bf3ea45b8116d6d3b235e0d0" title=" " alt="" coords="463,1471,630,1496"/>
-<area shape="rect" id="node17" href="$classPackPs1.html#a10a71296fe20c401f9b996bef10fd1da" title=" " alt="" coords="479,1520,615,1545"/>
-<area shape="rect" id="node18" href="$classPackSys.html#a5e269d1d830b7d4776733066865cadc0" title=" " alt="" coords="479,1569,615,1595"/>
-<area shape="rect" id="node19" href="$classPackTos.html#a8e6727917dcc6b1ffd8377282c4c8b8f" title=" " alt="" coords="479,1619,614,1644"/>
-<area shape="rect" id="node20" href="$classPackUnix.html#a935b7961d8278ae7b19c53d6ef3fe3cf" title=" " alt="" coords="475,1668,618,1693"/>
-<area shape="rect" id="node21" href="$classPackLinuxElf32.html#a362f74f1bc69654c06e59aa1805f009a" title=" " alt="" coords="435,1917,658,1943"/>
-<area shape="rect" id="node22" href="$classPackMachFat.html#add848a3775c90b2551e9646991251997" title=" " alt="" coords="453,1769,640,1795"/>
-<area shape="rect" id="node23" href="$classPackUnix.html#aea9d5cdf25d2396d775cbdf846664120" title="Generic Unix canUnpack()." alt="" coords="465,1819,628,1844"/>
-<area shape="rect" id="node24" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="472,1868,621,1893"/>
-<area shape="rect" id="node25" href="$classPacker.html#a781dc4327dd4bcab50a94bfc85f52802" title=" " alt="" coords="469,2019,624,2044"/>
-<area shape="rect" id="node26" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="232,1993,347,2019"/>
-<area shape="rect" id="node27" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="231,2248,348,2273"/>
-<area shape="rect" id="node28" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="233,2056,345,2081"/>
-<area shape="rect" id="node29" href="$classPackVmlinuzI386.html#a398205192b0191637b8f06fe18b04447" title=" " alt="" coords="437,2119,657,2159"/>
-<area shape="rect" id="node30" href="$classPackVmlinuzARMEL.html#a57f63d0522c104a49326d091701a1292" title=" " alt="" coords="428,2183,665,2223"/>
-<area shape="rect" id="node31" href="$p__djgpp2_8cpp.html#a997186465792493cc35c468bd472cfa6" title=" " alt="" coords="475,1269,618,1295"/>
-<area shape="rect" id="node32" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="221,1163,358,1188"/>
-<area shape="rect" id="node33" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="file i/o utils" alt="" coords="474,2248,619,2273"/>
-<area shape="rect" id="node34" href="$classPackVmlinuxI386.html#a6c0e0d211e5f4cc51d9bac6f58503ede" title=" " alt="" coords="464,309,629,349"/>
-<area shape="rect" id="node35" href="$classPackVmlinuxARMEL.html#adf2f16941f88fb11cc9c4ae1c3c6a87e" title=" " alt="" coords="455,373,638,413"/>
-<area shape="rect" id="node36" href="$classPackVmlinuxARMEB.html#a5113a776ff1c856b065bfdd4ddb5028b" title=" " alt="" coords="455,437,639,477"/>
-<area shape="rect" id="node37" href="$classPackVmlinuxPPC32.html#a13fb4b85a2e31cc8a803e0410b5e96cf" title=" " alt="" coords="457,501,636,541"/>
-<area shape="rect" id="node38" href="$classPackVmlinuxPPC64LE.html#abd76b8a4fba47040b3577f689b350109" title=" " alt="" coords="451,565,642,605"/>
-<area shape="rect" id="node39" href="$classPackVmlinuxAMD64.html#a856c3aae4c713fea75515727fe7ca1d8" title=" " alt="" coords="455,679,639,719"/>
-<area shape="rect" id="node40" href="$p__djgpp2_8cpp.html#aae9b410e99144ee1b1f4f18b4b7879cf" title=" " alt="" coords="514,744,579,769"/>
-<area shape="rect" id="node41" href="$classPackCom.html#adc7a9a6defe3c0b8cbbc7b59308c0386" title=" " alt="" coords="486,793,607,819"/>
-<area shape="rect" id="node42" href="$classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53" title=" " alt="" coords="489,843,604,868"/>
-<area shape="rect" id="node43" href="$classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625" title=" " alt="" coords="463,892,630,917"/>
-<area shape="rect" id="node44" href="$classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215" title=" " alt="" coords="463,941,630,967"/>
-<area shape="rect" id="node45" href="$classPackLinuxElf32x86interp.html#aedad7ae5d51a2985fcb81f4f10287845" title=" " alt="" coords="455,991,638,1031"/>
-<area shape="rect" id="node46" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="465,259,628,284"/>
+<area shape="rect" id="node1" title=" " alt="" coords="928,1303,1077,1328"/>
+<area shape="rect" id="node2" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="482,131,611,156"/>
+<area shape="rect" id="node5" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="206,7,373,32"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="206,82,373,107"/>
+<area shape="rect" id="node7" href="$classPackMachBase.html#a8a18799ee0ce813705168cf6611d4474" title=" " alt="" coords="713,1254,880,1279"/>
+<area shape="rect" id="node8" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="735,1303,858,1328"/>
+<area shape="rect" id="node47" href="$classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040" title="Generic Unix unpack()." alt="" coords="459,2220,634,2246"/>
+<area shape="rect" id="node48" href="$classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479" title="Generic Unix unpack()." alt="" coords="459,2270,634,2295"/>
+<area shape="rect" id="node49" href="$classPackLinuxElf32x86interp.html#a977fd6c88fdd7d1176701c170ceb031b" title="Generic Unix unpack()." alt="" coords="455,2320,638,2360"/>
+<area shape="rect" id="node50" href="$classPackUnix.html#a62fec1407c3b1d45bd049df4b9f5e6f7" title="Generic Unix unpack()." alt="" coords="478,2384,615,2410"/>
+<area shape="rect" id="node3" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="229,131,350,156"/>
+<area shape="rect" id="node4" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="5,156,151,182"/>
+<area shape="rect" id="node9" href="$classPackLinuxElf32.html#a379f1a6161600dea7e368dabb0819f71" title=" " alt="" coords="467,1360,626,1400"/>
+<area shape="rect" id="node10" href="$classPackCom.html#a1037bec59ff8856f66cc474352017f75" title=" " alt="" coords="475,1424,618,1450"/>
+<area shape="rect" id="node11" href="$classPackExe.html#ac68ce702c762aa6727260ca68e4a7a76" title=" " alt="" coords="479,1474,615,1499"/>
+<area shape="rect" id="node12" href="$classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552" title=" " alt="" coords="199,1972,380,1998"/>
+<area shape="rect" id="node13" href="$classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2" title=" " alt="" coords="199,1599,380,1624"/>
+<area shape="rect" id="node14" href="$classPackLinuxI386.html#a3209a9fad20ca7feb8dea94f49b77529" title=" " alt="" coords="201,1786,377,1811"/>
+<area shape="rect" id="node15" href="$classPackLinuxI386sh.html#a4b4212707d6f3a57f78ae6c277358a84" title=" " alt="" coords="451,1674,642,1699"/>
+<area shape="rect" id="node16" href="$classPackMachFat.html#a803deca3bf3ea45b8116d6d3b235e0d0" title=" " alt="" coords="463,1723,630,1748"/>
+<area shape="rect" id="node17" href="$classPackPs1.html#a10a71296fe20c401f9b996bef10fd1da" title=" " alt="" coords="479,1772,615,1798"/>
+<area shape="rect" id="node18" href="$classPackSys.html#a5e269d1d830b7d4776733066865cadc0" title=" " alt="" coords="479,1822,615,1847"/>
+<area shape="rect" id="node19" href="$classPackTos.html#a8e6727917dcc6b1ffd8377282c4c8b8f" title=" " alt="" coords="479,1871,614,1896"/>
+<area shape="rect" id="node20" href="$classPackUnix.html#a935b7961d8278ae7b19c53d6ef3fe3cf" title=" " alt="" coords="475,1624,618,1650"/>
+<area shape="rect" id="node21" href="$classPackLinuxElf32.html#a362f74f1bc69654c06e59aa1805f009a" title=" " alt="" coords="435,2171,658,2196"/>
+<area shape="rect" id="node22" href="$classPackMachFat.html#add848a3775c90b2551e9646991251997" title=" " alt="" coords="453,2023,640,2048"/>
+<area shape="rect" id="node23" href="$classPackUnix.html#aea9d5cdf25d2396d775cbdf846664120" title="Generic Unix canUnpack()." alt="" coords="465,2072,628,2098"/>
+<area shape="rect" id="node24" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="472,2122,621,2147"/>
+<area shape="rect" id="node25" href="$classPacker.html#a781dc4327dd4bcab50a94bfc85f52802" title=" " alt="" coords="469,283,624,308"/>
+<area shape="rect" id="node26" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="232,258,347,283"/>
+<area shape="rect" id="node27" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="231,512,348,538"/>
+<area shape="rect" id="node28" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="233,320,345,346"/>
+<area shape="rect" id="node29" href="$classPackVmlinuzI386.html#a398205192b0191637b8f06fe18b04447" title=" " alt="" coords="437,384,657,424"/>
+<area shape="rect" id="node30" href="$classPackVmlinuzARMEL.html#a57f63d0522c104a49326d091701a1292" title=" " alt="" coords="428,448,665,488"/>
+<area shape="rect" id="node31" href="$p__djgpp2_8cpp.html#a997186465792493cc35c468bd472cfa6" title=" " alt="" coords="475,1523,618,1548"/>
+<area shape="rect" id="node32" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="221,1260,358,1286"/>
+<area shape="rect" id="node33" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="file i/o utils" alt="" coords="474,563,619,588"/>
+<area shape="rect" id="node34" href="$classPackVmlinuxI386.html#a6c0e0d211e5f4cc51d9bac6f58503ede" title=" " alt="" coords="464,613,629,653"/>
+<area shape="rect" id="node35" href="$classPackVmlinuxARMEL.html#adf2f16941f88fb11cc9c4ae1c3c6a87e" title=" " alt="" coords="455,677,638,717"/>
+<area shape="rect" id="node36" href="$classPackVmlinuxARMEB.html#a5113a776ff1c856b065bfdd4ddb5028b" title=" " alt="" coords="455,741,639,781"/>
+<area shape="rect" id="node37" href="$classPackVmlinuxPPC32.html#a13fb4b85a2e31cc8a803e0410b5e96cf" title=" " alt="" coords="457,805,636,845"/>
+<area shape="rect" id="node38" href="$classPackVmlinuxPPC64LE.html#abd76b8a4fba47040b3577f689b350109" title=" " alt="" coords="451,869,642,909"/>
+<area shape="rect" id="node39" href="$classPackVmlinuxAMD64.html#a856c3aae4c713fea75515727fe7ca1d8" title=" " alt="" coords="455,933,639,973"/>
+<area shape="rect" id="node40" href="$p__djgpp2_8cpp.html#aae9b410e99144ee1b1f4f18b4b7879cf" title=" " alt="" coords="514,1048,579,1074"/>
+<area shape="rect" id="node41" href="$classPackCom.html#adc7a9a6defe3c0b8cbbc7b59308c0386" title=" " alt="" coords="486,1098,607,1123"/>
+<area shape="rect" id="node42" href="$classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53" title=" " alt="" coords="489,1147,604,1172"/>
+<area shape="rect" id="node43" href="$classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625" title=" " alt="" coords="463,1196,630,1222"/>
+<area shape="rect" id="node44" href="$classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215" title=" " alt="" coords="463,1246,630,1271"/>
+<area shape="rect" id="node45" href="$classPackLinuxElf32x86interp.html#aedad7ae5d51a2985fcb81f4f10287845" title=" " alt="" coords="455,1296,638,1336"/>
+<area shape="rect" id="node46" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="465,82,628,107"/>
 </map>

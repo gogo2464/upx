@@ -4,6 +4,7 @@ var structOptions =
     [ "all_filters", "structOptions.html#aa661b8c4de370944916296c6ff1bdd33", null ],
     [ "all_methods", "structOptions.html#a2eceb2cf73bf102edd76b89f4f315141", null ],
     [ "all_methods_use_lzma", "structOptions.html#aa8401857048d5d1e6abb3b0d42558692", null ],
+    [ "android_old", "structOptions.html#af36b36c9bb8333e9a9ba978af67f3a2f", null ],
     [ "android_shlib", "structOptions.html#a19c29c651f71641f170a7d0dd9f71b57", null ],
     [ "atari_tos", "structOptions.html#a998692a2605563d9d80de4de216c6376", null ],
     [ "backup", "structOptions.html#aa493c60429d7bc380b3bab13bbbed127", null ],
