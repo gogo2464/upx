@@ -1,0 +1,6 @@
+<map id="PackCom" name="PackCom">
+<area shape="rect" id="node1" title="dos/com" alt="" coords="12,152,95,177"/>
+<area shape="rect" id="node4" href="$classPackSys.html" title="dos/sys" alt="" coords="16,225,91,251"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="21,79,85,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="5,5,101,31"/>
+</map>

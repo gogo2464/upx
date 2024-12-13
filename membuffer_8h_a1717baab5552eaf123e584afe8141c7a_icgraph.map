@@ -1,0 +1,28 @@
+<map id="raw_index_bytes" name="raw_index_bytes">
+<area shape="rect" id="node1" title=" " alt="" coords="1857,153,1989,179"/>
+<area shape="rect" id="node2" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="1649,29,1797,55"/>
+<area shape="rect" id="node7" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="1664,79,1781,104"/>
+<area shape="rect" id="node8" href="$dt__xspan_8cpp.html#a13626496245cd976c70360973581754f" title="raw_bytes" alt="" coords="1675,128,1770,153"/>
+<area shape="rect" id="node9" href="$classPackTmt.html#a7f8a990a65f25123fed345edfb720143" title=" " alt="" coords="1656,177,1789,203"/>
+<area shape="rect" id="node10" href="$compress__lzma_8cpp.html#a3a0885ac5b6affea5d4501ee829bc0b6" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="1636,227,1809,252"/>
+<area shape="rect" id="node26" href="$compress__zlib_8cpp.html#af8d2dbc5d4dee50d2bd805c689650419" title="test_overlap &#45; see &lt;ucl/ucl.h&gt; for semantics" alt="" coords="1641,276,1805,301"/>
+<area shape="rect" id="node3" href="$classPeFile.html#ad8e6ec987ca037c22af9bbdcf3e76469" title=" " alt="" coords="1373,5,1588,31"/>
+<area shape="rect" id="node5" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="1402,55,1559,80"/>
+<area shape="rect" id="node4" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="1146,5,1254,31"/>
+<area shape="rect" id="node6" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="1138,55,1262,80"/>
+<area shape="rect" id="node11" href="$compress_8cpp.html#a4b7988cc522924c80aec0432c9d91c58" title=" " alt="" coords="1413,227,1548,252"/>
+<area shape="rect" id="node12" href="$packhead_8cpp.html#a311bc88e5d305419a8cc12348b300217" title="ph overlapping decompression util" alt="" coords="1075,227,1325,252"/>
+<area shape="rect" id="node13" href="$classPacker.html#ae0b134c6d419c733cb3283f4403a6f78" title="overlapping decompression" alt="" coords="749,227,1027,252"/>
+<area shape="rect" id="node14" href="$classPacker.html#af11da16aeb96ac7ccd05f31472793ca7" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="491,153,701,179"/>
+<area shape="rect" id="node18" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="531,227,661,252"/>
+<area shape="rect" id="node21" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="515,325,677,351"/>
+<area shape="rect" id="node15" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="218,79,423,104"/>
+<area shape="rect" id="node16" href="$classPackDjgpp2.html#ac7cc5ada2feff998d116ea077d71e382" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="199,128,443,153"/>
+<area shape="rect" id="node17" href="$classPackTmt.html#a65eddb40b6632a8b07cdcfd566564f87" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="209,177,433,203"/>
+<area shape="rect" id="node19" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="260,227,381,252"/>
+<area shape="rect" id="node20" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="5,227,151,252"/>
+<area shape="rect" id="node22" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="237,276,404,301"/>
+<area shape="rect" id="node23" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="237,325,404,351"/>
+<area shape="rect" id="node24" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="237,375,404,400"/>
+<area shape="rect" id="node25" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="237,424,404,449"/>
+</map>

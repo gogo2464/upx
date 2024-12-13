@@ -1,0 +1,5 @@
+<map id="PackVmlinuzARMEL" name="PackVmlinuzARMEL">
+<area shape="rect" id="node1" title="vmlinuz/armel (gzip compressed Linux kernel image)" alt="" coords="5,152,156,177"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="49,79,113,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="33,5,129,31"/>
+</map>

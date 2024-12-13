@@ -1,0 +1,6 @@
+<map id="Packer::prepareMethods" name="Packer::prepareMethods">
+<area shape="rect" id="node1" title="void Packer::compressWithFilters(): Try compression with several methods and filters,..." alt="" coords="259,55,437,80"/>
+<area shape="rect" id="node2" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="5,5,211,31"/>
+<area shape="rect" id="node3" href="$classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625" title=" " alt="" coords="25,55,191,80"/>
+<area shape="rect" id="node4" href="$classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215" title=" " alt="" coords="25,104,191,129"/>
+</map>

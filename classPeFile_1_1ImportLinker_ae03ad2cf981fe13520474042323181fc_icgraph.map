@@ -1,4 +1,8 @@
 <map id="PeFile::ImportLinker::getThunk" name="PeFile::ImportLinker::getThunk">
-<area shape="rect" id="node1" title=" " alt="" coords="204,5,355,45"/>
-<area shape="rect" id="node2" href="$classPeFile_1_1ImportLinker.html#a922536bc6bdadd0eac70e61bae0f08f7" title=" " alt="" coords="5,5,156,45"/>
+<area shape="rect" id="node1" title=" " alt="" coords="731,47,881,87"/>
+<area shape="rect" id="node2" href="$classPeFile_1_1ImportLinker.html#a922536bc6bdadd0eac70e61bae0f08f7" title=" " alt="" coords="532,47,683,87"/>
+<area shape="rect" id="node3" href="$classPeFile.html#aaace860391abfd20a05b65f3d7bd881c" title="create UPX0 section" alt="" coords="300,29,484,55"/>
+<area shape="rect" id="node6" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="303,79,481,104"/>
+<area shape="rect" id="node4" href="$classPackW32PeI386.html#a7bc9c571ca9857782c02a6f2431ef72e" title=" " alt="" coords="14,5,243,31"/>
+<area shape="rect" id="node5" href="$classPackW64PeAmd64.html#a361da6f82a6ed01dea2ea7d08916d630" title=" " alt="" coords="5,55,252,80"/>
 </map>

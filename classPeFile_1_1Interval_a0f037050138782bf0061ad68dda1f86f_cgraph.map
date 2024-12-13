@@ -1,0 +1,9 @@
+<map id="PeFile::Interval::add_interval" name="PeFile::Interval::add_interval">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,156,111"/>
+<area shape="rect" id="node2" href="$util_8cpp.html#a49db04c61486d695f7f04b44ac2201c0" title=" " alt="" coords="204,79,323,104"/>
+<area shape="rect" id="node3" href="$util_8cpp.html#a420c4464159a133442e53a0d8dafc225" title="ptr util" alt="" coords="371,53,481,79"/>
+<area shape="rect" id="node7" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="555,104,674,129"/>
+<area shape="rect" id="node4" href="$util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="529,5,700,31"/>
+<area shape="rect" id="node5" href="$util_8h.html#a38df66b3eff123e66d6b92ceb76eb4c3" title=" " alt="" coords="566,55,663,80"/>
+<area shape="rect" id="node6" href="$util_8h.html#ada5fbeddd8d88707d5b8dd9fa6557c65" title="ptr util" alt="" coords="748,55,875,80"/>
+</map>

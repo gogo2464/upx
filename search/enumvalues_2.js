@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['proc_5fname_5fid_0',['proc_name_id',['../classPeFile_1_1ImportLinker.html#ad271542667c101aae18b1305516626c5ac66d31c4500deb34054a18e3db5dbf4f',1,'PeFile::ImportLinker']]],
-  ['procname_5fseparator_1',['procname_separator',['../classPeFile_1_1ImportLinker.html#ad271542667c101aae18b1305516626c5af7a4bd7a56b60356cbf09b6436d13a23',1,'PeFile::ImportLinker']]]
+  ['false_0',['False',['../structupx_1_1TriBool.html#a955565323668bd5911968c0e38454d4da49310fb8038459c465c03fa56a92f470',1,'upx::TriBool']]],
+  ['fixup_5fextra_1',['FIXUP_EXTRA',['../classLeFile.html#adf195b86963a7a9d861c8efe4147e537aad596e9888620c3934f6bb4d174c2cc4',1,'LeFile']]]
 ];

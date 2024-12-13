@@ -1,0 +1,10 @@
+<map id="Packer::checkCompressionRatio" name="Packer::checkCompressionRatio">
+<area shape="rect" id="node1" title=" " alt="" coords="656,47,851,87"/>
+<area shape="rect" id="node2" href="$classPacker.html#add5cc1c8eff3bbc8aaf7ec0cf03cb82e" title="compress &#45; wrap call to low&#45;level upx_compress()" alt="" coords="473,80,608,105"/>
+<area shape="rect" id="node3" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="220,31,425,56"/>
+<area shape="rect" id="node4" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="241,80,404,105"/>
+<area shape="rect" id="node5" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="5,5,172,31"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092" title=" " alt="" coords="5,55,172,80"/>
+<area shape="rect" id="node7" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="5,104,172,129"/>
+<area shape="rect" id="node8" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="5,153,172,179"/>
+</map>

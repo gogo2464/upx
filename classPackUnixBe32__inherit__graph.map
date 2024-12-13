@@ -1,0 +1,6 @@
+<map id="PackUnixBe32" name="PackUnixBe32">
+<area shape="rect" id="node1" title="abstract classes encapsulating endian issues note: UPX_MAGIC is always stored in le32 format" alt="" coords="5,225,120,251"/>
+<area shape="rect" id="node2" href="$classPackUnix.html" title="Abstract class for all Unix&#45;type packers." alt="" coords="21,152,104,177"/>
+<area shape="rect" id="node3" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="31,79,95,104"/>
+<area shape="rect" id="node4" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="15,5,111,31"/>
+</map>

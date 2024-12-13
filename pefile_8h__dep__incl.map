@@ -1,0 +1,9 @@
+<map id="src/pefile.h" name="src/pefile.h">
+<area shape="rect" id="node1" title=" " alt="" coords="541,5,635,31"/>
+<area shape="rect" id="node2" href="$p__w32pe__i386_8cpp.html" title=" " alt="" coords="5,79,171,104"/>
+<area shape="rect" id="node3" href="$p__w64pe__amd64_8cpp.html" title=" " alt="" coords="195,79,378,104"/>
+<area shape="rect" id="node4" href="$p__w64pe__arm64_8cpp.html" title=" " alt="" coords="403,79,581,104"/>
+<area shape="rect" id="node5" href="$p__wince__arm_8cpp.html" title=" " alt="" coords="606,79,765,104"/>
+<area shape="rect" id="node6" href="$packmast_8cpp.html" title=" " alt="" coords="789,79,925,104"/>
+<area shape="rect" id="node7" href="$pefile_8cpp.html" title=" " alt="" coords="950,79,1058,104"/>
+</map>

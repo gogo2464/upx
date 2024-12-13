@@ -1,8 +1,8 @@
 var structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls =
 [
-    [ "_", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a918910f035fcd7a12688465c485ed235", null ],
-    [ "callbacks", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a079792fde95b50a9753c2f03645560c9", null ],
-    [ "dataend", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a928bf967aef2ba172db99ef7844af098", null ],
-    [ "datastart", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a310ed220cbfb3cc6384d5616c8009806", null ],
-    [ "tlsindex", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a737bdc80b99fb13494ccfc8fa87c3c0d", null ]
+    [ "_", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#aa0e32057993edf41d6c5fa10201f6ae2", null ],
+    [ "callbacks", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#abf0321b7426b98c9546cd7cf0a59fd71", null ],
+    [ "dataend", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#aad354078e592c3cf85c62d8660480d74", null ],
+    [ "datastart", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#a8a74f851008a09e5c0730945f8c11551", null ],
+    [ "tlsindex", "structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html#af27c6f918b4b9ae0749136915169da9b", null ]
 ];

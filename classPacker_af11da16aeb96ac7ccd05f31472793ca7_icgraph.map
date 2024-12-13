@@ -1,0 +1,6 @@
+<map id="Packer::findOverlapOverhead" name="Packer::findOverlapOverhead">
+<area shape="rect" id="node1" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="297,55,508,80"/>
+<area shape="rect" id="node2" href="$classPacker.html#a6c29dbab3c13461ccccdf08ba3b6cde2" title=" " alt="" coords="25,5,230,31"/>
+<area shape="rect" id="node3" href="$classPackDjgpp2.html#ac7cc5ada2feff998d116ea077d71e382" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="5,55,249,80"/>
+<area shape="rect" id="node4" href="$classPackTmt.html#a65eddb40b6632a8b07cdcfd566564f87" title="Find overhead for in&#45;place decompression in a heuristic way (using a binary search)." alt="" coords="15,104,239,129"/>
+</map>

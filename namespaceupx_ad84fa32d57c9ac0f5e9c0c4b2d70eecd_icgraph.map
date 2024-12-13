@@ -1,0 +1,12 @@
+<map id="upx::atomic_exchange" name="upx::atomic_exchange">
+<area shape="rect" id="node1" title=" " alt="" coords="400,141,569,166"/>
+<area shape="rect" id="node2" href="$structupx_1_1ObjectDeleter.html#a18b91c7e3083fc43efeef62f8395013f" title=" " alt="" coords="207,5,351,45"/>
+<area shape="rect" id="node4" href="$structupx_1_1ArrayDeleter.html#a89b3cdac7b099472fd977d4aefa198c9" title=" " alt="" coords="207,69,352,109"/>
+<area shape="rect" id="node6" href="$structupx_1_1MallocDeleter.html#a3eed7b37f9bffe202dbf173f300a66fb" title=" " alt="" coords="207,133,352,173"/>
+<area shape="rect" id="node8" href="$linker_8cpp.html#a75e8defff26bbbe2e166a3a5ae5d7eaf" title=" " alt="" coords="235,198,324,223"/>
+<area shape="rect" id="node10" href="$dt__cxxlib_8cpp.html#a2cda0cb91639e8db0b87dbf431dd970d" title=" " alt="" coords="232,247,327,273"/>
+<area shape="rect" id="node3" href="$structupx_1_1ObjectDeleter.html#aa535b64f5cbcce975548fd152e1e504d" title=" " alt="" coords="10,5,154,45"/>
+<area shape="rect" id="node5" href="$structupx_1_1ArrayDeleter.html#a33facc1d94e9c2547390823cdc941e25" title=" " alt="" coords="9,69,155,109"/>
+<area shape="rect" id="node7" href="$structupx_1_1MallocDeleter.html#a6c1b592c0498a563e7232bbb03bc52fe" title=" " alt="" coords="9,133,155,173"/>
+<area shape="rect" id="node9" href="$classElfLinker.html#a71887a3dadf6a38cc879c32cc10f9e3d" title=" " alt="" coords="5,198,159,223"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="PackVmlinuzI386" name="PackVmlinuzI386">
+<area shape="rect" id="node1" title="vmlinuz/i386 (gzip compressed Linux kernel image)" alt="" coords="9,152,143,177"/>
+<area shape="rect" id="node4" href="$classPackBvmlinuzI386.html" title="bvmlinuz/i386 (gzip compressed Linux kernel image)" alt="" coords="5,225,147,251"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="44,79,108,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="28,5,124,31"/>
+</map>

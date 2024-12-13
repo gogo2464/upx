@@ -1,0 +1,52 @@
+<map id="PeFile::rebuildRelocs" name="PeFile::rebuildRelocs">
+<area shape="rect" id="node1" title="unpack" alt="" coords="5,1153,163,1179"/>
+<area shape="rect" id="node2" href="$classPeFile_1_1Reloc.html#aae55a92611a09de5774f440bd0d7d9af" title=" " alt="" coords="233,1066,370,1106"/>
+<area shape="rect" id="node3" href="$util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="700,845,789,871"/>
+<area shape="rect" id="node8" href="$classMemBuffer.html#adefde4c29dbecfa830fa198f6f22b538" title=" " alt="" coords="227,205,376,231"/>
+<area shape="rect" id="node18" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="227,545,375,571"/>
+<area shape="rect" id="node29" href="$bele_8h.html#a975f8af4219a9c95cf3395cbd46fc472" title=" " alt="" coords="488,256,567,281"/>
+<area shape="rect" id="node30" href="$bele_8h.html#ad4b1d4c9a82bc19419614a3f50f20a5f" title=" " alt="" coords="488,1572,567,1597"/>
+<area shape="rect" id="node33" href="$classPeFile.html#a636375585f68167f543da15206fb359f" title=" " alt="" coords="238,1203,365,1228"/>
+<area shape="rect" id="node34" href="$classPeFile.html#a39612b8b45f1c68e5c8d57bb915e648e" title=" " alt="" coords="242,1252,361,1277"/>
+<area shape="rect" id="node35" href="$bele_8h.html#ab07367b17d1a80bb3cd4eeb48b4fdde5" title=" " alt="" coords="263,1327,340,1352"/>
+<area shape="rect" id="node36" href="$bele_8h.html#a8e4d652200a365dbe6d26a9530cd4a2e" title=" " alt="" coords="263,1576,340,1601"/>
+<area shape="rect" id="node39" href="$classPacker.html#ad50f653ca4844165671764219a33eb74" title="delta&#45;decompress relocations advances &#39;in&#39; allocates &#39;out&#39; and returns number of relocs written to &#39;o..." alt="" coords="211,1153,392,1179"/>
+<area shape="rect" id="node5" href="$pefile_8cpp.html#a6b76d4e58e19d5cd5c4516762e7eecf7" title=" " alt="" coords="453,1073,602,1099"/>
+<area shape="rect" id="node4" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="901,681,1019,707"/>
+<area shape="rect" id="node6" href="$bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28" title=" " alt="" coords="704,1224,785,1249"/>
+<area shape="rect" id="node7" href="$namespaceupx_1_1compile__time.html#ae808612ba905c120b5d6a291fcab7456" title=" " alt="" coords="885,1217,1035,1257"/>
+<area shape="rect" id="node9" href="$classMemBuffer.html#afe5a8e344706fc176dde5c69983dc2e3" title=" " alt="" coords="440,155,615,180"/>
+<area shape="rect" id="node13" href="$membuffer_8cpp.html#ad685ec5d5046285ebbbceba6f869f3b5" title="bool use_simple_mcheck()" alt="" coords="667,205,822,231"/>
+<area shape="rect" id="node14" href="$msg_8cpp.html#ac214d3199ed0588967b705d709909d67" title=" " alt="" coords="492,80,563,105"/>
+<area shape="rect" id="node10" href="$bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe" title=" " alt="" coords="703,280,786,305"/>
+<area shape="rect" id="node12" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="675,156,815,181"/>
+<area shape="rect" id="node11" href="$namespaceupx_1_1compile__time.html#a79fb2f241fcb7bcba4da861c7ba3e52d" title=" " alt="" coords="885,273,1035,313"/>
+<area shape="rect" id="node15" href="$msg_8cpp.html#aa1f2d3914fb7d6a826e7276e8f542847" title=" " alt="" coords="708,5,781,31"/>
+<area shape="rect" id="node16" href="$snprintf_8cpp.html#aefb5ecd87245d4c8804418d9fd916d5f" title=" " alt="" coords="891,31,1029,56"/>
+<area shape="rect" id="node17" href="$except_8cpp.html#af518f5666611b39a8cfcfa958b7bb0b2" title="util" alt="" coords="663,107,827,132"/>
+<area shape="rect" id="node19" href="$util_8cpp.html#a420c4464159a133442e53a0d8dafc225" title="ptr util" alt="" coords="689,469,800,495"/>
+<area shape="rect" id="node22" href="$util_8h.html#a1d64ae7c7bc6de45e39c612cb0b0e592" title=" " alt="" coords="456,455,599,495"/>
+<area shape="rect" id="node23" href="$util_8cpp.html#a49db04c61486d695f7f04b44ac2201c0" title=" " alt="" coords="468,520,587,545"/>
+<area shape="rect" id="node24" href="$membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751" title=" " alt="" coords="483,719,572,744"/>
+<area shape="rect" id="node26" href="$membuffer_8h.html#a1717baab5552eaf123e584afe8141c7a" title=" " alt="" coords="461,645,593,671"/>
+<area shape="rect" id="node27" href="$pefile_8cpp.html#a651de538a65fcfd5a13b54287ecd8a6d" title=" " alt="" coords="448,305,607,331"/>
+<area shape="rect" id="node28" href="$pefile_8cpp.html#a1af5035e3911d475c1d7e50ff46f7330" title=" " alt="" coords="453,355,602,380"/>
+<area shape="rect" id="node20" href="$util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="875,445,1045,471"/>
+<area shape="rect" id="node21" href="$util_8h.html#a38df66b3eff123e66d6b92ceb76eb4c3" title=" " alt="" coords="911,495,1009,520"/>
+<area shape="rect" id="node25" href="$classMemBufferBase.html#a251f844e7095c2d09002cf356e3ed208" title=" " alt="" coords="665,674,824,714"/>
+<area shape="rect" id="node31" href="$bele_8h.html#ae962e7a186dc1aba55a5736d694688be" title=" " alt="" coords="703,1568,786,1593"/>
+<area shape="rect" id="node32" href="$namespaceupx_1_1compile__time.html#a101c56d6e4968564762056d713544b64" title=" " alt="" coords="885,1558,1035,1598"/>
+<area shape="rect" id="node37" href="$bele_8h.html#a50b2ea2a5f6c5a93f1a1a11f48e2341b" title=" " alt="" coords="704,1623,785,1648"/>
+<area shape="rect" id="node38" href="$namespaceupx_1_1compile__time.html#abdae5c73dc9179172fa6287ef013298c" title=" " alt="" coords="885,1622,1035,1662"/>
+<area shape="rect" id="node40" href="$classMemBuffer.html#a440e8db9c9010226d9778185f66529f5" title=" " alt="" coords="461,1421,594,1447"/>
+<area shape="rect" id="node43" href="$bele_8h.html#a4434346f2449383c99897e16518670fd" title=" " alt="" coords="488,1273,567,1299"/>
+<area shape="rect" id="node44" href="$util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="459,972,595,997"/>
+<area shape="rect" id="node45" href="$conf_8h.html#a27ba2be54b8bb96f2c06736da293bca9" title=" " alt="" coords="483,1323,572,1348"/>
+<area shape="rect" id="node46" href="$util_8h.html#a7ec3b3bed6e963522154992e6d20aa0e" title=" " alt="" coords="445,1372,609,1397"/>
+<area shape="rect" id="node47" href="$bele_8h.html#abc3e7ac42e0d364d55e526be7243cc7f" title=" " alt="" coords="487,1224,568,1249"/>
+<area shape="rect" id="node48" href="$bele_8h.html#a08f1ae087a93f302a7c360f77cbf53c8" title=" " alt="" coords="487,1471,568,1496"/>
+<area shape="rect" id="node49" href="$except_8cpp.html#aeec259360ad810df576d7012b3f054f3" title="decompression" alt="" coords="675,1099,814,1124"/>
+<area shape="rect" id="node50" href="$compress_8cpp.html#ac78c1624c94e1e6b82fc6d9882285671" title=" " alt="" coords="476,1175,579,1200"/>
+<area shape="rect" id="node41" href="$xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c" title=" " alt="" coords="707,1396,783,1421"/>
+<area shape="rect" id="node42" href="$conf_8h.html#af79eab1f480f5a57b6bfbff38256b0d2" title=" " alt="" coords="703,1445,787,1471"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PackExe" name="PackExe">
+<area shape="rect" id="node1" title="dos/exe" alt="" coords="16,152,91,177"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="21,79,85,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="5,5,101,31"/>
+</map>

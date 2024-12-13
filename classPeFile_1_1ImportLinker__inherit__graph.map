@@ -1,4 +1,6 @@
 <map id="PeFile::ImportLinker" name="PeFile::ImportLinker">
-<area shape="rect" id="node1" title=" " alt="" coords="5,79,156,104"/>
-<area shape="rect" id="node2" title=" " alt="" coords="18,5,143,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,225,156,251"/>
+<area shape="rect" id="node2" href="$classElfLinkerAMD64.html" title="ElfLinker arch subclasses." alt="" coords="18,152,143,177"/>
+<area shape="rect" id="node3" href="$classElfLinker.html" title="ElfLinker." alt="" coords="41,79,120,104"/>
+<area shape="rect" id="node4" href="$classupx_1_1noncopyable.html" title=" " alt="" coords="12,5,149,31"/>
 </map>

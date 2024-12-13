@@ -1,0 +1,5 @@
+<map id="PackMachFat" name="PackMachFat">
+<area shape="rect" id="node1" title=" " alt="" coords="5,152,112,177"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="27,79,91,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="11,5,107,31"/>
+</map>

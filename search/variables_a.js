@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['s_0',['s',['../structPeFile_1_1ImportLinker_1_1TStr.html#a9f7daad8346b053b79b14400b4e72eaf',1,'PeFile::ImportLinker::TStr']]],
-  ['size_1',['size',['../structPeFile_1_1Resource_1_1res__data.html#a361c3023437d8d4d1522d0d1af76723c',1,'PeFile::Resource::res_data']]],
-  ['sotls_2',['sotls',['../structPeFile_1_1tls__traits_3_01LE32_01_4.html#a432f8cd0c706aafde5f13cdc47148a61',1,'PeFile::tls_traits&lt; LE32 &gt;::sotls()'],['../structPeFile_1_1tls__traits_3_01LE64_01_4.html#a4c7dff349f0255eae473a36dd920ea9c',1,'PeFile::tls_traits&lt; LE64 &gt;::sotls()']]]
+  ['jni_5fonload_5fsym_0',['jni_onload_sym',['../classPackLinuxElf32.html#a034060e8e938b65cdd961851dea44420',1,'PackLinuxElf32::jni_onload_sym()'],['../classPackLinuxElf64.html#afb6babf0e9aac66eec1cdfe3c0fb6247',1,'PackLinuxElf64::jni_onload_sym()']]],
+  ['jni_5fonload_5fva_1',['jni_onload_va',['../classPackLinuxElf.html#a539c946c8c36fa509670ec9948ccb1fc',1,'PackLinuxElf']]],
+  ['jump_5fslots_2',['jump_slots',['../classPackLinuxElf.html#ab0f4c33a259ca5c14cdc2384285e274f',1,'PackLinuxElf']]]
 ];

@@ -1,0 +1,8 @@
+<map id="Packer::prepareMethods" name="Packer::prepareMethods">
+<area shape="rect" id="node1" title="void Packer::compressWithFilters(): Try compression with several methods and filters,..." alt="" coords="5,95,184,121"/>
+<area shape="rect" id="node2" href="$classPacker.html#a4a969f788c3bad61abe0eec73fca0f0c" title="compression method util" alt="" coords="232,5,432,45"/>
+<area shape="rect" id="node3" href="$conf_8h.html#af79eab1f480f5a57b6bfbff38256b0d2" title=" " alt="" coords="290,70,374,95"/>
+<area shape="rect" id="node4" href="$packhead_8cpp.html#a772d316c45ac4858f5cffa5f842fff49" title=" " alt="" coords="261,119,403,145"/>
+<area shape="rect" id="node6" href="$util_8cpp.html#aa6941e20228b3e1dc459a36773b99633" title=" " alt="" coords="291,169,373,194"/>
+<area shape="rect" id="node5" href="$packhead_8cpp.html#a99fd3f5cbc734f9863205a1e892ea48c" title="ph method util" alt="" coords="480,119,641,145"/>
+</map>

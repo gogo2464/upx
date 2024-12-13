@@ -101,8 +101,10 @@ Collaboration diagram for PeFile::Resource::res_dir:</div>
 <div class="dyncontent">
 <div class="center"><img src="structPeFile_1_1Resource_1_1res__dir__coll__graph.png" border="0" usemap="#aPeFile_1_1Resource_1_1res__dir_coll__map" alt="Collaboration graph"/></div>
 <map name="aPeFile_1_1Resource_1_1res__dir_coll__map" id="aPeFile_1_1Resource_1_1res__dir_coll__map">
-<area shape="rect" title=" " alt="" coords="5,108,187,133"/>
-<area shape="rect" href="structPeFile_1_1Resource_1_1res__dir__entry.html" title="resource handling" alt="" coords="17,5,175,45"/>
+<area shape="rect" title=" " alt="" coords="5,225,187,251"/>
+<area shape="rect" href="structLE16.html" title=" " alt="" coords="12,115,65,141"/>
+<area shape="rect" href="structPeFile_1_1Resource_1_1res__dir__entry.html" title="resource handling" alt="" coords="89,108,247,148"/>
+<area shape="rect" href="structLE32.html" title=" " alt="" coords="141,5,195,31"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -113,11 +115,11 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae0c4230f8d1a4192564be555ed6b1687"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#ae0c4230f8d1a4192564be555ed6b1687">_</a> [12]</td></tr>
+<tr class="memitem:ae0c4230f8d1a4192564be555ed6b1687"><td class="memItemLeft" align="right" valign="top"><a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#ae0c4230f8d1a4192564be555ed6b1687">_</a> [12]</td></tr>
 <tr class="separator:ae0c4230f8d1a4192564be555ed6b1687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735cf70fc9f176707bd5c6fe6ba653d8"><td class="memItemLeft" align="right" valign="top">LE16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">namedentr</a></td></tr>
+<tr class="memitem:a735cf70fc9f176707bd5c6fe6ba653d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLE16.html">LE16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">namedentr</a></td></tr>
 <tr class="separator:a735cf70fc9f176707bd5c6fe6ba653d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2977ae3c4bbf25862d396398195c1a1"><td class="memItemLeft" align="right" valign="top">LE16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">identr</a></td></tr>
+<tr class="memitem:aa2977ae3c4bbf25862d396398195c1a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structLE16.html">LE16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">identr</a></td></tr>
 <tr class="separator:aa2977ae3c4bbf25862d396398195c1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd4d4ac8fd1c07c48bf223837e92cb69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structPeFile_1_1Resource_1_1res__dir__entry.html">res_dir_entry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#afd4d4ac8fd1c07c48bf223837e92cb69">entries</a> [1]</td></tr>
 <tr class="separator:afd4d4ac8fd1c07c48bf223837e92cb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,10 +152,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01581">1581</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1581</span>{ <span class="keywordflow">return</span> 16 + mem_size(<span class="keyword">sizeof</span>(res_dir_entry), <a class="code hl_variable" href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">namedentr</a> + <a class="code hl_variable" href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">identr</a>); }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1581</span>{ <span class="keywordflow">return</span> 16 + <a class="code hl_function" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size</a>(<span class="keyword">sizeof</span>(res_dir_entry), <a class="code hl_variable" href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">namedentr</a> + <a class="code hl_variable" href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">identr</a>); }</div>
 <div class="ttc" id="astructPeFile_1_1Resource_1_1res__dir_html_a735cf70fc9f176707bd5c6fe6ba653d8"><div class="ttname"><a href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">PeFile::Resource::res_dir::namedentr</a></div><div class="ttdeci">LE16 namedentr</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l01575">pefile.cpp:1575</a></div></div>
 <div class="ttc" id="astructPeFile_1_1Resource_1_1res__dir_html_aa2977ae3c4bbf25862d396398195c1a1"><div class="ttname"><a href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">PeFile::Resource::res_dir::identr</a></div><div class="ttdeci">LE16 identr</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l01576">pefile.cpp:1576</a></div></div>
+<div class="ttc" id="autil_8cpp_html_aa054bbcac51cef77258c20fa0321b320"><div class="ttname"><a href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size</a></div><div class="ttdeci">upx_rsize_t mem_size(upx_uint64_t element_size, upx_uint64_t n, upx_uint64_t extra1, upx_uint64_t extra2)</div><div class="ttdef"><b>Definition:</b> <a href="util_8cpp_source.html#l00073">util.cpp:73</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#aa2977ae3c4bbf25862d396398195c1a1">identr</a>, <a class="el" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size()</a>, and <a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#a735cf70fc9f176707bd5c6fe6ba653d8">namedentr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPeFile_1_1Resource.html#ac998a7aec22a1516e1a52510262bff93">PeFile::Resource::clear()</a>, and <a class="el" href="classPeFile_1_1Resource.html#a529c2071ad87cc13f858c59ef1ebd39c">PeFile::Resource::convert()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_cgraph.png" border="0" usemap="#astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_cgraph" alt=""/></div>
+<map name="astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_cgraph" id="astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,163,45"/>
+<area shape="rect" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="211,13,300,38"/>
+<area shape="rect" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="348,13,467,38"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_icgraph.png" border="0" usemap="#astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_icgraph" alt=""/></div>
+<map name="astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_icgraph" id="astructPeFile_1_1Resource_1_1res__dir_acc371c74be4e4bd12aba091fbde785eb_icgraph">
+<area shape="rect" title=" " alt="" coords="888,49,1045,89"/>
+<area shape="rect" href="classPeFile_1_1Resource.html#ac998a7aec22a1516e1a52510262bff93" title=" " alt="" coords="662,31,831,56"/>
+<area shape="rect" href="classPeFile_1_1Resource.html#a529c2071ad87cc13f858c59ef1ebd39c" title=" " alt="" coords="653,80,840,105"/>
+<area shape="rect" href="classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="419,31,605,56"/>
+<area shape="rect" href="classPeFile.html#a8232ec2b156471ca27d54bfdc7594dd4" title=" " alt="" coords="161,5,371,31"/>
+<area shape="rect" href="classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="5,31,113,56"/>
+</map>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -164,7 +194,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">byte PeFile::Resource::res_dir::_[12]</td>
+          <td class="memname"><a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> PeFile::Resource::res_dir::_[12]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -187,6 +217,8 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01579">1579</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="classPeFile_1_1Resource.html#a821447fa711f034f03508c2e2114660b">PeFile::Resource::check()</a>, <a class="el" href="classPeFile_1_1Resource.html#ac998a7aec22a1516e1a52510262bff93">PeFile::Resource::clear()</a>, and <a class="el" href="classPeFile_1_1Resource.html#a529c2071ad87cc13f858c59ef1ebd39c">PeFile::Resource::convert()</a>.</p>
+
 </div>
 </div>
 <a id="aa2977ae3c4bbf25862d396398195c1a1" name="aa2977ae3c4bbf25862d396398195c1a1"></a>
@@ -196,12 +228,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">LE16 PeFile::Resource::res_dir::identr</td>
+          <td class="memname"><a class="el" href="structLE16.html">LE16</a> PeFile::Resource::res_dir::identr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01576">1576</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPeFile_1_1Resource.html#a821447fa711f034f03508c2e2114660b">PeFile::Resource::check()</a>, <a class="el" href="classPeFile_1_1Resource.html#ac998a7aec22a1516e1a52510262bff93">PeFile::Resource::clear()</a>, <a class="el" href="classPeFile_1_1Resource.html#a529c2071ad87cc13f858c59ef1ebd39c">PeFile::Resource::convert()</a>, and <a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#acc371c74be4e4bd12aba091fbde785eb">Sizeof()</a>.</p>
 
 </div>
 </div>
@@ -212,12 +246,14 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">LE16 PeFile::Resource::res_dir::namedentr</td>
+          <td class="memname"><a class="el" href="structLE16.html">LE16</a> PeFile::Resource::res_dir::namedentr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01575">1575</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classPeFile_1_1Resource.html#a821447fa711f034f03508c2e2114660b">PeFile::Resource::check()</a>, <a class="el" href="classPeFile_1_1Resource.html#ac998a7aec22a1516e1a52510262bff93">PeFile::Resource::clear()</a>, <a class="el" href="classPeFile_1_1Resource.html#a529c2071ad87cc13f858c59ef1ebd39c">PeFile::Resource::convert()</a>, and <a class="el" href="structPeFile_1_1Resource_1_1res__dir.html#acc371c74be4e4bd12aba091fbde785eb">Sizeof()</a>.</p>
 
 </div>
 </div>
@@ -229,7 +265,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>PeFile</b></li><li class="navelem"><b>Resource</b></li><li class="navelem"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html">res_dir</a></li>
+    <li class="navelem"><a class="el" href="classPeFile.html">PeFile</a></li><li class="navelem"><a class="el" href="classPeFile_1_1Resource.html">Resource</a></li><li class="navelem"><a class="el" href="structPeFile_1_1Resource_1_1res__dir.html">res_dir</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>

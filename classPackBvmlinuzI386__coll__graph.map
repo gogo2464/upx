@@ -1,0 +1,19 @@
+<map id="PackBvmlinuzI386" name="PackBvmlinuzI386">
+<area shape="rect" id="node1" title="bvmlinuz/i386 (gzip compressed Linux kernel image)" alt="" coords="1397,215,1539,241"/>
+<area shape="rect" id="node2" href="$classPackVmlinuzI386.html" title="vmlinuz/i386 (gzip compressed Linux kernel image)" alt="" coords="1215,215,1348,241"/>
+<area shape="rect" id="node3" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="1099,179,1163,205"/>
+<area shape="rect" id="node4" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="923,138,1019,163"/>
+<area shape="rect" id="node5" href="$classInputFile.html" title=" " alt="" coords="705,95,784,121"/>
+<area shape="rect" id="node6" href="$classFileBase.html" title=" " alt="" coords="367,95,445,121"/>
+<area shape="rect" id="node7" href="$structPackHeader.html" title="PackHeader also see stub/src/include/header.S." alt="" coords="695,145,794,170"/>
+<area shape="rect" id="node8" href="$structupx__compress__result__t.html" title=" " alt="" coords="320,145,492,170"/>
+<area shape="rect" id="node9" href="$structupx__compress__result__t_1_1Debug.html" title=" " alt="" coords="17,5,177,45"/>
+<area shape="rect" id="node10" href="$structbzip2__compress__result__t.html" title="compression &#45; result_t" alt="" coords="5,70,188,95"/>
+<area shape="rect" id="node11" href="$structlzma__compress__result__t.html" title=" " alt="" coords="7,119,187,145"/>
+<area shape="rect" id="node12" href="$structucl__compress__result__t.html" title=" " alt="" coords="13,169,180,194"/>
+<area shape="rect" id="node13" href="$structzlib__compress__result__t.html" title=" " alt="" coords="11,218,182,243"/>
+<area shape="rect" id="node14" href="$structzstd__compress__result__t.html" title=" " alt="" coords="9,267,184,293"/>
+<area shape="rect" id="node15" href="$classMemBuffer.html" title="MemBuffer." alt="" coords="923,221,1018,246"/>
+<area shape="rect" id="node16" href="$classMemBufferBase.html" title=" " alt="" coords="652,215,837,241"/>
+<area shape="rect" id="node17" href="$structMemBuffer_1_1Stats.html" title=" " alt="" coords="677,265,812,290"/>
+</map>

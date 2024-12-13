@@ -1,0 +1,4 @@
+<map id="upx_safe_strlen" name="upx_safe_strlen">
+<area shape="rect" id="node1" title="some uchar string support functions to avoid casts" alt="" coords="5,5,131,31"/>
+<area shape="rect" id="node2" href="$snprintf_8cpp.html#ac49c6ee626aef90777d2105d61d23884" title="UPX version of string functions, with assertions and sane limits." alt="" coords="179,5,304,31"/>
+</map>

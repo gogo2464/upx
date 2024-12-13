@@ -1,0 +1,11 @@
+<map id="PackUnix::find_overlay_offset" name="PackUnix::find_overlay_offset">
+<area shape="rect" id="node1" title=" " alt="" coords="1155,55,1325,95"/>
+<area shape="rect" id="node2" href="$classPackUnix.html#aea9d5cdf25d2396d775cbdf846664120" title="Generic Unix canUnpack()." alt="" coords="944,62,1107,87"/>
+<area shape="rect" id="node3" href="$classPackLinuxElf.html#a2749869eea115d88727ccd4f60b0c474" title="Generic Unix canUnpack()." alt="" coords="713,62,896,87"/>
+<area shape="rect" id="node4" href="$classPackLinuxElf32.html#a89a8cceb7f8ef9df9542156c01118aa4" title="Generic Unix canUnpack()." alt="" coords="465,13,665,38"/>
+<area shape="rect" id="node7" href="$classPackLinuxElf64.html#a71bc2f0e1a1ec856b3f9a08b63add0ae" title="Generic Unix canUnpack()." alt="" coords="465,62,665,87"/>
+<area shape="rect" id="node9" href="$classPackLinuxElf32x86.html#a6086de6af98a8281ca82e9cbb0af4094" title="Generic Unix canUnpack()." alt="" coords="489,112,641,152"/>
+<area shape="rect" id="node5" href="$classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552" title=" " alt="" coords="236,13,417,38"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf32x86interp.html#a7d53132b64a33ce3f11cdd6fcf43b7d5" title=" " alt="" coords="5,5,188,45"/>
+<area shape="rect" id="node8" href="$classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2" title=" " alt="" coords="236,62,417,87"/>
+</map>

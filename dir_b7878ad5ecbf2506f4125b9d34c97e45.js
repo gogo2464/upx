@@ -1,0 +1,27 @@
+var dir_b7878ad5ecbf2506f4125b9d34c97e45 =
+[
+    [ "cxxlib.h", "cxxlib_8h.html", "cxxlib_8h" ],
+    [ "membuffer.cpp", "membuffer_8cpp.html", "membuffer_8cpp" ],
+    [ "membuffer.h", "membuffer_8h.html", "membuffer_8h" ],
+    [ "miniacc.h", "miniacc_8h.html", "miniacc_8h" ],
+    [ "raw_bytes.h", "raw__bytes_8h.html", "raw__bytes_8h" ],
+    [ "snprintf.cpp", "snprintf_8cpp.html", "snprintf_8cpp" ],
+    [ "snprintf.h", "snprintf_8h.html", "snprintf_8h" ],
+    [ "system_check_predefs.h", "system__check__predefs_8h.html", null ],
+    [ "system_defs.h", "system__defs_8h.html", "system__defs_8h" ],
+    [ "system_features.h", "system__features_8h.html", null ],
+    [ "system_headers.h", "system__headers_8h.html", "system__headers_8h" ],
+    [ "system_undefs.h", "system__undefs_8h.html", null ],
+    [ "util.cpp", "util_8cpp.html", "util_8cpp" ],
+    [ "util.h", "util_8h.html", "util_8h" ],
+    [ "windows_lean.h", "windows__lean_8h.html", "windows__lean_8h" ],
+    [ "xspan.cpp", "xspan_8cpp.html", "xspan_8cpp" ],
+    [ "xspan.h", "xspan_8h.html", "xspan_8h" ],
+    [ "xspan_fwd.h", "xspan__fwd_8h.html", "xspan__fwd_8h" ],
+    [ "xspan_impl.h", "xspan__impl_8h.html", null ],
+    [ "xspan_impl_common.h", "xspan__impl__common_8h.html", "xspan__impl__common_8h" ],
+    [ "xspan_impl_ptr.h", "xspan__impl__ptr_8h.html", "xspan__impl__ptr_8h" ],
+    [ "xspan_impl_ptr_or_null.h", "xspan__impl__ptr__or__null_8h.html", "xspan__impl__ptr__or__null_8h" ],
+    [ "xspan_impl_ptr_or_span.h", "xspan__impl__ptr__or__span_8h.html", "xspan__impl__ptr__or__span_8h" ],
+    [ "xspan_impl_span.h", "xspan__impl__span_8h.html", "xspan__impl__span_8h" ]
+];

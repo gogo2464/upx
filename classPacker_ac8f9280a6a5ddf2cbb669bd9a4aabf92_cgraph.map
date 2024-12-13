@@ -1,0 +1,17 @@
+<map id="Packer::patch_le32" name="Packer::patch_le32">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,148,180"/>
+<area shape="rect" id="node2" href="$classPacker.html#af51db683baf7d75a65f48429b77db475" title="patch util for loader" alt="" coords="196,80,341,105"/>
+<area shape="rect" id="node8" href="$util_8cpp.html#aca065128666a7d8af5864a1fc875c156" title=" " alt="" coords="228,155,309,180"/>
+<area shape="rect" id="node11" href="$bele_8h.html#ab07367b17d1a80bb3cd4eeb48b4fdde5" title=" " alt="" coords="415,205,492,231"/>
+<area shape="rect" id="node3" href="$xspan__impl__common_8h.html#a60304b65bf89363bcc3165d3cde67f86" title=" " alt="" coords="429,5,477,31"/>
+<area shape="rect" id="node6" href="$except_8cpp.html#a792215b47e9aba82450e3c1c6945eb32" title=" " alt="" coords="389,55,517,80"/>
+<area shape="rect" id="node7" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="565,68,705,93"/>
+<area shape="rect" id="node4" href="$xspan__impl__common_8h.html#af7f8ff1beaa5a2bfec38929faa15a546" title=" " alt="" coords="590,5,681,31"/>
+<area shape="rect" id="node5" href="$xspan__impl__common_8h.html#adc002fafd98360e97e7066a463592829" title=" " alt="" coords="765,5,892,31"/>
+<area shape="rect" id="node9" href="$util_8cpp.html#a579960b01d469d1969571dcf757871bc" title="find and mem_replace util" alt="" coords="430,156,477,181"/>
+<area shape="rect" id="node10" href="$xspan__fwd_8h.html#a1a9f236758b0df388ddf70ed0e05e350" title=" " alt="" coords="593,156,677,181"/>
+<area shape="rect" id="node12" href="$bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28" title=" " alt="" coords="595,205,676,231"/>
+<area shape="rect" id="node13" href="$namespaceupx_1_1compile__time.html#ae808612ba905c120b5d6a291fcab7456" title=" " alt="" coords="753,198,904,238"/>
+<area shape="rect" id="node14" href="$namespaceupx_1_1compile__time.html#a5f2260565847259f85f7980dc1ab3236" title=" " alt="" coords="952,166,1103,206"/>
+<area shape="rect" id="node15" href="$namespaceupx_1_1compile__time.html#a23c00bac605547ca04a20ec07fad711a" title=" " alt="" coords="952,230,1103,270"/>
+</map>

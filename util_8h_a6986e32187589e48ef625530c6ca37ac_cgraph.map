@@ -1,0 +1,9 @@
+<map id="ptr_udiff" name="ptr_udiff">
+<area shape="rect" id="node1" title=" " alt="" coords="5,79,81,104"/>
+<area shape="rect" id="node2" href="$util_8cpp.html#a49db04c61486d695f7f04b44ac2201c0" title=" " alt="" coords="129,79,248,104"/>
+<area shape="rect" id="node3" href="$util_8cpp.html#a420c4464159a133442e53a0d8dafc225" title="ptr util" alt="" coords="296,53,407,79"/>
+<area shape="rect" id="node7" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="481,104,599,129"/>
+<area shape="rect" id="node4" href="$util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="455,5,625,31"/>
+<area shape="rect" id="node5" href="$util_8h.html#a38df66b3eff123e66d6b92ceb76eb4c3" title=" " alt="" coords="491,55,589,80"/>
+<area shape="rect" id="node6" href="$util_8h.html#ada5fbeddd8d88707d5b8dd9fa6557c65" title="ptr util" alt="" coords="673,55,800,80"/>
+</map>

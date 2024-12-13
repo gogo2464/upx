@@ -1,0 +1,12 @@
+<map id="show_sysinfo" name="show_sysinfo">
+<area shape="rect" id="node1" title="sysinfo undocumented and subject to change" alt="" coords="5,104,116,129"/>
+<area shape="rect" id="node2" href="$help_8cpp.html#ac21a107d06adc68c01d158ae5cce8934" title=" " alt="" coords="165,29,273,55"/>
+<area shape="rect" id="node3" href="$help_8cpp.html#a464c512f83a9e4675a8ca0f7d0fd181f" title="version" alt="" coords="164,79,275,104"/>
+<area shape="rect" id="node7" href="$xspan__impl__common_8h.html#a60304b65bf89363bcc3165d3cde67f86" title=" " alt="" coords="195,128,243,153"/>
+<area shape="rect" id="node10" href="$util_8cpp.html#a29839ebe5057fbcc874bfcd7d7d426c3" title="stdlib" alt="" coords="170,177,269,203"/>
+<area shape="rect" id="node4" href="$compress__lzma_8cpp.html#a7bcf51275e629f5b1aa2aee2f6367f23" title=" " alt="" coords="323,5,507,31"/>
+<area shape="rect" id="node5" href="$compress__ucl_8cpp.html#a0a39bc0afe3b28c3fc320c18eed8f997" title=" " alt="" coords="329,55,500,80"/>
+<area shape="rect" id="node6" href="$compress__zlib_8cpp.html#a2c75f693b07184e6c2c269782cdc42de" title=" " alt="" coords="327,104,502,129"/>
+<area shape="rect" id="node8" href="$xspan__impl__common_8h.html#af7f8ff1beaa5a2bfec38929faa15a546" title=" " alt="" coords="369,153,460,179"/>
+<area shape="rect" id="node9" href="$xspan__impl__common_8h.html#adc002fafd98360e97e7066a463592829" title=" " alt="" coords="555,153,681,179"/>
+</map>

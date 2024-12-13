@@ -1,0 +1,8 @@
+<map id="PeFile32" name="PeFile32">
+<area shape="rect" id="node1" title=" " alt="" coords="103,225,180,251"/>
+<area shape="rect" id="node5" href="$classPackW32PeI386.html" title="win32/pe (i386)" alt="" coords="5,299,131,324"/>
+<area shape="rect" id="node6" href="$classPackWinCeArm.html" title="wince/arm (Windows CE)" alt="" coords="155,299,277,324"/>
+<area shape="rect" id="node2" href="$classPeFile.html" title=" " alt="" coords="111,152,172,177"/>
+<area shape="rect" id="node3" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="109,79,173,104"/>
+<area shape="rect" id="node4" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="93,5,189,31"/>
+</map>

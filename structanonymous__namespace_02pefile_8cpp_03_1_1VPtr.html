@@ -99,14 +99,14 @@ $(document).ready(function(){initNavTree('structanonymous__namespace_02pefile_8c
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6fd1e6a4bc01eca1978461e227b52740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a6fd1e6a4bc01eca1978461e227b52740">SPAN_S</a> (T) base</td></tr>
+<tr class="memitem:a6fd1e6a4bc01eca1978461e227b52740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a6fd1e6a4bc01eca1978461e227b52740">SPAN_S</a> (T) <a class="el" href="xspan__impl__common_8h.html#a91546a13edf6356c341bb755807b3e30">base</a></td></tr>
 <tr class="separator:a6fd1e6a4bc01eca1978461e227b52740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5638a36445d7a52cc2493082639f273"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#ac5638a36445d7a52cc2493082639f273">SPAN_S</a> (T) operator+(size_t n) const</td></tr>
+<tr class="memitem:ac5638a36445d7a52cc2493082639f273"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#ac5638a36445d7a52cc2493082639f273">SPAN_S</a> (T) operator+(<a class="el" href="bsd_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> <a class="el" href="xspan__fwd_8h.html#af532e634462c5e42c213735f6869b383">n</a>) const</td></tr>
 <tr class="separator:ac5638a36445d7a52cc2493082639f273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a360526016d5c52e1eb7fad2ef7596ee0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a360526016d5c52e1eb7fad2ef7596ee0">x</a></td></tr>
+<tr class="memitem:a360526016d5c52e1eb7fad2ef7596ee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bsd_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a360526016d5c52e1eb7fad2ef7596ee0">x</a></td></tr>
 <tr class="separator:a360526016d5c52e1eb7fad2ef7596ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -161,9 +161,25 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l02836">2836</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2836</span>{ <span class="keywordflow">return</span> base + mem_size_get_n(<span class="keyword">sizeof</span>(T), n - <a class="code hl_variable" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a360526016d5c52e1eb7fad2ef7596ee0">x</a>); }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 2836</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="xspan__impl__common_8h.html#a91546a13edf6356c341bb755807b3e30">base</a> + <a class="code hl_function" href="util_8h.html#ade3e6f9d0e4d1c7365642508afffbdce">mem_size_get_n</a>(<span class="keyword">sizeof</span>(T), <a class="code hl_variable" href="xspan__fwd_8h.html#af532e634462c5e42c213735f6869b383">n</a> - <a class="code hl_variable" href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a360526016d5c52e1eb7fad2ef7596ee0">x</a>); }</div>
 <div class="ttc" id="astructanonymous__namespace_02pefile_8cpp_03_1_1VPtr_html_a360526016d5c52e1eb7fad2ef7596ee0"><div class="ttname"><a href="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr.html#a360526016d5c52e1eb7fad2ef7596ee0">anonymous_namespace{pefile.cpp}::VPtr::x</a></div><div class="ttdeci">size_t x</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l02834">pefile.cpp:2834</a></div></div>
+<div class="ttc" id="autil_8h_html_ade3e6f9d0e4d1c7365642508afffbdce"><div class="ttname"><a href="util_8h.html#ade3e6f9d0e4d1c7365642508afffbdce">mem_size_get_n</a></div><div class="ttdeci">upx_rsize_t mem_size_get_n(upx_uint64_t element_size, upx_uint64_t n) may_throw</div><div class="ttdef"><b>Definition:</b> <a href="util_8h_source.html#l00059">util.h:59</a></div></div>
+<div class="ttc" id="axspan__fwd_8h_html_af532e634462c5e42c213735f6869b383"><div class="ttname"><a href="xspan__fwd_8h.html#af532e634462c5e42c213735f6869b383">n</a></div><div class="ttdeci">const C&lt; U &gt; size_t n</div><div class="ttdef"><b>Definition:</b> <a href="xspan__fwd_8h_source.html#l00080">xspan_fwd.h:80</a></div></div>
+<div class="ttc" id="axspan__impl__common_8h_html_a91546a13edf6356c341bb755807b3e30"><div class="ttname"><a href="xspan__impl__common_8h.html#a91546a13edf6356c341bb755807b3e30">base</a></div><div class="ttdeci">pointer base</div><div class="ttdef"><b>Definition:</b> <a href="xspan__impl__common_8h_source.html#l00057">xspan_impl_common.h:57</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="xspan__impl__common_8h.html#a91546a13edf6356c341bb755807b3e30">base</a>, <a class="el" href="util_8h.html#ade3e6f9d0e4d1c7365642508afffbdce">mem_size_get_n()</a>, and <a class="el" href="xspan__fwd_8h.html#af532e634462c5e42c213735f6869b383">n</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structanonymous__namespace_02pefile_8cpp_03_1_1VPtr_ac5638a36445d7a52cc2493082639f273_cgraph.png" border="0" usemap="#astructanonymous__namespace_02pefile_8cpp_03_1_1VPtr_ac5638a36445d7a52cc2493082639f273_cgraph" alt=""/></div>
+<map name="astructanonymous__namespace_02pefile_8cpp_03_1_1VPtr_ac5638a36445d7a52cc2493082639f273_cgraph" id="astructanonymous__namespace_02pefile_8cpp_03_1_1VPtr_ac5638a36445d7a52cc2493082639f273_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,185,60"/>
+<area shape="rect" href="util_8h.html#ade3e6f9d0e4d1c7365642508afffbdce" title=" " alt="" coords="233,20,365,45"/>
+<area shape="rect" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="413,20,503,45"/>
+<area shape="rect" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="551,20,669,45"/>
+</map>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -176,7 +192,7 @@ template&lt;class T &gt; </div>
 template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t anonymous_namespace{pefile.cpp}::VPtr&lt; T &gt;::x</td>
+          <td class="memname"><a class="el" href="bsd_8h.html#acf18a0d6c4b39d531e021702e9a77984">size_t</a> anonymous_namespace{pefile.cpp}::VPtr&lt; T &gt;::x</td>
         </tr>
       </table>
 </div><div class="memdoc">

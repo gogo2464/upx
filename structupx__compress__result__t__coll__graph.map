@@ -1,0 +1,9 @@
+<map id="upx_compress_result_t" name="upx_compress_result_t">
+<area shape="rect" id="node1" title=" " alt="" coords="320,145,492,170"/>
+<area shape="rect" id="node2" href="$structupx__compress__result__t_1_1Debug.html" title=" " alt="" coords="17,5,177,45"/>
+<area shape="rect" id="node3" href="$structbzip2__compress__result__t.html" title="compression &#45; result_t" alt="" coords="5,70,188,95"/>
+<area shape="rect" id="node4" href="$structlzma__compress__result__t.html" title=" " alt="" coords="7,119,187,145"/>
+<area shape="rect" id="node5" href="$structucl__compress__result__t.html" title=" " alt="" coords="13,169,180,194"/>
+<area shape="rect" id="node6" href="$structzlib__compress__result__t.html" title=" " alt="" coords="11,218,182,243"/>
+<area shape="rect" id="node7" href="$structzstd__compress__result__t.html" title=" " alt="" coords="9,267,184,293"/>
+</map>

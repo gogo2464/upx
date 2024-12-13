@@ -1,0 +1,5 @@
+<map id="PeFile32::pe_header_t" name="PeFile32::pe_header_t">
+<area shape="rect" id="node1" title=" " alt="" coords="5,240,171,265"/>
+<area shape="rect" id="node2" href="$structLE16.html" title=" " alt="" coords="11,5,64,31"/>
+<area shape="rect" id="node3" href="$structLE32.html" title=" " alt="" coords="113,5,167,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PackDjgpp2" name="PackDjgpp2">
+<area shape="rect" id="node1" title="djgpp2/coff" alt="" coords="5,152,104,177"/>
+<area shape="rect" id="node2" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="23,79,87,104"/>
+<area shape="rect" id="node3" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="7,5,103,31"/>
+</map>

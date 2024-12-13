@@ -1,0 +1,17 @@
+<map id="Packer::getDecompressorSections" name="Packer::getDecompressorSections">
+<area shape="rect" id="node1" title=" " alt="" coords="553,282,796,307"/>
+<area shape="rect" id="node2" href="$classPackLinuxElf32x86.html#a3eec230259bd6e9161b43e6a282d207f" title=" " alt="" coords="305,5,469,45"/>
+<area shape="rect" id="node3" href="$classPackLinuxI386.html#a7e4e6112b9a074be9c5f17e0b426c09c" title=" " alt="" coords="291,69,482,109"/>
+<area shape="rect" id="node7" href="$classPackDjgpp2.html#afbe36036a8bc59595f62364c9cb257f8" title=" " alt="" coords="295,134,478,159"/>
+<area shape="rect" id="node8" href="$classPackTmt.html#afbd8569ed48207465fbe98b0f3cf1f86" title=" " alt="" coords="305,183,468,209"/>
+<area shape="rect" id="node9" href="$classPackVmlinuxI386.html#a5327cd4c9600cc8cd09cd97bc6b24f26" title=" " alt="" coords="277,233,496,258"/>
+<area shape="rect" id="node10" href="$classPackVmlinuxAMD64.html#a87b32515908251d311b368e55bee4acf" title=" " alt="" coords="268,282,505,307"/>
+<area shape="rect" id="node11" href="$classPackVmlinuzI386.html#a4f25d6903debc6e81d7caab86c8f751e" title="vmlinuz specific" alt="" coords="278,331,495,357"/>
+<area shape="rect" id="node12" href="$classPackBvmlinuzI386.html#a3929a55a47879a203042970faeec4885" title="bvmlinuz specific" alt="" coords="274,381,499,406"/>
+<area shape="rect" id="node13" href="$classPackW32PeI386.html#a604920fa4f4b11f1469e020cbc330509" title=" " alt="" coords="282,430,491,455"/>
+<area shape="rect" id="node14" href="$classPackWcle.html#a1da09e46db24742cc9e2e1f4425280e2" title=" " alt="" coords="303,479,471,505"/>
+<area shape="rect" id="node15" href="$classPackLinuxElf32x86interp.html#a4ad35fc93fad001c1fdaaaf5e7382161" title=" " alt="" coords="295,529,478,569"/>
+<area shape="rect" id="node4" href="$classPackLinuxI386.html#ae0c002c6125f2fb5d5fe35749fb29b8a" title=" " alt="" coords="13,27,212,53"/>
+<area shape="rect" id="node5" href="$classPackBSDI386.html#aded5d88fe224de289f5d84c1d0663af1" title=" " alt="" coords="17,77,208,102"/>
+<area shape="rect" id="node6" href="$classPackLinuxI386sh.html#ad2d96daafa916b66092adceee5f3c4c7" title=" " alt="" coords="5,126,220,151"/>
+</map>

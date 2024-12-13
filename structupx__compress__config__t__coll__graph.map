@@ -1,0 +1,15 @@
+<map id="upx_compress_config_t" name="upx_compress_config_t">
+<area shape="rect" id="node1" title=" " alt="" coords="680,229,855,254"/>
+<area shape="rect" id="node2" href="$structbzip2__compress__config__t.html" title="compression &#45; config_t" alt="" coords="372,113,557,138"/>
+<area shape="rect" id="node3" href="$structlzma__compress__config__t.html" title=" " alt="" coords="373,162,556,187"/>
+<area shape="rect" id="node4" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,5,198,45"/>
+<area shape="rect" id="node5" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,200,198,240"/>
+<area shape="rect" id="node10" href="$structzlib__compress__config__t.html" title=" " alt="" coords="378,278,551,303"/>
+<area shape="rect" id="node6" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,69,198,109"/>
+<area shape="rect" id="node7" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,133,198,173"/>
+<area shape="rect" id="node8" href="$structucl__compress__config__t.html" title=" " alt="" coords="380,229,549,254"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,271,215,297"/>
+<area shape="rect" id="node11" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,385,198,425"/>
+<area shape="rect" id="node12" href="$structupx_1_1OptVar.html" title=" " alt="" coords="22,321,198,361"/>
+<area shape="rect" id="node13" href="$structzstd__compress__config__t.html" title=" " alt="" coords="376,327,553,353"/>
+</map>

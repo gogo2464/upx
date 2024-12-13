@@ -1,0 +1,8 @@
+<map id="Packer::optimizeReloc" name="Packer::optimizeReloc">
+<area shape="rect" id="node1" title="sort and delta&#45;compress relocations with optional bswap within image returns number of bytes written ..." alt="" coords="429,80,595,105"/>
+<area shape="rect" id="node2" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="220,5,337,31"/>
+<area shape="rect" id="node3" href="$classPackWcle.html#a1ab5345f507887223de109f0b1139bce" title=" " alt="" coords="176,55,381,80"/>
+<area shape="rect" id="node5" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="189,104,368,129"/>
+<area shape="rect" id="node6" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="189,153,368,179"/>
+<area shape="rect" id="node4" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="5,55,128,80"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="Packer::copyOverlay" name="Packer::copyOverlay">
+<area shape="rect" id="node1" title=" " alt="" coords="5,105,160,131"/>
+<area shape="rect" id="node2" href="$conf_8h.html#af1fdeecf9ad80f9618354edc154be54a" title=" " alt="" coords="250,5,297,31"/>
+<area shape="rect" id="node3" href="$conf_8h.html#ad8f1b4770ed40d94738e95587f35d75e" title=" " alt="" coords="223,55,323,80"/>
+<area shape="rect" id="node4" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="748,131,871,156"/>
+<area shape="rect" id="node13" href="$classInputFile.html#aa76b4db751f0d4ad6c47e93fa676d4a9" title=" " alt="" coords="751,268,868,293"/>
+<area shape="rect" id="node18" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="208,520,339,545"/>
+<area shape="rect" id="node5" href="$classInputFile.html#ae6797787eefa57fdc7191461a47109f6" title=" " alt="" coords="937,317,1052,343"/>
+<area shape="rect" id="node12" href="$except_8cpp.html#ab8961782cfe1b9b4f96796b45672f762" title=" " alt="" coords="920,131,1069,156"/>
+<area shape="rect" id="node6" href="$classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505" title=" " alt="" coords="1366,524,1497,549"/>
+<area shape="rect" id="node7" href="$util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="1387,272,1476,297"/>
+<area shape="rect" id="node9" href="$membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751" title=" " alt="" coords="1166,723,1255,748"/>
+<area shape="rect" id="node11" href="$except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b" title=" " alt="" coords="1142,499,1279,524"/>
+<area shape="rect" id="node8" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="1559,535,1677,560"/>
+<area shape="rect" id="node10" href="$classMemBufferBase.html#a251f844e7095c2d09002cf356e3ed208" title=" " alt="" coords="1352,707,1511,747"/>
+<area shape="rect" id="node14" href="$classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="937,268,1053,293"/>
+<area shape="rect" id="node15" href="$linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6" title=" " alt="" coords="1182,245,1239,271"/>
+<area shape="rect" id="node16" href="$util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="1143,196,1279,221"/>
+<area shape="rect" id="node17" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="1141,397,1281,423"/>
+<area shape="rect" id="node19" href="$classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331" title=" " alt="" coords="387,520,521,545"/>
+<area shape="rect" id="node27" href="$conf_8h.html#a27ba2be54b8bb96f2c06736da293bca9" title=" " alt="" coords="409,569,499,595"/>
+<area shape="rect" id="node20" href="$classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d" title=" " alt="" coords="931,571,1058,596"/>
+<area shape="rect" id="node23" href="$classOutputFile.html#af525d84fd970f061f7c38231892812e6" title=" " alt="" coords="569,520,699,545"/>
+<area shape="rect" id="node21" href="$classFileBase.html#a46505d107430f708ce7b63f79c452b4d" title=" " alt="" coords="1117,649,1304,675"/>
+<area shape="rect" id="node22" href="$bsd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title=" " alt="" coords="1403,649,1459,675"/>
+<area shape="rect" id="node24" href="$classInputFile.html#a78a66fc063b1267d37b2d1e02f20003e" title="InputFile." alt="" coords="747,520,872,545"/>
+<area shape="rect" id="node25" href="$classFileBase.html#aaa2f266ecd4e53d494ea53c1d94dd2df" title=" " alt="" coords="921,469,1068,495"/>
+<area shape="rect" id="node26" href="$bsd_8h.html#aa8d4d8d536a0530d9109179453d5ae93" title=" " alt="" coords="1183,548,1238,573"/>
+</map>

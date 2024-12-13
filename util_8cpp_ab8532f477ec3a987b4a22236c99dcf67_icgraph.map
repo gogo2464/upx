@@ -1,0 +1,19 @@
+<map id="get_ratio" name="get_ratio">
+<area shape="rect" id="node1" title="return compression ratio, where 100% == 1000*1000 == 1e6" alt="" coords="1015,219,1095,244"/>
+<area shape="rect" id="node2" href="$classUiPacker.html#ad8ae73893897d820b121cfd367d10e77" title=" " alt="" coords="808,84,967,109"/>
+<area shape="rect" id="node7" href="$ui_8cpp.html#a0b3f1497cefecad060e020f390bf0dcc" title=" " alt="" coords="854,219,921,244"/>
+<area shape="rect" id="node17" href="$util_8cpp.html#a8228c1dd8bcea0eda79bc2c78b7bd9d1" title=" " alt="" coords="840,268,935,293"/>
+<area shape="rect" id="node3" href="$classUiPacker.html#ab786a18aad2abfb3e6e228b2a1061e6c" title=" " alt="" coords="589,5,760,31"/>
+<area shape="rect" id="node4" href="$classUiPacker.html#a0b969da42e2785054c6ca9f98600eb42" title=" " alt="" coords="591,55,758,80"/>
+<area shape="rect" id="node5" href="$classUiPacker.html#a0cb074e9a2b6997bd3094f10ba617554" title="the callback" alt="" coords="603,105,746,145"/>
+<area shape="rect" id="node6" href="$classUiPacker.html#aa6695297fa390bbcdf75526c701b5c2f" title=" " alt="" coords="366,112,538,137"/>
+<area shape="rect" id="node8" href="$classUiPacker.html#ad08273e0a8c72e60d1142cf8642a5a52" title=" " alt="" coords="614,169,735,195"/>
+<area shape="rect" id="node9" href="$classUiPacker.html#a2c6a2659f3d92d26f4ac922fc42f4252" title=" " alt="" coords="599,219,751,244"/>
+<area shape="rect" id="node15" href="$classUiPacker.html#a338cc89db30f2940545410a19a4d3313" title=" " alt="" coords="599,268,751,293"/>
+<area shape="rect" id="node16" href="$classUiPacker.html#ad9dfb3d9345980ee7c9745a34660d530" title=" " alt="" coords="589,317,760,343"/>
+<area shape="rect" id="node10" href="$work_8cpp.html#a9ec6798d280944a40890ad8f08dbe964" title=" " alt="" coords="243,219,315,244"/>
+<area shape="rect" id="node13" href="$classUiPacker.html#ad872e08ac0689db01af6b92981240926" title=" " alt="" coords="373,219,531,244"/>
+<area shape="rect" id="node14" href="$classUiPacker.html#a12f3b46c4adf8051276daccaff15f2ee" title=" " alt="" coords="363,268,541,293"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#ae733ccfc8b1bfd23af63d56f51903f1d" title="main entry point" alt="" coords="108,219,195,244"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a7726c3c4e37d3478021cf41b755207eb" title="real entry point" alt="" coords="5,219,60,244"/>
+</map>

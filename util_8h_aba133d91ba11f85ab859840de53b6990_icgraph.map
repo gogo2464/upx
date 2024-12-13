@@ -1,0 +1,9 @@
+<map id="mem_size_valid" name="mem_size_valid">
+<area shape="rect" id="node1" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="440,104,568,129"/>
+<area shape="rect" id="node2" href="$classLeFile.html#ac73ff47d51b025bbce3b48a4884d5f2c" title=" " alt="" coords="221,29,388,55"/>
+<area shape="rect" id="node5" href="$util_8cpp.html#abd636e04b1b2dfef70d33d7150c5e35f" title=" " alt="" coords="257,79,352,104"/>
+<area shape="rect" id="node6" href="$classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040" title="Generic Unix unpack()." alt="" coords="217,128,392,153"/>
+<area shape="rect" id="node7" href="$classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479" title="Generic Unix unpack()." alt="" coords="217,177,392,203"/>
+<area shape="rect" id="node3" href="$classPackWcle.html#a48774d07a623f23df1ce21e0ee85353a" title=" " alt="" coords="15,5,160,31"/>
+<area shape="rect" id="node4" href="$classPackWcle.html#ae690a56f9a2dcbe922d2f62dc27727e7" title=" " alt="" coords="5,55,169,80"/>
+</map>

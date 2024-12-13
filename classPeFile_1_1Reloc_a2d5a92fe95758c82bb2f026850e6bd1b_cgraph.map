@@ -1,0 +1,14 @@
+<map id="PeFile::Reloc::readFromRelocationBlock" name="PeFile::Reloc::readFromRelocationBlock">
+<area shape="rect" id="node1" title=" " alt="" coords="5,161,249,201"/>
+<area shape="rect" id="node2" href="$bele_8h.html#a975f8af4219a9c95cf3395cbd46fc472" title=" " alt="" coords="317,94,396,119"/>
+<area shape="rect" id="node7" href="$util_8cpp.html#a49db04c61486d695f7f04b44ac2201c0" title=" " alt="" coords="297,169,416,194"/>
+<area shape="rect" id="node12" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="649,207,767,233"/>
+<area shape="rect" id="node3" href="$bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe" title=" " alt="" coords="478,79,561,105"/>
+<area shape="rect" id="node4" href="$namespaceupx_1_1compile__time.html#a79fb2f241fcb7bcba4da861c7ba3e52d" title=" " alt="" coords="633,44,783,84"/>
+<area shape="rect" id="node5" href="$namespaceupx_1_1compile__time.html#a623cf193544d13a4a34436bd5ee84dc8" title=" " alt="" coords="841,5,992,45"/>
+<area shape="rect" id="node6" href="$namespaceupx_1_1compile__time.html#a61a216c2aecc9431c1464e50239871c8" title=" " alt="" coords="841,69,992,109"/>
+<area shape="rect" id="node8" href="$util_8cpp.html#a420c4464159a133442e53a0d8dafc225" title="ptr util" alt="" coords="464,133,575,158"/>
+<area shape="rect" id="node9" href="$util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="623,109,793,134"/>
+<area shape="rect" id="node10" href="$util_8h.html#a38df66b3eff123e66d6b92ceb76eb4c3" title=" " alt="" coords="659,158,757,183"/>
+<area shape="rect" id="node11" href="$util_8h.html#ada5fbeddd8d88707d5b8dd9fa6557c65" title="ptr util" alt="" coords="853,158,980,183"/>
+</map>

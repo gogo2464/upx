@@ -1,0 +1,17 @@
+<map id="Packer" name="Packer">
+<area shape="rect" id="node1" title="Packer: default implementation base class for all current packers." alt="" coords="1096,170,1160,195"/>
+<area shape="rect" id="node2" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="923,145,1019,170"/>
+<area shape="rect" id="node3" href="$classInputFile.html" title=" " alt="" coords="705,95,784,121"/>
+<area shape="rect" id="node4" href="$classFileBase.html" title=" " alt="" coords="367,95,445,121"/>
+<area shape="rect" id="node5" href="$structPackHeader.html" title="PackHeader also see stub/src/include/header.S." alt="" coords="695,145,794,170"/>
+<area shape="rect" id="node6" href="$structupx__compress__result__t.html" title=" " alt="" coords="320,145,492,170"/>
+<area shape="rect" id="node7" href="$structupx__compress__result__t_1_1Debug.html" title=" " alt="" coords="17,5,177,45"/>
+<area shape="rect" id="node8" href="$structbzip2__compress__result__t.html" title="compression &#45; result_t" alt="" coords="5,70,188,95"/>
+<area shape="rect" id="node9" href="$structlzma__compress__result__t.html" title=" " alt="" coords="7,119,187,145"/>
+<area shape="rect" id="node10" href="$structucl__compress__result__t.html" title=" " alt="" coords="13,169,180,194"/>
+<area shape="rect" id="node11" href="$structzlib__compress__result__t.html" title=" " alt="" coords="11,218,182,243"/>
+<area shape="rect" id="node12" href="$structzstd__compress__result__t.html" title=" " alt="" coords="9,267,184,293"/>
+<area shape="rect" id="node13" href="$classMemBuffer.html" title="MemBuffer." alt="" coords="923,194,1018,219"/>
+<area shape="rect" id="node14" href="$classMemBufferBase.html" title=" " alt="" coords="652,194,837,219"/>
+<area shape="rect" id="node15" href="$structMemBuffer_1_1Stats.html" title=" " alt="" coords="677,243,812,269"/>
+</map>

@@ -1,0 +1,46 @@
+<map id="PackLinuxI386sh::getShellName" name="PackLinuxI386sh::getShellName">
+<area shape="rect" id="node1" title=" " alt="" coords="5,580,236,605"/>
+<area shape="rect" id="node2" href="$classPackLinuxI386.html#a3209a9fad20ca7feb8dea94f49b77529" title=" " alt="" coords="284,304,460,329"/>
+<area shape="rect" id="node38" href="$snprintf_8h.html#a674a04e474d5db68cb6272b9d46940cf" title=" " alt="" coords="570,555,637,580"/>
+<area shape="rect" id="node39" href="$classFileBase.html#af0ce434d18689e12d5ff8347d14236d1" title=" " alt="" coords="299,555,445,580"/>
+<area shape="rect" id="node40" href="$conf_8h.html#af7010f11b48a83dede97c31b3122c79c" title=" " alt="" coords="329,604,415,629"/>
+<area shape="rect" id="node41" href="$xspan__impl__common_8h.html#a60304b65bf89363bcc3165d3cde67f86" title=" " alt="" coords="348,653,396,679"/>
+<area shape="rect" id="node44" href="$classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3" title=" " alt="" coords="307,703,437,728"/>
+<area shape="rect" id="node3" href="$classPackUnix.html#a935b7961d8278ae7b19c53d6ef3fe3cf" title=" " alt="" coords="532,329,675,355"/>
+<area shape="rect" id="node7" href="$xspan__fwd_8h.html#a1a9f236758b0df388ddf70ed0e05e350" title=" " alt="" coords="1439,204,1523,229"/>
+<area shape="rect" id="node14" href="$classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="788,405,911,431"/>
+<area shape="rect" id="node23" href="$classInputFile.html#aa76b4db751f0d4ad6c47e93fa676d4a9" title=" " alt="" coords="791,455,908,480"/>
+<area shape="rect" id="node28" href="$classPackLinuxI386.html#a15ac3c82895d72b62f24537d7cbae017" title="some ELF utility functions" alt="" coords="754,229,945,255"/>
+<area shape="rect" id="node29" href="$bele_8h.html#a975f8af4219a9c95cf3395cbd46fc472" title=" " alt="" coords="564,481,643,507"/>
+<area shape="rect" id="node34" href="$classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5" title=" " alt="" coords="539,5,668,31"/>
+<area shape="rect" id="node35" href="$classPacker.html#a47a54fc63360923941cec0aa6060ae01" title=" " alt="" coords="539,55,668,80"/>
+<area shape="rect" id="node36" href="$classPackLinuxI386.html#aa34c1fde262f35893561bb55e616779b" title=" " alt="" coords="508,104,699,129"/>
+<area shape="rect" id="node37" href="$xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c" title=" " alt="" coords="565,177,641,203"/>
+<area shape="rect" id="node4" href="$classPacker.html#a14b9cb85a2382ebc043228597992283b" title=" " alt="" coords="747,304,952,329"/>
+<area shape="rect" id="node18" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="1624,425,1743,451"/>
+<area shape="rect" id="node5" href="$util_8cpp.html#aca065128666a7d8af5864a1fc875c156" title=" " alt="" coords="1037,255,1118,280"/>
+<area shape="rect" id="node13" href="$except_8cpp.html#a263a7fe48ef7383a4fd0b9daf6c317fa" title=" " alt="" coords="1000,304,1155,329"/>
+<area shape="rect" id="node6" href="$util_8cpp.html#a579960b01d469d1969571dcf757871bc" title="find and mem_replace util" alt="" coords="1255,255,1301,280"/>
+<area shape="rect" id="node8" href="$bele_8h.html#ab07367b17d1a80bb3cd4eeb48b4fdde5" title=" " alt="" coords="1239,304,1317,329"/>
+<area shape="rect" id="node9" href="$bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28" title=" " alt="" coords="1440,304,1521,329"/>
+<area shape="rect" id="node10" href="$namespaceupx_1_1compile__time.html#ae808612ba905c120b5d6a291fcab7456" title=" " alt="" coords="1608,297,1759,337"/>
+<area shape="rect" id="node11" href="$namespaceupx_1_1compile__time.html#a5f2260565847259f85f7980dc1ab3236" title=" " alt="" coords="1807,265,1957,305"/>
+<area shape="rect" id="node12" href="$namespaceupx_1_1compile__time.html#a23c00bac605547ca04a20ec07fad711a" title=" " alt="" coords="1807,329,1957,369"/>
+<area shape="rect" id="node15" href="$classInputFile.html#ae6797787eefa57fdc7191461a47109f6" title=" " alt="" coords="1020,480,1135,505"/>
+<area shape="rect" id="node22" href="$except_8cpp.html#ab8961782cfe1b9b4f96796b45672f762" title=" " alt="" coords="1003,405,1152,431"/>
+<area shape="rect" id="node16" href="$classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505" title=" " alt="" coords="1213,580,1343,605"/>
+<area shape="rect" id="node17" href="$util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="1436,483,1525,508"/>
+<area shape="rect" id="node19" href="$membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751" title=" " alt="" coords="1233,429,1323,455"/>
+<area shape="rect" id="node21" href="$except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b" title=" " alt="" coords="1209,531,1347,556"/>
+<area shape="rect" id="node20" href="$classMemBufferBase.html#a251f844e7095c2d09002cf356e3ed208" title=" " alt="" coords="1401,418,1560,458"/>
+<area shape="rect" id="node24" href="$classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="1019,605,1135,631"/>
+<area shape="rect" id="node25" href="$linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6" title=" " alt="" coords="1249,679,1307,704"/>
+<area shape="rect" id="node26" href="$util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="1210,629,1346,655"/>
+<area shape="rect" id="node27" href="$except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="1208,728,1348,753"/>
+<area shape="rect" id="node30" href="$bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe" title=" " alt="" coords="808,543,891,568"/>
+<area shape="rect" id="node31" href="$namespaceupx_1_1compile__time.html#a79fb2f241fcb7bcba4da861c7ba3e52d" title=" " alt="" coords="1002,778,1153,818"/>
+<area shape="rect" id="node32" href="$namespaceupx_1_1compile__time.html#a623cf193544d13a4a34436bd5ee84dc8" title=" " alt="" coords="1203,778,1353,818"/>
+<area shape="rect" id="node33" href="$namespaceupx_1_1compile__time.html#a61a216c2aecc9431c1464e50239871c8" title=" " alt="" coords="1203,842,1353,882"/>
+<area shape="rect" id="node42" href="$xspan__impl__common_8h.html#af7f8ff1beaa5a2bfec38929faa15a546" title=" " alt="" coords="558,653,649,679"/>
+<area shape="rect" id="node43" href="$xspan__impl__common_8h.html#adc002fafd98360e97e7066a463592829" title=" " alt="" coords="786,653,913,679"/>
+</map>

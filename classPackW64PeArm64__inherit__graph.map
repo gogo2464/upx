@@ -1,0 +1,8 @@
+<map id="PackW64PeArm64" name="PackW64PeArm64">
+<area shape="rect" id="node1" title="win64/arm64" alt="" coords="14,299,154,324"/>
+<area shape="rect" id="node6" href="$classPackW64PeArm64EC.html" title="win64/arm64ec" alt="" coords="5,372,163,397"/>
+<area shape="rect" id="node2" href="$classPeFile64.html" title=" " alt="" coords="45,225,123,251"/>
+<area shape="rect" id="node3" href="$classPeFile.html" title=" " alt="" coords="53,152,115,177"/>
+<area shape="rect" id="node4" href="$classPacker.html" title="Packer: default implementation base class for all current packers." alt="" coords="52,79,116,104"/>
+<area shape="rect" id="node5" href="$classPackerBase.html" title="PackerBase: abstract minimal base class for all packers." alt="" coords="36,5,132,31"/>
+</map>

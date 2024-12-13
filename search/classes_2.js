@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['tls_0',['tls',['../structPeFile_1_1tls__traits_3_01LE32_01_4_1_1tls.html',1,'PeFile::tls_traits::tls'],['../structPeFile_1_1tls__traits_3_01LE64_01_4_1_1tls.html',1,'PeFile::tls_traits::tls']]],
-  ['tls_5ftraits_3c_20le32_20_3e_1',['tls_traits&lt; LE32 &gt;',['../structPeFile_1_1tls__traits_3_01LE32_01_4.html',1,'PeFile']]],
-  ['tls_5ftraits_3c_20le64_20_3e_2',['tls_traits&lt; LE64 &gt;',['../structPeFile_1_1tls__traits_3_01LE64_01_4.html',1,'PeFile']]],
-  ['tstr_3',['TStr',['../structPeFile_1_1ImportLinker_1_1TStr.html',1,'PeFile::ImportLinker']]]
+  ['cantpackexception_0',['CantPackException',['../classCantPackException.html',1,'']]],
+  ['cantunpackexception_1',['CantUnpackException',['../classCantUnpackException.html',1,'']]],
+  ['checkalignment_2',['CheckAlignment',['../structanonymous__namespace_02dt__check_8cpp_03_1_1CheckAlignment.html',1,'anonymous_namespace{dt_check.cpp}']]],
+  ['checkintegral_3',['CheckIntegral',['../structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html',1,'anonymous_namespace{dt_check.cpp}']]],
+  ['checksignedness_4',['CheckSignedness',['../structanonymous__namespace_02dt__check_8cpp_03_1_1CheckSignedness.html',1,'anonymous_namespace{dt_check.cpp}']]],
+  ['checktypepair_5',['CheckTypePair',['../structanonymous__namespace_02dt__check_8cpp_03_1_1CheckTypePair.html',1,'anonymous_namespace{dt_check.cpp}']]],
+  ['coff_5fheader_5ft_6',['coff_header_t',['../structPackDjgpp2_1_1coff__header__t.html',1,'PackDjgpp2']]]
 ];

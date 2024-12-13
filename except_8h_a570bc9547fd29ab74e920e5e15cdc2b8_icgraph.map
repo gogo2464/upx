@@ -1,0 +1,13 @@
+<map id="throwCantPackExact" name="throwCantPackExact">
+<area shape="rect" id="node1" title=" " alt="" coords="643,129,797,155"/>
+<area shape="rect" id="node2" href="$p__exe_8cpp.html#a39fe03ec289944099a16ba664d4373e7" title=" " alt="" coords="449,31,575,56"/>
+<area shape="rect" id="node4" href="$classPacker.html#a55f33ae9a3b893a0811404d4aa85592e" title="sort and delta&#45;compress relocations with optional bswap within image returns number of bytes written ..." alt="" coords="429,104,595,129"/>
+<area shape="rect" id="node10" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="456,153,568,179"/>
+<area shape="rect" id="node11" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="458,203,566,228"/>
+<area shape="rect" id="node3" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="221,5,336,31"/>
+<area shape="rect" id="node5" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="220,55,337,80"/>
+<area shape="rect" id="node6" href="$classPackWcle.html#a1ab5345f507887223de109f0b1139bce" title=" " alt="" coords="176,104,381,129"/>
+<area shape="rect" id="node8" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="189,153,368,179"/>
+<area shape="rect" id="node9" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="189,203,368,228"/>
+<area shape="rect" id="node7" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="5,104,128,129"/>
+</map>

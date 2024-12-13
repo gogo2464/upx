@@ -1,0 +1,6 @@
+<map id="PeFile::Resource::destroy" name="PeFile::Resource::destroy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,31"/>
+<area shape="rect" id="node2" href="$pefile_8cpp.html#a0a38ecb64a11be4a94d50b175b09c9f7" title=" " alt="" coords="240,5,308,31"/>
+<area shape="rect" id="node3" href="$except_8cpp.html#aeec259360ad810df576d7012b3f054f3" title="decompression" alt="" coords="356,5,495,31"/>
+<area shape="rect" id="node4" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="543,5,661,31"/>
+</map>

@@ -1,0 +1,28 @@
+var classPackDjgpp2 =
+[
+    [ "coff_header_t", "structPackDjgpp2_1_1coff__header__t.html", "structPackDjgpp2_1_1coff__header__t" ],
+    [ "external_scnhdr_t", "structPackDjgpp2_1_1external__scnhdr__t.html", "structPackDjgpp2_1_1external__scnhdr__t" ],
+    [ "super", "classPackDjgpp2.html#a5221efd5d92926fe36ed3e05de8d4057", null ],
+    [ "PackDjgpp2", "classPackDjgpp2.html#a3aa0d7c9e11313084a98c926f6fdeb50", null ],
+    [ "buildLoader", "classPackDjgpp2.html#afbe36036a8bc59595f62364c9cb257f8", null ],
+    [ "canPack", "classPackDjgpp2.html#a22f698ff44319e2d1d4d67601f2e8cb8", null ],
+    [ "canUnpack", "classPackDjgpp2.html#a37453d06ebfc70a323d37363f3f2d4bf", null ],
+    [ "findOverlapOverhead", "classPackDjgpp2.html#ac7cc5ada2feff998d116ea077d71e382", null ],
+    [ "getCompressionMethods", "classPackDjgpp2.html#ab05792e46cddcfd5db83b22fc8f94b30", null ],
+    [ "getFilters", "classPackDjgpp2.html#a27798d4f58ed3497fcc13cde4f11edd3", null ],
+    [ "getFormat", "classPackDjgpp2.html#ae7845758c63e2755ecd37f599a670166", null ],
+    [ "getFullName", "classPackDjgpp2.html#aeae4ede20c863b036e01ff42de399a71", null ],
+    [ "getName", "classPackDjgpp2.html#a644a802bea0ed0b490e41d6679b57a7a", null ],
+    [ "getVersion", "classPackDjgpp2.html#a1dee464da3436f9f6d438a3aca7d26e2", null ],
+    [ "handleStub", "classPackDjgpp2.html#a2afdb91a6e5909da7483514153ee5a83", null ],
+    [ "newLinker", "classPackDjgpp2.html#ab3702b87813c81c9b3f9f20de68e93b9", null ],
+    [ "pack", "classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d", null ],
+    [ "readFileHeader", "classPackDjgpp2.html#abcf77216fcfbdba59f92acfe5887cfc5", null ],
+    [ "stripDebug", "classPackDjgpp2.html#aa0afdc23dca072ee236faf88150adde7", null ],
+    [ "unpack", "classPackDjgpp2.html#a48df49a5deb39fa19fd0bd00e68f3b26", null ],
+    [ "bss", "classPackDjgpp2.html#a7e7e81d69da6ae40f8897322dad55a2e", null ],
+    [ "coff_hdr", "classPackDjgpp2.html#abeef814c7e49c06504dbe67277e46974", null ],
+    [ "coff_offset", "classPackDjgpp2.html#a00bd8a4654d05c92f3c3b24c34895b73", null ],
+    [ "data", "classPackDjgpp2.html#a0f382628f7f378e547018322583f47be", null ],
+    [ "text", "classPackDjgpp2.html#a177d5e9842afaf60d31c4e19c6db6f92", null ]
+];

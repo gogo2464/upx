@@ -1,0 +1,13 @@
+<map id="TEST_CASE" name="TEST_CASE">
+<area shape="rect" id="node1" title="raw_bytes" alt="" coords="5,121,100,147"/>
+<area shape="rect" id="node2" href="$util_8cpp.html#a49db04c61486d695f7f04b44ac2201c0" title=" " alt="" coords="155,48,273,73"/>
+<area shape="rect" id="node8" href="$membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751" title=" " alt="" coords="169,121,259,147"/>
+<area shape="rect" id="node10" href="$membuffer_8h.html#a1717baab5552eaf123e584afe8141c7a" title=" " alt="" coords="148,195,280,220"/>
+<area shape="rect" id="node3" href="$util_8cpp.html#a420c4464159a133442e53a0d8dafc225" title="ptr util" alt="" coords="352,29,463,55"/>
+<area shape="rect" id="node7" href="$except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="561,108,679,133"/>
+<area shape="rect" id="node4" href="$util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="535,5,705,31"/>
+<area shape="rect" id="node5" href="$util_8h.html#a38df66b3eff123e66d6b92ceb76eb4c3" title=" " alt="" coords="571,55,669,80"/>
+<area shape="rect" id="node6" href="$util_8h.html#ada5fbeddd8d88707d5b8dd9fa6557c65" title="ptr util" alt="" coords="753,55,880,80"/>
+<area shape="rect" id="node9" href="$classMemBufferBase.html#a251f844e7095c2d09002cf356e3ed208" title=" " alt="" coords="328,130,487,170"/>
+<area shape="rect" id="node11" href="$util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="363,195,452,220"/>
+</map>

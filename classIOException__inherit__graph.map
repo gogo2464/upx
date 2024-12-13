@@ -1,0 +1,9 @@
+<map id="IOException" name="IOException">
+<area shape="rect" id="node1" title=" " alt="" coords="190,225,290,251"/>
+<area shape="rect" id="node5" href="$classEOFException.html" title=" " alt="" coords="5,299,117,324"/>
+<area shape="rect" id="node6" href="$classFileAlreadyExistsException.html" title=" " alt="" coords="141,299,339,324"/>
+<area shape="rect" id="node7" href="$classFileNotFoundException.html" title=" " alt="" coords="364,299,535,324"/>
+<area shape="rect" id="node2" href="$classException.html" title=" " alt="" coords="197,152,283,177"/>
+<area shape="rect" id="node3" href="$classThrowable.html" title="exceptions" alt="" coords="195,79,285,104"/>
+<area shape="rect" id="node4" title=" " alt="" coords="183,5,297,31"/>
+</map>
