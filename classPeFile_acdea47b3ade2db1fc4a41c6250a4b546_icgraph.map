@@ -1,6 +1,6 @@
 <map id="PeFile::virta2objnum" name="PeFile::virta2objnum">
 <area shape="rect" id="node1" title=" " alt="" coords="417,31,573,56"/>
-<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="247,5,355,31"/>
+<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="247,5,355,31"/>
 <area shape="rect" id="node3" href="$classPeFile.html#af26fdb024d80c9a9c7c61ad88b6c7172" title=" " alt="" coords="232,55,369,80"/>
 <area shape="rect" id="node4" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="5,29,184,55"/>
 <area shape="rect" id="node5" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="5,79,184,104"/>

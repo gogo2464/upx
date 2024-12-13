@@ -19,7 +19,7 @@
 <area shape="rect" id="node17" href="$classPackVmlinuzI386.html#ad27678c708faaa9339b39256689cb65e" title="unpack" alt="" coords="247,1912,460,1938"/>
 <area shape="rect" id="node18" href="$classPackVmlinuzARMEL.html#acff47ad06617f49a41e8b1d363efa940" title=" " alt="" coords="238,1962,469,1987"/>
 <area shape="rect" id="node19" href="$classPackWcle.html#ae690a56f9a2dcbe922d2f62dc27727e7" title=" " alt="" coords="271,2011,435,2036"/>
-<area shape="rect" id="node20" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="279,2060,428,2086"/>
+<area shape="rect" id="node20" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title=" " alt="" coords="279,2060,428,2086"/>
 <area shape="rect" id="node21" href="$namespaceanonymous__namespace_02work_8cpp_03.html#ae94d33f51eb588e4e22b848dfc45db9a" title=" " alt="" coords="263,256,443,311"/>
 <area shape="rect" id="node22" href="$classPacker.html#a781dc4327dd4bcab50a94bfc85f52802" title=" " alt="" coords="276,2312,431,2338"/>
 <area shape="rect" id="node23" href="$classPackExe.html#a70d7991b106a12849023eea434a57550" title=" " alt="" coords="39,2238,153,2263"/>
@@ -32,7 +32,7 @@
 <area shape="rect" id="node30" href="$p__lx__elf_8cpp.html#ae2f3660cdb0ae37f901276a8f136e6a9" title=" " alt="" coords="316,2542,391,2567"/>
 <area shape="rect" id="node31" href="$p__djgpp2_8cpp.html#a997186465792493cc35c468bd472cfa6" title=" " alt="" coords="282,2162,425,2187"/>
 <area shape="rect" id="node32" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="27,2136,165,2162"/>
-<area shape="rect" id="node33" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="file i/o utils" alt="" coords="281,2263,426,2288"/>
+<area shape="rect" id="node33" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="Copy stub from exe." alt="" coords="281,2263,426,2288"/>
 <area shape="rect" id="node34" href="$classPackVmlinuxI386.html#a6c0e0d211e5f4cc51d9bac6f58503ede" title=" " alt="" coords="271,501,436,541"/>
 <area shape="rect" id="node35" href="$classPackVmlinuxARMEL.html#adf2f16941f88fb11cc9c4ae1c3c6a87e" title=" " alt="" coords="262,565,445,605"/>
 <area shape="rect" id="node36" href="$classPackVmlinuxARMEB.html#a5113a776ff1c856b065bfdd4ddb5028b" title=" " alt="" coords="261,629,445,669"/>

@@ -1,17 +1,17 @@
 <map id="PeFile::IDADDR" name="PeFile::IDADDR">
 <area shape="rect" id="node1" title=" " alt="" coords="669,332,791,357"/>
-<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="13,107,121,132"/>
+<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="13,107,121,132"/>
 <area shape="rect" id="node3" href="$classPeFile.html#a21ce1ab201004efe415e4727b976e237" title=" " alt="" coords="444,405,612,431"/>
-<area shape="rect" id="node4" href="$classPeFile.html#a5249e585fad8fb5f1f969007692d727a" title="create UPX0 section" alt="" coords="201,555,363,580"/>
+<area shape="rect" id="node4" href="$classPeFile.html#a5249e585fad8fb5f1f969007692d727a" title=" " alt="" coords="201,555,363,580"/>
 <area shape="rect" id="node6" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="439,208,617,233"/>
 <area shape="rect" id="node7" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="438,257,618,283"/>
 <area shape="rect" id="node8" href="$classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6" title=" " alt="" coords="439,307,617,332"/>
 <area shape="rect" id="node9" href="$classPeFile64.html#a04bed4efe5fd80ea6bc7513befb169e0" title=" " alt="" coords="439,356,617,381"/>
 <area shape="rect" id="node10" href="$classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="435,107,621,132"/>
 <area shape="rect" id="node12" href="$classPeFile.html#a72740c1b72ad602b4b9e0a607c745713" title=" " alt="" coords="455,455,601,480"/>
-<area shape="rect" id="node13" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="446,504,610,529"/>
-<area shape="rect" id="node14" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="191,604,373,629"/>
+<area shape="rect" id="node13" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title=" " alt="" coords="446,504,610,529"/>
+<area shape="rect" id="node14" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title=" " alt="" coords="191,604,373,629"/>
 <area shape="rect" id="node15" href="$classPeFile.html#a121dfb3fdcae6eeaa09dc24d0a724c92" title=" " alt="" coords="212,5,352,31"/>
-<area shape="rect" id="node5" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="5,579,129,604"/>
+<area shape="rect" id="node5" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="5,579,129,604"/>
 <area shape="rect" id="node11" href="$classPeFile.html#a8232ec2b156471ca27d54bfdc7594dd4" title=" " alt="" coords="177,107,387,132"/>
 </map>

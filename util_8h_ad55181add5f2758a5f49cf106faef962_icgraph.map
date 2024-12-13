@@ -23,7 +23,7 @@
 <area shape="rect" id="node22" href="$classPeFile_1_1Export.html#ae951f57ec2eae54f1c150158363c01d9" title=" " alt="" coords="812,1770,963,1795"/>
 <area shape="rect" id="node24" href="$classPackWcle.html#abd8a5d698ae53f1e4182902b62dd751e" title=" " alt="" coords="530,1470,711,1495"/>
 <area shape="rect" id="node26" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="547,679,695,705"/>
-<area shape="rect" id="node28" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="43,1013,151,1038"/>
+<area shape="rect" id="node28" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="43,1013,151,1038"/>
 <area shape="rect" id="node30" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="532,729,709,754"/>
 <area shape="rect" id="node31" href="$classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="527,1519,714,1545"/>
 <area shape="rect" id="node33" href="$util_8h.html#a7d2594e522f10a6a65ca477d85c752b2" title=" " alt="" coords="853,1618,921,1643"/>
@@ -47,6 +47,6 @@
 <area shape="rect" id="node46" href="$classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6" title=" " alt="" coords="537,827,704,853"/>
 <area shape="rect" id="node47" href="$util_8h.html#a6986e32187589e48ef625530c6ca37ac" title=" " alt="" coords="583,1569,659,1594"/>
 <area shape="rect" id="node48" href="$classPeFile_1_1Reloc.html#a2d5a92fe95758c82bb2f026850e6bd1b" title=" " alt="" coords="499,979,743,1019"/>
-<area shape="rect" id="node49" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="539,1043,703,1069"/>
+<area shape="rect" id="node49" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title=" " alt="" coords="539,1043,703,1069"/>
 <area shape="rect" id="node50" href="$dt__xspan_8cpp.html#a13626496245cd976c70360973581754f" title="raw_bytes" alt="" coords="573,1093,668,1118"/>
 </map>

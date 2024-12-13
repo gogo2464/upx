@@ -1,6 +1,6 @@
 <map id="PeFile::Resource::next" name="PeFile::Resource::next">
 <area shape="rect" id="node1" title=" " alt="" coords="412,31,579,56"/>
 <area shape="rect" id="node2" href="$classPeFile.html#a0e6486828cc4458e9aeac5717f68a2b7" title=" " alt="" coords="177,5,364,31"/>
-<area shape="rect" id="node3" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="180,55,361,80"/>
-<area shape="rect" id="node4" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="5,55,129,80"/>
+<area shape="rect" id="node3" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title=" " alt="" coords="180,55,361,80"/>
+<area shape="rect" id="node4" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="5,55,129,80"/>
 </map>

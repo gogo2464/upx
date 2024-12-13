@@ -13,7 +13,7 @@
 <area shape="rect" id="node13" href="$classPackUnix.html#a62fec1407c3b1d45bd049df4b9f5e6f7" title="Generic Unix unpack()." alt="" coords="714,503,851,528"/>
 <area shape="rect" id="node14" href="$classPackVmlinuzI386.html#a34e472494934dc78b2259c1eea5540b3" title=" " alt="" coords="689,552,877,577"/>
 <area shape="rect" id="node15" href="$classPackVmlinuzARMEL.html#a0684d8ea945cd7da49d5e47840890afd" title=" " alt="" coords="680,601,885,627"/>
-<area shape="rect" id="node16" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="721,651,845,676"/>
+<area shape="rect" id="node16" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="721,651,845,676"/>
 <area shape="rect" id="node17" href="$classPackUnix.html#ab16d64e1b95f1dcf5f128665b83660f6" title=" " alt="" coords="693,305,872,331"/>
 <area shape="rect" id="node20" href="$classPacker.html#a98836d189865b8496d759334c6257608" title=" " alt="" coords="689,1015,877,1055"/>
 <area shape="rect" id="node3" href="$classPackWcle.html#ade3c0c0f183f9042bba43ee238b8fe88" title=" " alt="" coords="468,5,607,31"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node28" href="$classPackBvmlinuzI386.html#ad8a8694021c49c9e7372c6dbf8b3cef1" title=" " alt="" coords="447,851,627,876"/>
 <area shape="rect" id="node29" href="$classPackVmlinuzARMEL.html#aab822afc164843cd6f22686fdca9dd1a" title=" " alt="" coords="443,900,632,925"/>
 <area shape="rect" id="node30" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="476,949,599,975"/>
-<area shape="rect" id="node31" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="483,999,591,1024"/>
+<area shape="rect" id="node31" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="483,999,591,1024"/>
 <area shape="rect" id="node32" href="$classPackUnix.html#a2a90e16aac8e8c0e11180da8082bfd0f" title=" " alt="" coords="473,1048,602,1073"/>
 <area shape="rect" id="node35" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="456,1097,619,1123"/>
 <area shape="rect" id="node33" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="247,947,368,972"/>

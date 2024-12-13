@@ -8,7 +8,7 @@
 <area shape="rect" id="node8" href="$msg_8cpp.html#aa6166e9ce1687c1e384907470d4474a6" title=" " alt="" coords="1039,587,1133,612"/>
 <area shape="rect" id="node5" href="$msg_8cpp.html#a4c0f7ae33d297188264f626f6818adad" title=" " alt="" coords="847,121,947,147"/>
 <area shape="rect" id="node6" href="$msg_8cpp.html#a9d720f791d6fd68748cb41d1f58ae46f" title=" " alt="" coords="850,171,945,196"/>
-<area shape="rect" id="node7" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="583,5,691,31"/>
+<area shape="rect" id="node7" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="583,5,691,31"/>
 <area shape="rect" id="node10" href="$msg_8cpp.html#ac214d3199ed0588967b705d709909d67" title=" " alt="" coords="1051,636,1121,661"/>
 <area shape="rect" id="node31" href="$msg_8cpp.html#a108c61284004fd15ae8419264eb6e09b" title=" " alt="" coords="1043,685,1129,711"/>
 <area shape="rect" id="node11" href="$classMemBuffer.html#adefde4c29dbecfa830fa198f6f22b538" title=" " alt="" coords="823,385,972,411"/>
@@ -25,7 +25,7 @@
 <area shape="rect" id="node22" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="295,411,418,436"/>
 <area shape="rect" id="node23" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="579,487,696,512"/>
 <area shape="rect" id="node24" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="559,536,716,561"/>
-<area shape="rect" id="node25" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="295,561,419,587"/>
+<area shape="rect" id="node25" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="295,561,419,587"/>
 <area shape="rect" id="node26" href="$classMemBuffer.html#af8f0f5963e60748e20f5004c9a13f1ed" title=" " alt="" coords="545,637,730,663"/>
 <area shape="rect" id="node16" href="$classPackVmlinuzI386.html#a4b88c19ade54ecf025a63781af758006" title=" " alt="" coords="14,168,186,193"/>
 <area shape="rect" id="node17" href="$classPackBvmlinuzI386.html#ad8a8694021c49c9e7372c6dbf8b3cef1" title=" " alt="" coords="10,217,190,243"/>

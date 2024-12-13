@@ -18,7 +18,7 @@
 <area shape="rect" id="node27" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="766,343,878,368"/>
 <area shape="rect" id="node28" href="$classPackUnix.html#a421acb038daef916fef027bd5e2a7427" title=" " alt="" coords="761,195,883,220"/>
 <area shape="rect" id="node30" href="$classPackVmlinuxBase.html#a3ab914eaf3facd8f2b5e61079dce6362" title=" " alt="" coords="733,1088,911,1113"/>
-<area shape="rect" id="node31" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="768,444,876,469"/>
+<area shape="rect" id="node31" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="768,444,876,469"/>
 <area shape="rect" id="node32" href="$classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5" title=" " alt="" coords="220,706,387,746"/>
 <area shape="rect" id="node34" href="$classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8" title=" " alt="" coords="220,1147,387,1187"/>
 <area shape="rect" id="node36" href="$classPackUnix.html#ad3f398fa4a3b34fd79f441e3069f78b1" title=" " alt="" coords="463,1288,626,1313"/>

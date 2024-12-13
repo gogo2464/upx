@@ -13,7 +13,7 @@
 <area shape="rect" id="node5" href="$classPackSys.html#a5e269d1d830b7d4776733066865cadc0" title=" " alt="" coords="547,55,683,80"/>
 <area shape="rect" id="node6" href="$classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="521,153,708,179"/>
 <area shape="rect" id="node7" href="$classPeFile.html#a8232ec2b156471ca27d54bfdc7594dd4" title=" " alt="" coords="264,103,473,128"/>
-<area shape="rect" id="node8" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="108,153,216,179"/>
+<area shape="rect" id="node8" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="108,153,216,179"/>
 <area shape="rect" id="node10" href="$work_8cpp.html#acb26fb37f44aef462017c0319a0c7b51" title="process one file" alt="" coords="567,304,663,329"/>
 <area shape="rect" id="node11" href="$work_8cpp.html#a9ec6798d280944a40890ad8f08dbe964" title=" " alt="" coords="333,304,405,329"/>
 <area shape="rect" id="node13" href="$main_8cpp.html#a7726c3c4e37d3478021cf41b755207eb" title="real entry point" alt="" coords="5,329,60,355"/>

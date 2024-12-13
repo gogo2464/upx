@@ -15,7 +15,7 @@
 <area shape="rect" id="node14" href="$classPackWcle.html#ae1a86eced9af3a3422bd9ebeacac907d" title=" " alt="" coords="295,413,418,439"/>
 <area shape="rect" id="node15" href="$classPackTmt.html#a9847e2567fdbb210ec015dbaf4102374" title=" " alt="" coords="298,512,415,537"/>
 <area shape="rect" id="node16" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="559,207,716,232"/>
-<area shape="rect" id="node17" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="295,207,419,232"/>
+<area shape="rect" id="node17" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="295,207,419,232"/>
 <area shape="rect" id="node18" href="$classMemBuffer.html#af8f0f5963e60748e20f5004c9a13f1ed" title=" " alt="" coords="545,5,730,31"/>
 <area shape="rect" id="node8" href="$classPackVmlinuzI386.html#a4b88c19ade54ecf025a63781af758006" title=" " alt="" coords="14,455,186,480"/>
 <area shape="rect" id="node9" href="$classPackBvmlinuzI386.html#ad8a8694021c49c9e7372c6dbf8b3cef1" title=" " alt="" coords="10,559,190,584"/>
@@ -27,7 +27,7 @@
 <area shape="rect" id="node41" href="$classPeFile.html#a121dfb3fdcae6eeaa09dc24d0a724c92" title=" " alt="" coords="809,1276,949,1301"/>
 <area shape="rect" id="node21" href="$p__lx__elf_8cpp.html#a13631338bc966bdceaf740dfd8082dd5" title=" " alt="" coords="607,905,668,931"/>
 <area shape="rect" id="node22" href="$classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53" title=" " alt="" coords="299,1113,414,1139"/>
-<area shape="rect" id="node23" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="46,1533,154,1559"/>
+<area shape="rect" id="node23" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="46,1533,154,1559"/>
 <area shape="rect" id="node24" href="$classPackLinuxElf32.html#a5bafd32333cb29e162b3a21d3cd4c625" title=" " alt="" coords="554,1053,721,1079"/>
 <area shape="rect" id="node25" href="$classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215" title=" " alt="" coords="554,1103,721,1128"/>
 <area shape="rect" id="node26" href="$classPackMachBase.html#a3c675cc9300dbbe6972aa3dec9cca0e6" title=" " alt="" coords="554,1204,721,1229"/>

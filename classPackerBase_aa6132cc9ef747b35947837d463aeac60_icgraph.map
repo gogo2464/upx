@@ -1,12 +1,12 @@
 <map id="PackerBase::getFormat" name="PackerBase::getFormat">
 <area shape="rect" id="node1" title=" " alt="" coords="2203,381,2373,407"/>
 <area shape="rect" id="node2" href="$classPacker.html#a65e855c1df3707b0e054eac328a520c5" title=" " alt="" coords="1982,5,2137,31"/>
-<area shape="rect" id="node3" href="$classPeFile32.html#a688e13afbf65d780963630a7def88d6b" title="PeFile32." alt="" coords="726,81,883,107"/>
+<area shape="rect" id="node3" href="$classPeFile32.html#a688e13afbf65d780963630a7def88d6b" title=" " alt="" coords="726,81,883,107"/>
 <area shape="rect" id="node4" href="$classPacker.html#a31c73202b82e8ce8970cca8881d9a82e" title=" " alt="" coords="1964,231,2155,256"/>
 <area shape="rect" id="node28" href="$classPackLinuxElf32.html#aa3a1446667e5e41721ae1ed8d40e3a82" title=" " alt="" coords="1966,374,2153,414"/>
 <area shape="rect" id="node37" href="$classPacker.html#a06289b68601b59ba96d2d0bacec15aa6" title="packheader util" alt="" coords="1974,659,2145,684"/>
 <area shape="rect" id="node40" href="$classPeFile.html#a619a37343f235995c3aebba78dc5143a" title=" " alt="" coords="1975,807,2143,832"/>
-<area shape="rect" id="node47" href="$classPeFile32.html#a4ebd6331cc75b81d9ecc540925fce983" title="PeFile32." alt="" coords="1993,856,2125,881"/>
+<area shape="rect" id="node47" href="$classPeFile32.html#a4ebd6331cc75b81d9ecc540925fce983" title=" " alt="" coords="1993,856,2125,881"/>
 <area shape="rect" id="node5" href="$classPacker.html#abcb5aa92c52d38f3c7f4cc75d111debd" title=" " alt="" coords="1704,109,1896,135"/>
 <area shape="rect" id="node6" href="$classPacker.html#afeee17a50e4f350eebc14b1704ec9a39" title=" " alt="" coords="1457,303,1628,328"/>
 <area shape="rect" id="node7" href="$classPackUnix.html#a4f1d471152b26686e619f2e8b6744366" title=" " alt="" coords="1227,473,1397,513"/>
@@ -28,8 +28,8 @@
 <area shape="rect" id="node23" href="$classPackVmlinuzI386.html#ad27678c708faaa9339b39256689cb65e" title="unpack" alt="" coords="953,501,1166,527"/>
 <area shape="rect" id="node24" href="$classPackVmlinuzARMEL.html#acff47ad06617f49a41e8b1d363efa940" title=" " alt="" coords="944,551,1175,576"/>
 <area shape="rect" id="node25" href="$classPackWcle.html#ae690a56f9a2dcbe922d2f62dc27727e7" title=" " alt="" coords="977,107,1141,132"/>
-<area shape="rect" id="node26" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="985,156,1134,181"/>
-<area shape="rect" id="node27" href="$classPeFile64.html#aa87eeb6f655c406207046411f6df433e" title="PeFile64." alt="" coords="726,156,883,181"/>
+<area shape="rect" id="node26" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title=" " alt="" coords="985,156,1134,181"/>
+<area shape="rect" id="node27" href="$classPeFile64.html#aa87eeb6f655c406207046411f6df433e" title=" " alt="" coords="726,156,883,181"/>
 <area shape="rect" id="node29" href="$classPackLinuxElf32ppc.html#a9ffb643ede9f5d69fd23d375b0b93f70" title=" " alt="" coords="1725,223,1875,263"/>
 <area shape="rect" id="node30" href="$classPackLinuxElf32x86.html#ad3be0573c453deca4d9fe0c7d0c22a54" title=" " alt="" coords="1724,287,1876,327"/>
 <area shape="rect" id="node31" href="$classPackBSDElf32x86.html#a2f31eed4b4e6b3394d2c148541af6d19" title=" " alt="" coords="1451,352,1634,377"/>

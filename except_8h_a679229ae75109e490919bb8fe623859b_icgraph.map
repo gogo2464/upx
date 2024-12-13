@@ -1,15 +1,15 @@
 <map id="throwCantUnpack" name="throwCantUnpack">
 <area shape="rect" id="node1" title="decompression" alt="" coords="1017,1300,1156,1325"/>
 <area shape="rect" id="node2" href="$classPeFile_1_1Resource.html#a4c38e6e7a649a649ef5d08be36bb385a" title=" " alt="" coords="489,118,659,144"/>
-<area shape="rect" id="node4" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="227,94,408,120"/>
-<area shape="rect" id="node5" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="29,194,153,220"/>
+<area shape="rect" id="node4" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title=" " alt="" coords="227,94,408,120"/>
+<area shape="rect" id="node5" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="29,194,153,220"/>
 <area shape="rect" id="node6" href="$classPackDjgpp2.html#a37453d06ebfc70a323d37363f3f2d4bf" title=" " alt="" coords="764,1458,943,1484"/>
 <area shape="rect" id="node7" href="$classPackLinuxElf32.html#a89a8cceb7f8ef9df9542156c01118aa4" title="Generic Unix canUnpack()." alt="" coords="474,1537,674,1562"/>
 <area shape="rect" id="node9" href="$classPackLinuxElf64.html#a71bc2f0e1a1ec856b3f9a08b63add0ae" title="Generic Unix canUnpack()." alt="" coords="474,1653,674,1678"/>
 <area shape="rect" id="node11" href="$classPackMachBase.html#a2523b17c7d4cc2ed81ceb0395ac199e1" title="Generic Unix canUnpack()." alt="" coords="754,1738,953,1764"/>
 <area shape="rect" id="node13" href="$classPackPs1.html#a5597d0e5f795a8c0d81b637478599a99" title=" " alt="" coords="776,1788,931,1813"/>
 <area shape="rect" id="node14" href="$classPackTos.html#af1b25d730b2ffe098d1d2ad97c0a0620" title=" " alt="" coords="777,1837,930,1862"/>
-<area shape="rect" id="node15" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="779,1886,928,1912"/>
+<area shape="rect" id="node15" href="$classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title=" " alt="" coords="779,1886,928,1912"/>
 <area shape="rect" id="node16" href="$classPackWcle.html#a5dbcf0f943d4645f563e712afa96e919" title=" " alt="" coords="750,1936,957,1961"/>
 <area shape="rect" id="node17" href="$structPackHeader.html#ad6923627ad1bf2df2dc96f30497c90b6" title=" " alt="" coords="459,546,689,586"/>
 <area shape="rect" id="node18" href="$classPacker.html#afeee17a50e4f350eebc14b1704ec9a39" title=" " alt="" coords="232,370,403,396"/>

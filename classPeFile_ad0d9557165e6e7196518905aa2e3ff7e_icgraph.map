@@ -1,4 +1,4 @@
 <map id="PeFile::addNewRelocations" name="PeFile::addNewRelocations">
 <area shape="rect" id="node1" title=" " alt="" coords="161,5,360,31"/>
-<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="5,5,113,31"/>
+<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="5,5,113,31"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="upx::has_single_bit" name="upx::has_single_bit">
 <area shape="rect" id="node1" title="&lt;bit&gt; C++20" alt="" coords="843,81,989,107"/>
 <area shape="rect" id="node2" href="$classPeFile.html#abf1fb5e63caa5794a600596bc3d9b099" title=" " alt="" coords="583,5,780,31"/>
-<area shape="rect" id="node3" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="387,40,495,65"/>
+<area shape="rect" id="node3" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="387,40,495,65"/>
 <area shape="rect" id="node4" href="$util_8h.html#a11890291ee4c345dc273a544db45cb3f" title=" " alt="" coords="625,107,738,132"/>
 <area shape="rect" id="node9" href="$structanonymous__namespace_02dt__check_8cpp_03_1_1TestBELE.html#af33fa84da2b21ed354af20c55d3a18f6" title=" " alt="" coords="568,157,795,197"/>
 <area shape="rect" id="node5" href="$dt__check_8cpp.html#a3a6b242ecd120ddf74c7aefb91486186" title=" " alt="" coords="363,115,520,155"/>

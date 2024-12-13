@@ -1,11 +1,11 @@
 <map id="PeFile::ODSIZE" name="PeFile::ODSIZE">
 <area shape="rect" id="node1" title=" " alt="" coords="440,181,559,207"/>
 <area shape="rect" id="node2" href="$classPeFile.html#a8232ec2b156471ca27d54bfdc7594dd4" title=" " alt="" coords="180,5,389,31"/>
-<area shape="rect" id="node3" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="13,56,121,81"/>
+<area shape="rect" id="node3" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="13,56,121,81"/>
 <area shape="rect" id="node4" href="$classPeFile.html#ad8e6ec987ca037c22af9bbdcf3e76469" title=" " alt="" coords="177,107,392,132"/>
-<area shape="rect" id="node5" href="$classPeFile.html#a5249e585fad8fb5f1f969007692d727a" title="create UPX0 section" alt="" coords="203,156,366,181"/>
-<area shape="rect" id="node6" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="5,256,129,281"/>
-<area shape="rect" id="node7" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="203,257,367,283"/>
+<area shape="rect" id="node5" href="$classPeFile.html#a5249e585fad8fb5f1f969007692d727a" title=" " alt="" coords="203,156,366,181"/>
+<area shape="rect" id="node6" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="5,256,129,281"/>
+<area shape="rect" id="node7" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title=" " alt="" coords="203,257,367,283"/>
 <area shape="rect" id="node8" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="206,307,363,332"/>
-<area shape="rect" id="node9" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="194,356,375,381"/>
+<area shape="rect" id="node9" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title=" " alt="" coords="194,356,375,381"/>
 </map>

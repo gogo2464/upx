@@ -1,5 +1,5 @@
 <map id="PeFile::processImports2" name="PeFile::processImports2">
 <area shape="rect" id="node1" title=" " alt="" coords="291,31,468,56"/>
-<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="70,5,178,31"/>
+<area shape="rect" id="node2" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="70,5,178,31"/>
 <area shape="rect" id="node3" href="$classPackWinCeArm.html#a61c86923dfbe66ab1475404052369e12" title="import handling" alt="" coords="5,55,243,80"/>
 </map>

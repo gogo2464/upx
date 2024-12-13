@@ -4,12 +4,12 @@
 <area shape="rect" id="node3" href="$classPackLinuxElf32.html#ac4f9df5fb4c6ace9d197f29e1594a552" title=" " alt="" coords="467,204,648,229"/>
 <area shape="rect" id="node5" href="$classPackLinuxElf64.html#a3f8b3a6d6203c2a09d5058a18423fee2" title=" " alt="" coords="467,253,648,279"/>
 <area shape="rect" id="node6" href="$classPacker.html#a0b47a6575142d8a8fafd88256c8a26e8" title=" " alt="" coords="231,203,392,228"/>
-<area shape="rect" id="node11" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="28,456,136,481"/>
+<area shape="rect" id="node11" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="28,456,136,481"/>
 <area shape="rect" id="node17" href="$classPacker.html#a781dc4327dd4bcab50a94bfc85f52802" title=" " alt="" coords="234,153,389,179"/>
 <area shape="rect" id="node18" href="$classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a" title=" " alt="" coords="468,703,647,743"/>
 <area shape="rect" id="node20" href="$classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6" title=" " alt="" coords="468,767,647,807"/>
 <area shape="rect" id="node22" href="$classPeFile.html#a9e7b94720cba8705cc237afe1d6115f5" title=" " alt="" coords="218,608,405,633"/>
-<area shape="rect" id="node23" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="file i/o utils" alt="" coords="485,405,630,431"/>
+<area shape="rect" id="node23" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="Copy stub from exe." alt="" coords="485,405,630,431"/>
 <area shape="rect" id="node24" href="$classPackDjgpp2.html#a2afdb91a6e5909da7483514153ee5a83" title="util" alt="" coords="222,657,401,683"/>
 <area shape="rect" id="node28" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="469,832,646,857"/>
 <area shape="rect" id="node29" href="$classPeFile.html#aa56a9d4583f360bfc3d4d1c62e63d1c8" title="Load Configuration handling." alt="" coords="467,881,647,907"/>
@@ -27,7 +27,7 @@
 <area shape="rect" id="node13" href="$classPackTmt.html#a7f8a990a65f25123fed345edfb720143" title=" " alt="" coords="15,252,149,277"/>
 <area shape="rect" id="node14" href="$classPackTos.html#a3fb61f6f3b1963184356bace25ff9653" title=" " alt="" coords="18,104,146,129"/>
 <area shape="rect" id="node15" href="$classPackWcle.html#ade3c0c0f183f9042bba43ee238b8fe88" title=" " alt="" coords="13,351,151,376"/>
-<area shape="rect" id="node16" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="20,400,144,425"/>
+<area shape="rect" id="node16" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="20,400,144,425"/>
 <area shape="rect" id="node19" href="$classPackLinuxElf32.html#ad190f7b83d9aaccf78119ebb0f00eb41" title=" " alt="" coords="228,711,395,736"/>
 <area shape="rect" id="node21" href="$classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6" title=" " alt="" coords="228,775,395,800"/>
 <area shape="rect" id="node27" href="$classPackWcle.html#abbec3b78eb513d8cd20aead98a8daeec" title="util" alt="" coords="229,304,394,329"/>

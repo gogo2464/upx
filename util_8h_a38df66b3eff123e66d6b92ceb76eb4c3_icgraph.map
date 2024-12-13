@@ -5,7 +5,7 @@
 <area shape="rect" id="node3" href="$classPeFile_1_1Export.html#ae951f57ec2eae54f1c150158363c01d9" title=" " alt="" coords="747,1331,897,1357"/>
 <area shape="rect" id="node5" href="$classPackWcle.html#abd8a5d698ae53f1e4182902b62dd751e" title=" " alt="" coords="209,881,390,906"/>
 <area shape="rect" id="node7" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="503,162,651,187"/>
-<area shape="rect" id="node9" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="21,86,129,111"/>
+<area shape="rect" id="node9" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="21,86,129,111"/>
 <area shape="rect" id="node11" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="488,113,665,138"/>
 <area shape="rect" id="node12" href="$classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="483,63,670,89"/>
 <area shape="rect" id="node14" href="$util_8h.html#a7d2594e522f10a6a65ca477d85c752b2" title=" " alt="" coords="788,1257,856,1282"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node27" href="$classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6" title=" " alt="" coords="493,575,660,601"/>
 <area shape="rect" id="node28" href="$util_8h.html#a6986e32187589e48ef625530c6ca37ac" title=" " alt="" coords="539,1155,615,1181"/>
 <area shape="rect" id="node29" href="$classPeFile_1_1Reloc.html#a2d5a92fe95758c82bb2f026850e6bd1b" title=" " alt="" coords="455,675,699,715"/>
-<area shape="rect" id="node30" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title="create UPX0 section" alt="" coords="495,739,659,765"/>
+<area shape="rect" id="node30" href="$classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611" title=" " alt="" coords="495,739,659,765"/>
 <area shape="rect" id="node31" href="$dt__xspan_8cpp.html#a13626496245cd976c70360973581754f" title="raw_bytes" alt="" coords="529,789,624,814"/>
 <area shape="rect" id="node32" href="$classPacker.html#ad50f653ca4844165671764219a33eb74" title="delta&#45;decompress relocations advances &#39;in&#39; allocates &#39;out&#39; and returns number of relocs written to &#39;o..." alt="" coords="486,211,667,237"/>
 <area shape="rect" id="node33" href="$classPackExe.html#a08a7901ec2ea27c6c446f4ff02b24be4" title=" " alt="" coords="511,890,642,915"/>

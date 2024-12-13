@@ -156,79 +156,32 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:af442d76c5b12d3f224d3c661882a20b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6">processRelocs</a> () override</td></tr>
-<tr class="separator:af442d76c5b12d3f224d3c661882a20b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">pack0</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>create UPX0 section</p>
-<pre class="fragment">Reduct the file size.
-</pre> <dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fo</td><td>The <a class="el" href="classOutputFile.html">OutputFile</a> class to the path where the new file will be created.</td></tr>
-    <tr><td class="paramname">ih</td><td>Input PE header.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>Native windows data structure required by the os to be understood and to make a valid executable. The documentation of this data type is present there: <a href="https://www.vergiliusproject.com/kernels/x64/windows-11/23h2/_IMAGE_FILE_HEADER">https://www.vergiliusproject.com/kernels/x64/windows-11/23h2/_IMAGE_FILE_HEADER</a> and described there: <a href="https://wiki.osdev.org/PE#PE_header">https://wiki.osdev.org/PE#PE_header</a> .</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">oh</td><td>Output PE header.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>Native windows data structure required by the os to be understood and to make a valid executable. The documentation of this data type is present there: <a href="https://www.vergiliusproject.com/kernels/x64/windows-11/23h2/_IMAGE_FILE_HEADER">https://www.vergiliusproject.com/kernels/x64/windows-11/23h2/_IMAGE_FILE_HEADER</a> and described there: <a href="https://wiki.osdev.org/PE#PE_header">https://wiki.osdev.org/PE#PE_header</a> .</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">subsystem_mask</td><td>Permission mask for UPX0, UPX1, etc... sections.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>Number between 0 and 255 to indicate the section permissions of the section UPX0, UPX1, etc...</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">default_imagebase</td><td>Base address of the image base of the process.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>Very first start of where is stored the data and the code run by the OS.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">last_section_rsrc_only</td><td>This is true when the last PE section of the compressed file must only contain resources and must be called "rsrc"</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void, in any circonstance.</dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>None. </dd></dl>
-</div></td></tr>
 <tr class="memitem:a5f1d2985977ec6bad677e47453c7ed56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a5f1d2985977ec6bad677e47453c7ed56">PeFile32</a> (<a class="el" href="classInputFile.html">InputFile</a> *f)</td></tr>
 <tr class="memdesc:a5f1d2985977ec6bad677e47453c7ed56"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a5f1d2985977ec6bad677e47453c7ed56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d12edc11a3ef39f8ca50a606248cb8b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a4d12edc11a3ef39f8ca50a606248cb8b">~PeFile32</a> () noexcept</td></tr>
-<tr class="memdesc:a4d12edc11a3ef39f8ca50a606248cb8b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a4d12edc11a3ef39f8ca50a606248cb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a656668377df628cbdaa44a3c1a4b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a6a656668377df628cbdaa44a3c1a4b49">pack0</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, unsigned subsystem_mask, <a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> default_imagebase, bool last_section_rsrc_only)</td></tr>
-<tr class="memdesc:a6a656668377df628cbdaa44a3c1a4b49"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a6a656668377df628cbdaa44a3c1a4b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ebd6331cc75b81d9ecc540925fce983"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a4ebd6331cc75b81d9ecc540925fce983">unpack</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo) override</td></tr>
-<tr class="memdesc:a4ebd6331cc75b81d9ecc540925fce983"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a4ebd6331cc75b81d9ecc540925fce983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688e13afbf65d780963630a7def88d6b"><td class="memItemLeft" align="right" valign="top">virtual tribool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a688e13afbf65d780963630a7def88d6b">canUnpack</a> () override</td></tr>
-<tr class="memdesc:a688e13afbf65d780963630a7def88d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a688e13afbf65d780963630a7def88d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e53a93d2a6a83c6cc696cf3918c42b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a9e53a93d2a6a83c6cc696cf3918c42b9">readPeHeader</a> () override</td></tr>
-<tr class="memdesc:a9e53a93d2a6a83c6cc696cf3918c42b9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a9e53a93d2a6a83c6cc696cf3918c42b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04326e1c7ba4a0a6234df80f24748082"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a04326e1c7ba4a0a6234df80f24748082">processImports</a> () override</td></tr>
-<tr class="memdesc:a04326e1c7ba4a0a6234df80f24748082"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a04326e1c7ba4a0a6234df80f24748082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af442d76c5b12d3f224d3c661882a20b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#af442d76c5b12d3f224d3c661882a20b6">processRelocs</a> () override</td></tr>
+<tr class="separator:af442d76c5b12d3f224d3c661882a20b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdee574f88243a79a9edb30d52be8151"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#acdee574f88243a79a9edb30d52be8151">processTls</a> (<a class="el" href="classPeFile_1_1Interval.html">Interval</a> *) override</td></tr>
-<tr class="memdesc:acdee574f88243a79a9edb30d52be8151"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:acdee574f88243a79a9edb30d52be8151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c400f1b8e068874eb6d8c3b4bdc1001"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile32.html#a7c400f1b8e068874eb6d8c3b4bdc1001">processTls</a> (<a class="el" href="classPeFile_1_1Reloc.html">Reloc</a> *, const <a class="el" href="classPeFile_1_1Interval.html">Interval</a> *, unsigned) override</td></tr>
-<tr class="memdesc:a7c400f1b8e068874eb6d8c3b4bdc1001"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classPeFile32.html">PeFile32</a>.  <br /></td></tr>
 <tr class="separator:a7c400f1b8e068874eb6d8c3b4bdc1001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPeFile"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPeFile')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPeFile.html">PeFile</a></td></tr>
 <tr class="memitem:a0950c8708c2dbe3fe2bf46735200e800 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a0950c8708c2dbe3fe2bf46735200e800">PeFile</a> (<a class="el" href="classInputFile.html">InputFile</a> *f)</td></tr>
 <tr class="separator:a0950c8708c2dbe3fe2bf46735200e800 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffc4b60a0af72126e66acf962803b4a inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#afffc4b60a0af72126e66acf962803b4a">~PeFile</a> () noexcept</td></tr>
+<tr class="separator:afffc4b60a0af72126e66acf962803b4a inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfe62489cd0fb266885ee3ad54449350 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#adfe62489cd0fb266885ee3ad54449350">readSectionHeaders</a> (unsigned objs, unsigned sizeof_ih)</td></tr>
 <tr class="memdesc:adfe62489cd0fb266885ee3ad54449350 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">pack  <br /></td></tr>
 <tr class="separator:adfe62489cd0fb266885ee3ad54449350 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,8 +209,17 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a50f3c97a5b4b7c36a57ff4d8afe0772f inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1618e75ef1330787e3257bcb36d09949 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a1618e75ef1330787e3257bcb36d09949">setOhHeaderSize</a> (const <a class="el" href="structPeFile_1_1pe__section__t.html">pe_section_t</a> *osection)=0</td></tr>
 <tr class="separator:a1618e75ef1330787e3257bcb36d09949 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX , typename ht &gt; </td></tr>
+<tr class="memitem:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632">pack0</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, ht &amp;ih, ht &amp;<a class="el" href="p__exe_8cpp.html#ab8f9ce3e1547ebe50e187fc2b2e3f1f2">oh</a>, unsigned subsystem_mask, <a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> default_imagebase, bool last_section_rsrc_only)</td></tr>
+<tr class="memdesc:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create UPX0 section with compressed full executable.  <br /></td></tr>
+<tr class="separator:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename ht , typename LEXX , typename ord_mask_t &gt; </td></tr>
+<tr class="memitem:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#aa8d033dfaeb206c4235410f24b083df5">unpack0</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, const ht &amp;ih, ht &amp;<a class="el" href="p__exe_8cpp.html#ab8f9ce3e1547ebe50e187fc2b2e3f1f2">oh</a>, ord_mask_t ord_mask, bool set_oft)</td></tr>
+<tr class="separator:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa79ac064f489ec646c718e870dbb939 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#aaa79ac064f489ec646c718e870dbb939">canUnpackVersion</a> (int version) const override</td></tr>
 <tr class="separator:aaa79ac064f489ec646c718e870dbb939 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85a5e4a7af55c00272c5076264c7fcd inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">canUnpack0</a> (unsigned max_sections, unsigned objs, unsigned ih_entry, unsigned ih_size)</td></tr>
+<tr class="separator:ad85a5e4a7af55c00272c5076264c7fcd inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619a37343f235995c3aebba78dc5143a inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a619a37343f235995c3aebba78dc5143a">readFileHeader</a> ()</td></tr>
 <tr class="separator:a619a37343f235995c3aebba78dc5143a inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49b975cf5a3ee8de3d245c4890aeab66 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a49b975cf5a3ee8de3d245c4890aeab66">testUnpackVersion</a> (int version) const override</td></tr>
@@ -267,6 +229,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a9c07dbb841251c1c147f94200868ae76 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX , typename ord_mask_t &gt; </td></tr>
 <tr class="memitem:a9c07dbb841251c1c147f94200868ae76 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#a9c07dbb841251c1c147f94200868ae76">processImports0</a> (ord_mask_t ord_mask)</td></tr>
 <tr class="separator:a9c07dbb841251c1c147f94200868ae76 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX , typename ord_mask_t &gt; </td></tr>
+<tr class="memitem:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611">rebuildImports</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;extra_info, ord_mask_t ord_mask, bool set_oft)</td></tr>
+<tr class="separator:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ed10794635a24c736fdf79c01d9f91 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a05ed10794635a24c736fdf79c01d9f91">processImports</a> ()=0</td></tr>
 <tr class="separator:a05ed10794635a24c736fdf79c01d9f91 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd03950cdec5fa38a6f83f54e7adacf inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#adfd03950cdec5fa38a6f83f54e7adacf">processImports2</a> (unsigned, unsigned)</td></tr>
@@ -279,20 +244,29 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a1a99f1e23999449456ed83d219dd5150 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eaf1f93f5bed998be919c0ea414998c inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a9eaf1f93f5bed998be919c0ea414998c">addStubImports</a> ()</td></tr>
 <tr class="separator:a9eaf1f93f5bed998be919c0ea414998c inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaace860391abfd20a05b65f3d7bd881c inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top"><a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#aaace860391abfd20a05b65f3d7bd881c">ilinkerGetAddress</a> (const char *, const char *) const</td></tr>
+<tr class="separator:aaace860391abfd20a05b65f3d7bd881c inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b6d85b0fe63649ef45b76fdd2e7d8e1 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a9b6d85b0fe63649ef45b76fdd2e7d8e1">processRelocs</a> ()=0</td></tr>
 <tr class="separator:a9b6d85b0fe63649ef45b76fdd2e7d8e1 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461">rebuildRelocs</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;, unsigned bits, unsigned flags, <a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> imagebase)</td></tr>
+<tr class="memdesc:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">unpack  <br /></td></tr>
+<tr class="separator:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81e415a37fa87d502a431012d19ccbaf inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a81e415a37fa87d502a431012d19ccbaf">SPAN_0</a> (<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) orelocs</td></tr>
 <tr class="separator:a81e415a37fa87d502a431012d19ccbaf inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ce1ab201004efe415e4727b976e237 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a21ce1ab201004efe415e4727b976e237">processExports</a> (<a class="el" href="classPeFile_1_1Export.html">Export</a> *)</td></tr>
 <tr class="separator:a21ce1ab201004efe415e4727b976e237 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de137a0075cce856ee34d9dbd2c7c6b inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a0de137a0075cce856ee34d9dbd2c7c6b">processExports</a> (<a class="el" href="classPeFile_1_1Export.html">Export</a> *, unsigned)</td></tr>
 <tr class="separator:a0de137a0075cce856ee34d9dbd2c7c6b inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5249e585fad8fb5f1f969007692d727a inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a5249e585fad8fb5f1f969007692d727a">rebuildExports</a> ()</td></tr>
+<tr class="separator:a5249e585fad8fb5f1f969007692d727a inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3805004394cd883522b6e57ac22db43 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#ad3805004394cd883522b6e57ac22db43">SPAN_0</a> (<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) oexport</td></tr>
 <tr class="separator:ad3805004394cd883522b6e57ac22db43 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa837c0972c716047dfb4ddfd3d21e02f inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f">processResources</a> (<a class="el" href="classPeFile_1_1Resource.html">Resource</a> *)</td></tr>
 <tr class="separator:aa837c0972c716047dfb4ddfd3d21e02f inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e6486828cc4458e9aeac5717f68a2b7 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a0e6486828cc4458e9aeac5717f68a2b7">processResources</a> (<a class="el" href="classPeFile_1_1Resource.html">Resource</a> *, unsigned)</td></tr>
 <tr class="separator:a0e6486828cc4458e9aeac5717f68a2b7 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a6ab01655a285c87aba3965a5edde8 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a01a6ab01655a285c87aba3965a5edde8">rebuildResources</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;, unsigned)</td></tr>
+<tr class="separator:a01a6ab01655a285c87aba3965a5edde8 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768a4680ba1aea673291faf63950f997 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a768a4680ba1aea673291faf63950f997">SPAN_0</a> (<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) oresources</td></tr>
 <tr class="separator:a768a4680ba1aea673291faf63950f997 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72740c1b72ad602b4b9e0a607c745713 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX &gt; </td></tr>
@@ -305,6 +279,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a570564951888719ea7a2efeb5ac489cc inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8433dc06df130d4f71d155ba69386703 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a8433dc06df130d4f71d155ba69386703">processTls</a> (<a class="el" href="classPeFile_1_1Reloc.html">Reloc</a> *r, const <a class="el" href="classPeFile_1_1Interval.html">Interval</a> *iv, unsigned a)=0</td></tr>
 <tr class="separator:a8433dc06df130d4f71d155ba69386703 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3efc17221ec94f9c4684260f82430a46 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a3efc17221ec94f9c4684260f82430a46">rebuildTls</a> ()</td></tr>
+<tr class="separator:a3efc17221ec94f9c4684260f82430a46 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8315cd0e852afc6d698789c520ce9258 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a8315cd0e852afc6d698789c520ce9258">SPAN_0</a> (<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) otls</td></tr>
 <tr class="separator:a8315cd0e852afc6d698789c520ce9258 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30601c17a0f2fc5889f04fdaf721a71c inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a30601c17a0f2fc5889f04fdaf721a71c">processLoadConf</a> (<a class="el" href="classPeFile_1_1Reloc.html">Reloc</a> *, const <a class="el" href="classPeFile_1_1Interval.html">Interval</a> *, unsigned)</td></tr>
@@ -331,39 +307,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aff91f15f3649adc41aee5462333083ac inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af26fdb024d80c9a9c7c61ad88b6c7172 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#af26fdb024d80c9a9c7c61ad88b6c7172">tryremove</a> (unsigned, unsigned)</td></tr>
 <tr class="separator:af26fdb024d80c9a9c7c61ad88b6c7172 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afffc4b60a0af72126e66acf962803b4a inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#afffc4b60a0af72126e66acf962803b4a">~PeFile</a> () noexcept</td></tr>
-<tr class="memdesc:afffc4b60a0af72126e66acf962803b4a inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:afffc4b60a0af72126e66acf962803b4a inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX , typename ht &gt; </td></tr>
-<tr class="memitem:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632">pack0</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, ht &amp;ih, ht &amp;<a class="el" href="p__exe_8cpp.html#ab8f9ce3e1547ebe50e187fc2b2e3f1f2">oh</a>, unsigned subsystem_mask, <a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> default_imagebase, bool last_section_rsrc_only)</td></tr>
-<tr class="memdesc:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:ad9fc5f9eff8c16e397552c1a0681b632 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename ht , typename LEXX , typename ord_mask_t &gt; </td></tr>
-<tr class="memitem:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#aa8d033dfaeb206c4235410f24b083df5">unpack0</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, const ht &amp;ih, ht &amp;<a class="el" href="p__exe_8cpp.html#ab8f9ce3e1547ebe50e187fc2b2e3f1f2">oh</a>, ord_mask_t ord_mask, bool set_oft)</td></tr>
-<tr class="memdesc:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:aa8d033dfaeb206c4235410f24b083df5 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85a5e4a7af55c00272c5076264c7fcd inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">canUnpack0</a> (unsigned max_sections, unsigned objs, unsigned ih_entry, unsigned ih_size)</td></tr>
-<tr class="memdesc:ad85a5e4a7af55c00272c5076264c7fcd inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:ad85a5e4a7af55c00272c5076264c7fcd inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memTemplParams" colspan="2">template&lt;typename LEXX , typename ord_mask_t &gt; </td></tr>
-<tr class="memitem:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPeFile.html#a8c70097ce200b7dc7d2f9745c2969611">rebuildImports</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;extra_info, ord_mask_t ord_mask, bool set_oft)</td></tr>
-<tr class="memdesc:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:a8c70097ce200b7dc7d2f9745c2969611 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaace860391abfd20a05b65f3d7bd881c inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top"><a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#aaace860391abfd20a05b65f3d7bd881c">ilinkerGetAddress</a> (const char *, const char *) const</td></tr>
-<tr class="memdesc:aaace860391abfd20a05b65f3d7bd881c inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:aaace860391abfd20a05b65f3d7bd881c inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461">rebuildRelocs</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;, unsigned bits, unsigned flags, <a class="el" href="conf_8h.html#a89d95f84118e61993a0a97429e8b8274">upx_uint64_t</a> imagebase)</td></tr>
-<tr class="memdesc:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">unpack  <br /></td></tr>
-<tr class="separator:acbeaaf1e9537f2bcf9573505c7b46461 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5249e585fad8fb5f1f969007692d727a inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a5249e585fad8fb5f1f969007692d727a">rebuildExports</a> ()</td></tr>
-<tr class="memdesc:a5249e585fad8fb5f1f969007692d727a inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:a5249e585fad8fb5f1f969007692d727a inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01a6ab01655a285c87aba3965a5edde8 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a01a6ab01655a285c87aba3965a5edde8">rebuildResources</a> (<a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) &amp;, unsigned)</td></tr>
-<tr class="memdesc:a01a6ab01655a285c87aba3965a5edde8 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:a01a6ab01655a285c87aba3965a5edde8 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3efc17221ec94f9c4684260f82430a46 inherit pro_methods_classPeFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPeFile.html#a3efc17221ec94f9c4684260f82430a46">rebuildTls</a> ()</td></tr>
-<tr class="memdesc:a3efc17221ec94f9c4684260f82430a46 inherit pro_methods_classPeFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">create UPX0 section  <br /></td></tr>
-<tr class="separator:a3efc17221ec94f9c4684260f82430a46 inherit pro_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classPacker"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPacker')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPacker.html">Packer</a></td></tr>
 <tr class="memitem:a133376f040e1a9677374b6b799a0b630 inherit pro_methods_classPacker"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#a133376f040e1a9677374b6b799a0b630">Packer</a> (<a class="el" href="classInputFile.html">InputFile</a> *f)</td></tr>
 <tr class="separator:a133376f040e1a9677374b6b799a0b630 inherit pro_methods_classPacker"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -937,7 +880,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:acdea47b3ade2db1fc4a41c6250a4b546 inherit pro_static_methods_classPeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classPacker"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classPacker')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classPacker.html">Packer</a></td></tr>
 <tr class="memitem:af727b6b460db28607ea976e650dbb16f inherit pro_static_methods_classPacker"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#af727b6b460db28607ea976e650dbb16f">handleStub</a> (<a class="el" href="classInputFile.html">InputFile</a> *<a class="el" href="classPackerBase.html#a0306ca7a6b44bd2b88bda7eefa46d49b">fi</a>, <a class="el" href="classOutputFile.html">OutputFile</a> *fo, unsigned <a class="el" href="xspan__impl__common_8h.html#a60304b65bf89363bcc3165d3cde67f86">size</a>)</td></tr>
-<tr class="memdesc:af727b6b460db28607ea976e650dbb16f inherit pro_static_methods_classPacker"><td class="mdescLeft">&#160;</td><td class="mdescRight">file i/o utils  <br /></td></tr>
+<tr class="memdesc:af727b6b460db28607ea976e650dbb16f inherit pro_static_methods_classPacker"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy stub from exe.  <br /></td></tr>
 <tr class="separator:af727b6b460db28607ea976e650dbb16f inherit pro_static_methods_classPacker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55f33ae9a3b893a0811404d4aa85592e inherit pro_static_methods_classPacker"><td class="memItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPacker.html#a55f33ae9a3b893a0811404d4aa85592e">optimizeReloc</a> (unsigned relocnum, <a class="el" href="xspan_8h.html#a49f7592ebec61af4a9ff449f60ea2f8e">SPAN_P</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) relocs, <a class="el" href="xspan_8h.html#a00c10eac38d459291658bac6b02989b7">SPAN_S</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) out, <a class="el" href="xspan_8h.html#a49f7592ebec61af4a9ff449f60ea2f8e">SPAN_P</a>(<a class="el" href="conf_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>) image, unsigned image_size, int bits, bool bswap, int *big)</td></tr>
 <tr class="memdesc:a55f33ae9a3b893a0811404d4aa85592e inherit pro_static_methods_classPacker"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort and delta-compress relocations with optional bswap within image returns number of <b>bytes</b> written to 'out'  <br /></td></tr>
@@ -1001,14 +944,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03160">3160</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3160</span>                               : <a class="code hl_typedef" href="classPeFile32.html#af1e991ee099e7d7f31e069a732a7ed06">super</a>(f) {</div>
-<div class="line"><span class="lineno"> 3161</span>    <a class="code hl_define" href="conf_8h.html#a92f0ba69c0f889de4efac3dea2b0cc8a">COMPILE_TIME_ASSERT</a>(<span class="keyword">sizeof</span>(pe_header_t) == 248)</div>
-<div class="line"><span class="lineno"> 3162</span>    <a class="code hl_define" href="conf_8h.html#a20a79123be4e1110319dc90522f4b563">COMPILE_TIME_ASSERT_ALIGNED1</a>(pe_header_t)</div>
-<div class="line"><span class="lineno"> 3163</span> </div>
-<div class="line"><span class="lineno"> 3164</span>    <a class="code hl_variable" href="classPeFile.html#a0c7648d61f05736ddc371ac41d61366e">iddirs</a> = <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.ddirs;</div>
-<div class="line"><span class="lineno"> 3165</span>    <a class="code hl_variable" href="classPeFile.html#a34d2621a16821d0152fddd4e8842a6bb">oddirs</a> = <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>.ddirs;</div>
-<div class="line"><span class="lineno"> 3166</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03120">3120</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3120</span>                               : <a class="code hl_typedef" href="classPeFile32.html#af1e991ee099e7d7f31e069a732a7ed06">super</a>(f) {</div>
+<div class="line"><span class="lineno"> 3121</span>    <a class="code hl_define" href="conf_8h.html#a92f0ba69c0f889de4efac3dea2b0cc8a">COMPILE_TIME_ASSERT</a>(<span class="keyword">sizeof</span>(pe_header_t) == 248)</div>
+<div class="line"><span class="lineno"> 3122</span>    <a class="code hl_define" href="conf_8h.html#a20a79123be4e1110319dc90522f4b563">COMPILE_TIME_ASSERT_ALIGNED1</a>(pe_header_t)</div>
+<div class="line"><span class="lineno"> 3123</span> </div>
+<div class="line"><span class="lineno"> 3124</span>    <a class="code hl_variable" href="classPeFile.html#a0c7648d61f05736ddc371ac41d61366e">iddirs</a> = <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.ddirs;</div>
+<div class="line"><span class="lineno"> 3125</span>    <a class="code hl_variable" href="classPeFile.html#a34d2621a16821d0152fddd4e8842a6bb">oddirs</a> = <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>.ddirs;</div>
+<div class="line"><span class="lineno"> 3126</span>}</div>
 <div class="ttc" id="aclassPeFile32_html_a023b0ccff33f5a513bcade908e06c673"><div class="ttname"><a href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">PeFile32::oh</a></div><div class="ttdeci">pe_header_t oh</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00607">pefile.h:607</a></div></div>
 <div class="ttc" id="aclassPeFile32_html_a7c4977659430b1261d88c1a9b34bf291"><div class="ttname"><a href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">PeFile32::ih</a></div><div class="ttdeci">pe_header_t ih</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00607">pefile.h:607</a></div></div>
 <div class="ttc" id="aclassPeFile32_html_af1e991ee099e7d7f31e069a732a7ed06"><div class="ttname"><a href="classPeFile32.html#af1e991ee099e7d7f31e069a732a7ed06">PeFile32::super</a></div><div class="ttdeci">PeFile super</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00550">pefile.h:550</a></div></div>
@@ -1044,10 +987,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03168">3168</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3168</span>{}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03128">3128</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3128</span>{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1075,19 +1016,17 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPackerBase.html#aa758490b3cc414478d262f753257d634">PackerBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03195">3195</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3195</span>                            {</div>
-<div class="line"><span class="lineno"> 3196</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classPackerBase.html#a53fc9b13105ad33ec6cca04b4abb507b">canPack</a>()) <span class="comment">// this calls readFileHeader() and readPeHeader()</span></div>
-<div class="line"><span class="lineno"> 3197</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 3198</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">canUnpack0</a>(<a class="code hl_function" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">getFormat</a>() == <a class="code hl_define" href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a> ? 4 : 3, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#ab3ef6c2e108cb04c696a507dc2161d8b">objects</a>, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a023d17a821701e553e130013d3233b21">entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>));</div>
-<div class="line"><span class="lineno"> 3199</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03155">3155</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3155</span>                            {</div>
+<div class="line"><span class="lineno"> 3156</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classPackerBase.html#a53fc9b13105ad33ec6cca04b4abb507b">canPack</a>()) <span class="comment">// this calls readFileHeader() and readPeHeader()</span></div>
+<div class="line"><span class="lineno"> 3157</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 3158</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">canUnpack0</a>(<a class="code hl_function" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">getFormat</a>() == <a class="code hl_define" href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a> ? 4 : 3, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#ab3ef6c2e108cb04c696a507dc2161d8b">objects</a>, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a023d17a821701e553e130013d3233b21">entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>));</div>
+<div class="line"><span class="lineno"> 3159</span>}</div>
 <div class="ttc" id="aclassPackerBase_html_a53fc9b13105ad33ec6cca04b4abb507b"><div class="ttname"><a href="classPackerBase.html#a53fc9b13105ad33ec6cca04b4abb507b">PackerBase::canPack</a></div><div class="ttdeci">virtual tribool canPack()=0</div></div>
 <div class="ttc" id="aclassPackerBase_html_aa6132cc9ef747b35947837d463aeac60"><div class="ttname"><a href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">PackerBase::getFormat</a></div><div class="ttdeci">virtual int getFormat() const =0</div></div>
-<div class="ttc" id="aclassPeFile_html_ad85a5e4a7af55c00272c5076264c7fcd"><div class="ttname"><a href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">PeFile::canUnpack0</a></div><div class="ttdeci">int canUnpack0(unsigned max_sections, unsigned objs, unsigned ih_entry, unsigned ih_size)</div><div class="ttdoc">create UPX0 section</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l03090">pefile.cpp:3090</a></div></div>
+<div class="ttc" id="aclassPeFile_html_ad85a5e4a7af55c00272c5076264c7fcd"><div class="ttname"><a href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd">PeFile::canUnpack0</a></div><div class="ttdeci">int canUnpack0(unsigned max_sections, unsigned objs, unsigned ih_entry, unsigned ih_size)</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l03050">pefile.cpp:3050</a></div></div>
 <div class="ttc" id="aconf_8h_html_a0cc6ad9cec1f81b6c8fa5e3f8e5f7195"><div class="ttname"><a href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a></div><div class="ttdeci">#define UPX_F_WINCE_ARM</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00546">conf.h:546</a></div></div>
 <div class="ttc" id="astructPeFile32_1_1pe__header__t_html_a023d17a821701e553e130013d3233b21"><div class="ttname"><a href="structPeFile32_1_1pe__header__t.html#a023d17a821701e553e130013d3233b21">PeFile32::pe_header_t::entry</a></div><div class="ttdeci">LE32 entry</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00583">pefile.h:583</a></div></div>
 <div class="ttc" id="astructPeFile32_1_1pe__header__t_html_ab3ef6c2e108cb04c696a507dc2161d8b"><div class="ttname"><a href="structPeFile32_1_1pe__header__t.html#ab3ef6c2e108cb04c696a507dc2161d8b">PeFile32::pe_header_t::objects</a></div><div class="ttdeci">LE16 objects</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00572">pefile.h:572</a></div></div>
@@ -1098,9 +1037,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPeFile32_a688e13afbf65d780963630a7def88d6b_cgraph.png" border="0" usemap="#aclassPeFile32_a688e13afbf65d780963630a7def88d6b_cgraph" alt=""/></div>
 <map name="aclassPeFile32_a688e13afbf65d780963630a7def88d6b_cgraph" id="aclassPeFile32_a688e13afbf65d780963630a7def88d6b_cgraph">
-<area shape="rect" title="PeFile32." alt="" coords="5,932,163,957"/>
+<area shape="rect" title=" " alt="" coords="5,932,163,957"/>
 <area shape="rect" href="classPackerBase.html#a53fc9b13105ad33ec6cca04b4abb507b" title=" " alt="" coords="211,883,368,908"/>
-<area shape="rect" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title="create UPX0 section" alt="" coords="215,932,364,957"/>
+<area shape="rect" href="classPeFile.html#ad85a5e4a7af55c00272c5076264c7fcd" title=" " alt="" coords="215,932,364,957"/>
 <area shape="rect" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60" title=" " alt="" coords="1464,1405,1635,1431"/>
 <area shape="rect" href="classMemBuffer.html#a440e8db9c9010226d9778185f66529f5" title=" " alt="" coords="439,1133,572,1159"/>
 <area shape="rect" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="1255,981,1345,1007"/>
@@ -1199,13 +1138,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03184">3184</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3185</span>                                                  {</div>
-<div class="line"><span class="lineno"> 3186</span>    super::pack0&lt;LE32&gt;(fo, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>, subsystem_mask, default_imagebase, last_section_rsrc_only);</div>
-<div class="line"><span class="lineno"> 3187</span>    <span class="comment">// infoWarning(&quot;End of PeFile32::pack0&quot;);</span></div>
-<div class="line"><span class="lineno"> 3188</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03144">3144</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3145</span>                                                  {</div>
+<div class="line"><span class="lineno"> 3146</span>    super::pack0&lt;LE32&gt;(fo, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>, subsystem_mask, default_imagebase, last_section_rsrc_only);</div>
+<div class="line"><span class="lineno"> 3147</span>    <span class="comment">// infoWarning(&quot;End of PeFile32::pack0&quot;);</span></div>
+<div class="line"><span class="lineno"> 3148</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, and <a class="el" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>.</p>
 
@@ -1215,7 +1152,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPeFile32_a6a656668377df628cbdaa44a3c1a4b49_icgraph.png" border="0" usemap="#aclassPeFile32_a6a656668377df628cbdaa44a3c1a4b49_icgraph" alt=""/></div>
 <map name="aclassPeFile32_a6a656668377df628cbdaa44a3c1a4b49_icgraph" id="aclassPeFile32_a6a656668377df628cbdaa44a3c1a4b49_icgraph">
-<area shape="rect" title="PeFile32." alt="" coords="217,31,341,56"/>
+<area shape="rect" title=" " alt="" coords="217,31,341,56"/>
 <area shape="rect" href="classPackW32PeI386.html#a225588de5e18e1d15f8fc872d4ec87f5" title=" " alt="" coords="5,5,169,31"/>
 <area shape="rect" href="classPackWinCeArm.html#af4141a1371f6c7123ae5787a91e392d2" title=" " alt="" coords="7,55,167,80"/>
 </map>
@@ -1246,14 +1183,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPeFile.html#a05ed10794635a24c736fdf79c01d9f91">PeFile</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03201">3201</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3201</span>                                  { <span class="comment">// pass 1</span></div>
-<div class="line"><span class="lineno"> 3202</span>    <span class="keywordflow">return</span> processImports0&lt;LE32&gt;(1u &lt;&lt; 31);</div>
-<div class="line"><span class="lineno"> 3203</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03161">3161</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3161</span>                                  { <span class="comment">// pass 1</span></div>
+<div class="line"><span class="lineno"> 3162</span>    <span class="keywordflow">return</span> processImports0&lt;LE32&gt;(1u &lt;&lt; 31);</div>
+<div class="line"><span class="lineno"> 3163</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1390,8 +1325,8 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aclassMemBuffer_html_a4909e2f9df016dda4d2a9e4d1991e7be"><div class="ttname"><a href="classMemBuffer.html#a4909e2f9df016dda4d2a9e4d1991e7be">MemBuffer::subref</a></div><div class="ttdeci">forceinline pointer subref(const char *errfmt, size_t skip, size_t take) may_throw</div><div class="ttdef"><b>Definition:</b> <a href="membuffer_8h_source.html#l00219">membuffer.h:219</a></div></div>
 <div class="ttc" id="aclassMemBuffer_html_acea3f3781a8c941186b5777f13691c8c"><div class="ttname"><a href="classMemBuffer.html#acea3f3781a8c941186b5777f13691c8c">MemBuffer::clear</a></div><div class="ttdeci">forceinline void clear(unsigned off, unsigned len) may_throw</div><div class="ttdef"><b>Definition:</b> <a href="membuffer_8h_source.html#l00212">membuffer.h:212</a></div></div>
 <div class="ttc" id="aclassPacker_html_a55f33ae9a3b893a0811404d4aa85592e"><div class="ttname"><a href="classPacker.html#a55f33ae9a3b893a0811404d4aa85592e">Packer::optimizeReloc</a></div><div class="ttdeci">static unsigned optimizeReloc(unsigned relocnum, SPAN_P(byte) relocs, SPAN_S(byte) out, SPAN_P(byte) image, unsigned image_size, int bits, bool bswap, int *big)</div><div class="ttdoc">sort and delta-compress relocations with optional bswap within image returns number of bytes written ...</div><div class="ttdef"><b>Definition:</b> <a href="packer__r_8cpp_source.html#l00037">packer_r.cpp:37</a></div></div>
-<div class="ttc" id="aclassPacker_html_a95d40264330fe966e66718440b450ec8"><div class="ttname"><a href="classPacker.html#a95d40264330fe966e66718440b450ec8">Packer::ibuf</a></div><div class="ttdeci">MemBuffer ibuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00329">packer.h:329</a></div></div>
-<div class="ttc" id="aclassPacker_html_afda0c36e70bfaeeecc0494abfb924ae7"><div class="ttname"><a href="classPacker.html#afda0c36e70bfaeeecc0494abfb924ae7">Packer::ibufgood</a></div><div class="ttdeci">unsigned ibufgood</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00331">packer.h:331</a></div></div>
+<div class="ttc" id="aclassPacker_html_a95d40264330fe966e66718440b450ec8"><div class="ttname"><a href="classPacker.html#a95d40264330fe966e66718440b450ec8">Packer::ibuf</a></div><div class="ttdeci">MemBuffer ibuf</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00349">packer.h:349</a></div></div>
+<div class="ttc" id="aclassPacker_html_afda0c36e70bfaeeecc0494abfb924ae7"><div class="ttname"><a href="classPacker.html#afda0c36e70bfaeeecc0494abfb924ae7">Packer::ibufgood</a></div><div class="ttdeci">unsigned ibufgood</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00351">packer.h:351</a></div></div>
 <div class="ttc" id="aclassPeFile_html_a39ed1e3c8846f1b659f560256b288825"><div class="ttname"><a href="classPeFile.html#a39ed1e3c8846f1b659f560256b288825">PeFile::IDADDR</a></div><div class="ttdeci">LE32 &amp; IDADDR(unsigned x)</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l00690">pefile.cpp:690</a></div></div>
 <div class="ttc" id="aclassPeFile_html_a7de746815d41e6f494669bec5bb0f103a3fe9e9020038da40d2926af7d82a5b68"><div class="ttname"><a href="classPeFile.html#a7de746815d41e6f494669bec5bb0f103a3fe9e9020038da40d2926af7d82a5b68">PeFile::IMAGE_REL_BASED_HIGH</a></div><div class="ttdeci">@ IMAGE_REL_BASED_HIGH</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00387">pefile.h:387</a></div></div>
 <div class="ttc" id="aclassPeFile_html_a7de746815d41e6f494669bec5bb0f103a52a73d7aa233a5686603e108606019d3"><div class="ttname"><a href="classPeFile.html#a7de746815d41e6f494669bec5bb0f103a52a73d7aa233a5686603e108606019d3">PeFile::IMAGE_REL_BASED_HIGHADJ</a></div><div class="ttdeci">@ IMAGE_REL_BASED_HIGHADJ</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00390">pefile.h:390</a></div></div>
@@ -1505,14 +1440,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPeFile.html#a570564951888719ea7a2efeb5ac489cc">PeFile</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classPackWinCeArm.html#aec8cddfe193b7181b0f99ab671039ebe">PackWinCeArm</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03205">3205</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3205</span>{ processTls1&lt;LE32&gt;(iv, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">imagebase</a>, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#aef143276b3c5d21b9607424d5c0ad146">imagesize</a>); }</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03165">3165</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3165</span>{ processTls1&lt;LE32&gt;(iv, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">imagebase</a>, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#aef143276b3c5d21b9607424d5c0ad146">imagesize</a>); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="el" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">PeFile32::pe_header_t::imagebase</a>, and <a class="el" href="structPeFile32_1_1pe__header__t.html#aef143276b3c5d21b9607424d5c0ad146">PeFile32::pe_header_t::imagesize</a>.</p>
 
@@ -1558,14 +1491,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPeFile.html#a8433dc06df130d4f71d155ba69386703">PeFile</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03207">3207</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3207</span>                                                                  {</div>
-<div class="line"><span class="lineno"> 3208</span>    processTls2&lt;LE32&gt;(r, iv, a, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">imagebase</a>);</div>
-<div class="line"><span class="lineno"> 3209</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03167">3167</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3167</span>                                                                  {</div>
+<div class="line"><span class="lineno"> 3168</span>    processTls2&lt;LE32&gt;(r, iv, a, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">imagebase</a>);</div>
+<div class="line"><span class="lineno"> 3169</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, and <a class="el" href="structPeFile32_1_1pe__header__t.html#a2d1ce464f00673e97d57939bed923c27">PeFile32::pe_header_t::imagebase</a>.</p>
 
@@ -1594,24 +1525,22 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPeFile.html#a20e0b1e0cd9565247bf0df70921d260b">PeFile</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03170">3170</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3170</span>                            {</div>
-<div class="line"><span class="lineno"> 3171</span>    <a class="code hl_variable" href="classPackerBase.html#a0306ca7a6b44bd2b88bda7eefa46d49b">fi</a>-&gt;<a class="code hl_function" href="classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232">readx</a>(&amp;<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>));</div>
-<div class="line"><span class="lineno"> 3172</span>    <span class="keywordflow">if</span> (31 &lt; (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>) {</div>
-<div class="line"><span class="lineno"> 3173</span>        <a class="code hl_function" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff">throwCantPack</a>(<span class="stringliteral">&quot;bad ih.subsystem 0x%x&quot;</span>, (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>);</div>
-<div class="line"><span class="lineno"> 3174</span>    }</div>
-<div class="line"><span class="lineno"> 3175</span>    <a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a> = ((1u &lt;&lt; <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>) &amp;</div>
-<div class="line"><span class="lineno"> 3176</span>             ((1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa7d4382b2f6f5026f572ae265ebef0b37">IMAGE_SUBSYSTEM_EFI_APPLICATION</a>) |</div>
-<div class="line"><span class="lineno"> 3177</span>              (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa9d7383713ca65b7030a227b577df7836">IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER</a>) |</div>
-<div class="line"><span class="lineno"> 3178</span>              (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa0785750adcd980060161a38c4e3fc5a5">IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER</a>) | (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa54b6d2baf5605caef901be4b10d28817">IMAGE_SUBSYSTEM_EFI_ROM</a>))) != 0;</div>
-<div class="line"><span class="lineno"> 3179</span>    <a class="code hl_variable" href="classPeFile.html#a41f9302b15b6e3f92d333364fec523bb">isdll</a> = !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a> &amp;&amp; (<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#ac9a661c49c1e1c35fccb8284dda78c04">flags</a> &amp; <a class="code hl_enumvalue" href="classPeFile.html#af0e45cfcc24a58c5bd09e18cd84a5dd6a05dad4ebf7da37baf8ec49ddb471244e">IMAGE_FILE_DLL</a>) != 0;</div>
-<div class="line"><span class="lineno"> 3180</span>    <a class="code hl_variable" href="classPeFile.html#a6f2b48e22e5f165939003b1682a7d35a">use_dep_hack</a> &amp;= !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a>;</div>
-<div class="line"><span class="lineno"> 3181</span>    <a class="code hl_variable" href="classPeFile.html#a06f56e4fecad561137198be04446d872">use_clear_dirty_stack</a> &amp;= !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a>;</div>
-<div class="line"><span class="lineno"> 3182</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03130">3130</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3130</span>                            {</div>
+<div class="line"><span class="lineno"> 3131</span>    <a class="code hl_variable" href="classPackerBase.html#a0306ca7a6b44bd2b88bda7eefa46d49b">fi</a>-&gt;<a class="code hl_function" href="classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232">readx</a>(&amp;<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>));</div>
+<div class="line"><span class="lineno"> 3132</span>    <span class="keywordflow">if</span> (31 &lt; (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>) {</div>
+<div class="line"><span class="lineno"> 3133</span>        <a class="code hl_function" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff">throwCantPack</a>(<span class="stringliteral">&quot;bad ih.subsystem 0x%x&quot;</span>, (<span class="keywordtype">unsigned</span>) <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>);</div>
+<div class="line"><span class="lineno"> 3134</span>    }</div>
+<div class="line"><span class="lineno"> 3135</span>    <a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a> = ((1u &lt;&lt; <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#a4a801548d958dda33c257eed4b3bc04a">subsystem</a>) &amp;</div>
+<div class="line"><span class="lineno"> 3136</span>             ((1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa7d4382b2f6f5026f572ae265ebef0b37">IMAGE_SUBSYSTEM_EFI_APPLICATION</a>) |</div>
+<div class="line"><span class="lineno"> 3137</span>              (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa9d7383713ca65b7030a227b577df7836">IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER</a>) |</div>
+<div class="line"><span class="lineno"> 3138</span>              (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa0785750adcd980060161a38c4e3fc5a5">IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER</a>) | (1u &lt;&lt; <a class="code hl_enumvalue" href="classPeFile.html#a7d0a9ca9fb668e3107a29a8b9248c1daa54b6d2baf5605caef901be4b10d28817">IMAGE_SUBSYSTEM_EFI_ROM</a>))) != 0;</div>
+<div class="line"><span class="lineno"> 3139</span>    <a class="code hl_variable" href="classPeFile.html#a41f9302b15b6e3f92d333364fec523bb">isdll</a> = !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a> &amp;&amp; (<a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>.<a class="code hl_variable" href="structPeFile32_1_1pe__header__t.html#ac9a661c49c1e1c35fccb8284dda78c04">flags</a> &amp; <a class="code hl_enumvalue" href="classPeFile.html#af0e45cfcc24a58c5bd09e18cd84a5dd6a05dad4ebf7da37baf8ec49ddb471244e">IMAGE_FILE_DLL</a>) != 0;</div>
+<div class="line"><span class="lineno"> 3140</span>    <a class="code hl_variable" href="classPeFile.html#a6f2b48e22e5f165939003b1682a7d35a">use_dep_hack</a> &amp;= !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a>;</div>
+<div class="line"><span class="lineno"> 3141</span>    <a class="code hl_variable" href="classPeFile.html#a06f56e4fecad561137198be04446d872">use_clear_dirty_stack</a> &amp;= !<a class="code hl_variable" href="classPeFile.html#af3cc394939f47e7ddf25398717a78f93">isefi</a>;</div>
+<div class="line"><span class="lineno"> 3142</span>}</div>
 <div class="ttc" id="aclassInputFile_html_a6fad8c9902f939edfcb0e48ee8379232"><div class="ttname"><a href="classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232">InputFile::readx</a></div><div class="ttdeci">int readx(SPAN_P(void) buf, upx_int64_t blen)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00201">file.cpp:201</a></div></div>
 <div class="ttc" id="aclassPackerBase_html_a0306ca7a6b44bd2b88bda7eefa46d49b"><div class="ttname"><a href="classPackerBase.html#a0306ca7a6b44bd2b88bda7eefa46d49b">PackerBase::fi</a></div><div class="ttdeci">InputFile *const fi</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00084">packer.h:84</a></div></div>
 <div class="ttc" id="aclassPeFile_html_a06f56e4fecad561137198be04446d872"><div class="ttname"><a href="classPeFile.html#a06f56e4fecad561137198be04446d872">PeFile::use_clear_dirty_stack</a></div><div class="ttdeci">bool use_clear_dirty_stack</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8h_source.html#l00230">pefile.h:230</a></div></div>
@@ -1633,7 +1562,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPeFile32_a9e53a93d2a6a83c6cc696cf3918c42b9_cgraph.png" border="0" usemap="#aclassPeFile32_a9e53a93d2a6a83c6cc696cf3918c42b9_cgraph" alt=""/></div>
 <map name="aclassPeFile32_a9e53a93d2a6a83c6cc696cf3918c42b9_cgraph" id="aclassPeFile32_a9e53a93d2a6a83c6cc696cf3918c42b9_cgraph">
-<area shape="rect" title="PeFile32." alt="" coords="5,205,183,231"/>
+<area shape="rect" title=" " alt="" coords="5,205,183,231"/>
 <area shape="rect" href="classInputFile.html#a6fad8c9902f939edfcb0e48ee8379232" title=" " alt="" coords="231,180,353,205"/>
 <area shape="rect" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="991,131,1109,156"/>
 <area shape="rect" href="classInputFile.html#ae6797787eefa57fdc7191461a47109f6" title=" " alt="" coords="419,131,533,156"/>
@@ -1672,15 +1601,13 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classPeFile32.html">PeFile32</a>. </p>
-
 <p>Implements <a class="el" href="classPacker.html#aa29c743954e67295ef1793155a96c7d3">Packer</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03190">3190</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3190</span>                                    {</div>
-<div class="line"><span class="lineno"> 3191</span>    <span class="keywordtype">bool</span> set_oft = <a class="code hl_function" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">getFormat</a>() == <a class="code hl_define" href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a>;</div>
-<div class="line"><span class="lineno"> 3192</span>    unpack0&lt;pe_header_t, LE32&gt;(fo, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>, 1U &lt;&lt; 31, set_oft);</div>
-<div class="line"><span class="lineno"> 3193</span>}</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l03150">3150</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 3150</span>                                    {</div>
+<div class="line"><span class="lineno"> 3151</span>    <span class="keywordtype">bool</span> set_oft = <a class="code hl_function" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">getFormat</a>() == <a class="code hl_define" href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a>;</div>
+<div class="line"><span class="lineno"> 3152</span>    unpack0&lt;pe_header_t, LE32&gt;(fo, <a class="code hl_variable" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="code hl_variable" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>, 1U &lt;&lt; 31, set_oft);</div>
+<div class="line"><span class="lineno"> 3153</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">PackerBase::getFormat()</a>, <a class="el" href="classPeFile32.html#a7c4977659430b1261d88c1a9b34bf291">ih</a>, <a class="el" href="classPeFile32.html#a023b0ccff33f5a513bcade908e06c673">oh</a>, and <a class="el" href="conf_8h.html#a0cc6ad9cec1f81b6c8fa5e3f8e5f7195">UPX_F_WINCE_ARM</a>.</p>
 <div class="dynheader">
@@ -1688,7 +1615,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPeFile32_a4ebd6331cc75b81d9ecc540925fce983_cgraph.png" border="0" usemap="#aclassPeFile32_a4ebd6331cc75b81d9ecc540925fce983_cgraph" alt=""/></div>
 <map name="aclassPeFile32_a4ebd6331cc75b81d9ecc540925fce983_cgraph" id="aclassPeFile32_a4ebd6331cc75b81d9ecc540925fce983_cgraph">
-<area shape="rect" title="PeFile32." alt="" coords="5,5,137,31"/>
+<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
 <area shape="rect" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60" title=" " alt="" coords="185,5,356,31"/>
 </map>
 </div>

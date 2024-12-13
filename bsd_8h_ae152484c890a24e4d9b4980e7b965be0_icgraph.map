@@ -16,7 +16,7 @@
 <area shape="rect" id="node7" href="$main_8cpp.html#ae733ccfc8b1bfd23af63d56f51903f1d" title="main entry point" alt="" coords="5,1734,92,1759"/>
 <area shape="rect" id="node9" href="$classPackDjgpp2.html#a6661b704a15b800a620d9a243287da7d" title=" " alt="" coords="140,776,277,802"/>
 <area shape="rect" id="node10" href="$classPackTos.html#af18b9115b58fa31b79ff565047a5a31f" title=" " alt="" coords="363,440,475,466"/>
-<area shape="rect" id="node11" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="365,188,473,214"/>
+<area shape="rect" id="node11" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="365,188,473,214"/>
 <area shape="rect" id="node12" href="$classOutputFile.html#aa8beb793956b90404c940c5821936718" title=" " alt="" coords="869,794,1000,819"/>
 <area shape="rect" id="node13" href="$classPackLinuxElf32.html#a12904e259a31849e8633faf26b5e07fe" title=" " alt="" coords="345,712,492,752"/>
 <area shape="rect" id="node14" href="$classPackLinuxElf64.html#a6eefcbb2a42d861b12d2c309d93771b8" title=" " alt="" coords="345,786,492,826"/>
@@ -34,7 +34,7 @@
 <area shape="rect" id="node26" href="$classPackNetBSDElf32x86.html#a0c62b46de263a0090a154eb0c108c5f2" title=" " alt="" coords="591,1374,750,1414"/>
 <area shape="rect" id="node27" href="$classPackOpenBSDElf32x86.html#ab9f48389630e6c44c3580ca1a9c52289" title=" " alt="" coords="585,1438,756,1478"/>
 <area shape="rect" id="node28" href="$p__djgpp2_8cpp.html#a997186465792493cc35c468bd472cfa6" title=" " alt="" coords="347,1162,490,1187"/>
-<area shape="rect" id="node29" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="file i/o utils" alt="" coords="598,264,743,290"/>
+<area shape="rect" id="node29" href="$classPacker.html#af727b6b460db28607ea976e650dbb16f" title="Copy stub from exe." alt="" coords="598,264,743,290"/>
 <area shape="rect" id="node30" href="$classPackDjgpp2.html#a2afdb91a6e5909da7483514153ee5a83" title="util" alt="" coords="329,391,508,416"/>
 <area shape="rect" id="node31" href="$classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67" title=" " alt="" coords="346,1248,491,1274"/>
 <area shape="rect" id="node32" href="$classPackPs1.html#a542fd798443fb299c1d95ee98db5ae53" title=" " alt="" coords="613,415,728,440"/>

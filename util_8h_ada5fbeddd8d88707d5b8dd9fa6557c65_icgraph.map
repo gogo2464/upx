@@ -16,7 +16,7 @@
 <area shape="rect" id="node14" href="$classPeFile.html#acbeaaf1e9537f2bcf9573505c7b46461" title="unpack" alt="" coords="221,761,378,787"/>
 <area shape="rect" id="node16" href="$classPackTmt.html#a7f8a990a65f25123fed345edfb720143" title=" " alt="" coords="233,253,366,279"/>
 <area shape="rect" id="node13" href="$classPackWcle.html#ade3c0c0f183f9042bba43ee238b8fe88" title=" " alt="" coords="5,569,144,595"/>
-<area shape="rect" id="node15" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="13,761,137,787"/>
+<area shape="rect" id="node15" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="13,761,137,787"/>
 <area shape="rect" id="node18" href="$dt__check_8cpp.html#a3a6b242ecd120ddf74c7aefb91486186" title=" " alt="" coords="959,1490,1116,1530"/>
 <area shape="rect" id="node19" href="$work_8cpp.html#a9ec6798d280944a40890ad8f08dbe964" title=" " alt="" coords="793,1548,865,1573"/>
 <area shape="rect" id="node20" href="$main_8cpp.html#ae733ccfc8b1bfd23af63d56f51903f1d" title="main entry point" alt="" coords="533,1523,620,1548"/>
@@ -25,7 +25,7 @@
 <area shape="rect" id="node45" href="$xspan_8cpp.html#aedf7e6e7af4421625766b9e7ad8e0f51" title=" " alt="" coords="962,1324,1113,1349"/>
 <area shape="rect" id="node24" href="$classPeFile_1_1Export.html#ae951f57ec2eae54f1c150158363c01d9" title=" " alt="" coords="753,1024,904,1049"/>
 <area shape="rect" id="node26" href="$classPeFile_1_1Reloc.html#ac595521c698368cff9b950c3c50fc3b7" title=" " alt="" coords="503,799,651,824"/>
-<area shape="rect" id="node28" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="21,924,129,949"/>
+<area shape="rect" id="node28" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="21,924,129,949"/>
 <area shape="rect" id="node29" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="488,848,665,873"/>
 <area shape="rect" id="node30" href="$classPeFile.html#aa837c0972c716047dfb4ddfd3d21e02f" title=" " alt="" coords="483,949,670,975"/>
 <area shape="rect" id="node32" href="$util_8h.html#a7d2594e522f10a6a65ca477d85c752b2" title=" " alt="" coords="795,1097,863,1123"/>

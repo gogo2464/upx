@@ -17,10 +17,10 @@
 <area shape="rect" id="node36" href="$classPackLinuxElf32.html#ae126d225cb28e675a4261204a3872e2c" title=" " alt="" coords="561,1531,713,1571"/>
 <area shape="rect" id="node38" href="$classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a" title=" " alt="" coords="548,1595,727,1635"/>
 <area shape="rect" id="node40" href="$classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6" title=" " alt="" coords="548,1659,727,1699"/>
-<area shape="rect" id="node41" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="303,1724,411,1749"/>
+<area shape="rect" id="node41" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="303,1724,411,1749"/>
 <area shape="rect" id="node42" href="$classPackLinuxElf.html#a3409fd940ae9b30dc51e68f69e0160f6" title=" " alt="" coords="562,1773,713,1799"/>
 <area shape="rect" id="node43" href="$classPeFile.html#ab5efd2618902640b17db1233a623b5ba" title=" " alt="" coords="561,1724,714,1749"/>
-<area shape="rect" id="node44" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title="create UPX0 section" alt="" coords="547,1875,728,1900"/>
+<area shape="rect" id="node44" href="$classPeFile.html#a01a6ab01655a285c87aba3965a5edde8" title=" " alt="" coords="547,1875,728,1900"/>
 <area shape="rect" id="node45" href="$classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040" title="Generic Unix unpack()." alt="" coords="269,1925,444,1951"/>
 <area shape="rect" id="node46" href="$classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479" title="Generic Unix unpack()." alt="" coords="269,2001,444,2027"/>
 <area shape="rect" id="node47" href="$classPackMachBase.html#ac2f139e07414953fb25b83862dbd340c" title="Generic Unix unpack()." alt="" coords="550,1201,725,1227"/>

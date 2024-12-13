@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title=" " alt="" coords="720,482,863,507"/>
 <area shape="rect" id="node2" href="$classPackLinuxElf32.html#a12904e259a31849e8633faf26b5e07fe" title=" " alt="" coords="505,5,652,45"/>
 <area shape="rect" id="node5" href="$classPackLinuxElf64.html#a6eefcbb2a42d861b12d2c309d93771b8" title=" " alt="" coords="505,69,652,109"/>
-<area shape="rect" id="node8" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="create UPX0 section" alt="" coords="39,533,147,558"/>
+<area shape="rect" id="node8" href="$classPeFile.html#ad9fc5f9eff8c16e397552c1a0681b632" title="Create UPX0 section with compressed full executable." alt="" coords="39,533,147,558"/>
 <area shape="rect" id="node9" href="$classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c" title=" " alt="" coords="495,185,662,210"/>
 <area shape="rect" id="node10" href="$classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562" title=" " alt="" coords="495,234,662,259"/>
 <area shape="rect" id="node11" href="$classPeFile.html#a9c07dbb841251c1c147f94200868ae76" title=" " alt="" coords="490,283,667,309"/>
@@ -18,7 +18,7 @@
 <area shape="rect" id="node24" href="$classPackLinuxElf64.html#ab19e5a4000bc5cc063dee2a31db657e9" title=" " alt="" coords="507,848,651,888"/>
 <area shape="rect" id="node27" href="$classPackLinuxElf32.html#a52055eaaf3a28d1986937825c9382ae7" title=" " alt="" coords="261,720,405,760"/>
 <area shape="rect" id="node28" href="$classPackLinuxElf64.html#a03c843122a8d3e44da9fe458643c2589" title=" " alt="" coords="261,912,405,952"/>
-<area shape="rect" id="node29" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title="create UPX0 section" alt="" coords="517,963,641,989"/>
+<area shape="rect" id="node29" href="$classPeFile.html#aa8d033dfaeb206c4235410f24b083df5" title=" " alt="" coords="517,963,641,989"/>
 <area shape="rect" id="node3" href="$classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5" title=" " alt="" coords="249,5,416,45"/>
 <area shape="rect" id="node4" href="$classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5" title=" " alt="" coords="9,13,176,38"/>
 <area shape="rect" id="node6" href="$classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8" title=" " alt="" coords="249,69,416,109"/>
