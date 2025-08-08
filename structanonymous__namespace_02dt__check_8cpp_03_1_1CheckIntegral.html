@@ -117,7 +117,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 struct anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;</div>
-<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00334">334</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00321">321</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afcb7c60eadb8c3da2b6072f5d04db698" name="afcb7c60eadb8c3da2b6072f5d04db698"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcb7c60eadb8c3da2b6072f5d04db698">&#9670;&#160;</a></span>check()</h2>
@@ -145,48 +145,48 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00434">434</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  434</span>                                     {</div>
-<div class="line"><span class="lineno">  435</span>        <a class="code hl_function" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03">check_core</a>();</div>
-<div class="line"><span class="lineno">  436</span>        {</div>
-<div class="line"><span class="lineno">  437</span>            T zero, one, three, four;</div>
-<div class="line"><span class="lineno">  438</span>            zero = 0;</div>
-<div class="line"><span class="lineno">  439</span>            one = 1;</div>
-<div class="line"><span class="lineno">  440</span>            three = 3;</div>
-<div class="line"><span class="lineno">  441</span>            four = 4;</div>
-<div class="line"><span class="lineno">  442</span>            <span class="comment">// align - needs binary expressions which do not work</span></div>
-<div class="line"><span class="lineno">  443</span>            <span class="comment">// on CHERI uintptr_t because of pointer provenance</span></div>
-<div class="line"><span class="lineno">  444</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(zero, four) == 0);</div>
-<div class="line"><span class="lineno">  445</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(zero, four) == zero);</div>
-<div class="line"><span class="lineno">  446</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(one, four) == 0);</div>
-<div class="line"><span class="lineno">  447</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(one, four) == zero);</div>
-<div class="line"><span class="lineno">  448</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(three, four) == 0);</div>
-<div class="line"><span class="lineno">  449</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(three, four) == zero);</div>
-<div class="line"><span class="lineno">  450</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(four, four) == 4);</div>
-<div class="line"><span class="lineno">  451</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(four, four) == four);</div>
-<div class="line"><span class="lineno">  452</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(zero, four) == 0);</div>
-<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(zero, four) == zero);</div>
-<div class="line"><span class="lineno">  454</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(one, four) == 4);</div>
-<div class="line"><span class="lineno">  455</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(one, four) == four);</div>
-<div class="line"><span class="lineno">  456</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(three, four) == 4);</div>
-<div class="line"><span class="lineno">  457</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(three, four) == four);</div>
-<div class="line"><span class="lineno">  458</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(four, four) == 4);</div>
-<div class="line"><span class="lineno">  459</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(four, four) == four);</div>
-<div class="line"><span class="lineno">  460</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(zero, four) == 0);</div>
-<div class="line"><span class="lineno">  461</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(zero, four) == zero);</div>
-<div class="line"><span class="lineno">  462</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(one, four) == 3);</div>
-<div class="line"><span class="lineno">  463</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(one, four) == three);</div>
-<div class="line"><span class="lineno">  464</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(three, four) == 1);</div>
-<div class="line"><span class="lineno">  465</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(three, four) == one);</div>
-<div class="line"><span class="lineno">  466</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(four, four) == 0);</div>
-<div class="line"><span class="lineno">  467</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(four, four) == zero);</div>
-<div class="line"><span class="lineno">  468</span>        }</div>
-<div class="line"><span class="lineno">  469</span>    }</div>
+<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00421">421</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  421</span>                                     {</div>
+<div class="line"><span class="lineno">  422</span>        <a class="code hl_function" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03">check_core</a>();</div>
+<div class="line"><span class="lineno">  423</span>        {</div>
+<div class="line"><span class="lineno">  424</span>            T zero, one, three, four;</div>
+<div class="line"><span class="lineno">  425</span>            zero = 0;</div>
+<div class="line"><span class="lineno">  426</span>            one = 1;</div>
+<div class="line"><span class="lineno">  427</span>            three = 3;</div>
+<div class="line"><span class="lineno">  428</span>            four = 4;</div>
+<div class="line"><span class="lineno">  429</span>            <span class="comment">// align - needs binary expressions which do not work</span></div>
+<div class="line"><span class="lineno">  430</span>            <span class="comment">// on CHERI uintptr_t because of pointer provenance</span></div>
+<div class="line"><span class="lineno">  431</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(zero, four) == 0);</div>
+<div class="line"><span class="lineno">  432</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(zero, four) == zero);</div>
+<div class="line"><span class="lineno">  433</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(one, four) == 0);</div>
+<div class="line"><span class="lineno">  434</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(one, four) == zero);</div>
+<div class="line"><span class="lineno">  435</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(three, four) == 0);</div>
+<div class="line"><span class="lineno">  436</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(three, four) == zero);</div>
+<div class="line"><span class="lineno">  437</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(four, four) == 4);</div>
+<div class="line"><span class="lineno">  438</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a>(four, four) == four);</div>
+<div class="line"><span class="lineno">  439</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(zero, four) == 0);</div>
+<div class="line"><span class="lineno">  440</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(zero, four) == zero);</div>
+<div class="line"><span class="lineno">  441</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(one, four) == 4);</div>
+<div class="line"><span class="lineno">  442</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(one, four) == four);</div>
+<div class="line"><span class="lineno">  443</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(three, four) == 4);</div>
+<div class="line"><span class="lineno">  444</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(three, four) == four);</div>
+<div class="line"><span class="lineno">  445</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(four, four) == 4);</div>
+<div class="line"><span class="lineno">  446</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a>(four, four) == four);</div>
+<div class="line"><span class="lineno">  447</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(zero, four) == 0);</div>
+<div class="line"><span class="lineno">  448</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(zero, four) == zero);</div>
+<div class="line"><span class="lineno">  449</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(one, four) == 3);</div>
+<div class="line"><span class="lineno">  450</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(one, four) == three);</div>
+<div class="line"><span class="lineno">  451</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(three, four) == 1);</div>
+<div class="line"><span class="lineno">  452</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(three, four) == one);</div>
+<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(four, four) == 0);</div>
+<div class="line"><span class="lineno">  454</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a>(four, four) == zero);</div>
+<div class="line"><span class="lineno">  455</span>        }</div>
+<div class="line"><span class="lineno">  456</span>    }</div>
 <div class="ttc" id="aconf_8h_html_a2b4c65ac64db4f1fec7f03b6dcd0eaa8"><div class="ttname"><a href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a></div><div class="ttdeci">#define assert_noexcept</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00478">conf.h:478</a></div></div>
-<div class="ttc" id="anamespaceupx_html_a534a0f8325c6da0111a2210f5ca99a93"><div class="ttname"><a href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a></div><div class="ttdeci">constexpr T align_up_gap(const T &amp;x, const T &amp;alignment) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="cxxlib_8h_source.html#l00229">cxxlib.h:229</a></div></div>
-<div class="ttc" id="anamespaceupx_html_aab74d910ca722385da5cf9281eba03da"><div class="ttname"><a href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T align_down(const T &amp;a, const BE32 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00965">bele.h:965</a></div></div>
-<div class="ttc" id="anamespaceupx_html_aec9ff249635a6368c4690229ba0e1a5a"><div class="ttname"><a href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T align_up(const T &amp;a, const LE32 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00982">bele.h:982</a></div></div>
-<div class="ttc" id="astructanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_html_a6abe524c4a9fe981274a24e571c48a03"><div class="ttname"><a href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03">anonymous_namespace{dt_check.cpp}::CheckIntegral::check_core</a></div><div class="ttdeci">static void check_core(void) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="dt__check_8cpp_source.html#l00393">dt_check.cpp:393</a></div></div>
+<div class="ttc" id="anamespaceupx_html_a534a0f8325c6da0111a2210f5ca99a93"><div class="ttname"><a href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap</a></div><div class="ttdeci">constexpr T align_up_gap(const T &amp;x, const T &amp;alignment) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="cxxlib_8h_source.html#l00445">cxxlib.h:445</a></div></div>
+<div class="ttc" id="anamespaceupx_html_aab74d910ca722385da5cf9281eba03da"><div class="ttname"><a href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T align_down(const T &amp;a, const BE32 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00966">bele.h:966</a></div></div>
+<div class="ttc" id="anamespaceupx_html_aec9ff249635a6368c4690229ba0e1a5a"><div class="ttname"><a href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T align_up(const T &amp;a, const LE32 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00983">bele.h:983</a></div></div>
+<div class="ttc" id="astructanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_html_a6abe524c4a9fe981274a24e571c48a03"><div class="ttname"><a href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03">anonymous_namespace{dt_check.cpp}::CheckIntegral::check_core</a></div><div class="ttdeci">static void check_core(void) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="dt__check_8cpp_source.html#l00380">dt_check.cpp:380</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="namespaceupx.html#aab74d910ca722385da5cf9281eba03da">upx::align_down()</a>, <a class="el" href="namespaceupx.html#aec9ff249635a6368c4690229ba0e1a5a">upx::align_up()</a>, <a class="el" href="namespaceupx.html#a534a0f8325c6da0111a2210f5ca99a93">upx::align_up_gap()</a>, and <a class="el" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>.</p>
 
@@ -243,51 +243,51 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00393">393</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  393</span>                                          {</div>
-<div class="line"><span class="lineno">  394</span>        {</div>
-<div class="line"><span class="lineno">  395</span>            TestT t = {};</div>
-<div class="line"><span class="lineno">  396</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
-<div class="line"><span class="lineno">  397</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
-<div class="line"><span class="lineno">  398</span>        }</div>
-<div class="line"><span class="lineno">  399</span>        {</div>
-<div class="line"><span class="lineno">  400</span>            <span class="keyword">const</span> TestT t = {};</div>
-<div class="line"><span class="lineno">  401</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
-<div class="line"><span class="lineno">  402</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
-<div class="line"><span class="lineno">  403</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00380">380</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  380</span>                                          {</div>
+<div class="line"><span class="lineno">  381</span>        {</div>
+<div class="line"><span class="lineno">  382</span>            TestT t = {};</div>
+<div class="line"><span class="lineno">  383</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
+<div class="line"><span class="lineno">  384</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
+<div class="line"><span class="lineno">  385</span>        }</div>
+<div class="line"><span class="lineno">  386</span>        {</div>
+<div class="line"><span class="lineno">  387</span>            <span class="keyword">const</span> TestT t = {};</div>
+<div class="line"><span class="lineno">  388</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
+<div class="line"><span class="lineno">  389</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
+<div class="line"><span class="lineno">  390</span>        }</div>
+<div class="line"><span class="lineno">  391</span>        {</div>
+<div class="line"><span class="lineno">  392</span>            <span class="keyword">constexpr</span> TestT t = {};</div>
+<div class="line"><span class="lineno">  393</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
+<div class="line"><span class="lineno">  394</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
+<div class="line"><span class="lineno">  395</span>        }</div>
+<div class="line"><span class="lineno">  396</span>        {</div>
+<div class="line"><span class="lineno">  397</span>            TestT t;</div>
+<div class="line"><span class="lineno">  398</span>            <a class="code hl_function" href="conf_8h.html#a4a6644005b7261400c85ba022c8195c0">mem_clear</a>(&amp;t);</div>
+<div class="line"><span class="lineno">  399</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
+<div class="line"><span class="lineno">  400</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
+<div class="line"><span class="lineno">  401</span>        }</div>
+<div class="line"><span class="lineno">  402</span>        checkU&lt;T&gt;();</div>
+<div class="line"><span class="lineno">  403</span>        checkU&lt;typename std::add_const&lt;T&gt;::type&gt;();</div>
 <div class="line"><span class="lineno">  404</span>        {</div>
-<div class="line"><span class="lineno">  405</span>            <span class="keyword">constexpr</span> TestT t = {};</div>
-<div class="line"><span class="lineno">  406</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
-<div class="line"><span class="lineno">  407</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
-<div class="line"><span class="lineno">  408</span>        }</div>
-<div class="line"><span class="lineno">  409</span>        {</div>
-<div class="line"><span class="lineno">  410</span>            TestT t;</div>
-<div class="line"><span class="lineno">  411</span>            <a class="code hl_function" href="conf_8h.html#a4a6644005b7261400c85ba022c8195c0">mem_clear</a>(&amp;t);</div>
-<div class="line"><span class="lineno">  412</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
-<div class="line"><span class="lineno">  413</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
-<div class="line"><span class="lineno">  414</span>        }</div>
-<div class="line"><span class="lineno">  415</span>        checkU&lt;T&gt;();</div>
-<div class="line"><span class="lineno">  416</span>        checkU&lt;typename std::add_const&lt;T&gt;::type&gt;();</div>
-<div class="line"><span class="lineno">  417</span>        {</div>
-<div class="line"><span class="lineno">  418</span>            T zero, one, three, four;</div>
-<div class="line"><span class="lineno">  419</span>            zero = 0;</div>
-<div class="line"><span class="lineno">  420</span>            one = 1;</div>
-<div class="line"><span class="lineno">  421</span>            three = 3;</div>
-<div class="line"><span class="lineno">  422</span>            four = 4;</div>
-<div class="line"><span class="lineno">  423</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(zero == 0);</div>
-<div class="line"><span class="lineno">  424</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(one == 1);</div>
-<div class="line"><span class="lineno">  425</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(three == 3);</div>
-<div class="line"><span class="lineno">  426</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(four == 4);</div>
-<div class="line"><span class="lineno">  427</span>            <span class="comment">// min / max</span></div>
-<div class="line"><span class="lineno">  428</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a>(one, four) == 1);</div>
-<div class="line"><span class="lineno">  429</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a>(one, four) == one);</div>
-<div class="line"><span class="lineno">  430</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a>(one, four) == 4);</div>
-<div class="line"><span class="lineno">  431</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a>(one, four) == four);</div>
-<div class="line"><span class="lineno">  432</span>        }</div>
-<div class="line"><span class="lineno">  433</span>    }</div>
+<div class="line"><span class="lineno">  405</span>            T zero, one, three, four;</div>
+<div class="line"><span class="lineno">  406</span>            zero = 0;</div>
+<div class="line"><span class="lineno">  407</span>            one = 1;</div>
+<div class="line"><span class="lineno">  408</span>            three = 3;</div>
+<div class="line"><span class="lineno">  409</span>            four = 4;</div>
+<div class="line"><span class="lineno">  410</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(zero == 0);</div>
+<div class="line"><span class="lineno">  411</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(one == 1);</div>
+<div class="line"><span class="lineno">  412</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(three == 3);</div>
+<div class="line"><span class="lineno">  413</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(four == 4);</div>
+<div class="line"><span class="lineno">  414</span>            <span class="comment">// min / max</span></div>
+<div class="line"><span class="lineno">  415</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a>(one, four) == 1);</div>
+<div class="line"><span class="lineno">  416</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a>(one, four) == one);</div>
+<div class="line"><span class="lineno">  417</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a>(one, four) == 4);</div>
+<div class="line"><span class="lineno">  418</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_function" href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a>(one, four) == four);</div>
+<div class="line"><span class="lineno">  419</span>        }</div>
+<div class="line"><span class="lineno">  420</span>    }</div>
 <div class="ttc" id="aconf_8h_html_a4a6644005b7261400c85ba022c8195c0"><div class="ttname"><a href="conf_8h.html#a4a6644005b7261400c85ba022c8195c0">mem_clear</a></div><div class="ttdeci">void mem_clear(T *object) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00437">conf.h:437</a></div></div>
-<div class="ttc" id="anamespaceupx_html_a95ec15f34cbcfe6a9f8a0631f0da928b"><div class="ttname"><a href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T max(const T &amp;a, const BE16 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l01016">bele.h:1016</a></div></div>
-<div class="ttc" id="anamespaceupx_html_a9b13b88342babf30f8e3a3609ab38c72"><div class="ttname"><a href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T min(const T &amp;a, const BE16 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00991">bele.h:991</a></div></div>
+<div class="ttc" id="anamespaceupx_html_a95ec15f34cbcfe6a9f8a0631f0da928b"><div class="ttname"><a href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T max(const T &amp;a, const BE16 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l01017">bele.h:1017</a></div></div>
+<div class="ttc" id="anamespaceupx_html_a9b13b88342babf30f8e3a3609ab38c72"><div class="ttname"><a href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min</a></div><div class="ttdeci">REQUIRE_UINT32 bele_constexpr T min(const T &amp;a, const BE16 &amp;b) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00992">bele.h:992</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestT.html#ab2507ceb9102f80f4a5dec52f8b68e2a">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestT::a</a>, <a class="el" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>, <a class="el" href="namespaceupx.html#a95ec15f34cbcfe6a9f8a0631f0da928b">upx::max()</a>, <a class="el" href="conf_8h.html#a4a6644005b7261400c85ba022c8195c0">mem_clear()</a>, <a class="el" href="namespaceupx.html#a9b13b88342babf30f8e3a3609ab38c72">upx::min()</a>, and <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestT.html#a39a67c8514a9352aebb5a29e9a62c87a">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestT::x</a>.</p>
 
@@ -350,51 +350,51 @@ template&lt;class <a class="el" href="filter__impl_8cpp.html#affc9cbf86b78292bdb
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00351">351</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  351</span>                                      {</div>
-<div class="line"><span class="lineno">  352</span>        {</div>
-<div class="line"><span class="lineno">  353</span>            <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> a = {};</div>
-<div class="line"><span class="lineno">  354</span>            <span class="keyword">const</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> <a class="code hl_variable" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a> = {};</div>
-<div class="line"><span class="lineno">  355</span>            <span class="keyword">constexpr</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> c = {};</div>
-<div class="line"><span class="lineno">  356</span>            <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> x[2] = {};</div>
-<div class="line"><span class="lineno">  357</span>            <span class="keyword">const</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> y[2] = {};</div>
-<div class="line"><span class="lineno">  358</span>            <span class="keyword">constexpr</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> z[2] = {};</div>
-<div class="line"><span class="lineno">  359</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(a == 0);</div>
-<div class="line"><span class="lineno">  360</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_variable" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a> == 0);</div>
-<div class="line"><span class="lineno">  361</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(c == 0);</div>
-<div class="line"><span class="lineno">  362</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(x[0] == 0 &amp;&amp; x[1] == 0);</div>
-<div class="line"><span class="lineno">  363</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(y[0] == 0 &amp;&amp; y[1] == 0);</div>
-<div class="line"><span class="lineno">  364</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(z[0] == 0 &amp;&amp; z[1] == 0);</div>
-<div class="line"><span class="lineno">  365</span><span class="preprocessor">#if defined(upx_is_constant_evaluated)</span></div>
-<div class="line"><span class="lineno">  366</span>            <span class="keyword">static_assert</span>(c == 0);</div>
-<div class="line"><span class="lineno">  367</span>            <span class="keyword">static_assert</span>(z[0] == 0 &amp;&amp; z[1] == 0);</div>
+<p class="definition">Definition at line <a class="el" href="dt__check_8cpp_source.html#l00338">338</a> of file <a class="el" href="dt__check_8cpp_source.html">dt_check.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  338</span>                                      {</div>
+<div class="line"><span class="lineno">  339</span>        {</div>
+<div class="line"><span class="lineno">  340</span>            <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> a = {};</div>
+<div class="line"><span class="lineno">  341</span>            <span class="keyword">const</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> <a class="code hl_variable" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a> = {};</div>
+<div class="line"><span class="lineno">  342</span>            <span class="keyword">constexpr</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> c = {};</div>
+<div class="line"><span class="lineno">  343</span>            <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> x[2] = {};</div>
+<div class="line"><span class="lineno">  344</span>            <span class="keyword">const</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> y[2] = {};</div>
+<div class="line"><span class="lineno">  345</span>            <span class="keyword">constexpr</span> <a class="code hl_define" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a> z[2] = {};</div>
+<div class="line"><span class="lineno">  346</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(a == 0);</div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(<a class="code hl_variable" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a> == 0);</div>
+<div class="line"><span class="lineno">  348</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(c == 0);</div>
+<div class="line"><span class="lineno">  349</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(x[0] == 0 &amp;&amp; x[1] == 0);</div>
+<div class="line"><span class="lineno">  350</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(y[0] == 0 &amp;&amp; y[1] == 0);</div>
+<div class="line"><span class="lineno">  351</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(z[0] == 0 &amp;&amp; z[1] == 0);</div>
+<div class="line"><span class="lineno">  352</span><span class="preprocessor">#if defined(upx_is_constant_evaluated)</span></div>
+<div class="line"><span class="lineno">  353</span>            <span class="keyword">static_assert</span>(c == 0);</div>
+<div class="line"><span class="lineno">  354</span>            <span class="keyword">static_assert</span>(z[0] == 0 &amp;&amp; z[1] == 0);</div>
+<div class="line"><span class="lineno">  355</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  356</span>        }</div>
+<div class="line"><span class="lineno">  357</span>        {</div>
+<div class="line"><span class="lineno">  358</span>            TestU&lt;U&gt; t;</div>
+<div class="line"><span class="lineno">  359</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
+<div class="line"><span class="lineno">  360</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.b == 0);</div>
+<div class="line"><span class="lineno">  361</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.c == 0);</div>
+<div class="line"><span class="lineno">  362</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
+<div class="line"><span class="lineno">  363</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.y[0] == 0 &amp;&amp; t.y[1] == 0);</div>
+<div class="line"><span class="lineno">  364</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.z[0] == 0 &amp;&amp; t.z[1] == 0);</div>
+<div class="line"><span class="lineno">  365</span>        }</div>
+<div class="line"><span class="lineno">  366</span><span class="preprocessor">#if __cplusplus &lt;= 201703L</span></div>
+<div class="line"><span class="lineno">  367</span>        <span class="keyword">static_assert</span>(std::is_pod&lt;U&gt;::value); <span class="comment">// std::is_pod is deprecated in C++20</span></div>
 <div class="line"><span class="lineno">  368</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  369</span>        }</div>
-<div class="line"><span class="lineno">  370</span>        {</div>
-<div class="line"><span class="lineno">  371</span>            TestU&lt;U&gt; t;</div>
-<div class="line"><span class="lineno">  372</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.a == 0);</div>
-<div class="line"><span class="lineno">  373</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.b == 0);</div>
-<div class="line"><span class="lineno">  374</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.c == 0);</div>
-<div class="line"><span class="lineno">  375</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.x[0] == 0 &amp;&amp; t.x[1] == 0);</div>
-<div class="line"><span class="lineno">  376</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.y[0] == 0 &amp;&amp; t.y[1] == 0);</div>
-<div class="line"><span class="lineno">  377</span>            <a class="code hl_define" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>(t.z[0] == 0 &amp;&amp; t.z[1] == 0);</div>
-<div class="line"><span class="lineno">  378</span>        }</div>
-<div class="line"><span class="lineno">  379</span><span class="preprocessor">#if __cplusplus &lt;= 201703L</span></div>
-<div class="line"><span class="lineno">  380</span>        <span class="keyword">static_assert</span>(std::is_pod&lt;U&gt;::value); <span class="comment">// std::is_pod is deprecated in C++20</span></div>
-<div class="line"><span class="lineno">  381</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  382</span>        <span class="keyword">static_assert</span>(std::is_standard_layout&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  383</span>        <span class="keyword">static_assert</span>(std::is_trivial&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  384</span>        <span class="comment">// more checks, these are probably implied by std::is_trivial</span></div>
-<div class="line"><span class="lineno">  385</span>        <span class="keyword">static_assert</span>(std::is_nothrow_default_constructible&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  386</span>        <span class="keyword">static_assert</span>(std::is_nothrow_destructible&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  387</span>        <span class="keyword">static_assert</span>(std::is_trivially_copyable&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  388</span>        <span class="keyword">static_assert</span>(std::is_trivially_default_constructible&lt;U&gt;::value);</div>
-<div class="line"><span class="lineno">  389</span>        <span class="comment">// UPX extras</span></div>
-<div class="line"><span class="lineno">  390</span>        <span class="keyword">static_assert</span>(<a class="code hl_struct" href="structupx__is__integral.html">upx_is_integral&lt;U&gt;::value</a>);</div>
-<div class="line"><span class="lineno">  391</span>        <span class="keyword">static_assert</span>(upx_is_integral_v&lt;U&gt;);</div>
-<div class="line"><span class="lineno">  392</span>    }</div>
+<div class="line"><span class="lineno">  369</span>        <span class="keyword">static_assert</span>(std::is_standard_layout&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  370</span>        <span class="keyword">static_assert</span>(std::is_trivial&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  371</span>        <span class="comment">// more checks, these are probably implied by std::is_trivial</span></div>
+<div class="line"><span class="lineno">  372</span>        <span class="keyword">static_assert</span>(std::is_nothrow_default_constructible&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  373</span>        <span class="keyword">static_assert</span>(std::is_nothrow_destructible&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  374</span>        <span class="keyword">static_assert</span>(std::is_trivially_copyable&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  375</span>        <span class="keyword">static_assert</span>(std::is_trivially_default_constructible&lt;U&gt;::value);</div>
+<div class="line"><span class="lineno">  376</span>        <span class="comment">// UPX extras</span></div>
+<div class="line"><span class="lineno">  377</span>        <span class="keyword">static_assert</span>(<a class="code hl_struct" href="structupx__is__integral.html">upx_is_integral&lt;U&gt;::value</a>);</div>
+<div class="line"><span class="lineno">  378</span>        <span class="keyword">static_assert</span>(upx_is_integral_v&lt;U&gt;);</div>
+<div class="line"><span class="lineno">  379</span>    }</div>
 <div class="ttc" id="afilter__impl_8cpp_html_affc9cbf86b78292bdb405361761c47f5"><div class="ttname"><a href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a></div><div class="ttdeci">#define U</div><div class="ttdef"><b>Definition:</b> <a href="filter__impl_8cpp_source.html#l00143">filter_impl.cpp:143</a></div></div>
-<div class="ttc" id="astructupx__is__integral_html"><div class="ttname"><a href="structupx__is__integral.html">upx_is_integral</a></div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00128">conf.h:128</a></div></div>
+<div class="ttc" id="astructupx__is__integral_html"><div class="ttname"><a href="structupx__is__integral.html">upx_is_integral</a></div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00132">conf.h:132</a></div></div>
 <div class="ttc" id="axspan__fwd_8h_html_af71ddeb3e6a1edbdfadd8f044c60fa66"><div class="ttname"><a href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a></div><div class="ttdeci">const C&lt; U &gt; &amp; b</div><div class="ttdef"><b>Definition:</b> <a href="xspan__fwd_8h_source.html#l00080">xspan_fwd.h:80</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#a38b3959b4824f248acbfdbde51cfe092">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::a</a>, <a class="el" href="conf_8h.html#a2b4c65ac64db4f1fec7f03b6dcd0eaa8">assert_noexcept</a>, <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#ab71859274ea529002e353212d34210fd">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::b</a>, <a class="el" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a>, <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#a9d56da678aee4c99de21af21f3284ee1">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::c</a>, <a class="el" href="filter__impl_8cpp.html#affc9cbf86b78292bdb405361761c47f5">U</a>, <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#a8ccfab20de92163be932b5a64b908586">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::x</a>, <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#ac9f99a008dd9eb5f175ffbf2260150da">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::y</a>, and <a class="el" href="structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral_1_1TestU.html#a9fd3c81e25666537c3d070fcbbf18570">anonymous_namespace{dt_check.cpp}::CheckIntegral&lt; T &gt;::TestU&lt; U &gt;::z</a>.</p>

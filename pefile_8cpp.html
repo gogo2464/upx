@@ -537,12 +537,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01818">1818</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1818</span>                                              {</div>
-<div class="line"><span class="lineno"> 1819</span>    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> ic = 0; ic &lt; <a class="code hl_function" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a>(p); ic++)</div>
-<div class="line"><span class="lineno"> 1820</span>        printf(<span class="stringliteral">&quot;%c&quot;</span>, (<span class="keywordtype">char</span>) p[ic * 2 + 2]);</div>
-<div class="line"><span class="lineno"> 1821</span>}</div>
-<div class="ttc" id="abele_8h_html_a4434346f2449383c99897e16518670fd"><div class="ttname"><a href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a></div><div class="ttdeci">REQUIRE_XE16 bele_constexpr unsigned get_le16(const XE16 *p) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00323">bele.h:323</a></div></div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01830">1830</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1830</span>                                              {</div>
+<div class="line"><span class="lineno"> 1831</span>    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> ic = 0; ic &lt; <a class="code hl_function" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a>(p); ic++)</div>
+<div class="line"><span class="lineno"> 1832</span>        printf(<span class="stringliteral">&quot;%c&quot;</span>, (<span class="keywordtype">char</span>) p[ic * 2 + 2]);</div>
+<div class="line"><span class="lineno"> 1833</span>}</div>
+<div class="ttc" id="abele_8h_html_a4434346f2449383c99897e16518670fd"><div class="ttname"><a href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a></div><div class="ttdeci">REQUIRE_XE16 bele_constexpr unsigned get_le16(const XE16 *p) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00324">bele.h:324</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16()</a>.</p>
 
@@ -624,43 +624,43 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01879">1879</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1880</span>                                    {</div>
-<div class="line"><span class="lineno"> 1881</span>    <span class="comment">// format of string keep: type1[/name1],type2[/name2], ....</span></div>
-<div class="line"><span class="lineno"> 1882</span>    <span class="comment">// typex and namex can be string or number</span></div>
-<div class="line"><span class="lineno"> 1883</span>    <span class="comment">// hopefully resource names do not have &#39;/&#39; or &#39;,&#39; characters inside</span></div>
-<div class="line"><span class="lineno"> 1884</span> </div>
-<div class="line"><span class="lineno"> 1885</span>    <span class="keyword">struct </span>Helper final {</div>
-<div class="line"><span class="lineno"> 1886</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="pefile_8cpp.html#a4458894fd958c71d9a73c87bcefea862">match</a>(<span class="keywordtype">unsigned</span> num, <span class="keyword">const</span> <span class="keywordtype">byte</span> *unistr, <span class="keyword">const</span> <span class="keywordtype">char</span> *mkeep) {</div>
-<div class="line"><span class="lineno"> 1887</span>            <span class="keywordflow">if</span> (!unistr)</div>
-<div class="line"><span class="lineno"> 1888</span>                <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>) atoi(mkeep) == num;</div>
-<div class="line"><span class="lineno"> 1889</span>            <span class="keywordtype">unsigned</span> ic;</div>
-<div class="line"><span class="lineno"> 1890</span>            <span class="keywordflow">for</span> (ic = 0; ic &lt; <a class="code hl_function" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a>(unistr); ic++)</div>
-<div class="line"><span class="lineno"> 1891</span>                <span class="keywordflow">if</span> (unistr[2 + ic * 2] != (<span class="keywordtype">byte</span>) mkeep[ic])</div>
-<div class="line"><span class="lineno"> 1892</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1893</span>            <span class="keywordflow">return</span> mkeep[ic] == 0 || mkeep[ic] == <span class="charliteral">&#39;,&#39;</span> || mkeep[ic] == <span class="charliteral">&#39;/&#39;</span>;</div>
-<div class="line"><span class="lineno"> 1894</span>        }</div>
-<div class="line"><span class="lineno"> 1895</span>    };</div>
+<p class="definition">Definition at line <a class="el" href="pefile_8cpp_source.html#l01891">1891</a> of file <a class="el" href="pefile_8cpp_source.html">pefile.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1892</span>                                    {</div>
+<div class="line"><span class="lineno"> 1893</span>    <span class="comment">// format of string keep: type1[/name1],type2[/name2], ....</span></div>
+<div class="line"><span class="lineno"> 1894</span>    <span class="comment">// typex and namex can be string or number</span></div>
+<div class="line"><span class="lineno"> 1895</span>    <span class="comment">// hopefully resource names do not have &#39;/&#39; or &#39;,&#39; characters inside</span></div>
 <div class="line"><span class="lineno"> 1896</span> </div>
-<div class="line"><span class="lineno"> 1897</span>    <span class="comment">// FIXME this comparison is not too exact</span></div>
-<div class="line"><span class="lineno"> 1898</span>    <span class="keywordflow">for</span> (;;) {</div>
-<div class="line"><span class="lineno"> 1899</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *delim1 = strchr(keep, <span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><span class="lineno"> 1900</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *delim2 = strchr(keep, <span class="charliteral">&#39;,&#39;</span>);</div>
-<div class="line"><span class="lineno"> 1901</span>        <span class="keywordflow">if</span> (Helper::match(itype, ntype, keep)) {</div>
-<div class="line"><span class="lineno"> 1902</span>            <span class="keywordflow">if</span> (!delim1)</div>
-<div class="line"><span class="lineno"> 1903</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1904</span>            <span class="keywordflow">if</span> (delim2 &amp;&amp; delim2 &lt; delim1)</div>
-<div class="line"><span class="lineno"> 1905</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1906</span>            <span class="keywordflow">if</span> (Helper::match(iname, nname, delim1 + 1))</div>
-<div class="line"><span class="lineno"> 1907</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1908</span>        }</div>
-<div class="line"><span class="lineno"> 1909</span>        <span class="keywordflow">if</span> (delim2 == <span class="keyword">nullptr</span>)</div>
-<div class="line"><span class="lineno"> 1910</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1911</span>        keep = delim2 + 1;</div>
-<div class="line"><span class="lineno"> 1912</span>    }</div>
-<div class="line"><span class="lineno"> 1913</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1914</span>}</div>
-<div class="ttc" id="apefile_8cpp_html_a4458894fd958c71d9a73c87bcefea862"><div class="ttname"><a href="pefile_8cpp.html#a4458894fd958c71d9a73c87bcefea862">match</a></div><div class="ttdeci">static bool match(unsigned itype, const byte *ntype, unsigned iname, const byte *nname, const char *keep)</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l01879">pefile.cpp:1879</a></div></div>
+<div class="line"><span class="lineno"> 1897</span>    <span class="keyword">struct </span>Helper final {</div>
+<div class="line"><span class="lineno"> 1898</span>        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="pefile_8cpp.html#a4458894fd958c71d9a73c87bcefea862">match</a>(<span class="keywordtype">unsigned</span> num, <span class="keyword">const</span> <span class="keywordtype">byte</span> *unistr, <span class="keyword">const</span> <span class="keywordtype">char</span> *mkeep) {</div>
+<div class="line"><span class="lineno"> 1899</span>            <span class="keywordflow">if</span> (!unistr)</div>
+<div class="line"><span class="lineno"> 1900</span>                <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>) atoi(mkeep) == num;</div>
+<div class="line"><span class="lineno"> 1901</span>            <span class="keywordtype">unsigned</span> ic;</div>
+<div class="line"><span class="lineno"> 1902</span>            <span class="keywordflow">for</span> (ic = 0; ic &lt; <a class="code hl_function" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16</a>(unistr); ic++)</div>
+<div class="line"><span class="lineno"> 1903</span>                <span class="keywordflow">if</span> (unistr[2 + ic * 2] != (<span class="keywordtype">byte</span>) mkeep[ic])</div>
+<div class="line"><span class="lineno"> 1904</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1905</span>            <span class="keywordflow">return</span> mkeep[ic] == 0 || mkeep[ic] == <span class="charliteral">&#39;,&#39;</span> || mkeep[ic] == <span class="charliteral">&#39;/&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1906</span>        }</div>
+<div class="line"><span class="lineno"> 1907</span>    };</div>
+<div class="line"><span class="lineno"> 1908</span> </div>
+<div class="line"><span class="lineno"> 1909</span>    <span class="comment">// FIXME this comparison is not too exact</span></div>
+<div class="line"><span class="lineno"> 1910</span>    <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><span class="lineno"> 1911</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *delim1 = strchr(keep, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno"> 1912</span>        <span class="keyword">const</span> <span class="keywordtype">char</span> *delim2 = strchr(keep, <span class="charliteral">&#39;,&#39;</span>);</div>
+<div class="line"><span class="lineno"> 1913</span>        <span class="keywordflow">if</span> (Helper::match(itype, ntype, keep)) {</div>
+<div class="line"><span class="lineno"> 1914</span>            <span class="keywordflow">if</span> (!delim1)</div>
+<div class="line"><span class="lineno"> 1915</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1916</span>            <span class="keywordflow">if</span> (delim2 &amp;&amp; delim2 &lt; delim1)</div>
+<div class="line"><span class="lineno"> 1917</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1918</span>            <span class="keywordflow">if</span> (Helper::match(iname, nname, delim1 + 1))</div>
+<div class="line"><span class="lineno"> 1919</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1920</span>        }</div>
+<div class="line"><span class="lineno"> 1921</span>        <span class="keywordflow">if</span> (delim2 == <span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno"> 1922</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1923</span>        keep = delim2 + 1;</div>
+<div class="line"><span class="lineno"> 1924</span>    }</div>
+<div class="line"><span class="lineno"> 1925</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1926</span>}</div>
+<div class="ttc" id="apefile_8cpp_html_a4458894fd958c71d9a73c87bcefea862"><div class="ttname"><a href="pefile_8cpp.html#a4458894fd958c71d9a73c87bcefea862">match</a></div><div class="ttdeci">static bool match(unsigned itype, const byte *ntype, unsigned iname, const byte *nname, const char *keep)</div><div class="ttdef"><b>Definition:</b> <a href="pefile_8cpp_source.html#l01891">pefile.cpp:1891</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="bele_8h.html#a4434346f2449383c99897e16518670fd">get_le16()</a>, and <a class="el" href="pefile_8cpp.html#a4458894fd958c71d9a73c87bcefea862">match()</a>.</p>
 
@@ -738,8 +738,8 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  321</span>        <span class="keywordflow">return</span> reloc_type1 &lt; reloc_type2 ? -1 : 1;</div>
 <div class="line"><span class="lineno">  322</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><span class="lineno">  323</span>}</div>
-<div class="ttc" id="abele_8h_html_a1314f3e23986bd34448f6f9d00884fbe"><div class="ttname"><a href="bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe">get_ne32</a></div><div class="ttdeci">forceinline bele_constexpr unsigned get_ne32(const byte *p) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00124">bele.h:124</a></div></div>
-<div class="ttc" id="aconf_8h_html_ae4bf333158d3a279e8c26b654fe09890"><div class="ttname"><a href="conf_8h.html#ae4bf333158d3a279e8c26b654fe09890">upx_uint8_t</a></div><div class="ttdeci">acc_uint8_t upx_uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00161">conf.h:161</a></div></div>
+<div class="ttc" id="abele_8h_html_a1314f3e23986bd34448f6f9d00884fbe"><div class="ttname"><a href="bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe">get_ne32</a></div><div class="ttdeci">forceinline bele_constexpr unsigned get_ne32(const byte *p) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00125">bele.h:125</a></div></div>
+<div class="ttc" id="aconf_8h_html_ae4bf333158d3a279e8c26b654fe09890"><div class="ttname"><a href="conf_8h.html#ae4bf333158d3a279e8c26b654fe09890">upx_uint8_t</a></div><div class="ttdeci">acc_uint8_t upx_uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00165">conf.h:165</a></div></div>
 <div class="ttc" id="axspan__fwd_8h_html_af71ddeb3e6a1edbdfadd8f044c60fa66"><div class="ttname"><a href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a></div><div class="ttdeci">const C&lt; U &gt; &amp; b</div><div class="ttdef"><b>Definition:</b> <a href="xspan__fwd_8h_source.html#l00080">xspan_fwd.h:80</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a>, and <a class="el" href="bele_8h.html#a1314f3e23986bd34448f6f9d00884fbe">get_ne32()</a>.</p>
@@ -899,7 +899,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  305</span>    <a class="code hl_function" href="bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28">set_ne32</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, pos);</div>
 <div class="line"><span class="lineno">  306</span>    <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[4] = (<a class="code hl_typedef" href="conf_8h.html#ae4bf333158d3a279e8c26b654fe09890">upx_uint8_t</a>) reloc_type;</div>
 <div class="line"><span class="lineno">  307</span>}</div>
-<div class="ttc" id="abele_8h_html_a88b39f5ad68cb7521d33199c568d0e28"><div class="ttname"><a href="bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28">set_ne32</a></div><div class="ttdeci">forceinline bele_constexpr void set_ne32(byte *p, unsigned v) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00162">bele.h:162</a></div></div>
+<div class="ttc" id="abele_8h_html_a88b39f5ad68cb7521d33199c568d0e28"><div class="ttname"><a href="bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28">set_ne32</a></div><div class="ttdeci">forceinline bele_constexpr void set_ne32(byte *p, unsigned v) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="bele_8h_source.html#l00163">bele.h:163</a></div></div>
 <div class="ttc" id="aexcept_8cpp_html_a388ab1f73d9ba5222a35cbdd67b396ff"><div class="ttname"><a href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff">throwCantPack</a></div><div class="ttdeci">void throwCantPack(const char *msg)</div><div class="ttdoc">compression</div><div class="ttdef"><b>Definition:</b> <a href="except_8cpp_source.html#l00075">except.cpp:75</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="bele_8h.html#a88b39f5ad68cb7521d33199c568d0e28">set_ne32()</a>, and <a class="el" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff">throwCantPack()</a>.</p>
@@ -1054,7 +1054,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   54</span>    <span class="keywordflow">if</span> <a class="code hl_define" href="conf_8h.html#a6b81b7529da009c7cd12bbc7caa78c43">very_unlikely</a> (pp &lt; bb || pp &gt; bb + blen || pp + plen &gt; bb + blen)</div>
 <div class="line"><span class="lineno">   55</span>        <a class="code hl_function" href="except_8cpp.html#aeec259360ad810df576d7012b3f054f3">throwCantUnpack</a>(<span class="stringliteral">&quot;xcheck pointer out of range; take care!&quot;</span>);</div>
 <div class="line"><span class="lineno">   56</span>}</div>
-<div class="ttc" id="aconf_8h_html_a54484cca666f09244ad8728289ec7200"><div class="ttname"><a href="conf_8h.html#a54484cca666f09244ad8728289ec7200">charptr</a></div><div class="ttdeci">#define charptr</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00189">conf.h:189</a></div></div>
+<div class="ttc" id="aconf_8h_html_a54484cca666f09244ad8728289ec7200"><div class="ttname"><a href="conf_8h.html#a54484cca666f09244ad8728289ec7200">charptr</a></div><div class="ttdeci">#define charptr</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00193">conf.h:193</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="xspan__fwd_8h.html#af71ddeb3e6a1edbdfadd8f044c60fa66">b</a>, <a class="el" href="conf_8h.html#a54484cca666f09244ad8728289ec7200">charptr</a>, <a class="el" href="except_8cpp.html#aeec259360ad810df576d7012b3f054f3">throwCantUnpack()</a>, and <a class="el" href="conf_8h.html#a6b81b7529da009c7cd12bbc7caa78c43">very_unlikely</a>.</p>
 <div class="dynheader">

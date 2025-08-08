@@ -319,21 +319,21 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00367">367</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  367</span>                                                                                    {</div>
-<div class="line"><span class="lineno">  368</span>    <span class="keywordflow">if</span> (flags &lt; 0)</div>
-<div class="line"><span class="lineno">  369</span>        flags = <a class="code hl_define" href="bsd_8h.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a> | O_TRUNC;</div>
-<div class="line"><span class="lineno">  370</span>    flags |= <a class="code hl_define" href="bsd_8h.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a> | <a class="code hl_define" href="conf_8h.html#a36fa9b2e726512bc17a7a6d3e39002be">O_BINARY</a>;</div>
-<div class="line"><span class="lineno">  371</span>    <a class="code hl_class" href="classOutputFile.html">OutputFile</a> f;</div>
-<div class="line"><span class="lineno">  372</span>    f.<a class="code hl_function" href="classOutputFile.html#af525d84fd970f061f7c38231892812e6">open</a>(name, flags, 0600);</div>
-<div class="line"><span class="lineno">  373</span>    f.<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(<a class="code hl_function" href="membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751">raw_bytes</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len), len);</div>
-<div class="line"><span class="lineno">  374</span>    f.<a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
-<div class="line"><span class="lineno">  375</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00369">369</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  369</span>                                                                                    {</div>
+<div class="line"><span class="lineno">  370</span>    <span class="keywordflow">if</span> (flags &lt; 0)</div>
+<div class="line"><span class="lineno">  371</span>        flags = <a class="code hl_define" href="bsd_8h.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a> | O_TRUNC;</div>
+<div class="line"><span class="lineno">  372</span>    flags |= <a class="code hl_define" href="bsd_8h.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a> | <a class="code hl_define" href="conf_8h.html#a36fa9b2e726512bc17a7a6d3e39002be">O_BINARY</a>;</div>
+<div class="line"><span class="lineno">  373</span>    <a class="code hl_class" href="classOutputFile.html">OutputFile</a> f;</div>
+<div class="line"><span class="lineno">  374</span>    f.<a class="code hl_function" href="classOutputFile.html#af525d84fd970f061f7c38231892812e6">open</a>(name, flags, 0600);</div>
+<div class="line"><span class="lineno">  375</span>    f.<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(<a class="code hl_function" href="membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751">raw_bytes</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len), len);</div>
+<div class="line"><span class="lineno">  376</span>    f.<a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
+<div class="line"><span class="lineno">  377</span>}</div>
 <div class="ttc" id="absd_8h_html_a11b644a8526139c4cc1850dac1271ced"><div class="ttname"><a href="bsd_8h.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a></div><div class="ttdeci">#define O_WRONLY</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00105">bsd.h:105</a></div></div>
 <div class="ttc" id="absd_8h_html_a1cf6b1de1fffedaa1d26b189e9a8d2cc"><div class="ttname"><a href="bsd_8h.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a></div><div class="ttdeci">#define O_CREAT</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00107">bsd.h:107</a></div></div>
 <div class="ttc" id="aclassFileBase_html_ad1760af00c23be3c3dd2f9eda2f0c10d"><div class="ttname"><a href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">FileBase::closex</a></div><div class="ttdeci">void closex() may_throw</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00123">file.cpp:123</a></div></div>
 <div class="ttc" id="aclassOutputFile_html"><div class="ttname"><a href="classOutputFile.html">OutputFile</a></div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00101">file.h:101</a></div></div>
-<div class="ttc" id="aclassOutputFile_html_aa8beb793956b90404c940c5821936718"><div class="ttname"><a href="classOutputFile.html#aa8beb793956b90404c940c5821936718">OutputFile::write</a></div><div class="ttdeci">void write(SPAN_0(const void) buf, upx_int64_t blen)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00274">file.cpp:274</a></div></div>
+<div class="ttc" id="aclassOutputFile_html_aa8beb793956b90404c940c5821936718"><div class="ttname"><a href="classOutputFile.html#aa8beb793956b90404c940c5821936718">OutputFile::write</a></div><div class="ttdeci">void write(SPAN_0(const void) buf, upx_int64_t blen)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00275">file.cpp:275</a></div></div>
 <div class="ttc" id="aclassOutputFile_html_af525d84fd970f061f7c38231892812e6"><div class="ttname"><a href="classOutputFile.html#af525d84fd970f061f7c38231892812e6">OutputFile::open</a></div><div class="ttdeci">void open(const char *name, int flags, int mode)</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00108">file.h:108</a></div></div>
 <div class="ttc" id="aconf_8h_html_a36fa9b2e726512bc17a7a6d3e39002be"><div class="ttname"><a href="conf_8h.html#a36fa9b2e726512bc17a7a6d3e39002be">O_BINARY</a></div><div class="ttdeci">#define O_BINARY</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00338">conf.h:338</a></div></div>
 <div class="ttc" id="amembuffer_8h_html_a8bc8e23a965fc63e336d6158814f5751"><div class="ttname"><a href="membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751">raw_bytes</a></div><div class="ttdeci">MemBufferBase&lt; T &gt;::pointer raw_bytes(const MemBufferBase&lt; T &gt; &amp;mbb, size_t size_in_bytes)</div><div class="ttdef"><b>Definition:</b> <a href="membuffer_8h_source.html#l00149">membuffer.h:149</a></div></div>
@@ -542,7 +542,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="file_8h_source.html#l00108">108</a> of file <a class="el" href="file_8h_source.html">file.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  108</span>{ <a class="code hl_function" href="classOutputFile.html#a0d75cc5db3e35886b2bacf3dd5905b2e">sopen</a>(name, flags, -1, mode); }</div>
-<div class="ttc" id="aclassOutputFile_html_a0d75cc5db3e35886b2bacf3dd5905b2e"><div class="ttname"><a href="classOutputFile.html#a0d75cc5db3e35886b2bacf3dd5905b2e">OutputFile::sopen</a></div><div class="ttdeci">void sopen(const char *name, int flags, int shflags, int mode)</div><div class="ttdoc">OutputFile.</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00235">file.cpp:235</a></div></div>
+<div class="ttc" id="aclassOutputFile_html_a0d75cc5db3e35886b2bacf3dd5905b2e"><div class="ttname"><a href="classOutputFile.html#a0d75cc5db3e35886b2bacf3dd5905b2e">OutputFile::sopen</a></div><div class="ttdeci">void sopen(const char *name, int flags, int shflags, int mode)</div><div class="ttdoc">OutputFile.</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00236">file.cpp:236</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classInputFile.html#a78a66fc063b1267d37b2d1e02f20003e">InputFile::sopen()</a>.</p>
 
@@ -650,23 +650,23 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00257">257</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  257</span>                                                 {</div>
-<div class="line"><span class="lineno">  258</span>    <a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
-<div class="line"><span class="lineno">  259</span>    <span class="keywordtype">int</span> fd = <a class="code hl_define" href="conf_8h.html#abd165ee6474b5b75bf075842fff13a04">STDOUT_FILENO</a>;</div>
-<div class="line"><span class="lineno">  260</span>    <span class="keywordflow">if</span> (!force &amp;&amp; acc_isatty(fd))</div>
-<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  262</span>    <a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a> = <span class="stringliteral">&quot;&lt;stdout&gt;&quot;</span>;</div>
-<div class="line"><span class="lineno">  263</span>    <a class="code hl_variable" href="classFileBase.html#ad1035c244dbdc4405aa47e8a1cc55134">_flags</a> = flags;</div>
-<div class="line"><span class="lineno">  264</span>    <a class="code hl_variable" href="classFileBase.html#a3e5d873be46e6839689bf3ab8ba40399">_shflags</a> = -1;</div>
-<div class="line"><span class="lineno">  265</span>    <a class="code hl_variable" href="classFileBase.html#ad60531b063376382d9299d98432702ee">_mode</a> = 0;</div>
-<div class="line"><span class="lineno">  266</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
-<div class="line"><span class="lineno">  267</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = 0;</div>
-<div class="line"><span class="lineno">  268</span>    <span class="keywordflow">if</span> (flags &amp;&amp; acc_set_binmode(fd, 1) == -1)</div>
-<div class="line"><span class="lineno">  269</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
-<div class="line"><span class="lineno">  270</span>    <a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a> = fd;</div>
-<div class="line"><span class="lineno">  271</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  272</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00258">258</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  258</span>                                                 {</div>
+<div class="line"><span class="lineno">  259</span>    <a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
+<div class="line"><span class="lineno">  260</span>    <span class="keywordtype">int</span> fd = <a class="code hl_define" href="conf_8h.html#abd165ee6474b5b75bf075842fff13a04">STDOUT_FILENO</a>;</div>
+<div class="line"><span class="lineno">  261</span>    <span class="keywordflow">if</span> (!force &amp;&amp; acc_isatty(fd))</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  263</span>    <a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a> = <span class="stringliteral">&quot;&lt;stdout&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno">  264</span>    <a class="code hl_variable" href="classFileBase.html#ad1035c244dbdc4405aa47e8a1cc55134">_flags</a> = flags;</div>
+<div class="line"><span class="lineno">  265</span>    <a class="code hl_variable" href="classFileBase.html#a3e5d873be46e6839689bf3ab8ba40399">_shflags</a> = -1;</div>
+<div class="line"><span class="lineno">  266</span>    <a class="code hl_variable" href="classFileBase.html#ad60531b063376382d9299d98432702ee">_mode</a> = 0;</div>
+<div class="line"><span class="lineno">  267</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
+<div class="line"><span class="lineno">  268</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = 0;</div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">if</span> (flags &amp;&amp; acc_set_binmode(fd, 1) == -1)</div>
+<div class="line"><span class="lineno">  270</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
+<div class="line"><span class="lineno">  271</span>    <a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a> = fd;</div>
+<div class="line"><span class="lineno">  272</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  273</span>}</div>
 <div class="ttc" id="aclassFileBase_html_a3e5d873be46e6839689bf3ab8ba40399"><div class="ttname"><a href="classFileBase.html#a3e5d873be46e6839689bf3ab8ba40399">FileBase::_shflags</a></div><div class="ttdeci">int _shflags</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00062">file.h:62</a></div></div>
 <div class="ttc" id="aclassFileBase_html_a4fb0c207b8e1eabd6a43f3f596e0343d"><div class="ttname"><a href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">FileBase::_name</a></div><div class="ttdeci">const char * _name</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00064">file.h:64</a></div></div>
 <div class="ttc" id="aclassFileBase_html_a59cdef5b2e6441794b8726411fa07efb"><div class="ttname"><a href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">FileBase::_length</a></div><div class="ttdeci">upx_off_t _length</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00066">file.h:66</a></div></div>
@@ -734,12 +734,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00314">314</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  314</span>                                                        {</div>
-<div class="line"><span class="lineno">  315</span>    assert(!<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout);</div>
-<div class="line"><span class="lineno">  316</span>    <a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len);</div>
-<div class="line"><span class="lineno">  317</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> -= len; <span class="comment">// restore</span></div>
-<div class="line"><span class="lineno">  318</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00315">315</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  315</span>                                                        {</div>
+<div class="line"><span class="lineno">  316</span>    assert(!<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout);</div>
+<div class="line"><span class="lineno">  317</span>    <a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len);</div>
+<div class="line"><span class="lineno">  318</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> -= len; <span class="comment">// restore</span></div>
+<div class="line"><span class="lineno">  319</span>}</div>
 <div class="ttc" id="aoptions_8cpp_html_a887b9edd7a68b4cde1de1f0d7ac1d6eb"><div class="ttname"><a href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a></div><div class="ttdeci">#define opt</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>, and <a class="el" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write()</a>.</p>
@@ -846,28 +846,29 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">FileBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00320">320</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  320</span>                                                    {</div>
-<div class="line"><span class="lineno">  321</span>    <a class="code hl_function" href="util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d">mem_size_assert</a>(1, off &gt;= 0 ? off : -off); <span class="comment">// sanity check</span></div>
-<div class="line"><span class="lineno">  322</span>    assert(!<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout);</div>
-<div class="line"><span class="lineno">  323</span>    <span class="keywordflow">switch</span> (whence) {</div>
-<div class="line"><span class="lineno">  324</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="bsd_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>:</div>
-<div class="line"><span class="lineno">  325</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> &lt; off)</div>
-<div class="line"><span class="lineno">  326</span>            <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = off;</div>
-<div class="line"><span class="lineno">  327</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// cheap, lazy update; needed?</span></div>
-<div class="line"><span class="lineno">  328</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  329</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>:</div>
-<div class="line"><span class="lineno">  330</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// necessary</span></div>
-<div class="line"><span class="lineno">  331</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  332</span>    }</div>
-<div class="line"><span class="lineno">  333</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">super::seek</a>(off, whence);</div>
-<div class="line"><span class="lineno">  334</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00321">321</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  321</span>                                                    {</div>
+<div class="line"><span class="lineno">  322</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="util_8h.html#ad55181add5f2758a5f49cf106faef962">mem_size_valid_bytes</a>(off &gt;= 0 ? off : -off)) <span class="comment">// sanity check</span></div>
+<div class="line"><span class="lineno">  323</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;bad seek&quot;</span>);</div>
+<div class="line"><span class="lineno">  324</span>    assert(!<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout);</div>
+<div class="line"><span class="lineno">  325</span>    <span class="keywordflow">switch</span> (whence) {</div>
+<div class="line"><span class="lineno">  326</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="bsd_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>:</div>
+<div class="line"><span class="lineno">  327</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> &lt; off)</div>
+<div class="line"><span class="lineno">  328</span>            <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = off;</div>
+<div class="line"><span class="lineno">  329</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// cheap, lazy update; needed?</span></div>
+<div class="line"><span class="lineno">  330</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  331</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>:</div>
+<div class="line"><span class="lineno">  332</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// necessary</span></div>
+<div class="line"><span class="lineno">  333</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  334</span>    }</div>
+<div class="line"><span class="lineno">  335</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">super::seek</a>(off, whence);</div>
+<div class="line"><span class="lineno">  336</span>}</div>
 <div class="ttc" id="absd_8h_html_a0d112bae8fd35be772185b6ec6bcbe64"><div class="ttname"><a href="bsd_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a></div><div class="ttdeci">#define SEEK_SET</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00101">bsd.h:101</a></div></div>
 <div class="ttc" id="aclassFileBase_html_a79cb685c1981c280797ddafc4ea9462d"><div class="ttname"><a href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">FileBase::seek</a></div><div class="ttdeci">virtual upx_off_t seek(upx_off_t off, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00129">file.cpp:129</a></div></div>
 <div class="ttc" id="alinux_8h_html_ad2a2e6c114780c3071efd24f16c7f7d8"><div class="ttname"><a href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a></div><div class="ttdeci">#define SEEK_END</div><div class="ttdef"><b>Definition:</b> <a href="linux_8h_source.html#l00111">linux.h:111</a></div></div>
-<div class="ttc" id="autil_8h_html_a0d276ff04b9e9afee894e5e67ff3526d"><div class="ttname"><a href="util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d">mem_size_assert</a></div><div class="ttdeci">void mem_size_assert(upx_uint64_t element_size, upx_uint64_t n) may_throw</div><div class="ttdef"><b>Definition:</b> <a href="util_8h_source.html#l00065">util.h:65</a></div></div>
+<div class="ttc" id="autil_8h_html_ad55181add5f2758a5f49cf106faef962"><div class="ttname"><a href="util_8h.html#ad55181add5f2758a5f49cf106faef962">mem_size_valid_bytes</a></div><div class="ttdeci">bool mem_size_valid_bytes(upx_uint64_t bytes) noexcept</div><div class="ttdoc">upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma...</div><div class="ttdef"><b>Definition:</b> <a href="util_8h_source.html#l00036">util.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">FileBase::_length</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d">mem_size_assert()</a>, <a class="el" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>, <a class="el" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">FileBase::seek()</a>, <a class="el" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>, and <a class="el" href="bsd_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>.</p>
+<p class="reference">References <a class="el" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">FileBase::_length</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="util_8h.html#ad55181add5f2758a5f49cf106faef962">mem_size_valid_bytes()</a>, <a class="el" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>, <a class="el" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d">FileBase::seek()</a>, <a class="el" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>, <a class="el" href="bsd_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>, and <a class="el" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classPackLinuxElf32.html#a12904e259a31849e8633faf26b5e07fe">PackLinuxElf32::asl_pack2_Shdrs()</a>, <a class="el" href="classPackLinuxElf64.html#a6eefcbb2a42d861b12d2c309d93771b8">PackLinuxElf64::asl_pack2_Shdrs()</a>, <a class="el" href="namespaceanonymous__namespace_02work_8cpp_03.html#ae94d33f51eb588e4e22b848dfc45db9a">anonymous_namespace{work.cpp}::copy_file_contents()</a>, <a class="el" href="classPackLinuxElf32.html#a4b9fc35299e310d90855abb422cd660a">PackLinuxElf32::forward_Shdrs()</a>, <a class="el" href="classPackLinuxElf64.html#acc61917c51c71bfcb0f9af20ba7714d6">PackLinuxElf64::forward_Shdrs()</a>, <a class="el" href="classPackNetBSDElf32x86.html#a0c62b46de263a0090a154eb0c108c5f2">PackNetBSDElf32x86::generateElfHdr()</a>, <a class="el" href="classPackMachFat.html#adf4d151eb48d7a92d5750b8bf92fdf67">PackMachFat::pack()</a>, <a class="el" href="classPackVmlinuxBase.html#a3ab914eaf3facd8f2b5e61079dce6362">PackVmlinuxBase&lt; TElfClass &gt;::pack()</a>, <a class="el" href="classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5">PackLinuxElf32::pack2_shlib()</a>, <a class="el" href="classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8">PackLinuxElf64::pack2_shlib()</a>, <a class="el" href="classPackLinuxElf32.html#aaea43508f7513692cf3da5e91677c52c">PackLinuxElf32::pack3()</a>, <a class="el" href="classPackLinuxElf64.html#a34abb7fc5a62a52800339d603f78f562">PackLinuxElf64::pack3()</a>, <a class="el" href="classPackLinuxElf32.html#ad190f7b83d9aaccf78119ebb0f00eb41">PackLinuxElf32::pack4()</a>, <a class="el" href="classPackLinuxElf64.html#afc239684c1874f0a29ee97eca4e8d4d6">PackLinuxElf64::pack4()</a>, <a class="el" href="classPackLinuxI386.html#a90a53529a57ea560f8c7865dc7a71783">PackLinuxI386::pack4()</a>, <a class="el" href="classPackMachBase.html#a597457affa1dd9f476d386190dc2b8cb">PackMachBase&lt; TMachClass &gt;::pack4dylib()</a>, <a class="el" href="classPackLinuxElf32.html#a9cec931e83f51aaba944196c3476154c">PackLinuxElf32::un_asl_dynsym()</a>, <a class="el" href="classPackLinuxElf64.html#ab19e5a4000bc5cc063dee2a31db657e9">PackLinuxElf64::un_asl_dynsym()</a>, <a class="el" href="classPackLinuxElf32.html#a52055eaaf3a28d1986937825c9382ae7">PackLinuxElf32::un_DT_INIT()</a>, <a class="el" href="classPackLinuxElf64.html#a03c843122a8d3e44da9fe458643c2589">PackLinuxElf64::un_DT_INIT()</a>, <a class="el" href="classPackLinuxElf32.html#a6a054376b40ab2dc536ce43302d2c989">PackLinuxElf32::un_shlib_1()</a>, <a class="el" href="classPackLinuxElf64.html#ad2c315a3286632db9c874ca7a65bb69d">PackLinuxElf64::un_shlib_1()</a>, <a class="el" href="classPackLinuxElf32.html#a09edcb8bd331405f99b25b09d37f5040">PackLinuxElf32::unpack()</a>, <a class="el" href="classPackLinuxElf64.html#a4b789474661dc2f8e40182aae29ee479">PackLinuxElf64::unpack()</a>, <a class="el" href="classPackLinuxElf32x86interp.html#a977fd6c88fdd7d1176701c170ceb031b">PackLinuxElf32x86interp::unpack()</a>, <a class="el" href="classPackMachBase.html#ac2f139e07414953fb25b83862dbd340c">PackMachBase&lt; TMachClass &gt;::unpack()</a>, <a class="el" href="classPackMachFat.html#a774a62bb9f6712cb763ac1a3cc1e5955">PackMachFat::unpack()</a>, <a class="el" href="classPackLinuxElf32.html#a9885ff5b4641396d7e4604d44e4cbe97">PackLinuxElf32::unRel32()</a>, and <a class="el" href="classPackLinuxElf64.html#a3b7d0324926f0404e61dc997833544f7">PackLinuxElf64::unRela64()</a>.</p>
 <div class="dynheader">
@@ -875,15 +876,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOutputFile_a8b1b934391e5d959387552e48a5fb4b4_cgraph.png" border="0" usemap="#aclassOutputFile_a8b1b934391e5d959387552e48a5fb4b4_cgraph" alt=""/></div>
 <map name="aclassOutputFile_a8b1b934391e5d959387552e48a5fb4b4_cgraph" id="aclassOutputFile_a8b1b934391e5d959387552e48a5fb4b4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,55,133,80"/>
-<area shape="rect" href="util_8h.html#a0d276ff04b9e9afee894e5e67ff3526d" title=" " alt="" coords="347,5,483,31"/>
-<area shape="rect" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="181,80,297,105"/>
-<area shape="rect" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320" title=" " alt="" coords="533,5,623,31"/>
-<area shape="rect" href="except_8cpp.html#a388ab1f73d9ba5222a35cbdd67b396ff" title="compression" alt="" coords="671,5,789,31"/>
-<area shape="rect" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505" title=" " alt="" coords="350,55,481,80"/>
-<area shape="rect" href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6" title=" " alt="" coords="387,104,444,129"/>
-<area shape="rect" href="except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="345,153,485,179"/>
-<area shape="rect" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b" title=" " alt="" coords="347,203,484,228"/>
+<area shape="rect" title=" " alt="" coords="5,104,133,129"/>
+<area shape="rect" href="util_8h.html#ad55181add5f2758a5f49cf106faef962" title="upx_rsize_t and mem_size: assert sane memory buffer sizes to protect against integer overflows and ma..." alt="" coords="345,5,516,31"/>
+<area shape="rect" href="classFileBase.html#a79cb685c1981c280797ddafc4ea9462d" title=" " alt="" coords="181,104,297,129"/>
+<area shape="rect" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b" title=" " alt="" coords="362,203,499,228"/>
+<area shape="rect" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505" title=" " alt="" coords="365,55,496,80"/>
+<area shape="rect" href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6" title=" " alt="" coords="402,104,459,129"/>
+<area shape="rect" href="except_8cpp.html#a57b532c382fd20e682bf0393b6d63050" title="other" alt="" coords="361,153,501,179"/>
 </map>
 </div>
 <div class="dynheader">
@@ -968,19 +967,19 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">FileBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00346">346</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  346</span>                                                              {</div>
-<div class="line"><span class="lineno">  347</span>    <a class="code hl_function" href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">super::set_extent</a>(offset, length);</div>
-<div class="line"><span class="lineno">  348</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = 0;</div>
-<div class="line"><span class="lineno">  349</span>    <span class="keywordflow">if</span> (0 == offset &amp;&amp; 0xffffffffLL == length) { <span class="comment">// TODO: check all callers of this method</span></div>
-<div class="line"><span class="lineno">  350</span>        <a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>.st_size = 0;</div>
-<div class="line"><span class="lineno">  351</span>        <span class="keywordflow">if</span> (::fstat(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, &amp;<a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>) != 0)</div>
-<div class="line"><span class="lineno">  352</span>            <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
-<div class="line"><span class="lineno">  353</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>.st_size - offset;</div>
-<div class="line"><span class="lineno">  354</span>    }</div>
-<div class="line"><span class="lineno">  355</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00348">348</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  348</span>                                                              {</div>
+<div class="line"><span class="lineno">  349</span>    <a class="code hl_function" href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">super::set_extent</a>(offset, length);</div>
+<div class="line"><span class="lineno">  350</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = 0;</div>
+<div class="line"><span class="lineno">  351</span>    <span class="keywordflow">if</span> (0 == offset &amp;&amp; 0xffffffffLL == length) { <span class="comment">// TODO: check all callers of this method</span></div>
+<div class="line"><span class="lineno">  352</span>        <a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>.st_size = 0;</div>
+<div class="line"><span class="lineno">  353</span>        <span class="keywordflow">if</span> (::fstat(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, &amp;<a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>) != 0)</div>
+<div class="line"><span class="lineno">  354</span>            <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
+<div class="line"><span class="lineno">  355</span>        <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = <a class="code hl_variable" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">st</a>.st_size - offset;</div>
+<div class="line"><span class="lineno">  356</span>    }</div>
+<div class="line"><span class="lineno">  357</span>}</div>
 <div class="ttc" id="aclassFileBase_html_ac9f7326d42643229b07418a2f3c28924"><div class="ttname"><a href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">FileBase::st</a></div><div class="ttdeci">struct stat st</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00069">file.h:69</a></div></div>
-<div class="ttc" id="aclassFileBase_html_afc9a99e297f1f0b9ac0f38bdcc35eee8"><div class="ttname"><a href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">FileBase::set_extent</a></div><div class="ttdeci">virtual void set_extent(upx_off_t offset, upx_off_t length)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00160">file.cpp:160</a></div></div>
+<div class="ttc" id="aclassFileBase_html_afc9a99e297f1f0b9ac0f38bdcc35eee8"><div class="ttname"><a href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">FileBase::set_extent</a></div><div class="ttdeci">virtual void set_extent(upx_off_t offset, upx_off_t length)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00161">file.cpp:161</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">FileBase::_fd</a>, <a class="el" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">FileBase::_length</a>, <a class="el" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">FileBase::_name</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="classFileBase.html#afc9a99e297f1f0b9ac0f38bdcc35eee8">FileBase::set_extent()</a>, <a class="el" href="classFileBase.html#ac9f7326d42643229b07418a2f3c28924">FileBase::st</a>, and <a class="el" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException()</a>.</p>
 
@@ -1048,28 +1047,28 @@ Here is the caller graph for this function:</div>
 
 <p><a class="el" href="classOutputFile.html">OutputFile</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00235">235</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  235</span>                                                                         {</div>
-<div class="line"><span class="lineno">  236</span>    <a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
-<div class="line"><span class="lineno">  237</span>    <a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a> = name;</div>
-<div class="line"><span class="lineno">  238</span>    <a class="code hl_variable" href="classFileBase.html#ad1035c244dbdc4405aa47e8a1cc55134">_flags</a> = flags;</div>
-<div class="line"><span class="lineno">  239</span>    <a class="code hl_variable" href="classFileBase.html#a3e5d873be46e6839689bf3ab8ba40399">_shflags</a> = shflags;</div>
-<div class="line"><span class="lineno">  240</span>    <a class="code hl_variable" href="classFileBase.html#ad60531b063376382d9299d98432702ee">_mode</a> = mode;</div>
-<div class="line"><span class="lineno">  241</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
-<div class="line"><span class="lineno">  242</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = 0;</div>
-<div class="line"><span class="lineno">  243</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classFileBase.html#aaa2f266ecd4e53d494ea53c1d94dd2df">super::do_sopen</a>()) {</div>
-<div class="line"><span class="lineno">  244</span><span class="preprocessor">#if 0</span></div>
-<div class="line"><span class="lineno">  245</span>        <span class="comment">// don&#39;t throw FileNotFound here -- this is confusing</span></div>
-<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> (errno == <a class="code hl_define" href="bsd_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a>)</div>
-<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="classFileNotFoundException.html">FileNotFoundException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>,errno);</div>
-<div class="line"><span class="lineno">  248</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  249</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">if</span> (errno == EEXIST)</div>
-<div class="line"><span class="lineno">  251</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="classFileAlreadyExistsException.html">FileAlreadyExistsException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
-<div class="line"><span class="lineno">  252</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  253</span>            <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
-<div class="line"><span class="lineno">  254</span>    }</div>
-<div class="line"><span class="lineno">  255</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00236">236</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  236</span>                                                                         {</div>
+<div class="line"><span class="lineno">  237</span>    <a class="code hl_function" href="classFileBase.html#ad1760af00c23be3c3dd2f9eda2f0c10d">closex</a>();</div>
+<div class="line"><span class="lineno">  238</span>    <a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a> = name;</div>
+<div class="line"><span class="lineno">  239</span>    <a class="code hl_variable" href="classFileBase.html#ad1035c244dbdc4405aa47e8a1cc55134">_flags</a> = flags;</div>
+<div class="line"><span class="lineno">  240</span>    <a class="code hl_variable" href="classFileBase.html#a3e5d873be46e6839689bf3ab8ba40399">_shflags</a> = shflags;</div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_variable" href="classFileBase.html#ad60531b063376382d9299d98432702ee">_mode</a> = mode;</div>
+<div class="line"><span class="lineno">  242</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
+<div class="line"><span class="lineno">  243</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = 0;</div>
+<div class="line"><span class="lineno">  244</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classFileBase.html#aaa2f266ecd4e53d494ea53c1d94dd2df">super::do_sopen</a>()) {</div>
+<div class="line"><span class="lineno">  245</span><span class="preprocessor">#if 0</span></div>
+<div class="line"><span class="lineno">  246</span>        <span class="comment">// don&#39;t throw FileNotFound here -- this is confusing</span></div>
+<div class="line"><span class="lineno">  247</span>        <span class="keywordflow">if</span> (errno == <a class="code hl_define" href="bsd_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a>)</div>
+<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="classFileNotFoundException.html">FileNotFoundException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>,errno);</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  250</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  251</span>        <span class="keywordflow">if</span> (errno == EEXIST)</div>
+<div class="line"><span class="lineno">  252</span>            <span class="keywordflow">throw</span> <a class="code hl_class" href="classFileAlreadyExistsException.html">FileAlreadyExistsException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
+<div class="line"><span class="lineno">  253</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  254</span>            <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
+<div class="line"><span class="lineno">  255</span>    }</div>
+<div class="line"><span class="lineno">  256</span>}</div>
 <div class="ttc" id="absd_8h_html_a03e689f378f643d16ea7537918528a48"><div class="ttname"><a href="bsd_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a></div><div class="ttdeci">#define ENOENT</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00120">bsd.h:120</a></div></div>
 <div class="ttc" id="aclassFileAlreadyExistsException_html"><div class="ttname"><a href="classFileAlreadyExistsException.html">FileAlreadyExistsException</a></div><div class="ttdef"><b>Definition:</b> <a href="except_8h_source.html#l00114">except.h:114</a></div></div>
 <div class="ttc" id="aclassFileBase_html_aaa2f266ecd4e53d494ea53c1d94dd2df"><div class="ttname"><a href="classFileBase.html#aaa2f266ecd4e53d494ea53c1d94dd2df">FileBase::do_sopen</a></div><div class="ttdeci">bool do_sopen()</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00086">file.cpp:86</a></div></div>
@@ -1135,17 +1134,17 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3">FileBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00303">303</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  303</span>                                    {</div>
-<div class="line"><span class="lineno">  304</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout) {     <span class="comment">// might be a pipe ==&gt; .st_size is invalid</span></div>
-<div class="line"><span class="lineno">  305</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// too big if seek()+write() instead of rewrite()</span></div>
-<div class="line"><span class="lineno">  306</span>    }</div>
-<div class="line"><span class="lineno">  307</span>    <span class="keyword">struct </span>stat my_st;</div>
-<div class="line"><span class="lineno">  308</span>    my_st.st_size = 0;</div>
-<div class="line"><span class="lineno">  309</span>    <span class="keywordflow">if</span> (::fstat(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, &amp;my_st) != 0)</div>
-<div class="line"><span class="lineno">  310</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
-<div class="line"><span class="lineno">  311</span>    <span class="keywordflow">return</span> my_st.st_size;</div>
-<div class="line"><span class="lineno">  312</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00304">304</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  304</span>                                    {</div>
+<div class="line"><span class="lineno">  305</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;to_stdout) {     <span class="comment">// might be a pipe ==&gt; .st_size is invalid</span></div>
+<div class="line"><span class="lineno">  306</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>; <span class="comment">// too big if seek()+write() instead of rewrite()</span></div>
+<div class="line"><span class="lineno">  307</span>    }</div>
+<div class="line"><span class="lineno">  308</span>    <span class="keyword">struct </span>stat my_st;</div>
+<div class="line"><span class="lineno">  309</span>    my_st.st_size = 0;</div>
+<div class="line"><span class="lineno">  310</span>    <span class="keywordflow">if</span> (::fstat(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, &amp;my_st) != 0)</div>
+<div class="line"><span class="lineno">  311</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<a class="code hl_variable" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">_name</a>, errno);</div>
+<div class="line"><span class="lineno">  312</span>    <span class="keywordflow">return</span> my_st.st_size;</div>
+<div class="line"><span class="lineno">  313</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">FileBase::_fd</a>, <a class="el" href="classFileBase.html#a4fb0c207b8e1eabd6a43f3f596e0343d">FileBase::_name</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>, and <a class="el" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException()</a>.</p>
 
@@ -1218,17 +1217,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00357">357</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  357</span>                                   {</div>
-<div class="line"><span class="lineno">  358</span>    <a class="code hl_typedef" href="conf_8h.html#a7e40dc9a8b2c00d7675df0cd2bd7c91e">upx_off_t</a> l = <a class="code hl_function" href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6">::lseek</a>(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, 0, <a class="code hl_define" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>);</div>
-<div class="line"><span class="lineno">  359</span>    <span class="keywordflow">if</span> (l &lt; 0)</div>
-<div class="line"><span class="lineno">  360</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;lseek error&quot;</span>, errno);</div>
-<div class="line"><span class="lineno">  361</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
-<div class="line"><span class="lineno">  362</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = l;</div>
-<div class="line"><span class="lineno">  363</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a>;</div>
-<div class="line"><span class="lineno">  364</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a>;</div>
-<div class="line"><span class="lineno">  365</span>}</div>
-<div class="ttc" id="aconf_8h_html_a7e40dc9a8b2c00d7675df0cd2bd7c91e"><div class="ttname"><a href="conf_8h.html#a7e40dc9a8b2c00d7675df0cd2bd7c91e">upx_off_t</a></div><div class="ttdeci">long long upx_off_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00199">conf.h:199</a></div></div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00359">359</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  359</span>                                   {</div>
+<div class="line"><span class="lineno">  360</span>    <a class="code hl_typedef" href="conf_8h.html#a7e40dc9a8b2c00d7675df0cd2bd7c91e">upx_off_t</a> l = <a class="code hl_function" href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6">::lseek</a>(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, 0, <a class="code hl_define" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>);</div>
+<div class="line"><span class="lineno">  361</span>    <span class="keywordflow">if</span> (l &lt; 0)</div>
+<div class="line"><span class="lineno">  362</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;lseek error&quot;</span>, errno);</div>
+<div class="line"><span class="lineno">  363</span>    <a class="code hl_variable" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">_offset</a> = 0;</div>
+<div class="line"><span class="lineno">  364</span>    <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a> = l;</div>
+<div class="line"><span class="lineno">  365</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> = <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a>;</div>
+<div class="line"><span class="lineno">  366</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">_length</a>;</div>
+<div class="line"><span class="lineno">  367</span>}</div>
+<div class="ttc" id="aconf_8h_html_a7e40dc9a8b2c00d7675df0cd2bd7c91e"><div class="ttname"><a href="conf_8h.html#a7e40dc9a8b2c00d7675df0cd2bd7c91e">upx_off_t</a></div><div class="ttdeci">long long upx_off_t</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00200">conf.h:200</a></div></div>
 <div class="ttc" id="alinux_8h_html_a8bd74caed008a66808d92d57fa74d9f6"><div class="ttname"><a href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a></div><div class="ttdeci">off_t lseek(int fd, off_t offset, int whence)</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">FileBase::_fd</a>, <a class="el" href="classFileBase.html#a59cdef5b2e6441794b8726411fa07efb">FileBase::_length</a>, <a class="el" href="classFileBase.html#aa633f3ca6e07172ebc8d90c62d8552db">FileBase::_offset</a>, <a class="el" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a>, <a class="el" href="linux_8h.html#a8bd74caed008a66808d92d57fa74d9f6">lseek()</a>, <a class="el" href="linux_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>, and <a class="el" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException()</a>.</p>
@@ -1283,38 +1282,38 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00274">274</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  274</span>                                                               {</div>
-<div class="line"><span class="lineno">  275</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>() || blen &lt; 0)</div>
-<div class="line"><span class="lineno">  276</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;bad write&quot;</span>);</div>
-<div class="line"><span class="lineno">  277</span>    <span class="comment">// allow nullptr if blen == 0</span></div>
-<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">if</span> (blen == 0)</div>
-<div class="line"><span class="lineno">  279</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  280</span>    <span class="keywordtype">int</span> len = (int) <a class="code hl_function" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size</a>(1, blen); <span class="comment">// sanity check</span></div>
-<div class="line"><span class="lineno">  281</span>    errno = 0;</div>
-<div class="line"><span class="lineno">  282</span><span class="preprocessor">#if WITH_XSPAN &gt;= 2</span></div>
-<div class="line"><span class="lineno">  283</span>    <a class="code hl_function" href="conf_8h.html#a27ba2be54b8bb96f2c06736da293bca9">NO_fprintf</a>(stderr, <span class="stringliteral">&quot;write %p %zd (%p) %d\n&quot;</span>, <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_ptr(), <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_size_in_bytes(),</div>
-<div class="line"><span class="lineno">  284</span>               <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_base(), len);</div>
-<div class="line"><span class="lineno">  285</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  286</span>    <span class="keywordtype">long</span> l = acc_safe_hwrite(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, <a class="code hl_function" href="membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751">raw_bytes</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len), len);</div>
-<div class="line"><span class="lineno">  287</span>    <span class="keywordflow">if</span> (l != len)</div>
-<div class="line"><span class="lineno">  288</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;write error&quot;</span>, errno);</div>
-<div class="line"><span class="lineno">  289</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> += len;</div>
-<div class="line"><span class="lineno">  290</span><span class="preprocessor">#if TESTING &amp;&amp; 0</span></div>
-<div class="line"><span class="lineno">  291</span>    <span class="keyword">static</span> <a class="code hl_define" href="conf_8h.html#a033e1de6d592b3f1c39510bbfb42d0da">upx_std_atomic</a>(<span class="keywordtype">bool</span>) dumping;</div>
-<div class="line"><span class="lineno">  292</span>    <span class="keywordflow">if</span> (!dumping) {</div>
-<div class="line"><span class="lineno">  293</span>        dumping = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  294</span>        <span class="keywordtype">char</span> fn[64];</div>
-<div class="line"><span class="lineno">  295</span>        <span class="keyword">static</span> <span class="keywordtype">int</span> part = 0;</div>
-<div class="line"><span class="lineno">  296</span>        <a class="code hl_define" href="snprintf_8h.html#aa367b75c5aed883fef5befbdf04835a4">snprintf</a>(fn, <span class="keyword">sizeof</span>(fn), <span class="stringliteral">&quot;upx-dump-%04d.data&quot;</span>, part++);</div>
-<div class="line"><span class="lineno">  297</span>        <a class="code hl_function" href="classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331">OutputFile::dump</a>(fn, <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len);</div>
-<div class="line"><span class="lineno">  298</span>        dumping = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  299</span>    }</div>
-<div class="line"><span class="lineno">  300</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  301</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00275">275</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  275</span>                                                               {</div>
+<div class="line"><span class="lineno">  276</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>() || blen &lt; 0)</div>
+<div class="line"><span class="lineno">  277</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;bad write&quot;</span>);</div>
+<div class="line"><span class="lineno">  278</span>    <span class="comment">// allow nullptr if blen == 0</span></div>
+<div class="line"><span class="lineno">  279</span>    <span class="keywordflow">if</span> (blen == 0)</div>
+<div class="line"><span class="lineno">  280</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  281</span>    <span class="keywordtype">int</span> len = (int) <a class="code hl_function" href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size</a>(1, blen); <span class="comment">// sanity check</span></div>
+<div class="line"><span class="lineno">  282</span>    errno = 0;</div>
+<div class="line"><span class="lineno">  283</span><span class="preprocessor">#if WITH_XSPAN &gt;= 2</span></div>
+<div class="line"><span class="lineno">  284</span>    <a class="code hl_function" href="conf_8h.html#a27ba2be54b8bb96f2c06736da293bca9">NO_fprintf</a>(stderr, <span class="stringliteral">&quot;write %p %zd (%p) %d\n&quot;</span>, <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_ptr(), <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_size_in_bytes(),</div>
+<div class="line"><span class="lineno">  285</span>               <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.raw_base(), len);</div>
+<div class="line"><span class="lineno">  286</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  287</span>    <span class="keywordtype">long</span> l = acc_safe_hwrite(<a class="code hl_variable" href="classFileBase.html#a8a40f9f18a4999471175521a730c1c00">_fd</a>, <a class="code hl_function" href="membuffer_8h.html#a8bc8e23a965fc63e336d6158814f5751">raw_bytes</a>(<a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len), len);</div>
+<div class="line"><span class="lineno">  288</span>    <span class="keywordflow">if</span> (l != len)</div>
+<div class="line"><span class="lineno">  289</span>        <a class="code hl_function" href="except_8cpp.html#a6b04d8d7658873fe2173bfbfed0a3b1b">throwIOException</a>(<span class="stringliteral">&quot;write error&quot;</span>, errno);</div>
+<div class="line"><span class="lineno">  290</span>    <a class="code hl_variable" href="classOutputFile.html#a32d726f23e7ab17b07474a8e0cff6e55">bytes_written</a> += len;</div>
+<div class="line"><span class="lineno">  291</span><span class="preprocessor">#if TESTING &amp;&amp; 0</span></div>
+<div class="line"><span class="lineno">  292</span>    <span class="keyword">static</span> <a class="code hl_define" href="conf_8h.html#a033e1de6d592b3f1c39510bbfb42d0da">upx_std_atomic</a>(<span class="keywordtype">bool</span>) dumping;</div>
+<div class="line"><span class="lineno">  293</span>    <span class="keywordflow">if</span> (!dumping) {</div>
+<div class="line"><span class="lineno">  294</span>        dumping = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  295</span>        <span class="keywordtype">char</span> fn[64];</div>
+<div class="line"><span class="lineno">  296</span>        <span class="keyword">static</span> <span class="keywordtype">int</span> part = 0;</div>
+<div class="line"><span class="lineno">  297</span>        <a class="code hl_define" href="snprintf_8h.html#aa367b75c5aed883fef5befbdf04835a4">snprintf</a>(fn, <span class="keyword">sizeof</span>(fn), <span class="stringliteral">&quot;upx-dump-%04d.data&quot;</span>, part++);</div>
+<div class="line"><span class="lineno">  298</span>        <a class="code hl_function" href="classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331">OutputFile::dump</a>(fn, <a class="code hl_define" href="p__unix_8cpp.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len);</div>
+<div class="line"><span class="lineno">  299</span>        dumping = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  300</span>    }</div>
+<div class="line"><span class="lineno">  301</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  302</span>}</div>
 <div class="ttc" id="aclassFileBase_html_a7ac53047ea0158b99c3c4fcedf579505"><div class="ttname"><a href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">FileBase::isOpen</a></div><div class="ttdeci">bool isOpen() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00042">file.h:42</a></div></div>
-<div class="ttc" id="aclassOutputFile_html_a7efdb4c39ac6ba0dfbc4a512fcfc1331"><div class="ttname"><a href="classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331">OutputFile::dump</a></div><div class="ttdeci">static void dump(const char *name, SPAN_P(const void) buf, int len, int flags=-1)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00367">file.cpp:367</a></div></div>
-<div class="ttc" id="aconf_8h_html_a033e1de6d592b3f1c39510bbfb42d0da"><div class="ttname"><a href="conf_8h.html#a033e1de6d592b3f1c39510bbfb42d0da">upx_std_atomic</a></div><div class="ttdeci">#define upx_std_atomic(Type)</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00115">conf.h:115</a></div></div>
+<div class="ttc" id="aclassOutputFile_html_a7efdb4c39ac6ba0dfbc4a512fcfc1331"><div class="ttname"><a href="classOutputFile.html#a7efdb4c39ac6ba0dfbc4a512fcfc1331">OutputFile::dump</a></div><div class="ttdeci">static void dump(const char *name, SPAN_P(const void) buf, int len, int flags=-1)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00369">file.cpp:369</a></div></div>
+<div class="ttc" id="aconf_8h_html_a033e1de6d592b3f1c39510bbfb42d0da"><div class="ttname"><a href="conf_8h.html#a033e1de6d592b3f1c39510bbfb42d0da">upx_std_atomic</a></div><div class="ttdeci">#define upx_std_atomic(Type)</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00119">conf.h:119</a></div></div>
 <div class="ttc" id="aconf_8h_html_a27ba2be54b8bb96f2c06736da293bca9"><div class="ttname"><a href="conf_8h.html#a27ba2be54b8bb96f2c06736da293bca9">NO_fprintf</a></div><div class="ttdeci">void NO_fprintf(FILE *, const char *,...) noexcept attribute_format(2</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00377">conf.h:377</a></div></div>
 <div class="ttc" id="asnprintf_8h_html_aa367b75c5aed883fef5befbdf04835a4"><div class="ttname"><a href="snprintf_8h.html#aa367b75c5aed883fef5befbdf04835a4">snprintf</a></div><div class="ttdeci">#define snprintf</div><div class="ttdef"><b>Definition:</b> <a href="snprintf_8h_source.html#l00061">snprintf.h:61</a></div></div>
 <div class="ttc" id="autil_8cpp_html_aa054bbcac51cef77258c20fa0321b320"><div class="ttname"><a href="util_8cpp.html#aa054bbcac51cef77258c20fa0321b320">mem_size</a></div><div class="ttdeci">upx_rsize_t mem_size(upx_uint64_t element_size, upx_uint64_t n, upx_uint64_t extra1, upx_uint64_t extra2)</div><div class="ttdef"><b>Definition:</b> <a href="util_8cpp_source.html#l00073">util.cpp:73</a></div></div>

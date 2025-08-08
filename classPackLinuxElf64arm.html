@@ -285,6 +285,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a39227a27d84b3a9beeef257f95b00215 inherit pro_methods_classPackLinuxElf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eefcbb2a42d861b12d2c309d93771b8 inherit pro_methods_classPackLinuxElf64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf64.html#a6eefcbb2a42d861b12d2c309d93771b8">asl_pack2_Shdrs</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *, unsigned pre_xct_top)</td></tr>
 <tr class="separator:a6eefcbb2a42d861b12d2c309d93771b8 inherit pro_methods_classPackLinuxElf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f2d6384ad54e891a4a564ca95a87d7 inherit pro_methods_classPackLinuxElf64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf64.html#ad7f2d6384ad54e891a4a564ca95a87d7">asl_slide_Shdrs</a> ()</td></tr>
+<tr class="separator:ad7f2d6384ad54e891a4a564ca95a87d7 inherit pro_methods_classPackLinuxElf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6df78795418dae320cf781163b1f70 inherit pro_methods_classPackLinuxElf64"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf64.html#a7e6df78795418dae320cf781163b1f70">slide_sh_offset</a> (<a class="el" href="p__elf_8h.html#a7cc1da9f1c15c68a7204d1846d6533ed">Elf64_Shdr</a> *shdr)</td></tr>
+<tr class="separator:a7e6df78795418dae320cf781163b1f70 inherit pro_methods_classPackLinuxElf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c3d3d66cd14ea19fc44d0f90274092 inherit pro_methods_classPackLinuxElf64"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf64.html#ae4c3d3d66cd14ea19fc44d0f90274092">pack2</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *, <a class="el" href="classFilter.html">Filter</a> &amp;) override</td></tr>
 <tr class="separator:ae4c3d3d66cd14ea19fc44d0f90274092 inherit pro_methods_classPackLinuxElf64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72eb546964b4b777ec38c3da1972eeb8 inherit pro_methods_classPackLinuxElf64"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf64.html#a72eb546964b4b777ec38c3da1972eeb8">pack2_shlib</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, <a class="el" href="classFilter.html">Filter</a> &amp;ft, unsigned pre_xct_top)</td></tr>
@@ -385,8 +389,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a3409fd940ae9b30dc51e68f69e0160f6 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafaf58332d98b1981f8d78c3eeb729c6 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#aafaf58332d98b1981f8d78c3eeb729c6">pack2_shlib_overlay_init</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo)</td></tr>
 <tr class="separator:aafaf58332d98b1981f8d78c3eeb729c6 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5384daf1baa189915edd8bbb8821ee88 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a5384daf1baa189915edd8bbb8821ee88">pack2_shlib_overlay_compress</a> (<a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, <a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a95d40264330fe966e66718440b450ec8">ibuf</a>, unsigned u_len)</td></tr>
-<tr class="separator:a5384daf1baa189915edd8bbb8821ee88 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d845b6694119d3eba200c770dd5c6d inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a29d845b6694119d3eba200c770dd5c6d">pack2_shlib_overlay_compress</a> (<a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, <a class="el" href="conf_8h.html#a28d10b43a6177d2d5f9b2e76d728d241">upx_byte</a> const *inp, unsigned u_len)</td></tr>
+<tr class="separator:a29d845b6694119d3eba200c770dd5c6d inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a270e823ea95b0900a5abbf786dac9 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a80a270e823ea95b0900a5abbf786dac9">pack2_shlib_overlay_write</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, <a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, unsigned hdr_u_len, unsigned hdr_c_len)</td></tr>
 <tr class="separator:a80a270e823ea95b0900a5abbf786dac9 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a378dd6608963beeae5bb6393ef4b23d5 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a378dd6608963beeae5bb6393ef4b23d5">generateElfHdr</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *, void const *proto, unsigned const brka)=0</td></tr>
@@ -871,7 +875,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00533">533</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00536">536</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a49c11da107fcd35f79926cef93525738" name="a49c11da107fcd35f79926cef93525738"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49c11da107fcd35f79926cef93525738">&#9670;&#160;</a></span>super</h2>
@@ -893,7 +897,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00535">535</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00538">538</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
 
 </div>
 </div>
@@ -914,15 +918,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01328">1328</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1329</span>    : <a class="code hl_typedef" href="classPackLinuxElf64arm.html#a49c11da107fcd35f79926cef93525738">super</a>(f)</div>
-<div class="line"><span class="lineno"> 1330</span>{</div>
-<div class="line"><span class="lineno"> 1331</span>    <a class="code hl_variable" href="classPackLinuxElf.html#accc257b84970a37def2e57221bf91c48">e_machine</a> = Elf64_Ehdr::EM_AARCH64;</div>
-<div class="line"><span class="lineno"> 1332</span>    <a class="code hl_variable" href="classPackLinuxElf.html#af6c2c447099336ae2bc5cc1539c36610">ei_class</a> = Elf64_Ehdr::ELFCLASS64;</div>
-<div class="line"><span class="lineno"> 1333</span>    <a class="code hl_variable" href="classPackLinuxElf.html#a5dabe40d6f7f71e6b9bce64b9cc3290f">ei_data</a> = Elf64_Ehdr::ELFDATA2LSB;</div>
-<div class="line"><span class="lineno"> 1334</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>  = Elf32_Ehdr::ELFOSABI_LINUX;</div>
-<div class="line"><span class="lineno"> 1335</span>}</div>
-<div class="ttc" id="aclassPackLinuxElf64arm_html_a49c11da107fcd35f79926cef93525738"><div class="ttname"><a href="classPackLinuxElf64arm.html#a49c11da107fcd35f79926cef93525738">PackLinuxElf64arm::super</a></div><div class="ttdeci">PackLinuxElf64Le super</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00535">p_lx_elf.h:535</a></div></div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01395">1395</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1396</span>    : <a class="code hl_typedef" href="classPackLinuxElf64arm.html#a49c11da107fcd35f79926cef93525738">super</a>(f)</div>
+<div class="line"><span class="lineno"> 1397</span>{</div>
+<div class="line"><span class="lineno"> 1398</span>    <a class="code hl_variable" href="classPackLinuxElf.html#accc257b84970a37def2e57221bf91c48">e_machine</a> = Elf64_Ehdr::EM_AARCH64;</div>
+<div class="line"><span class="lineno"> 1399</span>    <a class="code hl_variable" href="classPackLinuxElf.html#af6c2c447099336ae2bc5cc1539c36610">ei_class</a> = Elf64_Ehdr::ELFCLASS64;</div>
+<div class="line"><span class="lineno"> 1400</span>    <a class="code hl_variable" href="classPackLinuxElf.html#a5dabe40d6f7f71e6b9bce64b9cc3290f">ei_data</a> = Elf64_Ehdr::ELFDATA2LSB;</div>
+<div class="line"><span class="lineno"> 1401</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>  = Elf32_Ehdr::ELFOSABI_LINUX;</div>
+<div class="line"><span class="lineno"> 1402</span>}</div>
+<div class="ttc" id="aclassPackLinuxElf64arm_html_a49c11da107fcd35f79926cef93525738"><div class="ttname"><a href="classPackLinuxElf64arm.html#a49c11da107fcd35f79926cef93525738">PackLinuxElf64arm::super</a></div><div class="ttdeci">PackLinuxElf64Le super</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00538">p_lx_elf.h:538</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_a5dabe40d6f7f71e6b9bce64b9cc3290f"><div class="ttname"><a href="classPackLinuxElf.html#a5dabe40d6f7f71e6b9bce64b9cc3290f">PackLinuxElf::ei_data</a></div><div class="ttdeci">unsigned char ei_data</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00121">p_lx_elf.h:121</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_accc257b84970a37def2e57221bf91c48"><div class="ttname"><a href="classPackLinuxElf.html#accc257b84970a37def2e57221bf91c48">PackLinuxElf::e_machine</a></div><div class="ttdeci">upx_uint16_t e_machine</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00119">p_lx_elf.h:119</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_ad930777406ea601d200de0ab59de88d6"><div class="ttname"><a href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">PackLinuxElf::ei_osabi</a></div><div class="ttdeci">unsigned char ei_osabi</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00122">p_lx_elf.h:122</a></div></div>
@@ -955,9 +959,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01341">1341</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1342</span>{</div>
-<div class="line"><span class="lineno"> 1343</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01408">1408</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1409</span>{</div>
+<div class="line"><span class="lineno"> 1410</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -988,26 +992,26 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classPacker.html#a1e0b2c2bbf482db53bf6a40811348d45">Packer</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l02130">2130</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 2131</span>{</div>
-<div class="line"><span class="lineno"> 2132</span>    <span class="keywordflow">if</span> (0!=<a class="code hl_variable" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">xct_off</a>) {  <span class="comment">// shared library</span></div>
-<div class="line"><span class="lineno"> 2133</span>        <a class="code hl_function" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">buildLinuxLoader</a>(</div>
-<div class="line"><span class="lineno"> 2134</span>            <a class="code hl_variable" href="arm64-linux_8elf-so__entry_8h.html#ac87b722453d2c953fd7e9e2cb3fcac9f">stub_arm64_linux_elf_so_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-so__entry_8h.html#ac87b722453d2c953fd7e9e2cb3fcac9f">stub_arm64_linux_elf_so_entry</a>),</div>
-<div class="line"><span class="lineno"> 2135</span>            <a class="code hl_variable" href="arm64-linux_8elf-so__fold_8h.html#a455dfdbed115f5f644875604e8ece579">stub_arm64_linux_elf_so_fold</a>,  <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-so__fold_8h.html#a455dfdbed115f5f644875604e8ece579">stub_arm64_linux_elf_so_fold</a>), ft);</div>
-<div class="line"><span class="lineno"> 2136</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 2137</span>    }</div>
-<div class="line"><span class="lineno"> 2138</span>    <a class="code hl_function" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">buildLinuxLoader</a>(</div>
-<div class="line"><span class="lineno"> 2139</span>        <a class="code hl_variable" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>),</div>
-<div class="line"><span class="lineno"> 2140</span>        <a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a>,  <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a>), ft);</div>
-<div class="line"><span class="lineno"> 2141</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l02201">2201</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2202</span>{</div>
+<div class="line"><span class="lineno"> 2203</span>    <span class="keywordflow">if</span> (0!=<a class="code hl_variable" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">xct_off</a>) {  <span class="comment">// shared library</span></div>
+<div class="line"><span class="lineno"> 2204</span>        <a class="code hl_function" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">buildLinuxLoader</a>(</div>
+<div class="line"><span class="lineno"> 2205</span>            <a class="code hl_variable" href="arm64-linux_8elf-so__entry_8h.html#a581f0524a64f09dee93a6bfea50f044c">stub_arm64_linux_elf_so_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-so__entry_8h.html#a581f0524a64f09dee93a6bfea50f044c">stub_arm64_linux_elf_so_entry</a>),</div>
+<div class="line"><span class="lineno"> 2206</span>            <a class="code hl_variable" href="arm64-linux_8elf-so__fold_8h.html#a18bbd393e00fea875b5f2e656ec88a28">stub_arm64_linux_elf_so_fold</a>,  <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-so__fold_8h.html#a18bbd393e00fea875b5f2e656ec88a28">stub_arm64_linux_elf_so_fold</a>), ft);</div>
+<div class="line"><span class="lineno"> 2207</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2208</span>    }</div>
+<div class="line"><span class="lineno"> 2209</span>    <a class="code hl_function" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">buildLinuxLoader</a>(</div>
+<div class="line"><span class="lineno"> 2210</span>        <a class="code hl_variable" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>),</div>
+<div class="line"><span class="lineno"> 2211</span>        <a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a>,  <span class="keyword">sizeof</span>(<a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a>), ft);</div>
+<div class="line"><span class="lineno"> 2212</span>}</div>
 <div class="ttc" id="aarm64-linux_8elf-entry_8h_html_afe1a4cfe455a417e9d4b2bba3e7c4506"><div class="ttname"><a href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_entry[1656]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-entry_8h_source.html#l00039">arm64-linux.elf-entry.h:39</a></div></div>
-<div class="ttc" id="aarm64-linux_8elf-fold_8h_html_ad1189286bedd23f55ca0a209885600b8"><div class="ttname"><a href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_fold[17503]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-fold_8h_source.html#l00039">arm64-linux.elf-fold.h:39</a></div></div>
-<div class="ttc" id="aarm64-linux_8elf-so__entry_8h_html_ac87b722453d2c953fd7e9e2cb3fcac9f"><div class="ttname"><a href="arm64-linux_8elf-so__entry_8h.html#ac87b722453d2c953fd7e9e2cb3fcac9f">stub_arm64_linux_elf_so_entry</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_so_entry[1888]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-so__entry_8h_source.html#l00039">arm64-linux.elf-so_entry.h:39</a></div></div>
-<div class="ttc" id="aarm64-linux_8elf-so__fold_8h_html_a455dfdbed115f5f644875604e8ece579"><div class="ttname"><a href="arm64-linux_8elf-so__fold_8h.html#a455dfdbed115f5f644875604e8ece579">stub_arm64_linux_elf_so_fold</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_so_fold[17500]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-so__fold_8h_source.html#l00039">arm64-linux.elf-so_fold.h:39</a></div></div>
-<div class="ttc" id="aclassPackLinuxElf64_html_acf98749f15000ddd7c39f330ec145341"><div class="ttname"><a href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">PackLinuxElf64::buildLinuxLoader</a></div><div class="ttdeci">virtual void buildLinuxLoader(upx_byte const *const proto, unsigned const szproto, upx_byte const *const fold, unsigned const szfold, Filter const *ft)</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l01634">p_lx_elf.cpp:1634</a></div></div>
+<div class="ttc" id="aarm64-linux_8elf-fold_8h_html_aef7dfd27870a93541b315ff427056a85"><div class="ttname"><a href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_fold[17687]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-fold_8h_source.html#l00039">arm64-linux.elf-fold.h:39</a></div></div>
+<div class="ttc" id="aarm64-linux_8elf-so__entry_8h_html_a581f0524a64f09dee93a6bfea50f044c"><div class="ttname"><a href="arm64-linux_8elf-so__entry_8h.html#a581f0524a64f09dee93a6bfea50f044c">stub_arm64_linux_elf_so_entry</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_so_entry[1896]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-so__entry_8h_source.html#l00039">arm64-linux.elf-so_entry.h:39</a></div></div>
+<div class="ttc" id="aarm64-linux_8elf-so__fold_8h_html_a18bbd393e00fea875b5f2e656ec88a28"><div class="ttname"><a href="arm64-linux_8elf-so__fold_8h.html#a18bbd393e00fea875b5f2e656ec88a28">stub_arm64_linux_elf_so_fold</a></div><div class="ttdeci">unsigned char stub_arm64_linux_elf_so_fold[19970]</div><div class="ttdef"><b>Definition:</b> <a href="arm64-linux_8elf-so__fold_8h_source.html#l00039">arm64-linux.elf-so_fold.h:39</a></div></div>
+<div class="ttc" id="aclassPackLinuxElf64_html_acf98749f15000ddd7c39f330ec145341"><div class="ttname"><a href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">PackLinuxElf64::buildLinuxLoader</a></div><div class="ttdeci">virtual void buildLinuxLoader(upx_byte const *const proto, unsigned const szproto, upx_byte const *const fold, unsigned const szfold, Filter const *ft)</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l01704">p_lx_elf.cpp:1704</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_a3a8dc91b5f08ffdd31586e4d0c8ef2cb"><div class="ttname"><a href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">PackLinuxElf::xct_off</a></div><div class="ttdeci">unsigned xct_off</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00105">p_lx_elf.h:105</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">PackLinuxElf64::buildLinuxLoader()</a>, <a class="el" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>, <a class="el" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a>, <a class="el" href="arm64-linux_8elf-so__entry_8h.html#ac87b722453d2c953fd7e9e2cb3fcac9f">stub_arm64_linux_elf_so_entry</a>, <a class="el" href="arm64-linux_8elf-so__fold_8h.html#a455dfdbed115f5f644875604e8ece579">stub_arm64_linux_elf_so_fold</a>, and <a class="el" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">PackLinuxElf::xct_off</a>.</p>
+<p class="reference">References <a class="el" href="classPackLinuxElf64.html#acf98749f15000ddd7c39f330ec145341">PackLinuxElf64::buildLinuxLoader()</a>, <a class="el" href="arm64-linux_8elf-entry_8h.html#afe1a4cfe455a417e9d4b2bba3e7c4506">stub_arm64_linux_elf_entry</a>, <a class="el" href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a>, <a class="el" href="arm64-linux_8elf-so__entry_8h.html#a581f0524a64f09dee93a6bfea50f044c">stub_arm64_linux_elf_so_entry</a>, <a class="el" href="arm64-linux_8elf-so__fold_8h.html#a18bbd393e00fea875b5f2e656ec88a28">stub_arm64_linux_elf_so_fold</a>, and <a class="el" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">PackLinuxElf::xct_off</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1094,20 +1098,20 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classPackLinuxElf64.html#ab000c2eb42eb50ba4dd570fb0e20e4f2">PackLinuxElf64</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l05972">5972</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5973</span>{</div>
-<div class="line"><span class="lineno"> 5974</span>    <a class="code hl_function" href="classPackLinuxElf64.html#ab000c2eb42eb50ba4dd570fb0e20e4f2">PackLinuxElf64::defineSymbols</a>(ft);</div>
-<div class="line"><span class="lineno"> 5975</span> </div>
-<div class="line"><span class="lineno"> 5976</span><span class="preprocessor">#define MAP_PRIVATE      2     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
-<div class="line"><span class="lineno"> 5977</span><span class="preprocessor">#define MAP_FIXED     0x10     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
-<div class="line"><span class="lineno"> 5978</span><span class="preprocessor">#define MAP_ANONYMOUS 0x20     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
-<div class="line"><span class="lineno"> 5979</span><span class="preprocessor">#define MAP_PRIVANON     3     </span><span class="comment">/* QNX anonymous private memory */</span><span class="preprocessor"></span></div>
-<div class="line"><span class="lineno"> 5980</span>    <span class="keywordtype">unsigned</span> mflg = <a class="code hl_define" href="p__lx__elf_8cpp.html#a398ef47a991a44389aa9818c98a28d24">MAP_PRIVATE</a> | <a class="code hl_define" href="p__lx__elf_8cpp.html#ae4f86bff73414c5fc08c058f957212f0">MAP_ANONYMOUS</a>;</div>
-<div class="line"><span class="lineno"> 5981</span>    <span class="comment">//if (ARM_is_QNX())</span></div>
-<div class="line"><span class="lineno"> 5982</span>    <span class="comment">//    mflg = MAP_PRIVANON;</span></div>
-<div class="line"><span class="lineno"> 5983</span>    linker-&gt;defineSymbol(<span class="stringliteral">&quot;MFLG&quot;</span>, mflg);</div>
-<div class="line"><span class="lineno"> 5984</span>}</div>
-<div class="ttc" id="aclassPackLinuxElf64_html_ab000c2eb42eb50ba4dd570fb0e20e4f2"><div class="ttname"><a href="classPackLinuxElf64.html#ab000c2eb42eb50ba4dd570fb0e20e4f2">PackLinuxElf64::defineSymbols</a></div><div class="ttdeci">virtual void defineSymbols(Filter const *) override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00955">p_lx_elf.cpp:955</a></div></div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l06042">6042</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 6043</span>{</div>
+<div class="line"><span class="lineno"> 6044</span>    <a class="code hl_function" href="classPackLinuxElf64.html#ab000c2eb42eb50ba4dd570fb0e20e4f2">PackLinuxElf64::defineSymbols</a>(ft);</div>
+<div class="line"><span class="lineno"> 6045</span> </div>
+<div class="line"><span class="lineno"> 6046</span><span class="preprocessor">#define MAP_PRIVATE      2     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="lineno"> 6047</span><span class="preprocessor">#define MAP_FIXED     0x10     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="lineno"> 6048</span><span class="preprocessor">#define MAP_ANONYMOUS 0x20     </span><span class="comment">/* UNIX standard */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="lineno"> 6049</span><span class="preprocessor">#define MAP_PRIVANON     3     </span><span class="comment">/* QNX anonymous private memory */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="lineno"> 6050</span>    <span class="keywordtype">unsigned</span> mflg = <a class="code hl_define" href="p__lx__elf_8cpp.html#a398ef47a991a44389aa9818c98a28d24">MAP_PRIVATE</a> | <a class="code hl_define" href="p__lx__elf_8cpp.html#ae4f86bff73414c5fc08c058f957212f0">MAP_ANONYMOUS</a>;</div>
+<div class="line"><span class="lineno"> 6051</span>    <span class="comment">//if (ARM_is_QNX())</span></div>
+<div class="line"><span class="lineno"> 6052</span>    <span class="comment">//    mflg = MAP_PRIVANON;</span></div>
+<div class="line"><span class="lineno"> 6053</span>    linker-&gt;defineSymbol(<span class="stringliteral">&quot;MFLG&quot;</span>, mflg);</div>
+<div class="line"><span class="lineno"> 6054</span>}</div>
+<div class="ttc" id="aclassPackLinuxElf64_html_ab000c2eb42eb50ba4dd570fb0e20e4f2"><div class="ttname"><a href="classPackLinuxElf64.html#ab000c2eb42eb50ba4dd570fb0e20e4f2">PackLinuxElf64::defineSymbols</a></div><div class="ttdeci">virtual void defineSymbols(Filter const *) override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l01022">p_lx_elf.cpp:1022</a></div></div>
 <div class="ttc" id="ap__lx__elf_8cpp_html_a398ef47a991a44389aa9818c98a28d24"><div class="ttname"><a href="p__lx__elf_8cpp.html#a398ef47a991a44389aa9818c98a28d24">MAP_PRIVATE</a></div><div class="ttdeci">#define MAP_PRIVATE</div></div>
 <div class="ttc" id="ap__lx__elf_8cpp_html_ae4f86bff73414c5fc08c058f957212f0"><div class="ttname"><a href="p__lx__elf_8cpp.html#ae4f86bff73414c5fc08c058f957212f0">MAP_ANONYMOUS</a></div><div class="ttdeci">#define MAP_ANONYMOUS</div></div>
 </div><!-- fragment -->
@@ -1150,13 +1154,13 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classPackUnix.html#a6bbbfbba5b4b2b33de9d7801bd58b2cb">PackUnix</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01187">1187</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1188</span>{</div>
-<div class="line"><span class="lineno"> 1189</span>    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> filters[] = {</div>
-<div class="line"><span class="lineno"> 1190</span>        0x52,</div>
-<div class="line"><span class="lineno"> 1191</span>    <a class="code hl_define" href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a> };</div>
-<div class="line"><span class="lineno"> 1192</span>    <span class="keywordflow">return</span> filters;</div>
-<div class="line"><span class="lineno"> 1193</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01254">1254</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1255</span>{</div>
+<div class="line"><span class="lineno"> 1256</span>    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> filters[] = {</div>
+<div class="line"><span class="lineno"> 1257</span>        0x52,</div>
+<div class="line"><span class="lineno"> 1258</span>    <a class="code hl_define" href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a> };</div>
+<div class="line"><span class="lineno"> 1259</span>    <span class="keywordflow">return</span> filters;</div>
+<div class="line"><span class="lineno"> 1260</span>}</div>
 <div class="ttc" id="aconf_8h_html_a75519eeb326c3b15b3059db3f3098881"><div class="ttname"><a href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a></div><div class="ttdeci">#define FT_END</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00620">conf.h:620</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="conf_8h.html#a75519eeb326c3b15b3059db3f3098881">FT_END</a>.</p>
@@ -1188,8 +1192,8 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classPackerBase.html#aa6132cc9ef747b35947837d463aeac60">PackerBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00539">539</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  539</span>{ <span class="keywordflow">return</span> <a class="code hl_define" href="conf_8h.html#a17027f8fbb2fae5bf2b9a30139048ebc">UPX_F_LINUX_ELF64_ARM64</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00542">542</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  542</span>{ <span class="keywordflow">return</span> <a class="code hl_define" href="conf_8h.html#a17027f8fbb2fae5bf2b9a30139048ebc">UPX_F_LINUX_ELF64_ARM64</a>; }</div>
 <div class="ttc" id="aconf_8h_html_a17027f8fbb2fae5bf2b9a30139048ebc"><div class="ttname"><a href="conf_8h.html#a17027f8fbb2fae5bf2b9a30139048ebc">UPX_F_LINUX_ELF64_ARM64</a></div><div class="ttdeci">#define UPX_F_LINUX_ELF64_ARM64</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00567">conf.h:567</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="conf_8h.html#a17027f8fbb2fae5bf2b9a30139048ebc">UPX_F_LINUX_ELF64_ARM64</a>.</p>
@@ -1220,8 +1224,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00541">541</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  541</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;arm64-linux.elf&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00544">544</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  544</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;arm64-linux.elf&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1250,8 +1254,8 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classPackerBase.html#adf646b36342d8706c83e7c26fe47108e">PackerBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00540">540</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  540</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;linux/arm64&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00543">543</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  543</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;linux/arm64&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1280,10 +1284,10 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classPacker.html#aa7fe94299cf76c70de7ed953aa774330">Packer</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01126">1126</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1127</span>{</div>
-<div class="line"><span class="lineno"> 1128</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="classElfLinkerArm64LE.html">ElfLinkerArm64LE</a>;</div>
-<div class="line"><span class="lineno"> 1129</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01193">1193</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1194</span>{</div>
+<div class="line"><span class="lineno"> 1195</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="classElfLinkerArm64LE.html">ElfLinkerArm64LE</a>;</div>
+<div class="line"><span class="lineno"> 1196</span>}</div>
 <div class="ttc" id="aclassElfLinkerArm64LE_html"><div class="ttname"><a href="classElfLinkerArm64LE.html">ElfLinkerArm64LE</a></div><div class="ttdef"><b>Definition:</b> <a href="linker_8h_source.html#l00164">linker.h:164</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1324,20 +1328,20 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classPackLinuxElf64.html#a39227a27d84b3a9beeef257f95b00215">PackLinuxElf64</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l05215">5215</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 5216</span>{</div>
-<div class="line"><span class="lineno"> 5217</span>    <a class="code hl_function" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6">super::pack1</a>(fo, ft);</div>
-<div class="line"><span class="lineno"> 5218</span>    <span class="keywordflow">if</span> (0!=<a class="code hl_variable" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">xct_off</a>)  <span class="comment">// shared library</span></div>
-<div class="line"><span class="lineno"> 5219</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 5220</span>    <a class="code hl_function" href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">generateElfHdr</a>(fo, <a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a>, <a class="code hl_function" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">getbrk</a>(<a class="code hl_variable" href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">phdri</a>, <a class="code hl_variable" href="classPackLinuxElf.html#a3b0f5122457c7d42172531d3cb116f00">e_phnum</a>) );</div>
-<div class="line"><span class="lineno"> 5221</span>}</div>
-<div class="ttc" id="aclassPackLinuxElf64_html_a18903ac12b1370cdf82daef90aa27717"><div class="ttname"><a href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">PackLinuxElf64::generateElfHdr</a></div><div class="ttdeci">virtual void generateElfHdr(OutputFile *, void const *proto, unsigned const brka) override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l03992">p_lx_elf.cpp:3992</a></div></div>
-<div class="ttc" id="aclassPackLinuxElf64_html_aa11131540dea71d341de36cf39325c17"><div class="ttname"><a href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">PackLinuxElf64::phdri</a></div><div class="ttdeci">Elf64_Phdr * phdri</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00399">p_lx_elf.h:399</a></div></div>
-<div class="ttc" id="aclassPackLinuxElf64_html_ac405aa11c3c356e93dc38f2365701466"><div class="ttname"><a href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">PackLinuxElf64::getbrk</a></div><div class="ttdeci">virtual off_t getbrk(const Elf64_Phdr *phdr, int e_phnum) const</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l03653">p_lx_elf.cpp:3653</a></div></div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l05292">5292</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 5293</span>{</div>
+<div class="line"><span class="lineno"> 5294</span>    <a class="code hl_function" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6">super::pack1</a>(fo, ft);</div>
+<div class="line"><span class="lineno"> 5295</span>    <span class="keywordflow">if</span> (0!=<a class="code hl_variable" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">xct_off</a>)  <span class="comment">// shared library</span></div>
+<div class="line"><span class="lineno"> 5296</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 5297</span>    <a class="code hl_function" href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">generateElfHdr</a>(fo, <a class="code hl_variable" href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a>, <a class="code hl_function" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">getbrk</a>(<a class="code hl_variable" href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">phdri</a>, <a class="code hl_variable" href="classPackLinuxElf.html#a3b0f5122457c7d42172531d3cb116f00">e_phnum</a>) );</div>
+<div class="line"><span class="lineno"> 5298</span>}</div>
+<div class="ttc" id="aclassPackLinuxElf64_html_a18903ac12b1370cdf82daef90aa27717"><div class="ttname"><a href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">PackLinuxElf64::generateElfHdr</a></div><div class="ttdeci">virtual void generateElfHdr(OutputFile *, void const *proto, unsigned const brka) override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l04066">p_lx_elf.cpp:4066</a></div></div>
+<div class="ttc" id="aclassPackLinuxElf64_html_aa11131540dea71d341de36cf39325c17"><div class="ttname"><a href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">PackLinuxElf64::phdri</a></div><div class="ttdeci">Elf64_Phdr * phdri</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00402">p_lx_elf.h:402</a></div></div>
+<div class="ttc" id="aclassPackLinuxElf64_html_ac405aa11c3c356e93dc38f2365701466"><div class="ttname"><a href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">PackLinuxElf64::getbrk</a></div><div class="ttdeci">virtual off_t getbrk(const Elf64_Phdr *phdr, int e_phnum) const</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l03721">p_lx_elf.cpp:3721</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_a3b0f5122457c7d42172531d3cb116f00"><div class="ttname"><a href="classPackLinuxElf.html#a3b0f5122457c7d42172531d3cb116f00">PackLinuxElf::e_phnum</a></div><div class="ttdeci">unsigned e_phnum</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00085">p_lx_elf.h:85</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_af01b0f8403997790f28a72329e7b28f6"><div class="ttname"><a href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6">PackLinuxElf::pack1</a></div><div class="ttdeci">virtual void pack1(OutputFile *, Filter &amp;) override=0</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="classPackLinuxElf.html#a3b0f5122457c7d42172531d3cb116f00">PackLinuxElf::e_phnum</a>, <a class="el" href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">PackLinuxElf64::generateElfHdr()</a>, <a class="el" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">PackLinuxElf64::getbrk()</a>, <a class="el" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6">PackLinuxElf::pack1()</a>, <a class="el" href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">PackLinuxElf64::phdri</a>, <a class="el" href="arm64-linux_8elf-fold_8h.html#ad1189286bedd23f55ca0a209885600b8">stub_arm64_linux_elf_fold</a>, and <a class="el" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">PackLinuxElf::xct_off</a>.</p>
+<p class="reference">References <a class="el" href="classPackLinuxElf.html#a3b0f5122457c7d42172531d3cb116f00">PackLinuxElf::e_phnum</a>, <a class="el" href="classPackLinuxElf64.html#a18903ac12b1370cdf82daef90aa27717">PackLinuxElf64::generateElfHdr()</a>, <a class="el" href="classPackLinuxElf64.html#ac405aa11c3c356e93dc38f2365701466">PackLinuxElf64::getbrk()</a>, <a class="el" href="classPackLinuxElf.html#af01b0f8403997790f28a72329e7b28f6">PackLinuxElf::pack1()</a>, <a class="el" href="classPackLinuxElf64.html#aa11131540dea71d341de36cf39325c17">PackLinuxElf64::phdri</a>, <a class="el" href="arm64-linux_8elf-fold_8h.html#aef7dfd27870a93541b315ff427056a85">stub_arm64_linux_elf_fold</a>, and <a class="el" href="classPackLinuxElf.html#a3a8dc91b5f08ffdd31586e4d0c8ef2cb">PackLinuxElf::xct_off</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

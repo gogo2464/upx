@@ -1,9 +1,12 @@
 <map id="upx::max" name="upx::max">
-<area shape="rect" id="node1" title=" " alt="" coords="843,56,925,81"/>
-<area shape="rect" id="node2" href="$structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03" title=" " alt="" coords="569,5,794,60"/>
-<area shape="rect" id="node7" href="$structanonymous__namespace_02dt__check_8cpp_03_1_1TestBELE.html#af33fa84da2b21ed354af20c55d3a18f6" title=" " alt="" coords="568,85,795,125"/>
-<area shape="rect" id="node3" href="$dt__check_8cpp.html#a3a6b242ecd120ddf74c7aefb91486186" title=" " alt="" coords="363,49,520,89"/>
-<area shape="rect" id="node4" href="$work_8cpp.html#a9ec6798d280944a40890ad8f08dbe964" title=" " alt="" coords="243,31,315,56"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#ae733ccfc8b1bfd23af63d56f51903f1d" title="main entry point" alt="" coords="108,56,195,81"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a7726c3c4e37d3478021cf41b755207eb" title="real entry point" alt="" coords="5,56,60,81"/>
+<area shape="rect" id="node1" title=" " alt="" coords="872,93,955,119"/>
+<area shape="rect" id="node2" href="$classPackMachBase.html#a2523b17c7d4cc2ed81ceb0395ac199e1" title="Generic Unix canUnpack()." alt="" coords="611,29,810,55"/>
+<area shape="rect" id="node5" href="$structanonymous__namespace_02dt__check_8cpp_03_1_1CheckIntegral.html#a6abe524c4a9fe981274a24e571c48a03" title=" " alt="" coords="598,79,823,133"/>
+<area shape="rect" id="node10" href="$structanonymous__namespace_02dt__check_8cpp_03_1_1TestBELE.html#af33fa84da2b21ed354af20c55d3a18f6" title=" " alt="" coords="597,158,824,198"/>
+<area shape="rect" id="node3" href="$classPackMachFat.html#add848a3775c90b2551e9646991251997" title=" " alt="" coords="363,5,549,31"/>
+<area shape="rect" id="node4" href="$classPackMachFat.html#a774a62bb9f6712cb763ac1a3cc1e5955" title=" " alt="" coords="375,55,537,80"/>
+<area shape="rect" id="node6" href="$dt__check_8cpp.html#a3a6b242ecd120ddf74c7aefb91486186" title=" " alt="" coords="377,119,535,159"/>
+<area shape="rect" id="node7" href="$work_8cpp.html#a9ec6798d280944a40890ad8f08dbe964" title=" " alt="" coords="243,101,315,127"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae733ccfc8b1bfd23af63d56f51903f1d" title="main entry point" alt="" coords="108,127,195,152"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#a7726c3c4e37d3478021cf41b755207eb" title="real entry point" alt="" coords="5,127,60,152"/>
 </map>

@@ -336,6 +336,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a12904e259a31849e8633faf26b5e07fe inherit pro_methods_classPackLinuxElf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a001986a5884a191f0426037687d2f475 inherit pro_methods_classPackLinuxElf32"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf32.html#a001986a5884a191f0426037687d2f475">asl_slide_Shdrs</a> ()</td></tr>
 <tr class="separator:a001986a5884a191f0426037687d2f475 inherit pro_methods_classPackLinuxElf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a928027d24e776503ab6572c700f5e2ef inherit pro_methods_classPackLinuxElf32"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf32.html#a928027d24e776503ab6572c700f5e2ef">slide_sh_offset</a> (<a class="el" href="p__elf_8h.html#ae858cb90aa9483b3ccee39f61446f130">Elf32_Shdr</a> *shdr)</td></tr>
+<tr class="separator:a928027d24e776503ab6572c700f5e2ef inherit pro_methods_classPackLinuxElf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a475c24cd3f9652ad82ea69cdf377aca5 inherit pro_methods_classPackLinuxElf32"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf32.html#a475c24cd3f9652ad82ea69cdf377aca5">pack2</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *, <a class="el" href="classFilter.html">Filter</a> &amp;) override</td></tr>
 <tr class="separator:a475c24cd3f9652ad82ea69cdf377aca5 inherit pro_methods_classPackLinuxElf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a200cba9c5eb9ae89197ba6d08df32ba5 inherit pro_methods_classPackLinuxElf32"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf32.html#a200cba9c5eb9ae89197ba6d08df32ba5">pack2_shlib</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, <a class="el" href="classFilter.html">Filter</a> &amp;ft, unsigned pre_xct_top)</td></tr>
@@ -442,8 +444,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a3409fd940ae9b30dc51e68f69e0160f6 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafaf58332d98b1981f8d78c3eeb729c6 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#aafaf58332d98b1981f8d78c3eeb729c6">pack2_shlib_overlay_init</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo)</td></tr>
 <tr class="separator:aafaf58332d98b1981f8d78c3eeb729c6 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5384daf1baa189915edd8bbb8821ee88 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a5384daf1baa189915edd8bbb8821ee88">pack2_shlib_overlay_compress</a> (<a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, <a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a95d40264330fe966e66718440b450ec8">ibuf</a>, unsigned u_len)</td></tr>
-<tr class="separator:a5384daf1baa189915edd8bbb8821ee88 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d845b6694119d3eba200c770dd5c6d inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a29d845b6694119d3eba200c770dd5c6d">pack2_shlib_overlay_compress</a> (<a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, <a class="el" href="conf_8h.html#a28d10b43a6177d2d5f9b2e76d728d241">upx_byte</a> const *inp, unsigned u_len)</td></tr>
+<tr class="separator:a29d845b6694119d3eba200c770dd5c6d inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a270e823ea95b0900a5abbf786dac9 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a80a270e823ea95b0900a5abbf786dac9">pack2_shlib_overlay_write</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *fo, <a class="el" href="classMemBuffer.html">MemBuffer</a> &amp;<a class="el" href="classPacker.html#a8f51aecfca1c5d86cc11a7d2ab574d5e">obuf</a>, unsigned hdr_u_len, unsigned hdr_c_len)</td></tr>
 <tr class="separator:a80a270e823ea95b0900a5abbf786dac9 inherit pro_methods_classPackLinuxElf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a378dd6608963beeae5bb6393ef4b23d5 inherit pro_methods_classPackLinuxElf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPackLinuxElf.html#a378dd6608963beeae5bb6393ef4b23d5">generateElfHdr</a> (<a class="el" href="classOutputFile.html">OutputFile</a> *, void const *proto, unsigned const brka)=0</td></tr>
@@ -930,7 +932,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00683">683</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00686">686</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a4adde71272baca660180bbd858c3cc9b" name="a4adde71272baca660180bbd858c3cc9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4adde71272baca660180bbd858c3cc9b">&#9670;&#160;</a></span>super</h2>
@@ -952,7 +954,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00685">685</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00688">688</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
 
 </div>
 </div>
@@ -973,15 +975,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l07997">7997</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 7997</span>                                                     : <a class="code hl_typedef" href="classPackOpenBSDElf32x86.html#a4adde71272baca660180bbd858c3cc9b">super</a>(f)</div>
-<div class="line"><span class="lineno"> 7998</span>{</div>
-<div class="line"><span class="lineno"> 7999</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>  = Elf32_Ehdr::ELFOSABI_OPENBSD;</div>
-<div class="line"><span class="lineno"> 8000</span>    <a class="code hl_variable" href="classPackLinuxElf.html#a946ebc79f94eff58bd559c7b5bb60057">osabi_note</a> = <span class="stringliteral">&quot;OpenBSD&quot;</span>;</div>
-<div class="line"><span class="lineno"> 8001</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l07992">7992</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7992</span>                                                     : <a class="code hl_typedef" href="classPackOpenBSDElf32x86.html#a4adde71272baca660180bbd858c3cc9b">super</a>(f)</div>
+<div class="line"><span class="lineno"> 7993</span>{</div>
+<div class="line"><span class="lineno"> 7994</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>  = Elf32_Ehdr::ELFOSABI_OPENBSD;</div>
+<div class="line"><span class="lineno"> 7995</span>    <a class="code hl_variable" href="classPackLinuxElf.html#a946ebc79f94eff58bd559c7b5bb60057">osabi_note</a> = <span class="stringliteral">&quot;OpenBSD&quot;</span>;</div>
+<div class="line"><span class="lineno"> 7996</span>}</div>
 <div class="ttc" id="aclassPackLinuxElf_html_a946ebc79f94eff58bd559c7b5bb60057"><div class="ttname"><a href="classPackLinuxElf.html#a946ebc79f94eff58bd559c7b5bb60057">PackLinuxElf::osabi_note</a></div><div class="ttdeci">char const  * osabi_note</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00124">p_lx_elf.h:124</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_ad930777406ea601d200de0ab59de88d6"><div class="ttname"><a href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">PackLinuxElf::ei_osabi</a></div><div class="ttdeci">unsigned char ei_osabi</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00122">p_lx_elf.h:122</a></div></div>
-<div class="ttc" id="aclassPackOpenBSDElf32x86_html_a4adde71272baca660180bbd858c3cc9b"><div class="ttname"><a href="classPackOpenBSDElf32x86.html#a4adde71272baca660180bbd858c3cc9b">PackOpenBSDElf32x86::super</a></div><div class="ttdeci">PackBSDElf32x86 super</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00685">p_lx_elf.h:685</a></div></div>
+<div class="ttc" id="aclassPackOpenBSDElf32x86_html_a4adde71272baca660180bbd858c3cc9b"><div class="ttname"><a href="classPackOpenBSDElf32x86.html#a4adde71272baca660180bbd858c3cc9b">PackOpenBSDElf32x86::super</a></div><div class="ttdeci">PackBSDElf32x86 super</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00688">p_lx_elf.h:688</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">PackLinuxElf::ei_osabi</a>, and <a class="el" href="classPackLinuxElf.html#a946ebc79f94eff58bd559c7b5bb60057">PackLinuxElf::osabi_note</a>.</p>
 
@@ -1010,9 +1012,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l08003">8003</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 8004</span>{</div>
-<div class="line"><span class="lineno"> 8005</span>}</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l07998">7998</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 7999</span>{</div>
+<div class="line"><span class="lineno"> 8000</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1043,28 +1045,28 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classPackBSDElf32x86.html#a28fe533055d17e4e4570bc890dd802b4">PackBSDElf32x86</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l01932">1932</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 1933</span>{</div>
-<div class="line"><span class="lineno"> 1934</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> tmp[<span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>)];</div>
-<div class="line"><span class="lineno"> 1935</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(tmp, <a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>));</div>
-<div class="line"><span class="lineno"> 1936</span>    <a class="code hl_function" href="classPacker.html#af51db683baf7d75a65f48429b77db475">checkPatch</a>(<span class="keyword">nullptr</span>, 0, 0, 0);  <span class="comment">// reset</span></div>
-<div class="line"><span class="lineno"> 1937</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;o_unix.is_ptinterp) {</div>
-<div class="line"><span class="lineno"> 1938</span>        <span class="keywordtype">unsigned</span> j;</div>
-<div class="line"><span class="lineno"> 1939</span>        <span class="keywordflow">for</span> (j = 0; j &lt; <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>)-1; ++j) {</div>
-<div class="line"><span class="lineno"> 1940</span>            <span class="keywordflow">if</span> (0x60==tmp[  j]</div>
-<div class="line"><span class="lineno"> 1941</span>            &amp;&amp;  0x47==tmp[1+j] ) {</div>
-<div class="line"><span class="lineno"> 1942</span>                <span class="comment">/* put INC EDI before PUSHA: inhibits auxv_up for PT_INTERP */</span></div>
-<div class="line"><span class="lineno"> 1943</span>                tmp[  j] = 0x47;</div>
-<div class="line"><span class="lineno"> 1944</span>                tmp[1+j] = 0x60;</div>
-<div class="line"><span class="lineno"> 1945</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1946</span>            }</div>
-<div class="line"><span class="lineno"> 1947</span>        }</div>
-<div class="line"><span class="lineno"> 1948</span>    }</div>
-<div class="line"><span class="lineno"> 1949</span>    <a class="code hl_function" href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3">buildLinuxLoader</a>(</div>
-<div class="line"><span class="lineno"> 1950</span>        <a class="code hl_variable" href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781">stub_i386_bsd_elf_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781">stub_i386_bsd_elf_entry</a>),</div>
-<div class="line"><span class="lineno"> 1951</span>        tmp,                     <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>), ft);</div>
-<div class="line"><span class="lineno"> 1952</span>}</div>
-<div class="ttc" id="aclassPackLinuxElf32_html_a2de3b0ba7a17f5de7f5a62f5df6a0bb3"><div class="ttname"><a href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3">PackLinuxElf32::buildLinuxLoader</a></div><div class="ttdeci">virtual void buildLinuxLoader(upx_byte const *const proto, unsigned const szproto, upx_byte const *const fold, unsigned const szfold, Filter const *ft)</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l01440">p_lx_elf.cpp:1440</a></div></div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l02003">2003</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2004</span>{</div>
+<div class="line"><span class="lineno"> 2005</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> tmp[<span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>)];</div>
+<div class="line"><span class="lineno"> 2006</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(tmp, <a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>));</div>
+<div class="line"><span class="lineno"> 2007</span>    <a class="code hl_function" href="classPacker.html#af51db683baf7d75a65f48429b77db475">checkPatch</a>(<span class="keyword">nullptr</span>, 0, 0, 0);  <span class="comment">// reset</span></div>
+<div class="line"><span class="lineno"> 2008</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>-&gt;o_unix.is_ptinterp) {</div>
+<div class="line"><span class="lineno"> 2009</span>        <span class="keywordtype">unsigned</span> j;</div>
+<div class="line"><span class="lineno"> 2010</span>        <span class="keywordflow">for</span> (j = 0; j &lt; <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>)-1; ++j) {</div>
+<div class="line"><span class="lineno"> 2011</span>            <span class="keywordflow">if</span> (0x60==tmp[  j]</div>
+<div class="line"><span class="lineno"> 2012</span>            &amp;&amp;  0x47==tmp[1+j] ) {</div>
+<div class="line"><span class="lineno"> 2013</span>                <span class="comment">/* put INC EDI before PUSHA: inhibits auxv_up for PT_INTERP */</span></div>
+<div class="line"><span class="lineno"> 2014</span>                tmp[  j] = 0x47;</div>
+<div class="line"><span class="lineno"> 2015</span>                tmp[1+j] = 0x60;</div>
+<div class="line"><span class="lineno"> 2016</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2017</span>            }</div>
+<div class="line"><span class="lineno"> 2018</span>        }</div>
+<div class="line"><span class="lineno"> 2019</span>    }</div>
+<div class="line"><span class="lineno"> 2020</span>    <a class="code hl_function" href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3">buildLinuxLoader</a>(</div>
+<div class="line"><span class="lineno"> 2021</span>        <a class="code hl_variable" href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781">stub_i386_bsd_elf_entry</a>, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781">stub_i386_bsd_elf_entry</a>),</div>
+<div class="line"><span class="lineno"> 2022</span>        tmp,                     <span class="keyword">sizeof</span>(<a class="code hl_variable" href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a>), ft);</div>
+<div class="line"><span class="lineno"> 2023</span>}</div>
+<div class="ttc" id="aclassPackLinuxElf32_html_a2de3b0ba7a17f5de7f5a62f5df6a0bb3"><div class="ttname"><a href="classPackLinuxElf32.html#a2de3b0ba7a17f5de7f5a62f5df6a0bb3">PackLinuxElf32::buildLinuxLoader</a></div><div class="ttdeci">virtual void buildLinuxLoader(upx_byte const *const proto, unsigned const szproto, upx_byte const *const fold, unsigned const szfold, Filter const *ft)</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l01507">p_lx_elf.cpp:1507</a></div></div>
 <div class="ttc" id="aclassPacker_html_af51db683baf7d75a65f48429b77db475"><div class="ttname"><a href="classPacker.html#af51db683baf7d75a65f48429b77db475">Packer::checkPatch</a></div><div class="ttdeci">void checkPatch(void *b, int blen, int boff, int size)</div><div class="ttdoc">patch util for loader</div><div class="ttdef"><b>Definition:</b> <a href="packer_8cpp_source.html#l00598">packer.cpp:598</a></div></div>
 <div class="ttc" id="ai386-bsd_8elf-entry_8h_html_ac7454d81ce063b2c31cc0905d9ed3781"><div class="ttname"><a href="i386-bsd_8elf-entry_8h.html#ac7454d81ce063b2c31cc0905d9ed3781">stub_i386_bsd_elf_entry</a></div><div class="ttdeci">unsigned char stub_i386_bsd_elf_entry[31121]</div><div class="ttdef"><b>Definition:</b> <a href="i386-bsd_8elf-entry_8h_source.html#l00039">i386-bsd.elf-entry.h:39</a></div></div>
 <div class="ttc" id="ai386-openbsd_8elf-fold_8h_html_a55bf6d0393c8c4db7f83bec4d93dac8b"><div class="ttname"><a href="i386-openbsd_8elf-fold_8h.html#a55bf6d0393c8c4db7f83bec4d93dac8b">stub_i386_openbsd_elf_fold</a></div><div class="ttdeci">unsigned char stub_i386_openbsd_elf_fold[2245]</div><div class="ttdef"><b>Definition:</b> <a href="i386-openbsd_8elf-fold_8h_source.html#l00039">i386-openbsd.elf-fold.h:39</a></div></div>
@@ -1174,86 +1176,87 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="classPackLinuxElf32.html#aa3a1446667e5e41721ae1ed8d40e3a82">PackLinuxElf32</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l03922">3922</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno"> 3927</span>{</div>
-<div class="line"><span class="lineno"> 3928</span>    cprElfHdr3 *<span class="keyword">const</span> h3 = (cprElfHdr3 *)(<span class="keywordtype">void</span> *)&amp;<a class="code hl_variable" href="classPackLinuxElf32.html#ac8a5249ca04607b3dcf5a09ca156da8f">elfout</a>;</div>
-<div class="line"><span class="lineno"> 3929</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(h3, proto, <span class="keyword">sizeof</span>(*h3));  <span class="comment">// reads beyond, but OK</span></div>
-<div class="line"><span class="lineno"> 3930</span>    h3-&gt;ehdr.e_ident[Elf32_Ehdr::EI_OSABI] = <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>;</div>
-<div class="line"><span class="lineno"> 3931</span>    assert(2==<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_phnum));</div>
-<div class="line"><span class="lineno"> 3932</span>    <a class="code hl_function" href="classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e">set_te16</a>(&amp;h3-&gt;ehdr.e_phnum, 3);</div>
-<div class="line"><span class="lineno"> 3933</span> </div>
-<div class="line"><span class="lineno"> 3934</span>    assert(<a class="code hl_function" href="classPacker.html#a47a54fc63360923941cec0aa6060ae01">get_te32</a>(&amp;h3-&gt;ehdr.e_phoff)     == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Ehdr.html">Elf32_Ehdr</a>));</div>
-<div class="line"><span class="lineno"> 3935</span>                         h3-&gt;ehdr.e_shoff = 0;</div>
-<div class="line"><span class="lineno"> 3936</span>    assert(<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_ehsize)    == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Ehdr.html">Elf32_Ehdr</a>));</div>
-<div class="line"><span class="lineno"> 3937</span>    assert(<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_phentsize) == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Phdr.html">Elf32_Phdr</a>));</div>
-<div class="line"><span class="lineno"> 3938</span>    h3-&gt;ehdr.e_shentsize = 0;</div>
-<div class="line"><span class="lineno"> 3939</span>    h3-&gt;ehdr.e_shnum = 0;</div>
-<div class="line"><span class="lineno"> 3940</span>    h3-&gt;ehdr.e_shstrndx = 0;</div>
-<div class="line"><span class="lineno"> 3941</span> </div>
-<div class="line"><span class="lineno"> 3942</span>    <span class="keyword">struct </span>{</div>
-<div class="line"><span class="lineno"> 3943</span>        Elf32_Nhdr nhdr;</div>
-<div class="line"><span class="lineno"> 3944</span>        <span class="keywordtype">char</span> name[8];</div>
-<div class="line"><span class="lineno"> 3945</span>        <span class="keywordtype">unsigned</span> body;</div>
-<div class="line"><span class="lineno"> 3946</span>    } elfnote;</div>
-<div class="line"><span class="lineno"> 3947</span> </div>
-<div class="line"><span class="lineno"> 3948</span>    <span class="keywordtype">unsigned</span> <span class="keyword">const</span> note_offset = <span class="keyword">sizeof</span>(*h3) - <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPackUnix.html#a8a994baf32174356ff73af67ad5d15ba">linfo</a>);</div>
-<div class="line"><span class="lineno"> 3949</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ac334df9f0f0666906d1b49d1d45be792">sz_elf_hdrs</a> = <span class="keyword">sizeof</span>(elfnote) + note_offset;</div>
-<div class="line"><span class="lineno"> 3950</span> </div>
-<div class="line"><span class="lineno"> 3951</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_type, <a class="code hl_define" href="p__lx__elf_8cpp.html#a59eb0ef71e7b110186c324070f393316">PT_NOTE32</a>);</div>
-<div class="line"><span class="lineno"> 3952</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_offset, note_offset);</div>
-<div class="line"><span class="lineno"> 3953</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_vaddr, note_offset);</div>
-<div class="line"><span class="lineno"> 3954</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_paddr, note_offset);</div>
-<div class="line"><span class="lineno"> 3955</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_filesz, <span class="keyword">sizeof</span>(elfnote));</div>
-<div class="line"><span class="lineno"> 3956</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_memsz,  <span class="keyword">sizeof</span>(elfnote));</div>
-<div class="line"><span class="lineno"> 3957</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_flags, Elf32_Phdr::PF_R);</div>
-<div class="line"><span class="lineno"> 3958</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_align, 4);</div>
-<div class="line"><span class="lineno"> 3959</span> </div>
-<div class="line"><span class="lineno"> 3960</span>    <span class="comment">// Q: Same as this-&gt;note_body[0 .. this-&gt;note_size-1] ?</span></div>
-<div class="line"><span class="lineno"> 3961</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.namesz, 8);</div>
-<div class="line"><span class="lineno"> 3962</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.descsz, OPENBSD_DESCSZ);</div>
-<div class="line"><span class="lineno"> 3963</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.type,   NHDR_OPENBSD_TAG);</div>
-<div class="line"><span class="lineno"> 3964</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(elfnote.name, <span class="stringliteral">&quot;OpenBSD&quot;</span>, <span class="keyword">sizeof</span>(elfnote.name));</div>
-<div class="line"><span class="lineno"> 3965</span>    elfnote.body = 0;</div>
-<div class="line"><span class="lineno"> 3966</span> </div>
-<div class="line"><span class="lineno"> 3967</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_filesz, <a class="code hl_variable" href="classPackLinuxElf.html#ac334df9f0f0666906d1b49d1d45be792">sz_elf_hdrs</a>);</div>
-<div class="line"><span class="lineno"> 3968</span>              h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_memsz = h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_filesz;</div>
-<div class="line"><span class="lineno"> 3969</span> </div>
-<div class="line"><span class="lineno"> 3970</span>    <span class="keywordtype">unsigned</span> <span class="keyword">const</span> brkb = brka | ((0==(~page_mask &amp; brka)) ? 0x20 : 0);</div>
-<div class="line"><span class="lineno"> 3971</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_type, <a class="code hl_define" href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a>);  <span class="comment">// be sure</span></div>
-<div class="line"><span class="lineno"> 3972</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_offset, ~<a class="code hl_variable" href="classPackLinuxElf32.html#ae1048a909a2fce5d2c861b88974f81d6">page_mask</a> &amp; brkb);</div>
-<div class="line"><span class="lineno"> 3973</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_vaddr, brkb);</div>
-<div class="line"><span class="lineno"> 3974</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_paddr, brkb);</div>
-<div class="line"><span class="lineno"> 3975</span>    h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_filesz = 0;</div>
-<div class="line"><span class="lineno"> 3976</span>    <span class="comment">// Too many kernels have bugs when 0==.p_memsz</span></div>
-<div class="line"><span class="lineno"> 3977</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_memsz, 1);</div>
-<div class="line"><span class="lineno"> 3978</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_flags, Elf32_Phdr::PF_R | Elf32_Phdr::PF_W);</div>
-<div class="line"><span class="lineno"> 3979</span> </div>
-<div class="line"><span class="lineno"> 3980</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classPackerBase.html#a01f3c918e5ce5b4de630d11c703cec05">ph</a>.<a class="code hl_variable" href="structPackHeader.html#aafa1c316f2be9a01d43d36a5aa5473bf">format</a>==<a class="code hl_function" href="classPackOpenBSDElf32x86.html#a937f4f70f64aeb5bff3d255723401d42">getFormat</a>()) {</div>
-<div class="line"><span class="lineno"> 3981</span>        <a class="code hl_function" href="xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c">memset</a>(&amp;h3-&gt;linfo, 0, <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
-<div class="line"><span class="lineno"> 3982</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(h3, <span class="keyword">sizeof</span>(*h3) - <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
-<div class="line"><span class="lineno"> 3983</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(&amp;elfnote, <span class="keyword">sizeof</span>(elfnote));</div>
-<div class="line"><span class="lineno"> 3984</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(&amp;h3-&gt;linfo, <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
-<div class="line"><span class="lineno"> 3985</span>    }</div>
-<div class="line"><span class="lineno"> 3986</span>    <span class="keywordflow">else</span> {</div>
-<div class="line"><span class="lineno"> 3987</span>        assert(<span class="keyword">false</span>);  <span class="comment">// unknown ph.format, PackLinuxElf32</span></div>
-<div class="line"><span class="lineno"> 3988</span>    }</div>
-<div class="line"><span class="lineno"> 3989</span>}</div>
-<div class="ttc" id="aclassOutputFile_html_aa8beb793956b90404c940c5821936718"><div class="ttname"><a href="classOutputFile.html#aa8beb793956b90404c940c5821936718">OutputFile::write</a></div><div class="ttdeci">void write(SPAN_0(const void) buf, upx_int64_t blen)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00274">file.cpp:274</a></div></div>
-<div class="ttc" id="aclassPackLinuxElf32_html_ac8a5249ca04607b3dcf5a09ca156da8f"><div class="ttname"><a href="classPackLinuxElf32.html#ac8a5249ca04607b3dcf5a09ca156da8f">PackLinuxElf32::elfout</a></div><div class="ttdeci">cprElfHdrNetBSD elfout</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00287">p_lx_elf.h:287</a></div></div>
-<div class="ttc" id="aclassPackLinuxElf32_html_ae1048a909a2fce5d2c861b88974f81d6"><div class="ttname"><a href="classPackLinuxElf32.html#ae1048a909a2fce5d2c861b88974f81d6">PackLinuxElf32::page_mask</a></div><div class="ttdeci">unsigned page_mask</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00244">p_lx_elf.h:244</a></div></div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8cpp_source.html#l03996">3996</a> of file <a class="el" href="p__lx__elf_8cpp_source.html">p_lx_elf.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 4001</span>{</div>
+<div class="line"><span class="lineno"> 4002</span>    cprElfHdr3 *<span class="keyword">const</span> h3 = (cprElfHdr3 *)(<span class="keywordtype">void</span> *)&amp;<a class="code hl_variable" href="classPackLinuxElf32.html#ac8a5249ca04607b3dcf5a09ca156da8f">elfout</a>;</div>
+<div class="line"><span class="lineno"> 4003</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(h3, proto, <span class="keyword">sizeof</span>(*h3));  <span class="comment">// reads beyond, but OK</span></div>
+<div class="line"><span class="lineno"> 4004</span>    h3-&gt;ehdr.e_ident[Elf32_Ehdr::EI_OSABI] = <a class="code hl_variable" href="classPackLinuxElf.html#ad930777406ea601d200de0ab59de88d6">ei_osabi</a>;</div>
+<div class="line"><span class="lineno"> 4005</span>    assert(2==<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_phnum));</div>
+<div class="line"><span class="lineno"> 4006</span>    <a class="code hl_function" href="classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e">set_te16</a>(&amp;h3-&gt;ehdr.e_phnum, 3);</div>
+<div class="line"><span class="lineno"> 4007</span> </div>
+<div class="line"><span class="lineno"> 4008</span>    assert(<a class="code hl_function" href="classPacker.html#a47a54fc63360923941cec0aa6060ae01">get_te32</a>(&amp;h3-&gt;ehdr.e_phoff)     == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Ehdr.html">Elf32_Ehdr</a>));</div>
+<div class="line"><span class="lineno"> 4009</span>                         h3-&gt;ehdr.e_shoff = 0;</div>
+<div class="line"><span class="lineno"> 4010</span>    assert(<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_ehsize)    == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Ehdr.html">Elf32_Ehdr</a>));</div>
+<div class="line"><span class="lineno"> 4011</span>    assert(<a class="code hl_function" href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">get_te16</a>(&amp;h3-&gt;ehdr.e_phentsize) == <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structElf32__Phdr.html">Elf32_Phdr</a>));</div>
+<div class="line"><span class="lineno"> 4012</span>    <a class="code hl_function" href="classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e">set_te16</a>(&amp;h3-&gt;ehdr.e_shentsize, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="p__elf_8h.html#ae858cb90aa9483b3ccee39f61446f130">Elf32_Shdr</a>));  <span class="comment">// libbfd-2.41-38.fc40</span></div>
+<div class="line"><span class="lineno"> 4013</span>    h3-&gt;ehdr.e_shnum = 0;</div>
+<div class="line"><span class="lineno"> 4014</span>    h3-&gt;ehdr.e_shstrndx = 0;</div>
+<div class="line"><span class="lineno"> 4015</span> </div>
+<div class="line"><span class="lineno"> 4016</span>    <span class="keyword">struct </span>{</div>
+<div class="line"><span class="lineno"> 4017</span>        Elf32_Nhdr nhdr;</div>
+<div class="line"><span class="lineno"> 4018</span>        <span class="keywordtype">char</span> name[8];</div>
+<div class="line"><span class="lineno"> 4019</span>        <span class="keywordtype">unsigned</span> body;</div>
+<div class="line"><span class="lineno"> 4020</span>    } elfnote;</div>
+<div class="line"><span class="lineno"> 4021</span> </div>
+<div class="line"><span class="lineno"> 4022</span>    <span class="keywordtype">unsigned</span> <span class="keyword">const</span> note_offset = <span class="keyword">sizeof</span>(*h3) - <span class="keyword">sizeof</span>(<a class="code hl_variable" href="classPackUnix.html#a8a994baf32174356ff73af67ad5d15ba">linfo</a>);</div>
+<div class="line"><span class="lineno"> 4023</span>    <a class="code hl_variable" href="classPackLinuxElf.html#ac334df9f0f0666906d1b49d1d45be792">sz_elf_hdrs</a> = <span class="keyword">sizeof</span>(elfnote) + note_offset;</div>
+<div class="line"><span class="lineno"> 4024</span> </div>
+<div class="line"><span class="lineno"> 4025</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_type, <a class="code hl_define" href="p__lx__elf_8cpp.html#a59eb0ef71e7b110186c324070f393316">PT_NOTE32</a>);</div>
+<div class="line"><span class="lineno"> 4026</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_offset, note_offset);</div>
+<div class="line"><span class="lineno"> 4027</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_vaddr, note_offset);</div>
+<div class="line"><span class="lineno"> 4028</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_paddr, note_offset);</div>
+<div class="line"><span class="lineno"> 4029</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_filesz, <span class="keyword">sizeof</span>(elfnote));</div>
+<div class="line"><span class="lineno"> 4030</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_memsz,  <span class="keyword">sizeof</span>(elfnote));</div>
+<div class="line"><span class="lineno"> 4031</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_flags, Elf32_Phdr::PF_R);</div>
+<div class="line"><span class="lineno"> 4032</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a>].p_align, 4);</div>
+<div class="line"><span class="lineno"> 4033</span> </div>
+<div class="line"><span class="lineno"> 4034</span>    <span class="comment">// Q: Same as this-&gt;note_body[0 .. this-&gt;note_size-1] ?</span></div>
+<div class="line"><span class="lineno"> 4035</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.namesz, 8);</div>
+<div class="line"><span class="lineno"> 4036</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.descsz, OPENBSD_DESCSZ);</div>
+<div class="line"><span class="lineno"> 4037</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;elfnote.nhdr.type,   NHDR_OPENBSD_TAG);</div>
+<div class="line"><span class="lineno"> 4038</span>    <a class="code hl_function" href="xspan__fwd_8h.html#a9cf3296ee41855b4ced7b3bdfcaf8e5d">memcpy</a>(elfnote.name, <span class="stringliteral">&quot;OpenBSD&quot;</span>, <span class="keyword">sizeof</span>(elfnote.name));</div>
+<div class="line"><span class="lineno"> 4039</span>    elfnote.body = 0;</div>
+<div class="line"><span class="lineno"> 4040</span> </div>
+<div class="line"><span class="lineno"> 4041</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_filesz, <a class="code hl_variable" href="classPackLinuxElf.html#ac334df9f0f0666906d1b49d1d45be792">sz_elf_hdrs</a>);</div>
+<div class="line"><span class="lineno"> 4042</span>              h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_memsz = h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a>].p_filesz;</div>
+<div class="line"><span class="lineno"> 4043</span> </div>
+<div class="line"><span class="lineno"> 4044</span>    <span class="keywordtype">unsigned</span> <span class="keyword">const</span> brkb = brka | ((0==(~page_mask &amp; brka)) ? 0x20 : 0);</div>
+<div class="line"><span class="lineno"> 4045</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_type, <a class="code hl_define" href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a>);  <span class="comment">// be sure</span></div>
+<div class="line"><span class="lineno"> 4046</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_offset, ~<a class="code hl_variable" href="classPackLinuxElf32.html#ae1048a909a2fce5d2c861b88974f81d6">page_mask</a> &amp; brkb);</div>
+<div class="line"><span class="lineno"> 4047</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_vaddr, brkb);</div>
+<div class="line"><span class="lineno"> 4048</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_paddr, brkb);</div>
+<div class="line"><span class="lineno"> 4049</span>    h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_filesz = 0;</div>
+<div class="line"><span class="lineno"> 4050</span>    <span class="comment">// Too many kernels have bugs when 0==.p_memsz</span></div>
+<div class="line"><span class="lineno"> 4051</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_memsz, 1);</div>
+<div class="line"><span class="lineno"> 4052</span>    <a class="code hl_function" href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">set_te32</a>(&amp;h3-&gt;phdr[<a class="code hl_enumvalue" href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a>].p_flags, Elf32_Phdr::PF_R | Elf32_Phdr::PF_W);</div>
+<div class="line"><span class="lineno"> 4053</span> </div>
+<div class="line"><span class="lineno"> 4054</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="classPackerBase.html#a01f3c918e5ce5b4de630d11c703cec05">ph</a>.<a class="code hl_variable" href="structPackHeader.html#aafa1c316f2be9a01d43d36a5aa5473bf">format</a>==<a class="code hl_function" href="classPackOpenBSDElf32x86.html#a937f4f70f64aeb5bff3d255723401d42">getFormat</a>()) {</div>
+<div class="line"><span class="lineno"> 4055</span>        <a class="code hl_function" href="xspan__fwd_8h.html#a4ffffab0dc6ead4a09af1dba0b85f71c">memset</a>(&amp;h3-&gt;linfo, 0, <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
+<div class="line"><span class="lineno"> 4056</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(h3, <span class="keyword">sizeof</span>(*h3) - <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
+<div class="line"><span class="lineno"> 4057</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(&amp;elfnote, <span class="keyword">sizeof</span>(elfnote));</div>
+<div class="line"><span class="lineno"> 4058</span>        fo-&gt;<a class="code hl_function" href="classOutputFile.html#aa8beb793956b90404c940c5821936718">write</a>(&amp;h3-&gt;linfo, <span class="keyword">sizeof</span>(h3-&gt;linfo));</div>
+<div class="line"><span class="lineno"> 4059</span>    }</div>
+<div class="line"><span class="lineno"> 4060</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno"> 4061</span>        assert(<span class="keyword">false</span>);  <span class="comment">// unknown ph.format, PackLinuxElf32</span></div>
+<div class="line"><span class="lineno"> 4062</span>    }</div>
+<div class="line"><span class="lineno"> 4063</span>}</div>
+<div class="ttc" id="aclassOutputFile_html_aa8beb793956b90404c940c5821936718"><div class="ttname"><a href="classOutputFile.html#aa8beb793956b90404c940c5821936718">OutputFile::write</a></div><div class="ttdeci">void write(SPAN_0(const void) buf, upx_int64_t blen)</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00275">file.cpp:275</a></div></div>
+<div class="ttc" id="aclassPackLinuxElf32_html_ac8a5249ca04607b3dcf5a09ca156da8f"><div class="ttname"><a href="classPackLinuxElf32.html#ac8a5249ca04607b3dcf5a09ca156da8f">PackLinuxElf32::elfout</a></div><div class="ttdeci">cprElfHdrNetBSD elfout</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00288">p_lx_elf.h:288</a></div></div>
+<div class="ttc" id="aclassPackLinuxElf32_html_ae1048a909a2fce5d2c861b88974f81d6"><div class="ttname"><a href="classPackLinuxElf32.html#ae1048a909a2fce5d2c861b88974f81d6">PackLinuxElf32::page_mask</a></div><div class="ttdeci">unsigned page_mask</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00245">p_lx_elf.h:245</a></div></div>
 <div class="ttc" id="aclassPackLinuxElf_html_ac334df9f0f0666906d1b49d1d45be792"><div class="ttname"><a href="classPackLinuxElf.html#ac334df9f0f0666906d1b49d1d45be792">PackLinuxElf::sz_elf_hdrs</a></div><div class="ttdeci">unsigned sz_elf_hdrs</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00098">p_lx_elf.h:98</a></div></div>
-<div class="ttc" id="aclassPackOpenBSDElf32x86_html_a937f4f70f64aeb5bff3d255723401d42"><div class="ttname"><a href="classPackOpenBSDElf32x86.html#a937f4f70f64aeb5bff3d255723401d42">PackOpenBSDElf32x86::getFormat</a></div><div class="ttdeci">virtual int getFormat() const override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00689">p_lx_elf.h:689</a></div></div>
+<div class="ttc" id="aclassPackOpenBSDElf32x86_html_a937f4f70f64aeb5bff3d255723401d42"><div class="ttname"><a href="classPackOpenBSDElf32x86.html#a937f4f70f64aeb5bff3d255723401d42">PackOpenBSDElf32x86::getFormat</a></div><div class="ttdeci">virtual int getFormat() const override</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8h_source.html#l00692">p_lx_elf.h:692</a></div></div>
 <div class="ttc" id="aclassPackUnix_html_a8a994baf32174356ff73af67ad5d15ba"><div class="ttname"><a href="classPackUnix.html#a8a994baf32174356ff73af67ad5d15ba">PackUnix::linfo</a></div><div class="ttdeci">struct l_info linfo</div><div class="ttdef"><b>Definition:</b> <a href="p__unix_8h_source.html#l00132">p_unix.h:132</a></div></div>
 <div class="ttc" id="aclassPackerBase_html_a01f3c918e5ce5b4de630d11c703cec05"><div class="ttname"><a href="classPackerBase.html#a01f3c918e5ce5b4de630d11c703cec05">PackerBase::ph</a></div><div class="ttdeci">PackHeader ph</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00096">packer.h:96</a></div></div>
 <div class="ttc" id="aclassPacker_html_a47a54fc63360923941cec0aa6060ae01"><div class="ttname"><a href="classPacker.html#a47a54fc63360923941cec0aa6060ae01">Packer::get_te32</a></div><div class="ttdeci">unsigned get_te32(const void *p) const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00293">packer.h:293</a></div></div>
 <div class="ttc" id="aclassPacker_html_a860499fa0849a7c7a7c4d43ee084f76e"><div class="ttname"><a href="classPacker.html#a860499fa0849a7c7a7c4d43ee084f76e">Packer::set_te16</a></div><div class="ttdeci">void set_te16(void *p, unsigned v) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00296">packer.h:296</a></div></div>
 <div class="ttc" id="aclassPacker_html_ad01e10cd32d88f80d316455b55bcb1a5"><div class="ttname"><a href="classPacker.html#ad01e10cd32d88f80d316455b55bcb1a5">Packer::get_te16</a></div><div class="ttdeci">unsigned get_te16(const void *p) const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00292">packer.h:292</a></div></div>
 <div class="ttc" id="aclassPacker_html_af9cad2c8624ee68213d01eb606be0382"><div class="ttname"><a href="classPacker.html#af9cad2c8624ee68213d01eb606be0382">Packer::set_te32</a></div><div class="ttdeci">void set_te32(void *p, unsigned v) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="packer_8h_source.html#l00297">packer.h:297</a></div></div>
-<div class="ttc" id="ap__lx__elf_8cpp_html_a59eb0ef71e7b110186c324070f393316"><div class="ttname"><a href="p__lx__elf_8cpp.html#a59eb0ef71e7b110186c324070f393316">PT_NOTE32</a></div><div class="ttdeci">#define PT_NOTE32</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00054">p_lx_elf.cpp:54</a></div></div>
-<div class="ttc" id="ap__lx__elf_8cpp_html_a84d7768fd6c6ece599d297090900cf92"><div class="ttname"><a href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a></div><div class="ttdeci">#define PT_LOAD</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00053">p_lx_elf.cpp:53</a></div></div>
-<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a></div><div class="ttdeci">@ C_BASE</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00508">p_lx_elf.cpp:507</a></div></div>
-<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a></div><div class="ttdeci">@ C_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00509">p_lx_elf.cpp:508</a></div></div>
-<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a></div><div class="ttdeci">@ C_NOTE</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00510">p_lx_elf.cpp:509</a></div></div>
+<div class="ttc" id="ap__elf_8h_html_ae858cb90aa9483b3ccee39f61446f130"><div class="ttname"><a href="p__elf_8h.html#ae858cb90aa9483b3ccee39f61446f130">Elf32_Shdr</a></div><div class="ttdeci">ElfClass_Host32::Shdr Elf32_Shdr</div><div class="ttdef"><b>Definition:</b> <a href="p__elf_8h_source.html#l00367">p_elf.h:367</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_a59eb0ef71e7b110186c324070f393316"><div class="ttname"><a href="p__lx__elf_8cpp.html#a59eb0ef71e7b110186c324070f393316">PT_NOTE32</a></div><div class="ttdeci">#define PT_NOTE32</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00057">p_lx_elf.cpp:57</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_a84d7768fd6c6ece599d297090900cf92"><div class="ttname"><a href="p__lx__elf_8cpp.html#a84d7768fd6c6ece599d297090900cf92">PT_LOAD</a></div><div class="ttdeci">#define PT_LOAD</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00056">p_lx_elf.cpp:56</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fcea933a8e32da91a1d5efb7cd842ac7427b">C_BASE</a></div><div class="ttdeci">@ C_BASE</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00565">p_lx_elf.cpp:564</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceac6793354622210e4320fa27ecee600b5">C_TEXT</a></div><div class="ttdeci">@ C_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00566">p_lx_elf.cpp:565</a></div></div>
+<div class="ttc" id="ap__lx__elf_8cpp_html_aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8"><div class="ttname"><a href="p__lx__elf_8cpp.html#aaf105ae5beaca1dee30ae54530691fceadd355d5c5f05c30ab233930988ee34b8">C_NOTE</a></div><div class="ttdeci">@ C_NOTE</div><div class="ttdef"><b>Definition:</b> <a href="p__lx__elf_8cpp_source.html#l00567">p_lx_elf.cpp:566</a></div></div>
 <div class="ttc" id="astructElf32__Ehdr_html"><div class="ttname"><a href="structElf32__Ehdr.html">Elf32_Ehdr</a></div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00187">bsd.h:188</a></div></div>
 <div class="ttc" id="astructElf32__Phdr_html"><div class="ttname"><a href="structElf32__Phdr.html">Elf32_Phdr</a></div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00223">bsd.h:224</a></div></div>
 <div class="ttc" id="astructPackHeader_html_aafa1c316f2be9a01d43d36a5aa5473bf"><div class="ttname"><a href="structPackHeader.html#aafa1c316f2be9a01d43d36a5aa5473bf">PackHeader::format</a></div><div class="ttdeci">int format</div><div class="ttdef"><b>Definition:</b> <a href="packhead_8h_source.html#l00051">packhead.h:51</a></div></div>
@@ -1320,8 +1323,8 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classPackBSDElf32x86.html#adc57e2dc98e9a25b44f030e7209b8677">PackBSDElf32x86</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00689">689</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  689</span>{ <span class="keywordflow">return</span> <a class="code hl_define" href="conf_8h.html#ad8302b5eab01ba4471dc11fbb6e23651">UPX_F_BSD_ELF_i386</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00692">692</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  692</span>{ <span class="keywordflow">return</span> <a class="code hl_define" href="conf_8h.html#ad8302b5eab01ba4471dc11fbb6e23651">UPX_F_BSD_ELF_i386</a>; }</div>
 <div class="ttc" id="aconf_8h_html_ad8302b5eab01ba4471dc11fbb6e23651"><div class="ttname"><a href="conf_8h.html#ad8302b5eab01ba4471dc11fbb6e23651">UPX_F_BSD_ELF_i386</a></div><div class="ttdeci">#define UPX_F_BSD_ELF_i386</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00550">conf.h:550</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="conf_8h.html#ad8302b5eab01ba4471dc11fbb6e23651">UPX_F_BSD_ELF_i386</a>.</p>
@@ -1365,8 +1368,8 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="classPackBSDElf32x86.html#ae703abb5870dabd7fa94a631eb25732e">PackBSDElf32x86</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00691">691</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  691</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;i386-openbsd.elf&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00694">694</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  694</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;i386-openbsd.elf&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1395,8 +1398,8 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="classPackBSDElf32x86.html#ac8946fbb5d398ead5bd38e50920bce3a">PackBSDElf32x86</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00690">690</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  690</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;openbsd/i386&quot;</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="p__lx__elf_8h_source.html#l00693">693</a> of file <a class="el" href="p__lx__elf_8h_source.html">p_lx_elf.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  693</span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;openbsd/i386&quot;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>

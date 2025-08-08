@@ -1,6 +1,7 @@
 var classPackDjgpp2 =
 [
     [ "coff_header_t", "structPackDjgpp2_1_1coff__header__t.html", "structPackDjgpp2_1_1coff__header__t" ],
+    [ "dos_header_t", "structPackDjgpp2_1_1dos__header__t.html", "structPackDjgpp2_1_1dos__header__t" ],
     [ "external_scnhdr_t", "structPackDjgpp2_1_1external__scnhdr__t.html", "structPackDjgpp2_1_1external__scnhdr__t" ],
     [ "super", "classPackDjgpp2.html#a5221efd5d92926fe36ed3e05de8d4057", null ],
     [ "PackDjgpp2", "classPackDjgpp2.html#a3aa0d7c9e11313084a98c926f6fdeb50", null ],

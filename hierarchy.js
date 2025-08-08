@@ -36,6 +36,7 @@ var hierarchy =
     [ "std::disjunction", null, [
       [ "upx::is_same_any< T, Ts >", "structupx_1_1is__same__any.html", null ]
     ] ],
+    [ "PackDjgpp2::dos_header_t", "structPackDjgpp2_1_1dos__header__t.html", null ],
     [ "dyld_info_command", "structdyld__info__command.html", null ],
     [ "dylib", "structdylib.html", null ],
     [ "dylib_command", "structdylib__command.html", null ],

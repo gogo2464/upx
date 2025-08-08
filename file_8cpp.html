@@ -162,19 +162,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00381">381</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  381</span>                  {</div>
-<div class="line"><span class="lineno">  382</span>    <a class="code hl_class" href="classInputFile.html">InputFile</a> fi;</div>
-<div class="line"><span class="lineno">  383</span>    CHECK(!fi.<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>());</div>
-<div class="line"><span class="lineno">  384</span>    CHECK(fi.<a class="code hl_function" href="classFileBase.html#ac24bcc9c4aa5052ddf9b94672b6fd48e">getFd</a>() == -1);</div>
-<div class="line"><span class="lineno">  385</span>    CHECK(fi.<a class="code hl_function" href="classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3">st_size</a>() == 0);</div>
-<div class="line"><span class="lineno">  386</span>    <a class="code hl_class" href="classOutputFile.html">OutputFile</a> fo;</div>
-<div class="line"><span class="lineno">  387</span>    CHECK(!fo.<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>());</div>
-<div class="line"><span class="lineno">  388</span>    CHECK(fo.<a class="code hl_function" href="classFileBase.html#ac24bcc9c4aa5052ddf9b94672b6fd48e">getFd</a>() == -1);</div>
-<div class="line"><span class="lineno">  389</span>    CHECK(fo.<a class="code hl_function" href="classOutputFile.html#a07dec39ae00af2e9e1355f381164a2eb">getBytesWritten</a>() == 0);</div>
-<div class="line"><span class="lineno">  390</span>}</div>
+<p class="definition">Definition at line <a class="el" href="file_8cpp_source.html#l00383">383</a> of file <a class="el" href="file_8cpp_source.html">file.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  383</span>                  {</div>
+<div class="line"><span class="lineno">  384</span>    <a class="code hl_class" href="classInputFile.html">InputFile</a> fi;</div>
+<div class="line"><span class="lineno">  385</span>    CHECK(!fi.<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>());</div>
+<div class="line"><span class="lineno">  386</span>    CHECK(fi.<a class="code hl_function" href="classFileBase.html#ac24bcc9c4aa5052ddf9b94672b6fd48e">getFd</a>() == -1);</div>
+<div class="line"><span class="lineno">  387</span>    CHECK(fi.<a class="code hl_function" href="classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3">st_size</a>() == 0);</div>
+<div class="line"><span class="lineno">  388</span>    <a class="code hl_class" href="classOutputFile.html">OutputFile</a> fo;</div>
+<div class="line"><span class="lineno">  389</span>    CHECK(!fo.<a class="code hl_function" href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">isOpen</a>());</div>
+<div class="line"><span class="lineno">  390</span>    CHECK(fo.<a class="code hl_function" href="classFileBase.html#ac24bcc9c4aa5052ddf9b94672b6fd48e">getFd</a>() == -1);</div>
+<div class="line"><span class="lineno">  391</span>    CHECK(fo.<a class="code hl_function" href="classOutputFile.html#a07dec39ae00af2e9e1355f381164a2eb">getBytesWritten</a>() == 0);</div>
+<div class="line"><span class="lineno">  392</span>}</div>
 <div class="ttc" id="aclassFileBase_html_a7ac53047ea0158b99c3c4fcedf579505"><div class="ttname"><a href="classFileBase.html#a7ac53047ea0158b99c3c4fcedf579505">FileBase::isOpen</a></div><div class="ttdeci">bool isOpen() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00042">file.h:42</a></div></div>
-<div class="ttc" id="aclassFileBase_html_a7ae5a36714da37350db8bf0c9e6618b3"><div class="ttname"><a href="classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3">FileBase::st_size</a></div><div class="ttdeci">virtual upx_off_t st_size() const</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00165">file.cpp:165</a></div></div>
+<div class="ttc" id="aclassFileBase_html_a7ae5a36714da37350db8bf0c9e6618b3"><div class="ttname"><a href="classFileBase.html#a7ae5a36714da37350db8bf0c9e6618b3">FileBase::st_size</a></div><div class="ttdeci">virtual upx_off_t st_size() const</div><div class="ttdef"><b>Definition:</b> <a href="file_8cpp_source.html#l00166">file.cpp:166</a></div></div>
 <div class="ttc" id="aclassFileBase_html_ac24bcc9c4aa5052ddf9b94672b6fd48e"><div class="ttname"><a href="classFileBase.html#ac24bcc9c4aa5052ddf9b94672b6fd48e">FileBase::getFd</a></div><div class="ttdeci">int getFd() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00043">file.h:43</a></div></div>
 <div class="ttc" id="aclassInputFile_html"><div class="ttname"><a href="classInputFile.html">InputFile</a></div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00076">file.h:76</a></div></div>
 <div class="ttc" id="aclassOutputFile_html"><div class="ttname"><a href="classOutputFile.html">OutputFile</a></div><div class="ttdef"><b>Definition:</b> <a href="file_8h_source.html#l00101">file.h:101</a></div></div>

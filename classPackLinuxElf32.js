@@ -57,6 +57,7 @@ var classPackLinuxElf32 =
     [ "packed_struct", "classPackLinuxElf32.html#a53fbaa32428822f238a62aac48e9cb56", null ],
     [ "PackLinuxElf32help1", "classPackLinuxElf32.html#aa2acf155f6a76482cd3cbd17cef800e6", null ],
     [ "patchLoader", "classPackLinuxElf32.html#ae71afa0e6f24dc33a224f2225b7c4bbe", null ],
+    [ "slide_sh_offset", "classPackLinuxElf32.html#a928027d24e776503ab6572c700f5e2ef", null ],
     [ "sort_DT32_offsets", "classPackLinuxElf32.html#a34521f96ea9eb8d358528d794fa9345b", null ],
     [ "un_asl_dynsym", "classPackLinuxElf32.html#a9cec931e83f51aaba944196c3476154c", null ],
     [ "un_DT_INIT", "classPackLinuxElf32.html#a52055eaaf3a28d1986937825c9382ae7", null ],

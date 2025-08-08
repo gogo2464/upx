@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('xspan__impl_8h_source.html',''); initR
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">   This file is part of the UPX executable compressor.</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   Copyright (C) 1996-2024 Markus Franz Xaver Johannes Oberhumer</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">   Copyright (C) 1996-2025 Markus Franz Xaver Johannes Oberhumer</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">   All Rights Reserved.</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"></span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">   UPX and the UCL library are free software; you can redistribute them</span></div>
@@ -313,42 +313,44 @@ $(document).ready(function(){initNavTree('xspan__impl_8h_source.html',''); initR
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="preprocessor">#ifndef XSPAN_DELETED_FUNCTION</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="preprocessor">#define XSPAN_DELETED_FUNCTION = delete</span></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="comment">// function/method constraints</span></div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION(From, To, RType)                                  \</span></div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; From, To&gt;::value, RType &gt; ::type</span></div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_ANY_DIRECTION(A, B, RType)                                      \</span></div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; A, B&gt;::value ||                       \</span></div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">        XSPAN_NS(XSpan_is_convertible)&lt;B, A&gt;::value,                                               \</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">        RType &gt; ::type</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="comment">// note: these use &quot;T&quot; and &quot;U&quot;</span></div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_R(RType) XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION(U, T, RType)</span></div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_A                                                               \</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">    XSPAN_REQUIRES_CONVERTIBLE_R(XSPAN_NS(XSpanInternalDummyArg)) = XSpanInternalDummyArgInit</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_T XSPAN_REQUIRES_CONVERTIBLE_R(XSPAN_NS(XSpanInternalDummyArg))</span></div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="comment">// note: these use &quot;T&quot; and &quot;U&quot;</span></div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="preprocessor">#define XSPAN_REQUIRES_SIZE_1_R(RType)                                                             \</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; U, T&gt;::value &amp;&amp;XSPAN_NS(              \</span></div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="preprocessor">        ValueForSizeOf)&lt;T&gt;::value == 1 &amp;&amp;                                                          \</span></div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">        XSPAN_NS(ValueForSizeOf)&lt;U&gt;::value == 1,                                                   \</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">        RType &gt; ::type</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">#define XSPAN_REQUIRES_SIZE_1_A                                                                    \</span></div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">    XSPAN_REQUIRES_SIZE_1_R(XSPAN_NS(XSpanInternalDummyArg)) = XSpanInternalDummyArgInit</span></div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr__or__null_8h.html">xspan_impl_ptr_or_null.h</a>&quot;</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr__or__span_8h.html">xspan_impl_ptr_or_span.h</a>&quot;</span></div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__span_8h.html">xspan_impl_span.h</a>&quot;</span></div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr_8h.html">xspan_impl_ptr.h</a>&quot;</span></div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION</span></div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_ANY_DIRECTION</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_A</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_R</span></div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_T</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#undef XSPAN_REQUIRES_SIZE_1_A</span></div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#undef XSPAN_REQUIRES_SIZE_1_R</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#endif </span><span class="comment">// WITH_XSPAN</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="comment">// function/method constraints</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION(From, To, RType)                                  \</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; From, To&gt;::value, RType &gt; ::type</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_ANY_DIRECTION(A, B, RType)                                      \</span></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; A, B&gt;::value ||                       \</span></div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">        XSPAN_NS(XSpan_is_convertible)&lt;B, A&gt;::value,                                               \</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="preprocessor">        RType &gt; ::type</span></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="comment">// note: these use &quot;T&quot; and &quot;U&quot;</span></div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_R(RType) XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION(U, T, RType)</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_A                                                               \</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="preprocessor">    XSPAN_REQUIRES_CONVERTIBLE_R(XSPAN_NS(XSpanInternalDummyArg)) = XSpanInternalDummyArgInit</span></div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="preprocessor">#define XSPAN_REQUIRES_CONVERTIBLE_T XSPAN_REQUIRES_CONVERTIBLE_R(XSPAN_NS(XSpanInternalDummyArg))</span></div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="comment">// note: these use &quot;T&quot; and &quot;U&quot;</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#define XSPAN_REQUIRES_SIZE_1_R(RType)                                                             \</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="preprocessor">    typename std::enable_if&lt;XSPAN_NS(XSpan_is_convertible) &lt; U, T&gt;::value &amp;&amp;XSPAN_NS(              \</span></div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span><span class="preprocessor">        ValueForSizeOf)&lt;T&gt;::value == 1 &amp;&amp;                                                          \</span></div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="preprocessor">        XSPAN_NS(ValueForSizeOf)&lt;U&gt;::value == 1,                                                   \</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">        RType &gt; ::type</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">#define XSPAN_REQUIRES_SIZE_1_A                                                                    \</span></div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="preprocessor">    XSPAN_REQUIRES_SIZE_1_R(XSPAN_NS(XSpanInternalDummyArg)) = XSpanInternalDummyArgInit</span></div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr__or__null_8h.html">xspan_impl_ptr_or_null.h</a>&quot;</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr__or__span_8h.html">xspan_impl_ptr_or_span.h</a>&quot;</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__span_8h.html">xspan_impl_span.h</a>&quot;</span></div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#include &quot;<a class="code" href="xspan__impl__ptr_8h.html">xspan_impl_ptr.h</a>&quot;</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_ONE_DIRECTION</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_ANY_DIRECTION</span></div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_A</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_R</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#undef XSPAN_REQUIRES_CONVERTIBLE_T</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#undef XSPAN_REQUIRES_SIZE_1_A</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#undef XSPAN_REQUIRES_SIZE_1_R</span></div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="comment">/* vim:set ts=4 sw=4 et: */</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">#endif </span><span class="comment">// WITH_XSPAN</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="comment">/* vim:set ts=4 sw=4 et: */</span></div>
 <div class="ttc" id="absd_8h_html_a1391029fd5d5d35fab28d7423c8cca9b"><div class="ttname"><a href="bsd_8h.html#a1391029fd5d5d35fab28d7423c8cca9b">ptrdiff_t</a></div><div class="ttdeci">long ptrdiff_t</div><div class="ttdef"><b>Definition:</b> <a href="bsd_8h_source.html#l00052">bsd.h:52</a></div></div>
 <div class="ttc" id="aconf_8h_html_a4a453f3a748e55cbdac6fcc79357cfef"><div class="ttname"><a href="conf_8h.html#a4a453f3a748e55cbdac6fcc79357cfef">noreturn</a></div><div class="ttdeci">#define noreturn</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00225">conf.h:225</a></div></div>
 <div class="ttc" id="aconf_8h_html_a91b58df225917a67f3f905b43e384b00"><div class="ttname"><a href="conf_8h.html#a91b58df225917a67f3f905b43e384b00">forceinline_constexpr</a></div><div class="ttdeci">#define forceinline_constexpr</div><div class="ttdef"><b>Definition:</b> <a href="conf_8h_source.html#l00227">conf.h:227</a></div></div>

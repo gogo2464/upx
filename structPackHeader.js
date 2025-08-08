@@ -6,6 +6,7 @@ var structPackHeader =
     [ "getPackHeaderSize", "structPackHeader.html#abe9892837b086ae9e9d52c06e4ccffdb", null ],
     [ "putPackHeader", "structPackHeader.html#a3c61166ce01a954f2c2ec5c9a563f478", null ],
     [ "reset", "structPackHeader.html#a109598ced8a1ceef29201f42abcd2696", null ],
+    [ "set_method", "structPackHeader.html#a3fa64fa22b41b4fdb83227e86f24436b", null ],
     [ "buf_offset", "structPackHeader.html#a33a240b102e750c6fc884865582255a8", null ],
     [ "c_adler", "structPackHeader.html#af8203b5d7f51a8fb27e917c9d571087b", null ],
     [ "c_len", "structPackHeader.html#a448fca0da6280454a321894c7eb29e79", null ],

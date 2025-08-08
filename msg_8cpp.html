@@ -813,7 +813,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   51</span>    fflush(stderr);</div>
 <div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (f == <span class="keyword">nullptr</span>)</div>
 <div class="line"><span class="lineno">   53</span>        f = stdout;</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_define" href="console_8h.html#a84e55d82816323bc82d1dbce0327b670">con_fprintf</a>(f, <span class="stringliteral">&quot;%s&quot;</span>, clear_line_msg);</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_define" href="console_8h.html#a84e55d82816323bc82d1dbce0327b670">con_fprintf</a>(f, <span class="stringliteral">&quot;%s&quot;</span>, clear_line_msg); <span class="comment">// NOLINT(clang-analyzer-unix.Stream)</span></div>
 <div class="line"><span class="lineno">   55</span>    fflush(f);</div>
 <div class="line"><span class="lineno">   56</span>    <a class="code hl_function" href="msg_8cpp.html#a9245a4b2bc408a9166c389839ff85911">printSetNl</a>(0);</div>
 <div class="line"><span class="lineno">   57</span>}</div>
@@ -1192,7 +1192,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  152</span>    }</div>
 <div class="line"><span class="lineno">  153</span>}</div>
 <div class="ttc" id="amsg_8cpp_html_ac214d3199ed0588967b705d709909d67"><div class="ttname"><a href="msg_8cpp.html#ac214d3199ed0588967b705d709909d67">printErr</a></div><div class="ttdeci">void printErr(const char *iname, const Throwable &amp;e) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="msg_8cpp_source.html#l00101">msg.cpp:101</a></div></div>
-<div class="ttc" id="aoptions_8h_html_a99fb83031ce9923c84392b4e92f956b5a87eabf5bdd0bf150006b8a1c9ca5ec86"><div class="ttname"><a href="options_8h.html#a99fb83031ce9923c84392b4e92f956b5a87eabf5bdd0bf150006b8a1c9ca5ec86">CMD_COMPRESS</a></div><div class="ttdeci">@ CMD_COMPRESS</div><div class="ttdef"><b>Definition:</b> <a href="options_8h_source.html#l00046">options.h:46</a></div></div>
+<div class="ttc" id="aoptions_8h_html_a99fb83031ce9923c84392b4e92f956b5a87eabf5bdd0bf150006b8a1c9ca5ec86"><div class="ttname"><a href="options_8h.html#a99fb83031ce9923c84392b4e92f956b5a87eabf5bdd0bf150006b8a1c9ca5ec86">CMD_COMPRESS</a></div><div class="ttdeci">@ CMD_COMPRESS</div><div class="ttdef"><b>Definition:</b> <a href="options_8h_source.html#l00047">options.h:47</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="options_8h.html#a99fb83031ce9923c84392b4e92f956b5a87eabf5bdd0bf150006b8a1c9ca5ec86">CMD_COMPRESS</a>, <a class="el" href="options_8cpp.html#a887b9edd7a68b4cde1de1f0d7ac1d6eb">opt</a>, <a class="el" href="except_8cpp.html#af518f5666611b39a8cfcfa958b7bb0b2">prettyExceptionName()</a>, and <a class="el" href="msg_8cpp.html#ac214d3199ed0588967b705d709909d67">printErr()</a>.</p>
 
